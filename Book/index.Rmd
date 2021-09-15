@@ -1,8 +1,8 @@
 ---
 title: |
-  | The Theory and Practice of Field Experiments: 
-  | An Introduction from the EGAP Learning Days
-author: Jake Bowers,^[Author order randomized. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] and Nahomi Ichino^[https://nahomi.github.io/]
+  | La théorie et la pratique des expériences de terrain : 
+  | Une introduction des Learning Days de EGAP
+author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire.]. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]
 date: '`r format(Sys.Date(), "%B %e, %Y")`'
 site: bookdown::bookdown_site
 knit: "bookdown::render_book"
@@ -11,7 +11,7 @@ bibliography: learningdays-book.bib
 link-citations: yes
 colorlinks: yes
 github-repo: egap/theory_and_practice_of_field_experiments
-description: "EGAP Learning Days, causal inference, randomized experiments, field experiments, experimental design, research design"
+description: "Les Learning Days de EGAP, causal inference, randomized experiments, expériences de terrain, experimental design, research design"
 fontsize: 12pt
 geometry: margin=1in
 graphics: yes
@@ -110,9 +110,9 @@ readr::write_lines(htmlhead, file = "header.html")
 
 # Introduction
 
-Over the past decade, [Evidence in Governance and Politics (EGAP)](http://egap.org/) has organized [Learning Days](https://egap.org/learning-days/) workshops with the aim of building experimental social-science research capacity among principal investigators (PIs) -- both researchers and practitioners -- in Africa and Latin America.  By sharing the practical and statistical methods of randomized field experiments with workshop participants, the Learning Days effort hopes to identify and nurture researcher networks around the world and to create strong, productive connections between these researchers and EGAP members.
+Durant la dernière décennie, [Evidence in Governance and Politics (EGAP)](http://egap.org/) a organisé une série de TODO workshops, [Learning Days](https://egap.org/learning-days/), dans le but de renforcer la capacité de recherche expérimentale en sciences sociales parmi les TODO principal investigators (PIs) -- des cheurcheurs et TODO praticiens -- en Afrique et Amérique Latine.  En partageant les méthodes pratiques et statistiques des expériences de terrain TODO aléatoires avec les participants aux TODO workshops, l'initiative des Learning Days vise à identifier et à entretenir des réseaux de chercheurs dans le monde entier et à créer des liens solides et productifs entre ces chercheurs et les membres de EGAP. 
 
-The Learning Days workshops are a combination of design clinics, research presentations, guided work with statistical software, and topical lectures by a small group of instructors, largely professors and PhD students from the EGAP network.  The workshops focus on methods for the design and analysis of randomized experiments in the field rather than on randomized experiments in the lab or non-randomized studies.
+Les Learning Days sont une combinaison de TODO design clinics, de présentations de recherche, de travail guidé avec un logiciel statistique et de conférences thématiques par un petit groupe d'instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les workshops se concentrent sur les méthodes de TODO conception et d'analyse d'expériences de terrain aléatoires plutôt que sur des expériences aléatoires en laboratoire ou des études non-aléatoires. 
 
 **This book** grew out of a desire to share the materials we developed for the Learning Days.  The current version is written primarily for **instructors and organizers** of similar workshops and courses aimed at PIs --- i.e., professors, post-doctoral fellows, PhD students, and NGO/government agency evaluators --- who will implement randomized studies of programs related to institutions, governance, and development.  Much of the material will also be useful as a refresher for past participants of the Learning Days workshops. 
 
