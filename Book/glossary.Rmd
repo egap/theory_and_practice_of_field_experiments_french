@@ -4,7 +4,7 @@
 
 # Glossaire {.tabset}
 
-Ci-dessous voici les termes principaux, frequemment utilises dans le livre et plus generalement a travers les dicussions de randomized field experiments.
+Ci-dessous voici les termes principaux, frequemment utilisés dans le livre et plus generalement a travers les dicussions de randomized field experiments.
 
 ## Key Concepts
 
