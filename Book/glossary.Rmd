@@ -2,9 +2,9 @@
 
 # (APPENDIX) Appendix {-}
 
-# Glossary of Terms {.tabset}
+# Glossaire {.tabset}
 
-Below are some core terms frequently used throughout the book and more broadly in discussions of randomized field experiments.
+Ci-dessous voici les termes principaux, frequemment utilisés dans le livre et plus generalement a travers les dicussions de randomized field experiments.
 
 ## Key Concepts
 
