@@ -110,7 +110,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 - [RItools](https://cran.r-project.org/web/packages/RItools/index.html), a set of tools for randomization-based inference including balance testing.
 
 
-### Short Explainer Videos
+### Courtes vidéos explicatives
 
  - [Randomization vs. Random Sampling](https://www.youtu.be/02A61b3hxvA)
  

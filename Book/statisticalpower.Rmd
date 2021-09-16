@@ -56,7 +56,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
  
  - Guide des méthodes EGAP [10 Things Your Null Results Might Mean](https://egap.org/resource/10-things-your-null-result-might-mean/)
 
-### EGAP Policy Briefs and PAPs
+### EGAP Policy Briefs and PAPs TODO
 
 Some examples of power analysis in designs:
 

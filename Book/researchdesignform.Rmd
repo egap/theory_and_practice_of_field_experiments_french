@@ -60,7 +60,7 @@ You can also see slides for Design Talks in previous EGAP Learning Days, where p
 
  - [Design Talk from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
 
-## Design Form and Pre-registration
+## TODO Design Form and Pre-registration
 
 - [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). A checklist we created for the Learning Days to guide you through the stages of the research process.
      - [Docx Version](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
