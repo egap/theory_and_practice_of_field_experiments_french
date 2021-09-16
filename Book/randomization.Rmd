@@ -4,7 +4,7 @@ The module on [causal inference](causal-inference.html) discussed the crucial ro
 
 We introduce four common ways to randomize treatment -- simple, complete, block, and clustered -- and when these different types of randomization may be available and appropriate.  We also cover several popular designs including factorial designs and encouragement designs.  The module provides some guidance on implementation, including best practices for checking for balance and ensuring replicability.  
 
-## Core Content
+## Contenu
 
 - What is **randomization**? Random assignment is **not** the same as random sampling.
 
@@ -35,7 +35,7 @@ We introduce four common ways to randomize treatment -- simple, complete, block,
 
 ## Slides
 
-Below are slides with the core content that we cover in our lecture on randomization. You can directly use these slides or make your own local copy and edit.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la randomization. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
 - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/randomization-slides.Rmd)
 
@@ -45,7 +45,7 @@ Below are slides with the core content that we cover in our lecture on randomiza
 
 The linked files shows how to [do replicable randomization in R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd). You can also see more examples of randomization in R at  [10 Things You Need to Know About Randomization](https://egap.org/resource/10-things-to-know-about-randomization/).
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - [The design issues presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
@@ -105,7 +105,7 @@ You can also see the slides used in previous EGAP Learning Days:
   - [EGAP Policy Brief 56: Reporting Corruption](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
 
 
-### Tools
+### Outils
 
 - [RItools](https://cran.r-project.org/web/packages/RItools/index.html), a set of tools for randomization-based inference including balance testing.
 

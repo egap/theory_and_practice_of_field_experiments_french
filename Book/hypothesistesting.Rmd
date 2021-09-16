@@ -6,7 +6,7 @@ We cannot directly observe causal effects because of the *fundamental problem of
 In this module we introduce hypothesis testing, how it relates to causal inference, $p$-values, and what to do when we have multiple hypotheses to test.
 
 
-## Core Content
+## Contenu
 
 - What is a **good hypothesis**?
 
@@ -36,7 +36,7 @@ In this module we introduce hypothesis testing, how it relates to causal inferen
 
 ## Slides
 
-Below are slides with the core content that we cover in our lecture on hypothesis testing. You can directly use these slides or make your own local copy and edit.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur les tests d'hypothèses. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
  - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/hypothesistesting-slides.Rmd)
 
@@ -44,7 +44,7 @@ Below are slides with the core content that we cover in our lecture on hypothesi
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/hypothesistesting-slides.html)
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [The hypothesis testing presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-benin.pdf)
 

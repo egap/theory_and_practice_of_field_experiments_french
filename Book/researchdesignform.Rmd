@@ -5,7 +5,7 @@ This book aims to help you understand and design randomized field experiments.  
 This module introduces the [EGAP Research Design
 Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), a checklist to guide you through the many stages of the research process.  The Learning Days workshops are organized around the Research Design Form.  We also point you towards the [DeclareDesign](http://declaredesign.org) software package to explore the implications of different choices we could make for our research designs.  Finally, this module discusses pre-analysis plans and pre-registration.  When plan our analyses and make these plans public, we improve our chances of persuading others with our results.
 
-## Core Content
+## Contenu
 
 - A **good research question** advances science and/or is a question the answer to which will inform a policy decision.
 
@@ -26,7 +26,7 @@ Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), 
 
 ## Slides
 
-Below are slides with the core content that we cover in our lecture on research design. You can directly use these slides or make your own local copy and edit.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur TODO research design. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
 - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.Rmd)
 
@@ -34,7 +34,7 @@ Below are slides with the core content that we cover in our lecture on research 
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.html)
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [The DeclareDesign presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
 
@@ -100,7 +100,7 @@ You can also see slides for Design Talks in previous EGAP Learning Days, where p
 
 - [@gerber_field_2012].  Chapter 12 includes some examples of experimental research designs.
 
-### Tools
+### Outils
 
 - [DeclareDesign](https://declaredesign.org/), an exciting and comprehensive set of software tools for describing, assessing, and conducting empirical research.
 

@@ -4,7 +4,7 @@ Before we run a study, we would like to know whether a particular design has the
 
 In this module, we introduce statistical power, core approaches to calculating power through analytical calculations and through simulation, and how design features such as blocking, covariate adjustment, and clustering impact power.
 
-## Core Content
+## Contenu
 
  - **Statistical power** is the ability of a study to detect an effect given that it exists.
  
@@ -23,7 +23,7 @@ In this module, we introduce statistical power, core approaches to calculating p
  - Power is closely liked to [study design](the-research-design-process.html), [hypothesis testing](hypothesis-testing.html) and [estimation](estimands-and-estimators.html).
 
 ## Slides
-Below are slides with the core content that we cover in our lecture on power. You can directly use these slides or make your local copy and edit.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur le pouvoir. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
  - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/power-slides.Rmd)
 
@@ -31,7 +31,7 @@ Below are slides with the core content that we cover in our lecture on power. Yo
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/power-slides.html)
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [The power presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
 
@@ -65,7 +65,7 @@ Some examples of power analysis in designs:
  - [EGAP Policy Brief 58: Can bottom-up accountability generate improvements in health outcomes?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 
-### Tools
+### Outils
  - Interactive power analysis
  
       - [EGAP Power Calculator](https://egap.shinyapps.io/power-app/)

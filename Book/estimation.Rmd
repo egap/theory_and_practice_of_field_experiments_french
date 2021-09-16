@@ -5,7 +5,7 @@ Randomized experiments generate good guesses about the average outcome under tre
 In this module, we introduce several types of estimands, the target quantity to be estimated.  The choice of estimand is a scientific and policy-informed decision -- what quantity is useful for us to learn about?  In addition, we want to select an appropriate estimator for this estimand as part of the research design.  We discuss how estimators are applied to data to generate an estimate of our estimand and how to characterize the variability of this estimate.   
 
 
-## Core Content
+## Contenu
 
 - A **causal effect**, $\tau_i$, is a comparison of unobserved potential outcomes for each unit $i$.  For example, this can be a difference or a ratio of unobserved potential outcomes.  
 
@@ -42,7 +42,7 @@ Below are slides with the core content that we cover in this session.
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/estimation-slides.html)
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [The estimation presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
 
@@ -86,7 +86,7 @@ You can also see discussion of the problems of estimating the effect of the acti
  - [@bowers2020causality].
 
 
-### Tools
+### Outils
 
 - [DeclareDesign](https://declaredesign.org)
 

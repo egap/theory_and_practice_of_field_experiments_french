@@ -5,7 +5,7 @@
 This module discusses the core topics on research ethics, such as privacy and autonomy; the basic principles relating to respect for persons, beneficence, and justice; and how informed consent helps communicate these principles to study participants.  
 
 
-## Core content
+## Contenu
 
  - Research must weigh the **potential benefits** of the knowledge to be gained from the research against the **potential harms** it may do to human subjects.
    
@@ -55,10 +55,10 @@ Below are slides with the core content that we cover in this session.
 
 - [@Evans2021ethics] <!--[pdf](https://www.cgdev.org/sites/default/files/WP565-Evans-Ethical-issues-and-RCTs.pdf) -->
 
-### Papers and Pre-Analysis Plans
+### Articles et TODO plans de pré-analyse
 
 Examples of PAPs and papers that discuss ethical issues:
 
-- [Pre Analysis Plan: The Effects of Non-Food Item Vouchers in a Humanitarian Context The Case of the Rapid Response to Movements of Population Program in Congo](https://osf.io/eutx7/)
+- [TODO Pre Analysis Plan: les effets des bons non-alimentaires dans un contexte humanitaire, le cas du programme de réponse rapide aux mouvements de population au Congo](https://osf.io/eutx7/)
 
-- [Paper: Appendix E.1 in Countering violence against women by encouraging disclosure: A mass media experiment in rural Uganda](http://jasper-cooper.com/papers/Green_et_al.pdf)
+- [TODO Article: Appendix E.1 dans Lutter contre la violence à l'égard des femmes en encourageant la divulgation : une expérience dans les médias de masse en Ouganda rural in Countering violence against women by encouraging disclosure: A mass media experiment in rural Uganda](http://jasper-cooper.com/papers/Green_et_al.pdf)

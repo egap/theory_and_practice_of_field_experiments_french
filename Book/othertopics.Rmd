@@ -2,7 +2,7 @@
 
 Here we provide links to resources to help people learn about topics that cannot be covered in-depth during the workshop but are important for experimental design.
 
-## Core content
+## Contenu
  
 - Workflow
   - People have limited memories, we need rules and tools to help us remember and share
