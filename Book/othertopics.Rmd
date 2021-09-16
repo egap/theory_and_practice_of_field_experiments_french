@@ -15,7 +15,7 @@ Ici, nous fournissons des liens vers des ressources pour aider les gens à en ap
 
 - Inférence aléatoire et procédures en ri2
   - L'nférence aléatoire est une méthode pour le calcul des p-valeurs pour les tests d'hypothèse
-  - ir2 est un paquet R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs TODO RI pour différents TODO estimands
+  - ir2 est un package R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs TODO RI pour différents TODO estimands
 
 - Lecture des résultats
   - Comment comprendre et interpréter la sortie de régression?

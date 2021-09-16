@@ -1,38 +1,36 @@
-# Hypothesis Testing {.tabset}
-
+# Tests d'hypothèses {.tabset}
 
 We cannot directly observe causal effects because of the *fundamental problem of counterfactual causal inference* ([causal inference module](causal-inference.html)).  So how can we learn about these *unobserved causal effects* using what we do observe?  In a randomized experiment, we can assess *guesses* or *hypotheses* about the unobserved causal effects by comparing what we observe in a given experiment to what we would observe if we were able to repeat the experimental manipulation and the guess or hypothesis were true.
 
-In this module we introduce hypothesis testing, how it relates to causal inference, $p$-values, and what to do when we have multiple hypotheses to test.
-
+Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'inférence causale, les $p$-valeurs et ce qu'il faut faire lorsque nous avons plusieurs hypothèses à tester.
 
 ## Contenu
 
-- What is a **good hypothesis**?
+- Qu'est-ce qu'une **bonne hypothèse** ?
 
-- The relationship between hypothesis testing and causal inference.
+- La relation entre les tests d'hypothèses et l'inférence causale.
 
-- **Hypothesis tests**.
+- **Tests d'hypothèses**.
 
-     - Null hypotheses.
+     - L'hypothèse nulle.
 
-     - Estimators versus test statistics.
+     - Estimateurs versus tests statistiques.
 
-     - In an experiment, a reference distribution for a hypothesis test comes from the experimental design and the randomization.
+     - TODO In an experiment, a reference distribution for a hypothesis test comes from the experimental design and the randomization.
 
-     - $p$-values and how to interpret the results of hypothesis tests.
+     - Les $p$-valeurs et comment interpréter les résultats des tests d'hypothèses.
 
-- A good hypothesis test should (1) cast doubt on the truth rarely (i.e., have a controlled and low false positive rate), and (2) easily distinguish signal from noise (i.e., cast doubt on falsehoods often; have high statistical power).
+- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les TODO bizarreries ; avoir une puissance statistique élevée) .
 
-- How would we know when our hypothesis test is doing a good job? ([Power analysis](statistical-power-and-design-diagnosands.html) is its own module).
+- Comment saurons-nous si notre test d'hypothèse fait du bon travail? ([TODO Power analysis](statistical-power-and-design-diagnosands.html) a son propre module).
 
-    - False positive rates.  
+    - Taux de faux positifs.
     
-    - Correct coverage of a confidence interval.
+    - Couverture correcte de l'intervalle de confiance.
 
-    - Assessing the false positive rate of a hypothesis test for a given design and choice of test statistic; the case of cluster-randomized trials and robust cluster standard errors.
+    - Évaluer le taux de faux positifs d'un test d'hypothèse pour un TODO design donné et un choix de test statistique; TODO the case of cluster-randomized trials and robust cluster standard errors.
 
-- Be careful when testing **many hypotheses**, such as when you have more than two treatment arms or you are assessing the effects of a treatment on multiple outcomes.  We should be careful to **adjust the $p$-values or confidence intervals** to reflect the number of tests/intervals produced.
+- Soyez prudent lorsque vous testez **de nombreuses hypothèses**, par exemple lorsque vous avez plus de deux TODO treatment arms ou que vous évaluez les effets d'un traitement sur plusieurs TODO outcomes. Nous devons veiller à **ajuster les $p$-valeurs ou les intervalles de confiance** pour refléter le nombre de tests ou d'intervalles produits.
 
 ## Slides
 
