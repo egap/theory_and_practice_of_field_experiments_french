@@ -36,52 +36,52 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [The DeclareDesign presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
+ - [TODO The DeclareDesign presentation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
 
- - [The DeclareDesign presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
+ - [TODO The DeclareDesign presentation aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
 
- - [The DeclareDesign presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
+ - [TODO The DeclareDesign presentation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
 You can also see slides for Design Talks in previous EGAP Learning Days, where presenters focus on issues that come up in designing the research, rather than the results:
 
- - [Design Talk from EGAP Learning Days at the African School of Economics, Benin, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
+ - [Design Talk aux EGAP Learning Days à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 
- - [Design Talk 1 from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-montevideo.pdf)
+ - [Design Talk 1 aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-montevideo.pdf)
 
- - [Design Talk 2 from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-montevideo.pdf)
+ - [Design Talk 2 aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-montevideo.pdf)
 
- - [Design Talk 3 from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-montevideo.pdf)
+ - [Design Talk 3 aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-montevideo.pdf)
 
- - [Design Talk 1 from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-santiago.pdf)
+ - [Design Talk 1 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-santiago.pdf)
 
- - [Design Talk 2 from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-santiago.pdf)
+ - [Design Talk 2 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-santiago.pdf)
 
- - [Design Talk 3 from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
+ - [Design Talk 3 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
 
- - [Design Talk from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
+ - [Design Talk from EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
 
 ## TODO Design Form and Pre-registration
 
-- [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). A checklist we created for the Learning Days to guide you through the stages of the research process.
-     - [Docx Version](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
+- [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). Une checklist que nous avons créée pour les Learning Days pour vous guider à travers les étapes du processus de recherche.
+     - [Version Docx](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
 
      - [Version PDF](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
 
      - [Version HTML](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
 
-- Links to repositories for pre-registration/pre-analysis plans:
+- Liens vers les répertoires pour TODO pre-registration/pre-analysis plans:
 
-    - EGAP registry, hosted by OSF (https://egap.org/registry/)
+    - Le registre EGAP, hébergé par OSF (https://egap.org/registry/)
 
-    - AEA RCT registry (https://www.socialscienceregistry.org/)
+    - Le registre AEA RCT (https://www.socialscienceregistry.org/)
 
     - OSF (https://osf.io/registries)
 
-- Examples of other pre-registrations/pre-analysis plans:
+- Exemples d'autres TODO pre-registrations/pre-analysis plans:
 
-    - SMS Messages in Mozambique from the [US Federal Government](https://oes.gsa.gov/projects/sms-mozambique/)
+    - SMS au Mozambique du [gouvernement fédéral américain](https://oes.gsa.gov/projects/sms-mozambique/)
 
-    - Police Body-Cameras from the [Lab @ DC](https://osf.io/472zh)
+    - Caméras portatives pour les policiers du [Lab @ DC](https://osf.io/472zh)
 
 ## Resources
 

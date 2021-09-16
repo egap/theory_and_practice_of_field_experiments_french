@@ -33,28 +33,28 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [The power presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
+ - [The power presentation from EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
 
- - [The power presentation from EGAP Learning Days at Universidad de Los Andes, Bogotá, April 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
+ - [The power presentation from EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
 
- - [The power presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
+ - [The power presentation from EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
 
- - [The power presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
+ - [The power presentation from EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
 
- - [The power presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
+ - [The power presentation from EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
 
- - [The power presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
+ - [The power presentation from EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
 
 
 ## Resources
 
 ### Guide des méthodes EGAP
 
- - Guide des méthodes EGAP [10 Things to Know about Statistical Power](https://egap.org/resource/10-things-you-need-know-about-statistical-power/)
+ - Guide des méthodes EGAP [10 Things to Know about la puissance statistique](https://egap.org/resource/10-things-you-need-know-about-statistical-power/)
 
- - Guide des méthodes EGAP [10 Things to Know about Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 Things to Know about TODO Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
  
- - Guide des méthodes EGAP [10 Things Your Null Results Might Mean](https://egap.org/resource/10-things-your-null-result-might-mean/)
+ - Guide des méthodes EGAP [10 choses que vos TODO résulats nuls peuvent signifier](https://egap.org/resource/10-things-your-null-result-might-mean/)
 
 ### EGAP Policy Briefs and PAPs TODO
 
@@ -62,7 +62,7 @@ Some examples of power analysis in designs:
 
  - [Pre-Analysis Plan. Accountability Can Transform (ACT) Health: A Replication and Extension of Bjorkman and Svensson (2009)](https://osf.io/qxwmu/)
  
- - [EGAP Policy Brief 58: Can bottom-up accountability generate improvements in health outcomes?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+ - [EGAP Policy Brief 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 
 ### Outils

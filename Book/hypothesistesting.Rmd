@@ -46,32 +46,32 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [The hypothesis testing presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-benin.pdf)
+ - [La présentation des tests d'hypothèses aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-benin.pdf)
 
- - [The hypothesis testing presentation from EGAP Learning Days at Universidad de Los Andes, Bogotá, April 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-bogota.pdf)
+ - [La présentation des tests d'hypothèses aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-bogota.pdf)
 
- - [The hypothesis testing presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-montevideo.pdf)
+ - [La présentation des tests d'hypothèses aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-montevideo.pdf)
 
- - [The hypothesis testing presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-guatemala.pdf)
+ - [La présentation des tests d'hypothèses aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-guatemala.pdf)
 
- - [The hypothesis testing presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-malawi.pdf)
+ - [La présentation des tests d'hypothèses aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-malawi.pdf)
 
- - [The hypothesis testing presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-santiago.pdf)
+ - [La présentation des tests d'hypothèses aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-santiago.pdf)
 
 
 ## Resources
 
 ### Guide des méthodes EGAP
 
-  - Guide des méthodes EGAP [10 Things to Know about Hypothesis Testing](https://egap.org/resource/10-things-to-know-about-hypothesis-testing/)
+  - Guide des méthodes EGAP [10 choses à savoir sur les tests d'hypothèse](https://egap.org/resource/10-things-to-know-about-hypothesis-testing/)
 
-  - Guide des méthodes EGAP [10 Things You Need to Know about Multiple Comparisons](https://egap.org/resource/10-things-to-know-about-multiple-comparisons/)
+  - Guide des méthodes EGAP [10 choses à savoir sur les comparaisons multiples](https://egap.org/resource/10-things-to-know-about-multiple-comparisons/)
 
 ### Livres, chapitres et articles
 
- - [@gerber_field_2012]. Chapter 3: Sampling Distributions, Statistical Inference, and Hypothesis Testing.
+ - [@gerber_field_2012]. Chapitre 3: Sampling Distributions, Statistical Inference, and Hypothesis Testing.
  
- - [@rosenbaum2010design]. Chapter 2: Causal Inference in Randomized Experiments.
+ - [@rosenbaum2010design]. Chapitre 2: Causal Inference in Randomized Experiments.
 
- - [@rosenbaum2017observation]. Part I: Randomized Experiments.
+ - [@rosenbaum2017observation]. Partie I: Randomized Experiments.
 

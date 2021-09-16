@@ -47,72 +47,72 @@ The linked files shows how to [do replicable randomization in R](https://egap.gi
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
-- [The design issues presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [TODO The design issues presentation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [The randomization presentation from EGAP Learning Days at Universidad de Los Andes, Bogotá, April 2019](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf)
+- [La présentation de la randomisation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf)
 
-- [The randomization presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-montevideo.pdf)
+- [La présentation de la randomisation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-montevideo.pdf)
 
-- [The randomization presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-guatemala.pdf)
+- [La présentation de la randomisation aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-guatemala.pdf)
 
-- [The randomization presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-malawi.pdf)
+- [La présentation de la randomisation aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-malawi.pdf)
 
-- [The randomization presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf)
+- [La présentation de la randomisation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf)
 
 
 ## Resources
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 Things You Need to Know About Randomization](https://egap.org/resource/10-things-to-know-about-randomization/)
+- Guide des méthodes EGAP [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/)
 
-- Guide des méthodes EGAP [10 Things You Need to Know About Cluster Randomization](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
+- Guide des méthodes EGAP [10 choses à savoir sur la TODO randomisation en cluster](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
 
 ### Livres, chapitres et articles
 
-- [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). A comprehensive set of procedures and rules of thumb for conducting experimental studies.
+- [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles empiriques pour mener des études expérimentales.
 
-- [@glennerster_running_2013]. Chapter 2 on randomization.
+- [@glennerster_running_2013]. Chapitre 2 sur la randomisation.
 
-- [@gerber_field_2012]. Chapter 2: Causal Inference and Experimentation
+- [@gerber_field_2012]. Chapitre 2: Inférence causale et expérimentation
 
 ### EGAP Policy Briefs
 
-*Factorial designs*
+*TODO Factorial designs*
 
-- [EGAP Policy Brief 57: How Media Influence Social Norms: Evidence from Mexico](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
+- [EGAP Policy Brief 57: Comment les médias influencent les normes sociales : la preuve au Mexique](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
 
-- [EGAP Policy Brief 58: Does Bottom-Up Accountability Work?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+- [EGAP Policy Brief 58: La responsabilisation bottom-up fonctionne-t-elle ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
-*Randomizing access*
+*TODO Randomizing access*
 
-- [EGAP Policy Brief 24: Reducing Elite Capture in the Solomon Islands](https://egap.org/resource/brief-24-reducing-elite-capture-in-the-solomon-islands/)
+- [EGAP Policy Brief 24: Réduire l'accaparation par les élites dans les îles Salomon](https://egap.org/resource/brief-24-reducing-elite-capture-in-the-solomon-islands/)
 
-*Randomizing delayed access*
+*TODO Randomizing delayed access*
 
-  - [EGAP Policy Brief 35: Reducing Reconvictions Among Released Prisoners](https://egap.org/resource/brief-35-reducing-reconvictions-among-released-prisoners/)
+  - [EGAP Policy Brief 35: Réduire la récidive parmi les détenus libérés](https://egap.org/resource/brief-35-reducing-reconvictions-among-released-prisoners/)
 
-  - [EGAP Policy Brief 60: Reducing Youth Support for Violence through Training and Cash Transfers in Afghanistan](https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/)
+  - [EGAP Policy Brief 60: Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan](https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/)
 
-*Cluster randomization*
+*TODO Cluster randomization*
 
-  - [EGAP Policy Brief 22: Getting Out the Vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
+  - [EGAP Policy Brief 22: Pousser au vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
 
-*Blocked cluster randomization*
+*TODO Blocked cluster randomization*
 
-  - [EGAP Policy Brief 54: Incumbent Malfeasance Revelations](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
+  - [EGAP Policy Brief 54: TODO Incumbent Malfeasance Revelations](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
 
-  - [EGAP Policy Brief 56: Reporting Corruption](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
+  - [EGAP Policy Brief 56: Signaler la corruption](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
 
 
 ### Outils
 
-- [RItools](https://cran.r-project.org/web/packages/RItools/index.html), a set of tools for randomization-based inference including balance testing.
+- [RItools](https://cran.r-project.org/web/packages/RItools/index.html), un ensemble d'outils pour l'inférence basée sur la randomisation, y compris TODO balance testing.
 
 
 ### Courtes vidéos explicatives
 
- - [Randomization vs. Random Sampling](https://www.youtu.be/02A61b3hxvA)
+ - [TODO Randomization vs. Random Sampling](https://www.youtu.be/02A61b3hxvA)
  
- - [Cluster vs. Block Randomization](https://www.youtu.be/bL2U9z8hX1k)
+ - [TODO Cluster vs. Block Randomization](https://www.youtu.be/bL2U9z8hX1k)
  

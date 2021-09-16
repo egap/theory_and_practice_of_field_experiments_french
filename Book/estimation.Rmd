@@ -34,7 +34,7 @@ In this module, we introduce several types of estimands, the target quantity to 
 
 ## Slides
 
-Below are slides with the core content that we cover in this session.
+Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/estimation-slides.Rmd)
 
@@ -44,36 +44,36 @@ Below are slides with the core content that we cover in this session.
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [The estimation presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
+ - [La présentation de l'estimation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
 
- - [The estimation presentation from EGAP Learning Days at Universidad de Los Andes, Bogotá, April 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf)
+ - [La présentation de l'estimation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf)
 
- - [The estimation presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf)
+ - [La présentation de l'estimation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf)
 
- - [The estimation presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf)
+ - [La présentation de l'estimation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf)
 
-You can also see discussion of the problems of estimating the effect of the active dose of a treatment in these slides (as well as discussion of the problems that missing data on outcomes cause for estimation of average causal effects):
+TODO You can also see discussion of the problems of estimating the effect of the active dose of a treatment in these slides (as well as discussion of the problems that missing data on outcomes cause for estimation of average causal effects):
 
-- [The design issues presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [TODO The design issues presentation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [The spillovers and attrition presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
+- [TODO The spillovers and attrition presentation from EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
 
-- [The threats presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
+- [La présentation des menaces aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
 
-- [The complications presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf)
+- [La présentation des complications aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf)
 
-- [The threats presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016 (the middle section reviews ITT and non-compliance )](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
+- [La présentation des menaces aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016 (the middle section reviews ITT and non-compliance )](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
 
 ## Resources
 
 ### Guide des méthodes EGAP
 
- - Guide des méthodes EGAP [10 Types of Treatment Effect You Should Know About](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
+ - Guide des méthodes EGAP [Les 10 effets de traitement que vous devez connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
  - Guide des méthodes EGAP [10 Things to Know about Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
 
- - Guide des méthodes EGAP [10 Things to Know about Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
+ - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
  - Guide des méthodes EGAP [10 Things to Know about the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
@@ -90,5 +90,5 @@ You can also see discussion of the problems of estimating the effect of the acti
 
 - [DeclareDesign](https://declaredesign.org)
 
-- [estimatr package for R](https://declaredesign.org/r/estimatr/)
+- [Le package estimatr en R](https://declaredesign.org/r/estimatr/)
 

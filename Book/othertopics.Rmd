@@ -36,7 +36,7 @@ Here we provide links to resources to help people learn about topics that cannot
 
 - [10 Things to Know About Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/)
 - [10 Things to Know About Randomization Inference](https://egap.org/resource/10-things-to-know-about-randomization-inference/)
-- [10 Things to Know About Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
+- [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
 ### Livres, chapitres et articles
 
