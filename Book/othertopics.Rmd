@@ -32,13 +32,13 @@ Here we provide links to resources to help people learn about topics that cannot
 
 ## Resources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
 - [10 Things to Know About Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/)
 - [10 Things to Know About Randomization Inference](https://egap.org/resource/10-things-to-know-about-randomization-inference/)
 - [10 Things to Know About Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
  - [How to improve your relationship with your future self] (https://github.com/jwbowers/workflow)
  - [Berkeley Initiative for Transparency in the Social Sciences] (https://www.bitss.org/)

@@ -31,12 +31,12 @@ How will you remember what you did a year, or two, or ten, after you did it? How
 
 ## Resources:
 
-### EGAP Methods Guide
+### Guide des méthodes EGAP
 
-  - EGAP Methods Guide [10 Things to Know About Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/) (which builds on @bowers2016future).
- - EGAP Methods Guide [10 Things to Know About Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+  - Guide des méthodes EGAP [10 Things to Know About Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/) (which builds on @bowers2016future).
+ - Guide des méthodes EGAP [10 Things to Know About Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
   - @cartwright2012evidence warn about simplistic use of RCT results to guide public policy.
 

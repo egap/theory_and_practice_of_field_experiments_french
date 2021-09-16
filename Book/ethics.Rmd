@@ -27,11 +27,11 @@ This module discusses the core topics on research ethics, such as privacy and au
 
 Below are slides with the core content that we cover in this session.
 
- - [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/ethics-slides.Rmd)
+ - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/ethics-slides.Rmd)
 
- - [PDF Version](https://egap.github.io/learningdays-resources/Slides/ethics-slides.pdf)
+ - [Version PDF](https://egap.github.io/learningdays-resources/Slides/ethics-slides.pdf)
 
- - [HTML Version](https://egap.github.io/learningdays-resources/Slides/ethics-slides.html)
+ - [Version HTML](https://egap.github.io/learningdays-resources/Slides/ethics-slides.html)
 
 ## Resources
 
@@ -49,7 +49,7 @@ Below are slides with the core content that we cover in this session.
 
 - [Example: Research Ethics at the Universidad Catolica de Chile](http://eticayseguridad.uc.cl/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
 - [@Asieduetal2021ethics]
 

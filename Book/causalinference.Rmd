@@ -26,11 +26,11 @@ In this module, we introduce the counterfactual approach to causal inference and
 
 Below are slides with the core content that we cover in our lecture on causality. You can directly use these slides or make your own local copy and edit.
 
-- [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.Rmd)
 
-- [PDF Version](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.pdf)
 
-- [HTML Version](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.html)
 
 You can also see the slides used in previous EGAP Learning Days:
 
@@ -50,17 +50,17 @@ You can also see the slides used in previous EGAP Learning Days:
 
 ## Resources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
-- EGAP Methods Guide [10 Things You Need to Know about Causal Inference](https://egap.org/resource/10-things-to-know-about-causal-inference/)
+- Guide des méthodes EGAP [10 Things You Need to Know about Causal Inference](https://egap.org/resource/10-things-to-know-about-causal-inference/)
 
-- EGAP Methods Guide [10 Strategies for Figuring Out If X Caused Y](https://egap.org/resource/10-strategies-figuring-out-if-x-caused-y/)
+- Guide des méthodes EGAP [10 Strategies for Figuring Out If X Caused Y](https://egap.org/resource/10-strategies-figuring-out-if-x-caused-y/)
 
-- EGAP Methods Guide [10 Things You Need to Know about Mechanisms](https://egap.org/resource/10-things-mechanisms/)
+- Guide des méthodes EGAP [10 Things You Need to Know about Mechanisms](https://egap.org/resource/10-things-mechanisms/)
 
-- EGAP Methods Guide [10 Things to Know About External Validity](https://egap.org/resource/10-things-to-know-about-external-validity/)
+- Guide des méthodes EGAP [10 Things to Know About External Validity](https://egap.org/resource/10-things-to-know-about-external-validity/)
 
-### Books, Chapters, and Articles {#causalinference-cites}
+### Livres, chapitres et articles {#causalinference-cites}
 
 #### Classics {#causalinference-classics}
 

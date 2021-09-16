@@ -36,11 +36,11 @@ In this module, we introduce several types of estimands, the target quantity to 
 
 Below are slides with the core content that we cover in this session.
 
-- [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/estimation-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/estimation-slides.Rmd)
 
-- [PDF Version](https://egap.github.io/learningdays-resources/Slides/estimation-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides/estimation-slides.pdf)
 
-- [HTML Version](https://egap.github.io/learningdays-resources/Slides/estimation-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides/estimation-slides.html)
 
 You can also see the slides used in previous EGAP Learning Days:
 
@@ -67,19 +67,19 @@ You can also see discussion of the problems of estimating the effect of the acti
 
 ## Resources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
- - EGAP Methods Guide [10 Types of Treatment Effect You Should Know About](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
+ - Guide des méthodes EGAP [10 Types of Treatment Effect You Should Know About](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
- - EGAP Methods Guide [10 Things to Know about Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 Things to Know about Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
 
- - EGAP Methods Guide [10 Things to Know about Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
+ - Guide des méthodes EGAP [10 Things to Know about Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
- - EGAP Methods Guide [10 Things to Know about the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+ - Guide des méthodes EGAP [10 Things to Know about the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
- - EGAP Methods Guide [10 Things to Know about Spillovers](https://egap.org/resource/10-things-to-know-about-spillovers/)
+ - Guide des méthodes EGAP [10 Things to Know about Spillovers](https://egap.org/resource/10-things-to-know-about-spillovers/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
  - [@gerber_field_2012]. Chapter 2.7 on excludability and non-interference, Chapter 3, Chapter 5 on one-sided noncompliance, Chapter 6 on two-sided noncompliance, Chapter 7 on attrition, Chapter 8 on interference between experimental units.
 

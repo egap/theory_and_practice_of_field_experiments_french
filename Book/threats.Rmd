@@ -64,7 +64,7 @@ Vous pouvez également voir les slides utilisées lors des précédents EGAP Lea
 
 - Guide des méthodes EGAP [10 choses à savoir sur l'effet the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
-### Lires, chapitres et articles
+### Livres, chapitres et articles
 
 - [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles de base pour mener des études expérimentales.
 - [@gerber_field_2012]. Chapitres 5 à 8 traitent de non-conformité, d'attrition et d'interférence.

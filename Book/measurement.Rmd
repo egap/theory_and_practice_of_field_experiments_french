@@ -26,23 +26,23 @@ This module discusses *what to measure* and *how to measure*.  It shows how good
 
 Below are slides with the core content that we cover in our lecture on measurement. You can directly use these slides or make your own local copy and edit.
 
- - [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/measurement-slides.Rmd)
+ - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/measurement-slides.Rmd)
 
- - [PDF Version](https://egap.github.io/learningdays-resources/Slides/measurement-slides.pdf)
+ - [Version PDF](https://egap.github.io/learningdays-resources/Slides/measurement-slides.pdf)
 
- - [HTML Version](https://egap.github.io/learningdays-resources/Slides/measurement-slides.html)
+ - [Version HTML](https://egap.github.io/learningdays-resources/Slides/measurement-slides.html)
 
 ## Resources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
-- EGAP Methods Guide [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- Guide des méthodes EGAP [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
-- EGAP Methods Guide [10 Things to Know about Survey Design](https://egap.org/resource/10-things-to-know-about-survey-design/)
+- Guide des méthodes EGAP [10 Things to Know about Survey Design](https://egap.org/resource/10-things-to-know-about-survey-design/)
 
-- EGAP Methods Guide [10 Things to Know about Survey Implementation](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
+- Guide des méthodes EGAP [10 Things to Know about Survey Implementation](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
  - [@adcocoll:2001]
 

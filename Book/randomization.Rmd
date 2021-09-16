@@ -37,11 +37,11 @@ We introduce four common ways to randomize treatment -- simple, complete, block,
 
 Below are slides with the core content that we cover in our lecture on randomization. You can directly use these slides or make your own local copy and edit.
 
-- [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/randomization-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/randomization-slides.Rmd)
 
-- [PDF version](https://egap.github.io/learningdays-resources/Slides/randomization-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides/randomization-slides.pdf)
 
-- [HTML version](https://egap.github.io/learningdays-resources/Slides/randomization-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides/randomization-slides.html)
 
 The linked files shows how to [do replicable randomization in R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd). You can also see more examples of randomization in R at  [10 Things You Need to Know About Randomization](https://egap.org/resource/10-things-to-know-about-randomization/).
 
@@ -62,13 +62,13 @@ You can also see the slides used in previous EGAP Learning Days:
 
 ## Resources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
-- EGAP Methods Guide [10 Things You Need to Know About Randomization](https://egap.org/resource/10-things-to-know-about-randomization/)
+- Guide des méthodes EGAP [10 Things You Need to Know About Randomization](https://egap.org/resource/10-things-to-know-about-randomization/)
 
-- EGAP Methods Guide [10 Things You Need to Know About Cluster Randomization](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
+- Guide des méthodes EGAP [10 Things You Need to Know About Cluster Randomization](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
 - [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). A comprehensive set of procedures and rules of thumb for conducting experimental studies.
 

@@ -28,11 +28,11 @@ Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), 
 
 Below are slides with the core content that we cover in our lecture on research design. You can directly use these slides or make your own local copy and edit.
 
-- [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.Rmd)
 
-- [PDF Version](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.pdf)
 
-- [HTML Version](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.html)
 
 You can also see the slides used in previous EGAP Learning Days:
 
@@ -65,9 +65,9 @@ You can also see slides for Design Talks in previous EGAP Learning Days, where p
 - [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). A checklist we created for the Learning Days to guide you through the stages of the research process.
      - [Docx Version](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
 
-     - [PDF Version](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
+     - [Version PDF](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
 
-     - [HTML Version](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
+     - [Version HTML](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
 
 - Links to repositories for pre-registration/pre-analysis plans:
 
@@ -85,14 +85,14 @@ You can also see slides for Design Talks in previous EGAP Learning Days, where p
 
 ## Resources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
-- EGAP Methods Guide [10 Things to Know about Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+- Guide des méthodes EGAP [10 Things to Know about Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
-- EGAP Methods Guide [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- Guide des méthodes EGAP [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
 - [Preregistration as a Tool for Strengthening Federal Evaluation](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf).  A white paper from the US Government's Office of Evaluation Sciences.  You can also see examples of their pre-analysis plans on all of [their field experiment pages](https://oes.gsa.gov/work/).
 
