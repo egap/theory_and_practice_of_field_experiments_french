@@ -87,20 +87,20 @@ You can also see slides for Design Talks in previous EGAP Learning Days, where p
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 Things to Know about Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+- Guide des méthodes EGAP [10 choses à savoir sur Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
-- Guide des méthodes EGAP [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
 
 ### Livres, chapitres et articles
 
-- [Preregistration as a Tool for Strengthening Federal Evaluation](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf).  A white paper from the US Government's Office of Evaluation Sciences.  You can also see examples of their pre-analysis plans on all of [their field experiment pages](https://oes.gsa.gov/work/).
+- [Preregistration as a Tool for Strengthening Federal Evaluation](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf). Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de TODO pre-analysis plans pour toutes [leurs pages d'expériences de terrain](https://oes.gsa.gov/work/).
 
-- [@christensen_transparent_2019]. The book summarizes new approaches in social science research on transparency and reproducibility.
+- [@christensen_transparent_2019]. Le livre résume les nouvelles approches de la recherche en sciences sociales sur la transparence et la reproductibilité.
 
 - [@gerber_field_2012].  Chapter 12 includes some examples of experimental research designs.
 
 ### Outils
 
-- [DeclareDesign](https://declaredesign.org/), an exciting and comprehensive set of software tools for describing, assessing, and conducting empirical research.
+- [DeclareDesign](https://declaredesign.org/), un ensemble passionnant et complet d'outils logiciels pour décrire, évaluer et mener des recherches empiriques.
 

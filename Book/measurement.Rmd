@@ -36,11 +36,11 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
-- Guide des méthodes EGAP [10 Things to Know about Survey Design](https://egap.org/resource/10-things-to-know-about-survey-design/)
+- Guide des méthodes EGAP [10 choses à savoir sur TODO Survey Design](https://egap.org/resource/10-things-to-know-about-survey-design/)
 
-- Guide des méthodes EGAP [10 Things to Know about Survey Implementation](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
+- Guide des méthodes EGAP [10 choses à savoir sur TODO Survey Implementation](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
 
 ### Livres, chapitres et articles
 

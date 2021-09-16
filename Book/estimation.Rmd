@@ -71,13 +71,13 @@ TODO You can also see discussion of the problems of estimating the effect of the
 
  - Guide des méthodes EGAP [Les 10 effets de traitement que vous devez connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
- - Guide des méthodes EGAP [10 Things to Know about Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 choses à savoir sur TODO Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
 
  - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
- - Guide des méthodes EGAP [10 Things to Know about the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+ - Guide des méthodes EGAP [10 choses à savoir sur TODO the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
- - Guide des méthodes EGAP [10 Things to Know about Spillovers](https://egap.org/resource/10-things-to-know-about-spillovers/)
+ - Guide des méthodes EGAP [10 choses à savoir sur les effets de débordement](https://egap.org/resource/10-things-to-know-about-spillovers/)
 
 ### Livres, chapitres et articles
 
