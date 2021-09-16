@@ -2,7 +2,7 @@
 title: |
   | La théorie et la pratique des expériences de terrain : 
   | Une introduction des EGAP Learning Days
-author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire.]. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]
+author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]
 date: '`r format(Sys.Date(), "%B %e, %Y")`'
 site: bookdown::bookdown_site
 knit: "bookdown::render_book"
@@ -11,7 +11,7 @@ bibliography: learningdays-book.bib
 link-citations: yes
 colorlinks: yes
 github-repo: egap/theory_and_practice_of_field_experiments
-description: "Les Learning Days de EGAP, inférence causale, expériences aléatoires, expériences de terrain, TO DO experimental design, research design"
+description: "Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, TODO experimental design, research design"
 fontsize: 12pt
 geometry: margin=1in
 graphics: yes
@@ -110,25 +110,25 @@ readr::write_lines(htmlhead, file = "header.html")
 
 # Introduction
 
-Durant la dernière décennie, [Evidence in Governance and Politics (EGAP)](http://egap.org/) a organisé une série de TODO workshops, [Learning Days](https://egap.org/learning-days/), dans le but de renforcer la capacité de recherche expérimentale en sciences sociales parmi les TODO principal investigators (PIs) -- des cheurcheurs et praticiens -- en Afrique et Amérique Latine.  En partageant les méthodes pratiques et statistiques des expériences de terrain aléatoires avec les participants aux TODO workshops, l'initiative des Learning Days vise à identifier et à entretenir des réseaux de chercheurs dans le monde entier et à créer des liens solides et productifs entre ces chercheurs et les membres de EGAP. 
+Durant la dernière décennie, [Evidence in Governance and Politics (EGAP)](http://egap.org/) a organisé une série de workshops, [les Learning Days](https://egap.org/learning-days/), dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les TODO principal investigators (PIs) -- des cheurcheurs et praticiens -- en Afrique et Amérique Latine.  En partageant les méthodes pratiques et les méthodes statistiques des expériences de terrain aléatoires entre les participants, les Learning Days visent à créer et entretenir des réseaux de chercheurs dans le monde entier et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.
 
-Les Learning Days sont une combinaison de TODO design clinics, de présentations de recherche, de travail guidé avec un logiciel statistique et de conférences thématiques par un petit groupe d'instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les workshops se concentrent sur les méthodes de TODO conception et d'analyse d'expériences de terrain aléatoires plutôt que sur des expériences aléatoires en laboratoire ou des études non-aléatoires. 
+Les Learning Days sont une combinaison de TODO design clinics, de présentations de travaux de recherche, d'utilisation de logiciel statistique et de conférences thématiques par un petit groupe d'instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les workshops abordent les méthodes de TODO conception et d'analyse pour des expériences de terrain aléatoires plutôt que des expériences aléatoires en laboratoire ou des études non-aléatoires.
 
-**Ce livre** partage les matériaux qui ont été développés pour les Learning Days. La version actuelle du livre est écrite principalement pour **des instructeurs et des organisateurs** de workshops et de cours similaires pour des TODO PIs --- des professeurs, des cheurcheurs postdoctorals, des doctorants, des évaluateurs d'ONG et d'agences gouvernementales, et cetera --- qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants précédents des Learning Days.
+**Ce livre** rassemble les matériaux développés pour les Learning Days. La version actuelle du livre est écrite principalement pour **des instructeurs et des organisateurs** de workshops et de cours similaires pour des TODO PIs --- des professeurs, des cheurcheurs postdoctorals, des doctorants, des évaluateurs d'ONG et d'agences gouvernementales, etc --- qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des Learning Days.
 
-Ce livre est une revue complète des méthodes d'inférence causale pour les chercheurs qui développent une conception de recherche expérimentale. Ce livre est organisé en **modules** et comprend des sujets tels que l'inférence causale, la randomisation, les tests d'hypothèses, les estimations, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l'éthique de l'expérimentation. Les modules apparaissent dans l'ordre que les instructeurs des Learning Days ont trouvé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à ses besoins en tant qu'instructeur. En annexe, il y a des matériaux préparatoires comprenant un [glossaire des termes](glossary-of-terms.html) et une [introduction à R et RStudio](introduction-to-r-and-rstudio.html).
+Ce livre est une revue complète des méthodes d'inférence causale pour les chercheurs qui développent une TODO conception de recherche expérimentale. Ce livre est organisé en **modules** et comprend des sujets tels que l'inférence causale, la randomisation, les tests d'hypothèses, les estimations, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l'éthique de l'expérimentation. Les modules apparaissent dans l'ordre jugé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à vos besoins en tant qu'instructeur. En annexe, il y a des matériaux préparatoires comprenant un [glossaire des termes](glossary-of-terms.html) et une [introduction à R et RStudio](introduction-to-r-and-rstudio.html).
 
-Ce livre comprend des **slides** sur le contenu principal, le [formulaire de conception de recherche de EGAP](researchdesignform.html) et des **références** d'exemples de recherche at des slides utilisés pendant les Learning Days précédents.  Ces matériaux TODO builds significantly on et sont liés au travail de EGAP sur la méthodologie, résumé dans les [guides de méthodes de EGAP](https://egap.org/methods-guides/).  Nous avons ajouté aux matériaux des Learning Days précédents sur les tests d'hypothèses, l'estimation et la puissance statistique et ajouté de nouveaux modules sur le processus de conception de la recherche, la mesure et les considérations éthiques. Les slides et les modules présentés ici contiennent trop d'informations pour être couverts en une seule semaine, la durée habituelle d'un workshop de Learning Days. Cependant, nous avons décidé de présenter plus d'informations au lieu de moins, afin d'aider les instructeurs à adapter leurs cours à leurs publics spécifiques.
+Ce livre comprend des **slides** sur le contenu principal, le [formulaire de TODO conception de recherche de EGAP](researchdesignform.html) et des **références** d'exemples de recherche et des slides utilisés pendant les Learning Days précédents.  Ces matériaux renforcent le travail de EGAP sur la méthodologie, résumé dans les [guides de méthodes de EGAP](https://egap.org/methods-guides/). Comparé aux Learning Days précédents, nous avons ajouté plus de matériaux  sur les tests d'hypothèses, l'estimation et la puissance statistique. De nouveaux modules sur le processus de TODO conception de la recherche, la mesure et les considérations éthiques sont désormais disponibles. Les slides et les modules présentés ici contiennent trop d'informations pour être couverts en une seule semaine, la durée habituelle d'un workshop de Learning Days. Cependant, nous avons décidé de conserver toutes les informations, afin d'aider les instructeurs à adapter leurs cours à leurs publics réspectifs.
 
 ## Comment utiliser le livre
 
-Pour profiter au maximum de ce livre, veuillez installer [R](https://cran.r-project.org/) et [RStudio](https://www.rstudio.com/products/rstudio/download/) sur votre machine. En fait, les slides supposent que vous utiliserez Rmarkdown pour les adapter à vos vos besoins.
+Pour profiter au maximum de ce livre, veuillez installer [R](https://cran.r-project.org/) et [RStudio](https://www.rstudio.com/products/rstudio/download/) sur votre machine. En fait, les slides supposent que vous utilisiez Rmarkdown pour les adapter à vos besoins.
 
 Pour commencer avec R, voir le module [Introduction à R et RStudio](introduction-to-r-and-rstudio.html).
 
-Vous pouvez copier ce livre ou des parties de celui-ci (des slides, et cetera) soit en utilisant le bouton de téléchargement (Download) sur la première page de <http://github.com/egap/theory_and_practice_of_field_experiments_french>, soit directement sur github en "forkant" ce repertoire.
+Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc) soit en utilisant le bouton de téléchargement (Download) sur la première page de <http://github.com/egap/theory_and_practice_of_field_experiments_french>, soit directement sur github en "forkant" ce repertoire.
 
-Tant que EGAP est cité, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.
+Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.
 
 ## Nous apprécions vos retours !
 
@@ -136,7 +136,7 @@ Si vous avez des questions, des retours, ou si vous avez organisé votre propre 
 
 ## Remerciements
 
-Les matériaux dans ce livre ont été développés au cours des derniers Learning Days par des divers instructeurs.
+Les matériaux dans ce livre ont été développés au cours des derniers Learning Days par divers instructeurs.
 Ceux-ci incluent (par ordre alphabétique) Jake Bowers, Jasper Cooper, Ana De la O, Lindsay Dolan, Natalia Garbiras Díaz, Macartan Humphreys, Nahomi Ichino, Salif Jaiteh, Gareth Nellis, Dan Nielson, Rafael Piñeiro, Fernando Rosenblatt, Tara Slough, Peter van der Windt et Maarten Voors.  Nous remercions Natalia Garbiras Díaz, Macartan Humphreys, Anghella Brigeth Rosero Rodriguez, et Tara Slough en particulier pour leurs commentaires sur une première version du livre.
 
-Chez EGAP, Matt Lisiecki, Ingrid Lee, Goldie Negelev, Max Mendez-Back et d'autres ont apporté un soutien formidable. Les Learning Days ont été généreusement financées par la Fondation Hewlett et soutenus par des institutions du monde entier, notamment l'African School of Economics (Bénin), l'Universidad Diego Portales (Chili), l'Universidad de los Andes (Colombie), le Ghana Center for Democratic Development (Ghana) , Mercy Corps (Guatemala), Invest in Knowledge (Malawi), NYU Abu Dhabi (EAU), et Universidad Católica del Uruguay (Uruguay).
+Chez EGAP, Matt Lisiecki, Ingrid Lee, Goldie Negelev, Max Mendez-Back et d'autres ont apporté un soutien formidable. Les Learning Days ont été généreusement financés par la Fondation Hewlett et soutenus par des institutions du monde entier, notamment l'African School of Economics (Bénin), l'Université de Diego Portales (Chili), l'Université de los Andes (Colombie), le Ghana Center for Democratic Development (Ghana) , Mercy Corps (Guatemala), Invest in Knowledge (Malawi), NYU Abu Dhabi (EAU), et l'Université Catholique de l'Uruguay (Uruguay).
