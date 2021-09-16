@@ -8,19 +8,19 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
 ## Contenu
 
- - What do we mean when we say **"cause"**? And why does it matter to be clear about the meaning of causal claims?
+ - Qu'entendons-nous par **"cause"** ? Et pourquoi est-il important d'être clair sur le sens de TODO causal claims ?
 
- - An introduction to **potential outcomes** as a way to think about alternative states of the world.
+ - Une introduction aux TODO **potential outcomes** comme une façon de penser aux états contrefactuels du monde.
 
- - **Randomization** helps us learn about counterfactual causal claims in a particularly useful way.
+ - La **Randomisation** nous aide à comprendre les TODO counterfactual causal claims d'une manière particulièrement utile.
 
- - The three key **core assumptions** for causal inference: random assignment of subjects to treatment, non-interference, and excludability.
+ - Les trois principales **hypothèses de base** pour l'inférence causale: TODO random assignment of subjects to treatment, non-interference, and excludability.
 
- - Comparison of randomized studies with observational studies.
+ - Comparaison des études aléatoires avec des études d'observation.
 
- - Randomization brings high internal validity, but it can't promise **external validity**.
+ - La randomisation apporte une validité interne élevée, mais elle ne peut pas assurer la **validité externe**.
 
- - Your causal question is closely linked so your [research design](the-research-design-process.html).
+ - TODO Your causal question is closely linked so your [research design](the-research-design-process.html).
 
 ## Slides
 
