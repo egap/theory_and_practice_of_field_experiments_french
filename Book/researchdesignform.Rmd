@@ -2,8 +2,7 @@
 
 This book aims to help you understand and design randomized field experiments.  But before we dive into the details of research design, we need a good research question -- a question that will advance knowledge or help make a policy decision or both.  There is no simple recipe for finding or developing a good scientific or policy question, but our theories are important for articulating good questions that underlie impactful research.  After formulating our question, we develop the best design possible within our resource constraints, using our knowledge of causal inference and statistics from the modules that follow.  
 
-This module introduces the [EGAP Research Design
-Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), a checklist to guide you through the many stages of the research process.  The Learning Days workshops are organized around the Research Design Form.  We also point you towards the [DeclareDesign](http://declaredesign.org) software package to explore the implications of different choices we could make for our research designs.  Finally, this module discusses pre-analysis plans and pre-registration.  When plan our analyses and make these plans public, we improve our chances of persuading others with our results.
+This module introduces the [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), a checklist to guide you through the many stages of the research process. The Learning Days workshops are organized around the Research Design Form.  We also point you towards the [DeclareDesign](http://declaredesign.org) software package to explore the implications of different choices we could make for our research designs.  Finally, this module discusses pre-analysis plans and pre-registration.  When plan our analyses and make these plans public, we improve our chances of persuading others with our results.
 
 ## Contenu
 
@@ -11,17 +10,17 @@ Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), 
 
 - Certain **research designs** are better able to address certain questions. We want to choose the design that best answers our key questions within our constraints.
 
-- The questions we ask arise --- often implicitly --- from our values and from our understanding about how the world works. These **theories** make our questions relevant. And the experiments that we execute teach us about the theory.  That is, we hope that the evidence and data arising from these research designs improve our understanding.
+- Les questions que nous posons découlent --- souvent implicitement --- de nos valeurs et de notre compréhension du fonctionnement du monde. Ces **théories** rendent nos questions pertinentes. Et les expériences que nous réalisons nous renseignent sur la théorie. Cependant, TODO we hope that the evidence and data arising from these research designs improve our understanding.
 
 - Core components of a research design
 
-- Introduce core components of the [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). 
+- Présentation des composants de base de [TODO EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
 
 - Introduce a research design software package, [DeclareDesign](http://declaredesign.org).
 
-- The move in social science towards the **review of designs, rather than outcomes**.
+- L'évolution des sciences sociales vers TODO the **review of designs, rather than outcomes**.
 
-- **Pre-registration** -- what it is, and why and how we should do it.
+- **TODO Pre-registration** -- ce que c'est, et pourquoi et comment nous devons le faire.
 
 
 ## Slides
@@ -36,13 +35,13 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [TODO The DeclareDesign presentation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
+ - [Présentation de DeclareDesign aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
 
- - [TODO The DeclareDesign presentation aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
+ - [Présentation de DeclareDesign aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
 
- - [TODO The DeclareDesign presentation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
+ - [Présentation de DeclareDesign  aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
-You can also see slides for Design Talks in previous EGAP Learning Days, where presenters focus on issues that come up in designing the research, rather than the results:
+Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problèmatiques relatives TODO designing the research, plutôt que les résultats:
 
  - [Design Talk aux EGAP Learning Days à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 

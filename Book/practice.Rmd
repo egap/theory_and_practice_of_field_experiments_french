@@ -1,23 +1,23 @@
-# Putting It All Into Practice {.tabset}
+# Mise en pratique {.tabset}
 
-Once you have filled out the [Research Design Form](research-design.html) and received funding, or perhaps even completed your project, you will confront a series of other challenges. 
+Une fois que vous avez rempli le [TODO Research Design Form](research-design.html) et reçu un financement, ou peut-être même terminé votre projet, vous serez confronté à une série d'autres défis.
 
-This module currently lists a few of those challenges with associated links and references that might prove useful, including: workflow, Pre-Analysis Plans, 
+Ce module répertorie quelques-uns de ces défis et y associe des liens et des références utiles, notamment à propos de workflow, TODO Pre-Analysis Plans,
 
 ## Contenu
 
 ### Workflow
 
-How will you remember what you did a year, or two, or ten, after you did it? How will you ensure that the tables and graphs and results that you use to guide policy decisions are not the result of copy and paste errors? Or that your code did not involve an inadvertantly reverse-coded variable, yielding the opposite conclusion than you have just told the Minister of Health? Although no approach can prevent all errors, some basic approaches to organizing work can help you. These involve, at their root, a move from someone doing quick essays to turn in at the end of a term (essays never to be subsequently serious revisited) to someone participating in a decades-(or centuries-)long collaboration with other scholars and policy makers across time and space.
+Comment vous souviendrez-vous de ce que vous avez fait un an, deux ou dix ans? Comment vous assurerez-vous que les tableaux, graphiques et résultats que vous utilisez pour guider les décisions stratégiques ne sont pas le résultat d'une erreur de copier-coller ? Ou que votre code n'impliquait pas une variable erronée par inadvertance, aboutissant à la conclusion opposée à celle que vous venez de livrer au ministre de la Santé ? Bien qu'aucune approche ne puisse empêcher toutes les erreurs, certaines approches de base pour organiser le travail peuvent vous aider. Ces approches permettent de transformer d'un essai rapide pour la fin d'un trimestre (jamais revu sérieusement par la suite) à un travail de collaboration de plusieurs décennies (ou siècles) avec d'autres universitaires et décideurs politiques à travers le temps et l'espace.
 
-  - [On using 'Dark Logic' to anticipate failure and plan for it](https://jech.bmj.com/content/jech/69/1/95.full.pdf).
+  - [Sur l'utilisation de 'Dark Logic' pour anticiper l'échec et le planifier](https://jech.bmj.com/content/jech/69/1/95.full.pdf).
 
-  - The [pre-mortem approach to project management](https://en.wikipedia.org/wiki/Pre-mortem) approach to project management in which the team imagines that a project has failed before launching the project.
+  - [L'approche pre-mortem au management de projet](https://en.wikipedia.org/wiki/Pre-mortem) pour laquelle l'équipe imagine qu'un projet a échoué avant de lancer.
 
 ### Faire face aux contraintes du monde réel
 
- - Working with partners: humility and respect and listening
- - Budgets and physical limits on the size of the experimental pool (limits on control of the randomization)
+ - Travailler avec des partenaires : humilité et respect et écoute
+ - Budgets et limites physiques sur la taille TODO of the experimental pool (limits on control of the randomization)
     - Example: Cluster-randomized designs with small number of clusters
 
 ### TODO Pre-analysis plans
