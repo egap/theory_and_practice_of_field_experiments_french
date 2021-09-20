@@ -2,25 +2,25 @@
 
 Une grande partie des sciences sociales porte sur la causalité. On peut se demander si [l'inscription des électeurs augmente la participation politique](https://egap.org/resource/electoral-administration-in-kenya/), si [la responsabilisation bottom-up peut améliorer les perspectives en matière de santé](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/), ou si [les récits personnels des migrants aident à réduire les attitudes préjudiciables à leur égard](https://egap.org/resource/brief-70-how-personal-narratives-reduce-negative-attitudes-towards-immigrants-in-kenya/).
 
-Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des TODO affirmations causales, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher and Rubin](#causalinference-classics). On recourt davantage aux expériences; la randomisation est devenue la norme de référence pour répondre aux questions causales.
+Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions de causalité, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher and Rubin](#causalinference-classics). On recourt davantage aux expériences; la randomisation est devenue la norme de référence pour répondre aux questions causales.
 
-Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des TODO allégations causales peuvent être interprétées. TODO We introduce the potential outcome framework and how random assignment helps us make claims about what would have happened in the absence of the policy, action or program we study. Nous discutons des trois hypothèses de base pour l'inférence causale : TODO l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
+Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle à résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, TODO la non-interférence et l'exclusion.
 
 ## Contenu
 
- - Qu'entendons-nous par **"cause"** ? Et pourquoi est-il important d'être clair sur le sens de TODO causal claims ?
+ - Qu'entendons-nous par **"cause"**? Et pourquoi est-il important d'être clair sur le sens des assertions de causalité?
 
- - Une introduction aux TODO **potential outcomes** comme une façon de penser aux états contrefactuels du monde.
+ - Une introduction aux **résultats potentiels** comme une façon de penser aux états contrefactuels du monde.
 
- - La **Randomisation** nous aide à comprendre les TODO counterfactual causal claims d'une manière particulièrement utile.
+ - La **randomisation** nous aide à comprendre les assertions causales contrefactuelles d'une manière particulièrement utile.
 
- - Les trois principales **hypothèses de base** pour l'inférence causale: TODO random assignment of subjects to treatment, non-interference, and excludability.
+ - Les trois principales **hypothèses de base** pour l'inférence causale: TODO l'assignation aléatoire des sujets au traitement, non-interference, and excludability.
 
  - Comparaison des études aléatoires avec des études d'observation.
 
  - La randomisation apporte une validité interne élevée, mais elle ne peut pas assurer la **validité externe**.
 
- - TODO Your causal question is closely linked so your [research design](the-research-design-process.html).
+ - Votre question causale est liée à votre[design de recherche](the-research-design-process.html).
 
 ## Slides
 
@@ -48,7 +48,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [La présentation de l'inférence causale aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
 
-## Resources
+## TODO Resources
 
 ### Guide des méthodes EGAP
 
@@ -66,21 +66,21 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - [@fisher_design_1935]. Fisher introduit l'idée de la randomisation et des tests d'hypothèses pour apprendre l'inférence causale.
 
-- [@rubin:1974]. TODO Rubin introduces the idea of potential outcomes and links counterfactual conceptualizations of causality to statistical inference.
+- [@rubin:1974]. TODO Rubin introduit l'idée de résultats potentiels et relie les conceptualisations contrefactuelles de la causalité à l'inférence statistique.
 
 #### Revue actuelle
 
 - [@brady2008causation].
 
-- [@gerber_field_2012, Chapitre 1]. Ce livre est une excellente ressource pour de nombreux sujets TODO in experimental design.
+- [@gerber_field_2012, Chapitre 1]. Ce livre est une excellente ressource pour de nombreux sujets du design expérimental.
 
-- [@morgan_counterfactuals_2007, Chapitre 1]. TODO Ce livre comprend de bons examples de raisonnement pour faire des allégations causales à partir de données d'observation  This book includes nice examples of thinking through making causal claims from observational data.
+- [@morgan_counterfactuals_2007, Chapitre 1]. Ce livre comprend de bons examples de raisonnement pour faire des assertions de causalité à partir de données d'observation.
 
 - [@glennerster_running_2013]. Ceci est une excellente introduction pour mener des expériences de terrain illustrée par nombreux exemples.
 
-### EGAP Policy Briefs
+### TODO EGAP Policy Briefs
 
-Some examples of causal questions:
+Quelques exemples de questions causales :
 
 - [EGAP Policy Brief 38: Les campagnes d'éducation des électeurs à la radio sont-elles efficaces pour décourager les électeurs de voter pour des partis ou candidats qui s'engagent dans l'achat de voix ?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
 

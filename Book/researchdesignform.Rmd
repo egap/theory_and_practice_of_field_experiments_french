@@ -2,25 +2,25 @@
 
 Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques des modules qui suivent.
 
-Ce module présente le [Formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. The Learning Days workshops are organized around the Research Design Form.  We also point you towards the [DeclareDesign](http://declaredesign.org) software package to explore the implications of different choices we could make for our research designs.  Finally, this module discusses pre-analysis plans and pre-registration.  When plan our analyses and make these plans public, we improve our chances of persuading others with our results.
+Ce module présente le [Formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days TODO are organized around the Research Design Form.  TODO We also point you towards the [DeclareDesign](http://declaredesign.org) software package pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche.  Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
 
 ## Contenu
 
-- A **good research question** advances science and/or is a question the answer to which will inform a policy decision.
+- Une **bonne question de recherche** fait progresser la science et/ou est une question dont la réponse éclairera une décision politique.
 
-- Certain **research designs** are better able to address certain questions. We want to choose the design that best answers our key questions within our constraints.
+- Certains **designs de recherche** sont mieux pour répondre à certaines questions. Nous voulons choisir le design qui répond le mieux à nos questions clés compte tenu des contraintes de nos moyens.
 
-- Les questions que nous posons découlent --- souvent implicitement --- de nos valeurs et de notre compréhension du fonctionnement du monde. Ces **théories** rendent nos questions pertinentes. Et les expériences que nous réalisons nous renseignent sur la théorie. Cependant, TODO we hope that the evidence and data arising from these research designs improve our understanding.
+- Les questions que nous posons découlent --- souvent implicitement --- de nos valeurs et de notre compréhension du fonctionnement du monde. Ces **théories** rendent nos questions pertinentes. Et les expériences que nous réalisons nous renseignent sur la théorie. Cependant, nous espérons que les preuves et les données issues de ces designs de recherche amélioreront notre compréhension.
 
-- Core components of a research design
+- Composants de base d'un design de recherche
 
-- Présentation des composants de base de [TODO EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
+- Présentation des composants de base de [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
 
-- Introduce a research design software package, [DeclareDesign](http://declaredesign.org).
+- Introduire un progiciel de design de recherche, [DeclareDesign](http://declaredesign.org).
 
-- L'évolution des sciences sociales vers TODO the **review of designs, rather than outcomes**.
+- L'évolution des sciences sociales vers TODO the **l'examen des designs, au lieu des résultats**.
 
-- **TODO Pre-registration** -- ce que c'est, et pourquoi et comment nous devons le faire.
+- **Le pré-enregistrement** -- ce que c'est, et pourquoi et comment nous devons le faire.
 
 
 ## Slides
@@ -41,7 +41,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [Présentation de DeclareDesign  aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
-Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problèmatiques relatives TODO designing the research, plutôt que les résultats:
+Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problèmatiques relatives dans le design de la recherche, au lieu des résultats:
 
  - [Design Talk aux EGAP Learning Days à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 
@@ -59,16 +59,16 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
  - [Design Talk from EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
 
-## TODO Design Form and Pre-registration
+## Formulaire de design et pré-enregistrement
 
-- [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). Une checklist que nous avons créée pour les Learning Days pour vous guider à travers les étapes du processus de recherche.
+- [Formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html). Une checklist que nous avons créée pour les Learning Days pour vous guider à travers les étapes du processus de recherche.
      - [Version Docx](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
 
      - [Version PDF](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
 
      - [Version HTML](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
 
-- Liens vers les répertoires pour TODO pre-registration/pre-analysis plans:
+- Liens vers les répertoires pour pré-enregistrement/plans de pré-analyse:
 
     - Le registre EGAP, hébergé par OSF (https://egap.org/registry/)
 
@@ -76,28 +76,28 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
     - OSF (https://osf.io/registries)
 
-- Exemples d'autres TODO pre-registrations/pre-analysis plans:
+- Exemples d'autres pré-enregistrements/plans de pré-analyse:
 
     - SMS au Mozambique du [gouvernement fédéral américain](https://oes.gsa.gov/projects/sms-mozambique/)
 
     - Caméras portatives pour les policiers du [Lab @ DC](https://osf.io/472zh)
 
-## Resources
+## TODO Resources
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 choses à savoir sur Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+- Guide des méthodes EGAP [10 choses à savoir sur les plans de pré-analyse](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
 - Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
 
 ### Livres, chapitres et articles
 
-- [Preregistration as a Tool for Strengthening Federal Evaluation](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf). Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de TODO pre-analysis plans pour toutes [leurs pages d'expériences de terrain](https://oes.gsa.gov/work/).
+- [Pré-enregistrement comme outil pour renforcer l'évaluation fédérale](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf). Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de TODO pre-analysis plans pour toutes [leurs pages d'expériences de terrain](https://oes.gsa.gov/work/).
 
 - [@christensen_transparent_2019]. Le livre résume les nouvelles approches de la recherche en sciences sociales sur la transparence et la reproductibilité.
 
-- [@gerber_field_2012].  Chapter 12 includes some examples of experimental research designs.
+- [@gerber_field_2012].  Le chapitre 12 comprend quelques exemples de designs de recherche expérimentale.
 
 ### Outils
 
