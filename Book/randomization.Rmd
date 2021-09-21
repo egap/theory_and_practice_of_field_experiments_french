@@ -1,41 +1,41 @@
-# Randomization {.tabset}
+# Randomisation {.tabset}
 
-The module on [causal inference](causal-inference.html) discussed the crucial role of randomization for drawing valid inferences from a comparison of treated and untreated groups.  In this module, we move from theory to the first of many concrete choices for your research design.  
+Le module sur [l'inférence causale](causal-inference.html) aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre design de recherche.
 
-We introduce four common ways to randomize treatment -- simple, complete, block, and clustered -- and when these different types of randomization may be available and appropriate.  We also cover several popular designs including factorial designs and encouragement designs.  The module provides some guidance on implementation, including best practices for checking for balance and ensuring replicability.  
+Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et quand ces différents types de randomisation sont disponibles et appropriés.  Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs.  Le module fournit des conseils sur l'implementation, y compris les meilleures pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
 
 ## Contenu
 
-- What is **randomization**? Random assignment is **not** the same as random sampling.
+- Qu'est-ce que la **randomisation**? L'assignation aléatoire **n'est pas** la même que l'échantillonnage aléatoire.
 
-- Four common ways to randomize treatment:
+- Quatre façons courantes de randomiser le traitement :
 
-    - **Simple**: randomly assign units to treatment (like a coin flip).
+    - **Simple** : assigner de manière aléatoire des unités au traitement (comme un tirage au sort).
 
-    - **Complete**: within a list of eligible units, a assign a fixed number to receive a treatment (like drawing from a urn).
+    - **Complète** : au sein d'une liste d'unités éligibles, assigner un numéro fixe pour recevoir un traitement (comme tirer d'une urne).
 
-    - **Block (or stratified)**: assign treatment within specific strata or blocks, as if you are running an experiment within each block.
+    - **Par bloc (ou stratifié)** : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
       
-    - **Cluster**: assign groups (clusters) of observations to the same treatment condition.
+    - **En grappe (cluster)** : assigner des groupes (grappes ou clusters) d'observations à la même condition de traitement.
     
     
-- Some popular designs:
+- Quelques designs courants:
     
-    - Randomized **access**: randomization to availability of a treatment.
+    - **Accès randomisé** : randomiser la disponibilité du traitement.
     
-    - Randomized **delayed access**: randomize the timing of access.
+    - **Accès differé randomisé** : randomiser le timing de l'accès.
     
-    - **Factorial**: randomize units to combinations of treatment arms.
+    - **Factoriel** : randomiser les unités en combinaisons de bras de traitement.
     
-    - **Encouragement**: randomize the invitation to receive treatment.
+    - **Incitatif** : randomiser l'invitation à recevoir le traitement.
 
-- How do you check whether your randomization produced balance on observables?  Typically we conduct randomization tests also known as balance tests using the $d^2$ omnibus test from `xBalance` in the `RItools` package (because it is randomization inference) or approximate this result with an $F$-test.
+- Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d'homogénéité. On peut, par exemple, utiliser le test omnibus $d^2$ de `xBalance` dans le package `RItools` (car c'est une inférence basée sur la randomisation) ou on peut approximer ce résultat avec un test $F$.
 
-- There are, of course, **limits to randomization**.  We discuss some here and direct you to the module on [threats](threats-to-internal-validity-of-randomized-experiments.html) for more.
+- La randomisation a **des limites**.  Nous en discutons ici et nous vous orientons vers le module sur [les menaces](threats-to-internal-validity-of-randomized-experiments.html) pour en savoir plus.
 
 ## Slides
 
-Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la randomization. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la randomisation. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
 - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/randomization-slides.Rmd)
 
@@ -43,11 +43,12 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/randomization-slides.html)
 
-The linked files shows how to [do replicable randomization in R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd). You can also see more examples of randomization in R at  [10 Things You Need to Know About Randomization](https://egap.org/resource/10-things-to-know-about-randomization/).
+Les fichiers liés montrent comment [faire de la randomisation réplicable en R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd). 
+Vous pouvez également voir plus d'exemples de randomisation en R sur [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/).
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
-- [TODO The design issues presentation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [La présentation des issues de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (TODO first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
 - [La présentation de la randomisation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf)
 
@@ -66,11 +67,11 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - Guide des méthodes EGAP [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur la TODO randomisation en cluster](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
+- Guide des méthodes EGAP [10 choses à savoir sur la randomisation par grappe (cluster)](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
 
 ### Livres, chapitres et articles
 
-- [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles empiriques pour mener des études expérimentales.
+- [Procédures opérationnelles standard pour le laboratoire de Don Green à l'Université de Columbia](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles empiriques pour mener des études expérimentales.
 
 - [@glennerster_running_2013]. Chapitre 2 sur la randomisation.
 
@@ -78,41 +79,41 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 ### EGAP Policy Briefs
 
-*TODO Factorial designs*
+*Designs factoriels*
 
 - [EGAP Policy Brief 57: Comment les médias influencent les normes sociales : la preuve au Mexique](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
 
 - [EGAP Policy Brief 58: La responsabilisation bottom-up fonctionne-t-elle ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
-*TODO Randomizing access*
+*Randomiser l'accès*
 
 - [EGAP Policy Brief 24: Réduire l'accaparation par les élites dans les îles Salomon](https://egap.org/resource/brief-24-reducing-elite-capture-in-the-solomon-islands/)
 
-*TODO Randomizing delayed access*
+*Accès differé randomisé*
 
   - [EGAP Policy Brief 35: Réduire la récidive parmi les détenus libérés](https://egap.org/resource/brief-35-reducing-reconvictions-among-released-prisoners/)
 
   - [EGAP Policy Brief 60: Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan](https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/)
 
-*TODO Cluster randomization*
+*Randomisation en grappe (cluster)*
 
   - [EGAP Policy Brief 22: Pousser au vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
 
-*TODO Blocked cluster randomization*
+*Randomisation en grappe bloquée*
 
-  - [EGAP Policy Brief 54: TODO Incumbent Malfeasance Revelations](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
+  - [EGAP Policy Brief 54: Révélations de malversations des politicens en place](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
 
   - [EGAP Policy Brief 56: Signaler la corruption](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
 
 
 ### Outils
 
-- [RItools](https://cran.r-project.org/web/packages/RItools/index.html), un ensemble d'outils pour l'inférence basée sur la randomisation, y compris TODO balance testing.
+- [RItools](https://cran.r-project.org/web/packages/RItools/index.html), un ensemble d'outils pour l'inférence basée sur la randomisation, y compris le test d'homogénéité.
 
 
 ### Courtes vidéos explicatives
 
- - [TODO Randomization vs. Random Sampling](https://www.youtu.be/02A61b3hxvA)
+ - [Randomisation vs. échantillonnage aléatoire](https://www.youtu.be/02A61b3hxvA)
  
- - [TODO Cluster vs. Block Randomization](https://www.youtu.be/bL2U9z8hX1k)
+ - [Randomisation en grappes vs en blocs](https://www.youtu.be/bL2U9z8hX1k)
  
