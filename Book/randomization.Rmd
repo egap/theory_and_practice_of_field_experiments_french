@@ -60,7 +60,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 - [La présentation de la randomisation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf)
 
 
-## Resources
+## Ressources
 
 ### Guide des méthodes EGAP
 

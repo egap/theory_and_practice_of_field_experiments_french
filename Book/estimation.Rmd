@@ -65,7 +65,7 @@ TODO You can also see discussion of the problems of estimating the effect of the
 - [La présentation des menaces aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016 (the middle section reviews ITT and non-compliance )](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
 
-## Resources
+## Ressources
 
 ### Guide des méthodes EGAP
 

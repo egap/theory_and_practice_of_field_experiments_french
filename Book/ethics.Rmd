@@ -32,7 +32,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/ethics-slides.html)
 
-## Resources
+## Ressources
 
 - [Principes de recherche et travaux sur l'éthique de EGAP](https://egap.org/ethics/)
 

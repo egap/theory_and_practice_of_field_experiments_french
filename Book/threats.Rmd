@@ -54,7 +54,7 @@ Vous pouvez également voir les slides utilisées lors des précédents EGAP Lea
 
 - [Présentation sur l'attrition et les données manquantes aux EGAP Learning Days à l'Universidad Diego Portales à Santiago, Chili, Mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
-## Resources
+## Ressources
 
 ### Guide des méthodes EGAP
 
