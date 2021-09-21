@@ -82,7 +82,7 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
     - Caméras portatives pour les policiers du [Lab @ DC](https://osf.io/472zh)
 
-## TODO Resources
+## Ressources
 
 ### Guide des méthodes EGAP
 

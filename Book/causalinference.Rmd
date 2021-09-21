@@ -4,7 +4,7 @@ Une grande partie des sciences sociales porte sur la causalité. On peut se dema
 
 Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions de causalité, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher and Rubin](#causalinference-classics). On recourt davantage aux expériences; la randomisation est devenue la norme de référence pour répondre aux questions causales.
 
-Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle à résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, TODO la non-interférence et l'exclusion.
+Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle à résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
 
 ## Contenu
 
@@ -14,7 +14,7 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
  - La **randomisation** nous aide à comprendre les assertions causales contrefactuelles d'une manière particulièrement utile.
 
- - Les trois principales **hypothèses de base** pour l'inférence causale: TODO l'assignation aléatoire des sujets au traitement, non-interference, and excludability.
+ - Les trois principales **hypothèses de base** pour l'inférence causale: l'assignation aléatoire des sujets au traitement, la non-interférence et l'excluabilité.
 
  - Comparaison des études aléatoires avec des études d'observation.
 
@@ -48,7 +48,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [La présentation de l'inférence causale aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
 
-## TODO Resources
+## Ressources
 
 ### Guide des méthodes EGAP
 
