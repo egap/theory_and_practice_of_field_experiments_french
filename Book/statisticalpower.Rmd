@@ -52,17 +52,17 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - Guide des méthodes EGAP [10 choses à savoir sur la puissance statistique](https://egap.org/resource/10-things-you-need-know-about-statistical-power/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur TODO Covariate Adjustment](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariance](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
  
- - Guide des méthodes EGAP [10 choses que vos TODO résulats nuls peuvent signifier](https://egap.org/resource/10-things-your-null-result-might-mean/)
+ - Guide des méthodes EGAP [10 choses que vos résulats non-concluants peuvent signifier](https://egap.org/resource/10-things-your-null-result-might-mean/)
 
-### EGAP Policy Briefs and PAPs TODO
+### Notes d'orientation des politiques publiques EGAP et plans de pré-analyse
 
 Some examples of power analysis in designs:
 
  - [Pre-Analysis Plan. Accountability Can Transform (ACT) Health: A Replication and Extension of Bjorkman and Svensson (2009)](https://osf.io/qxwmu/)
  
- - [EGAP Policy Brief 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+ - [Note d'orientation des politiques publiques EGAP 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 
 ### Outils

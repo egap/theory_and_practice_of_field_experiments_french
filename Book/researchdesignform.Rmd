@@ -16,7 +16,7 @@ Ce module présente le [formulaire de design de recherche EGAP](https://egap.git
 
 - Présentation des composants de base de [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
 
-- Introduire un progiciel de design de recherche, [DeclareDesign](http://declaredesign.org).
+- Introduire le package pour le design de recherche, [DeclareDesign](http://declaredesign.org).
 
 - L'évolution des sciences sociales vers **l'examen des designs, au lieu de l'examination des résultats**.
 

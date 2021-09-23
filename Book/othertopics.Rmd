@@ -1,6 +1,6 @@
 # Other Topics {.tabset}
 
-Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant le workshop mais qui sont importants pour TODO experimental design.
+Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant le workshop mais qui sont importants pour le design expérimental.
 
 ## Contenu
  
@@ -15,16 +15,16 @@ Ici, nous fournissons des liens vers des ressources pour aider les gens à en ap
 
 - Inférence aléatoire et procédures en ri2
   - L'nférence aléatoire est une méthode pour le calcul des p-valeurs pour les tests d'hypothèse
-  - ir2 est un package R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs TODO RI pour différents TODO estimands
+  - ir2 est un package R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs TODO RI pour les différentes estimations
 
 - Lecture des résultats
   - Comment comprendre et interpréter la sortie de régression?
   
 - Intégration une recherche qualitative
 
-- TODO Adaptive designs
-  - Most designs are static: ie the same procedures for allocating treatments and measuring outcomes are applied throughout the trial. 
-  - Adaptive designs adjust the allocation treatment and control assignment based on interim analysis of the trial’s result.
+- Designs évolutifs
+  - La plupart des designs sont statiques : c'est-à-dire que les mêmes procédures d'assignation des traitements et de mesure des résultats sont appliquées tout au long de l'expérience.
+  - Les designs évolutifs ajustent l'assignation du traitement et du contrôle sur la base d'une analyse intermédiaire du résultat de l'expérience.
 
 - Meta-analyse
 
@@ -34,8 +34,8 @@ Ici, nous fournissons des liens vers des ressources pour aider les gens à en ap
 
 ### Guide des méthodes EGAP
 
-- [10 choses à savoir sur TODO Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/)
-- [10 choses à savoir sur TODO Randomization Inference](https://egap.org/resource/10-things-to-know-about-randomization-inference/)
+- [10 choses à savoir sur la gestion de project](https://egap.org/resource/10-things-to-know-about-project-workflow/)
+- [10 choses à savoir sur l'inférence aléatoire](https://egap.org/resource/10-things-to-know-about-randomization-inference/)
 - [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
 ### Livres, chapitres et articles

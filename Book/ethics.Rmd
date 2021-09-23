@@ -54,10 +54,10 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 - [@Evans2021ethics] <!--[pdf](https://www.cgdev.org/sites/default/files/WP565-Evans-Ethical-issues-and-RCTs.pdf) -->
 
-### Articles et TODO plans de pré-analyse
+### Articles et plans de pré-analyse
 
-Exemples de TODO PAPs et d'articles sur les considérations éthiques:
+Exemples de plans de pré-analyse et d'articles sur les considérations éthiques:
 
-- [TODO Pre Analysis Plan: les effets des bons non-alimentaires dans un contexte humanitaire, le cas du programme de réponse rapide aux mouvements de population au Congo](https://osf.io/eutx7/)
+- [Plan de pré-analyse: les effets des bons non-alimentaires dans un contexte humanitaire, le cas du programme de réponse rapide aux mouvements de population au Congo](https://osf.io/eutx7/)
 
 - [Article: Appendix E.1 Lutter contre la violence à l'égard des femmes en encourageant la dénonciation: une expérience dans les médias de masse en Ouganda rural](http://jasper-cooper.com/papers/Green_et_al.pdf)

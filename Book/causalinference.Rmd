@@ -78,16 +78,16 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - [@glennerster_running_2013]. Ceci est une excellente introduction pour mener des expériences de terrain illustrée par nombreux exemples.
 
-### TODO EGAP Policy Briefs
+### Notes d'orientation des politiques publiques EGAP
 
 Quelques exemples de questions causales :
 
-- [EGAP Policy Brief 38: Les campagnes d'éducation des électeurs à la radio sont-elles efficaces pour décourager les électeurs de voter pour des partis ou candidats qui s'engagent dans l'achat de voix ?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
+- [Note d'orientation des politiques publiques EGAP 38: Les campagnes d'éducation des électeurs à la radio sont-elles efficaces pour décourager les électeurs de voter pour des partis ou candidats qui s'engagent dans l'achat de voix ?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
 
-- [EGAP Policy Brief 51: Les technologies de l'information et de communication gratuites et anonymes peuvent-elles renforcer la responsabilité locale et améliorer les prestations de services publics ?](https://egap.org/resource/does-information-technology-improve-public-service-delivery-lessons-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 51: Les technologies de l'information et de communication gratuites et anonymes peuvent-elles renforcer la responsabilité locale et améliorer les prestations de services publics ?](https://egap.org/resource/does-information-technology-improve-public-service-delivery-lessons-from-uganda/)
 
-- [EGAP Policy Brief 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
-- [EGAP Policy Brief 69: Une surveillance citoyenne bottom-up améliore-t-elle les prestations de services publics ?](https://egap.org/resource/brief-69-bottom-up-accountability-and-public-service-provision-in-brazil/)
+- [Note d'orientation des politiques publiques EGAP 69: Une surveillance citoyenne bottom-up améliore-t-elle les prestations de services publics ?](https://egap.org/resource/brief-69-bottom-up-accountability-and-public-service-provision-in-brazil/)
 
 

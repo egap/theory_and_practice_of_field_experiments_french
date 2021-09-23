@@ -17,6 +17,7 @@ You can find the preview of this example at <https://egap.github.io/theory_and_p
 | counterfactual conceptualizations of causality | conceptualisations contrefactuelles de causalité |
 | Covariate Adjustment | ajustement de covariance |
 | design | le design |
+| survey design | le design de questionnaire |
 | design clinic | ateliers de design |
 | doctoral fellow | chercheur postdoctoral |
 | encouragement designs | les designs incitatifs |

@@ -14,23 +14,23 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
 
      - L'hypothèse nulle.
 
-     - Estimateurs versus tests statistiques.
+     - Estimateurs versus statistiques de test.
 
      - TODO In an experiment, a reference distribution for a hypothesis test comes from the experimental design and the randomization.
 
      - Les $p$-valeurs et comment interpréter les résultats des tests d'hypothèses.
 
-- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les TODO bizarreries ; avoir une puissance statistique élevée) .
+- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les anomalies; avoir une puissance statistique élevée) .
 
-- Comment saurons-nous si notre test d'hypothèse fait du bon travail? ([TODO Power analysis](statistical-power-and-design-diagnosands.html) a son propre module).
+- Comment saurons-nous si notre test d'hypothèse fait du bon travail? ([Analyse de puissance](statistical-power-and-design-diagnosands.html) a son propre module).
 
     - Taux de faux positifs.
     
     - Couverture correcte de l'intervalle de confiance.
 
-    - Évaluer le taux de faux positifs d'un test d'hypothèse pour un TODO design donné et un choix de test statistique; TODO the case of cluster-randomized trials and robust cluster standard errors.
+    - Évaluer le taux de faux positifs d'un test d'hypothèse pour un design donné et un choix de statistique de test; TODO the case of cluster-randomized trials and robust cluster standard errors.
 
-- Soyez prudent lorsque vous testez **de nombreuses hypothèses**, par exemple lorsque vous avez plus de deux TODO treatment arms ou que vous évaluez les effets d'un traitement sur plusieurs TODO outcomes. Nous devons veiller à **ajuster les $p$-valeurs ou les intervalles de confiance** pour refléter le nombre de tests ou d'intervalles produits.
+- Soyez prudent lorsque vous testez **de nombreuses hypothèses**, par exemple lorsque vous avez plus de deux bras de traitement ou que vous évaluez les effets d'un traitement sur plusieurs résultats. Nous devons veiller à **ajuster les $p$-valeurs ou les intervalles de confiance** pour refléter le nombre de tests ou d'intervalles produits.
 
 ## Slides
 
