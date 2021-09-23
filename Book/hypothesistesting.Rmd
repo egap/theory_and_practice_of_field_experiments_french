@@ -1,6 +1,6 @@
 # Tests d'hypothèses {.tabset}
 
-We cannot directly observe causal effects because of the *fundamental problem of counterfactual causal inference* ([causal inference module](causal-inference.html)).  So how can we learn about these *unobserved causal effects* using what we do observe?  In a randomized experiment, we can assess *guesses* or *hypotheses* about the unobserved causal effects by comparing what we observe in a given experiment to what we would observe if we were able to repeat the experimental manipulation and the guess or hypothesis were true.
+Ce n'est pas possible d'observer directement des effets causaux à cause du *problème fondamental de l'inférence causale* ([module de l'inférence causale](causal-inference.html)).  Comment pouvons-nous en savoir plus sur ces *effets causaux non observés* en utilisant ce que nous observons?  Dans une expérience aléatoire, nous pouvons évaluer des *suppositions* ou des *hypothèses* sur les effets causaux non observés. Pour ce faire, nous comparons ce que nous observons dans une expérience à ce que nous observerions si nous pouvions répéter la manipulation expérimentale et que la supposition ou l'hypothèse était vraie.
 
 Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'inférence causale, les $p$-valeurs et ce qu'il faut faire lorsque nous avons plusieurs hypothèses à tester.
 
@@ -16,11 +16,11 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
 
      - Estimateurs versus statistiques de test.
 
-     - TODO In an experiment, a reference distribution for a hypothesis test comes from the experimental design and the randomization.
+     - Dans une expérience, une distribution de référence pour un test d'hypothèse provient du design expérimental et de la randomisation.
 
      - Les $p$-valeurs et comment interpréter les résultats des tests d'hypothèses.
 
-- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les anomalies; avoir une puissance statistique élevée) .
+- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute TODO les anomalies; avoir une puissance statistique élevée) .
 
 - Comment saurons-nous si notre test d'hypothèse fait du bon travail? ([Analyse de puissance](statistical-power-and-design-diagnosands.html) a son propre module).
 
@@ -30,7 +30,7 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
 
     - Évaluer le taux de faux positifs d'un test d'hypothèse pour un design donné et un choix de statistique de test; TODO the case of cluster-randomized trials and robust cluster standard errors.
 
-- Soyez prudent lorsque vous testez **de nombreuses hypothèses**, par exemple lorsque vous avez plus de deux bras de traitement ou que vous évaluez les effets d'un traitement sur plusieurs résultats. Nous devons veiller à **ajuster les $p$-valeurs ou les intervalles de confiance** pour refléter le nombre de tests ou d'intervalles produits.
+- Soyez prudent lorsque vous testez **de nombreuses hypothèses**, par exemple quand vous avez plus de deux bras de traitement ou que vous évaluez les effets d'un traitement sur plusieurs résultats. Nous devons veiller à **ajuster les $p$-valeurs ou les intervalles de confiance** pour refléter le nombre de tests ou d'intervalles produits.
 
 ## Slides
 
@@ -67,9 +67,9 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 ### Livres, chapitres et articles
 
- - [@gerber_field_2012]. Chapitre 3: Sampling Distributions, Statistical Inference, and Hypothesis Testing.
+ - [@gerber_field_2012]. Chapitre 3: Distributions d'échantillonnage, inférence statistique et test d'hypothèse.
  
- - [@rosenbaum2010design]. Chapitre 2: Causal Inference in Randomized Experiments.
-
- - [@rosenbaum2017observation]. Partie I: Randomized Experiments.
+ - [@rosenbaum2010design]. Chapitre 2 : Inférence causale dans les expériences aléatoires.
+ 
+ - [@rosenbaum2017observation]. Partie I: Expériences aléatoires.
 
