@@ -1,8 +1,8 @@
-# Estimations et estimateurs {.tabset}
+# Estimandes et estimateurs {.tabset}
 
-Les expériences aléatoires les expériences génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle.  Cela nous permet d'avoir des estimateurs sans biais des effets moyens du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre avec des erreurs standards et des intervalles de confiance.
+Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais des effets moyens du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre avec des erreurs standards et des intervalles de confiance.
 
-Dans ce module, nous introduisons plusieurs types d'estimations.  Le choix de l'estimation est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cette estimation dans le cadre du design de recherche.  Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer une estimation et comment caractériser sa variabilité.   
+Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cette estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
 
 
 ## Contenu
@@ -15,8 +15,7 @@ ou comme quantité cible sur laquelle émettre une hypothèse ([module de test d
 - Beaucoup de gens se concentrent sur **l'effet moyen du traitement (ATE)**, $\bar{\tau}=\sum_{i=1}^n
    \tau_{i}$, en partie parce qu'il permet **d'estimer** facilement.
 
-- Un **estimateur** est une recette pour calculer une supposition 
-sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour $m$ unités traitées et la moyenne des résultats observés pour $N-m$ unités non traitées est un estimateur de $\bar{\tau}$. 
+- Un **estimateur** est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour $m$ unités traitées et la moyenne des résultats observés pour $N-m$ unités non traitées est un estimateur de $\bar{\tau}$.
 
 - Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. Une **erreur standard** résume cette variabilité dans un estimateur.
 
@@ -26,12 +25,11 @@ sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des r
 
  - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs standards devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 
- - Nous **ne contrôlons pas** les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus **précise**. C'est ce qu'on appelle **l'ajustement de covariance**. L'ajustement de covariance dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
+ - Nous **ne contrôlons pas** les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus **précise**. C'est ce qu'on appelle **l'ajustement de covariable**. L'ajustement de covariable dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 
  - Une intervention politique (comme une lettre qui encourage l'exercice) peut *avoir l'intention* de changer un comportement par **une dose active** (exercice réel). Nous pouvons apprendre l'effet causal de l'intention en envoyent les lettres de façon aléatoire. C'est ce qu'on appele **l'effet d'intention de traiter** (intent to treat effect, **ITT**).
  
- - Nous pouvons apprendre sur l'effet causal de l'exercice réel en utilisant l'attribution aléatoire de lettres comme **instrument** la dose active (l'exercice lui-même) afin d'apprendre davantage sur l'effet causal de l'exercice **chez ceux qui changeraient leur comportement après avoir reçu la lettre**. Les versions d'effet causal moyen de ces effets sont souvent connues sous le nom de ** TODO complier average causal effect** ou **l'effet de traitement moyen local**.
-
+ - Nous pouvons apprendre sur l'effet causal de l'exercice réel en utilisant l'attribution aléatoire de lettres comme **instrument** la dose active (l'exercice lui-même) afin d'apprendre davantage sur l'effet causal de l'exercice **chez ceux qui changeraient leur comportement après avoir reçu la lettre**. Cette version de l'effet causal moyen est souvent connue sous le nom **d'effet moyen local du traitement**.
 
 
 ## Slides
@@ -77,13 +75,13 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
  - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur l'effet de traitement moyen local](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur les effets de TODO débordement](https://egap.org/resource/10-things-to-know-about-spillovers/)
+ - Guide des méthodes EGAP [10 choses à savoir sur les effets de débordement](https://egap.org/resource/10-things-to-know-about-spillovers/)
 
 ### Livres, chapitres et articles
 
- - [@gerber_field_2012]. TODO Chapter 2.7 on excludability and non-interference, Chapter 3, Chapter 5 on one-sided noncompliance, Chapter 6 on two-sided noncompliance, Chapter 7 on attrition, Chapter 8 on interference between experimental units.
+ - [@gerber_field_2012]. Chapitre 2.7 sur l'excluabilité et la non-interférence, Chapitre 3, Chapitre 5 sur la non-conformité unilatérale, Chapitre 6 sur la non-conformité bilatérale, Chapitre 7 sur l'attrition, Chapitre 8 sur l'interférence entre les unités expérimentales.
 
  - [@bowers2020causality].
 

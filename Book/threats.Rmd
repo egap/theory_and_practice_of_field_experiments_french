@@ -14,13 +14,13 @@ Dans ce module, nous abordons certaines menaces courantes et les meilleures prat
 
      - Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.
 
-     - Vous pourriez TODO **lier** les estimations des effets du traitement.
+     - Vous pourriez **borner** les estimations des effets du traitement.
 
  - **Non-conformité**. L'effet de l'assignation du traitement n'est pas le même que l'effet reçu du traitement. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.
 
      - La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.
      
-     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées, mais pas autrement. Si la supposition de monotonie et la restriction d'exclusion sont remplis, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
+     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées, mais pas autrement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplis, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
 
  - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'inférence causale ([inférence causale](causalinference.html)).
 

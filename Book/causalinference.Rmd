@@ -1,4 +1,4 @@
-# L'inférence causale {.tabset}
+# Inférence causale {.tabset}
 
 Une grande partie des sciences sociales porte sur la causalité. On peut se demander si [l'inscription des électeurs augmente la participation politique](https://egap.org/resource/electoral-administration-in-kenya/), si [la responsabilisation bottom-up peut améliorer les perspectives en matière de santé](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/), ou si [les récits personnels des migrants aident à réduire les attitudes préjudiciables à leur égard](https://egap.org/resource/brief-70-how-personal-narratives-reduce-negative-attitudes-towards-immigrants-in-kenya/).
 

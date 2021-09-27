@@ -1,4 +1,4 @@
-# Le processus de design de recherche
+# Processus de design de recherche
 
 Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques des modules qui suivent.
 
