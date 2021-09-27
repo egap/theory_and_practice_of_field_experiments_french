@@ -5,7 +5,7 @@
 .DS_Store
 .*swp
 *.log
-Book/_book
+
 book-output
 Book/EGAP-learningdays-guide.Rmd
 **lib
