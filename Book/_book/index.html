@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>La théorie et la pratique des expériences de terrain : Une introduction des EGAP Learning Days | theory_and_practice_of_field_experiments_french.knit</title>
+  <meta name="description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="La théorie et la pratique des expériences de terrain : Une introduction des EGAP Learning Days | theory_and_practice_of_field_experiments_french.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
+  <meta name="github-repo" content="egap/theory_and_practice_of_field_experiments" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="La théorie et la pratique des expériences de terrain : Une introduction des EGAP Learning Days | theory_and_practice_of_field_experiments_french.knit" />
+  
+  <meta name="twitter:description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
+  
+
+<meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
+
+
+<meta name="date" content="2021-09-26" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="le-processus-de-design-de-recherche.html"/>
+<script src="book_assets/header-attrs/header-attrs.js"></script>
+<script src="book_assets/jquery/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="book_assets/gitbook/css/style.css" rel="stylesheet" />
+<link href="book_assets/gitbook/css/plugin-table.css" rel="stylesheet" />
+<link href="book_assets/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="book_assets/gitbook/css/plugin-highlight.css" rel="stylesheet" />
+<link href="book_assets/gitbook/css/plugin-search.css" rel="stylesheet" />
+<link href="book_assets/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="book_assets/gitbook/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="book_assets/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="book_assets/anchor-sections/anchor-sections.js"></script>
+
+        <script>
+/* ========================================================================
+ * Bootstrap: transition.js v3.3.7
+ * http://getbootstrap.com/javascript/#transitions
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+  // ============================================================
+
+  function transitionEnd() {
+    var el = document.createElement('bootstrap')
+
+    var transEndEventNames = {
+      WebkitTransition : 'webkitTransitionEnd',
+      MozTransition    : 'transitionend',
+      OTransition      : 'oTransitionEnd otransitionend',
+      transition       : 'transitionend'
+    }
+
+    for (var name in transEndEventNames) {
+      if (el.style[name] !== undefined) {
+        return { end: transEndEventNames[name] }
+      }
+    }
+
+    return false // explicit for ie8 (  ._.)
+  }
+
+  // http://blog.alexmaccaw.com/css-transitions
+  $.fn.emulateTransitionEnd = function (duration) {
+    var called = false
+    var $el = this
+    $(this).one('bsTransitionEnd', function () { called = true })
+    var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+    setTimeout(callback, duration)
+    return this
+  }
+
+  $(function () {
+    $.support.transition = transitionEnd()
+
+    if (!$.support.transition) return
+
+    $.event.special.bsTransitionEnd = {
+      bindType: $.support.transition.end,
+      delegateType: $.support.transition.end,
+      handle: function (e) {
+        if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments)
+      }
+    }
+  })
+
+}(jQuery);
+</script>
+        <script>
+/* ========================================================================
+ * Bootstrap: collapse.js v3.3.7
+ * http://getbootstrap.com/javascript/#collapse
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+/* jshint latedef: false */
+
++function ($) {
+  'use strict';
+
+  // COLLAPSE PUBLIC CLASS DEFINITION
+  // ================================
+
+  var Collapse = function (element, options) {
+    this.$element      = $(element)
+    this.options       = $.extend({}, Collapse.DEFAULTS, options)
+    this.$trigger      = $('[data-toggle="collapse"][href="#' + element.id + '"],' +
+                           '[data-toggle="collapse"][data-target="#' + element.id + '"]')
+    this.transitioning = null
+
+    if (this.options.parent) {
+      this.$parent = this.getParent()
+    } else {
+      this.addAriaAndCollapsedClass(this.$element, this.$trigger)
+    }
+
+    if (this.options.toggle) this.toggle()
+  }
+
+  Collapse.VERSION  = '3.3.7'
+
+  Collapse.TRANSITION_DURATION = 350
+
+  Collapse.DEFAULTS = {
+    toggle: true
+  }
+
+  Collapse.prototype.dimension = function () {
+    var hasWidth = this.$element.hasClass('width')
+    return hasWidth ? 'width' : 'height'
+  }
+
+  Collapse.prototype.show = function () {
+    if (this.transitioning || this.$element.hasClass('in')) return
+
+    var activesData
+    var actives = this.$parent && this.$parent.children('.panel').children('.in, .collapsing')
+
+    if (actives && actives.length) {
+      activesData = actives.data('bs.collapse')
+      if (activesData && activesData.transitioning) return
+    }
+
+    var startEvent = $.Event('show.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    if (actives && actives.length) {
+      Plugin.call(actives, 'hide')
+      activesData || actives.data('bs.collapse', null)
+    }
+
+    var dimension = this.dimension()
+
+    this.$element
+      .removeClass('collapse')
+      .addClass('collapsing')[dimension](0)
+      .attr('aria-expanded', true)
+
+    this.$trigger
+      .removeClass('collapsed')
+      .attr('aria-expanded', true)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse in')[dimension]('')
+      this.transitioning = 0
+      this.$element
+        .trigger('shown.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    var scrollSize = $.camelCase(['scroll', dimension].join('-'))
+
+    this.$element
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)[dimension](this.$element[0][scrollSize])
+  }
+
+  Collapse.prototype.hide = function () {
+    if (this.transitioning || !this.$element.hasClass('in')) return
+
+    var startEvent = $.Event('hide.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    var dimension = this.dimension()
+
+    this.$element[dimension](this.$element[dimension]())[0].offsetHeight
+
+    this.$element
+      .addClass('collapsing')
+      .removeClass('collapse in')
+      .attr('aria-expanded', false)
+
+    this.$trigger
+      .addClass('collapsed')
+      .attr('aria-expanded', false)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.transitioning = 0
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse')
+        .trigger('hidden.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    this.$element
+      [dimension](0)
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
+  }
+
+  Collapse.prototype.toggle = function () {
+    this[this.$element.hasClass('in') ? 'hide' : 'show']()
+  }
+
+  Collapse.prototype.getParent = function () {
+    return $(this.options.parent)
+      .find('[data-toggle="collapse"][data-parent="' + this.options.parent + '"]')
+      .each($.proxy(function (i, element) {
+        var $element = $(element)
+        this.addAriaAndCollapsedClass(getTargetFromTrigger($element), $element)
+      }, this))
+      .end()
+  }
+
+  Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
+    var isOpen = $element.hasClass('in')
+
+    $element.attr('aria-expanded', isOpen)
+    $trigger
+      .toggleClass('collapsed', !isOpen)
+      .attr('aria-expanded', isOpen)
+  }
+
+  function getTargetFromTrigger($trigger) {
+    var href
+    var target = $trigger.attr('data-target')
+      || (href = $trigger.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
+
+    return $(target)
+  }
+
+
+  // COLLAPSE PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.collapse')
+      var options = $.extend({}, Collapse.DEFAULTS, $this.data(), typeof option == 'object' && option)
+
+      if (!data && options.toggle && /show|hide/.test(option)) options.toggle = false
+      if (!data) $this.data('bs.collapse', (data = new Collapse(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  var old = $.fn.collapse
+
+  $.fn.collapse             = Plugin
+  $.fn.collapse.Constructor = Collapse
+
+
+  // COLLAPSE NO CONFLICT
+  // ====================
+
+  $.fn.collapse.noConflict = function () {
+    $.fn.collapse = old
+    return this
+  }
+
+
+  // COLLAPSE DATA-API
+  // =================
+
+  $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
+    var $this   = $(this)
+
+    if (!$this.attr('data-target')) e.preventDefault()
+
+    var $target = getTargetFromTrigger($this)
+    var data    = $target.data('bs.collapse')
+    var option  = data ? 'toggle' : $this.data()
+
+    Plugin.call($target, option)
+  })
+
+}(jQuery);
+</script>
+<script>
+window.initializeCodeFolding = function(show) {
+
+  // handlers for show-all and hide all
+  $("#rmd-show-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('show');
+    });
+  });
+  $("#rmd-hide-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('hide');
+    });
+  });
+
+  // index for unique code element ids
+  var currentIndex = 1;
+
+  // select all R code blocks
+  var rCodeBlocks = $('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan');
+  rCodeBlocks.each(function() {
+
+    // create a collapsable div to wrap the code in
+    var div = $('<div class="collapse r-code-collapse"></div>');
+    if (show)
+      div.addClass('in');
+    var id = 'rcode-643E0F36' + currentIndex++;
+    div.attr('id', id);
+    $(this).before(div);
+    $(this).detach().appendTo(div);
+
+    // add a show code button right above
+    var showCodeText = $('<span>' + (show ? 'Hide' : 'Code') + '</span>');
+    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>');
+    showCodeButton.append(showCodeText);
+    showCodeButton
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    var buttonRow = $('<div class="row"></div>');
+    var buttonCol = $('<div class="col-md-12"></div>');
+
+    buttonCol.append(showCodeButton);
+    buttonRow.append(buttonCol);
+
+    div.before(buttonRow);
+
+    // update state of button on show/hide
+    div.on('hidden.bs.collapse', function () {
+      showCodeText.text('Code');
+    });
+    div.on('show.bs.collapse', function () {
+      showCodeText.text('Hide');
+    });
+  });
+
+}
+</script>
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+.row { display: flex; }
+.collapse { display: none; }
+.in { display:block }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0QN1VN8C67"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-0QN1VN8C67'); </script>
+<script type="application/json" class="js-hypothesis-config">
+
+{"showHighlights": false}
+
+</script>
+
+<script src="https://hypothes.is/embed.js" async></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>EGAP Learning Days</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#comment-utiliser-le-livre"><i class="fa fa-check"></i><b>1.1</b> Comment utiliser le livre</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#nous-apprécions-vos-retours"><i class="fa fa-check"></i><b>1.2</b> Nous apprécions vos retours !</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#remerciements"><i class="fa fa-check"></i><b>1.3</b> Remerciements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html"><i class="fa fa-check"></i><b>2</b> Le processus de design de recherche</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#contenu"><i class="fa fa-check"></i><b>2.1</b> Contenu</a></li>
+<li class="chapter" data-level="2.2" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#slides"><i class="fa fa-check"></i><b>2.2</b> Slides</a></li>
+<li class="chapter" data-level="2.3" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#formulaire-de-design-et-pré-enregistrement"><i class="fa fa-check"></i><b>2.3</b> Formulaire de design et pré-enregistrement</a></li>
+<li class="chapter" data-level="2.4" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#ressources"><i class="fa fa-check"></i><b>2.4</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#guide-des-méthodes-egap"><i class="fa fa-check"></i><b>2.4.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="2.4.2" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#livres-chapitres-et-articles"><i class="fa fa-check"></i><b>2.4.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="2.4.3" data-path="le-processus-de-design-de-recherche.html"><a href="le-processus-de-design-de-recherche.html#outils"><i class="fa fa-check"></i><b>2.4.3</b> Outils</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="linférence-causale.html"><a href="linférence-causale.html"><i class="fa fa-check"></i><b>3</b> L’inférence causale</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="linférence-causale.html"><a href="linférence-causale.html#contenu-1"><i class="fa fa-check"></i><b>3.1</b> Contenu</a></li>
+<li class="chapter" data-level="3.2" data-path="linférence-causale.html"><a href="linférence-causale.html#slides-1"><i class="fa fa-check"></i><b>3.2</b> Slides</a></li>
+<li class="chapter" data-level="3.3" data-path="linférence-causale.html"><a href="linférence-causale.html#ressources-1"><i class="fa fa-check"></i><b>3.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="linférence-causale.html"><a href="linférence-causale.html#guide-des-méthodes-egap-1"><i class="fa fa-check"></i><b>3.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="3.3.2" data-path="linférence-causale.html"><a href="linférence-causale.html#causalinference-cites"><i class="fa fa-check"></i><b>3.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="3.3.3" data-path="linférence-causale.html"><a href="linférence-causale.html#notes-dorientation-des-politiques-publiques-egap"><i class="fa fa-check"></i><b>3.3.3</b> Notes d’orientation des politiques publiques EGAP</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="randomisation.html"><a href="randomisation.html"><i class="fa fa-check"></i><b>4</b> Randomisation</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="randomisation.html"><a href="randomisation.html#contenu-2"><i class="fa fa-check"></i><b>4.1</b> Contenu</a></li>
+<li class="chapter" data-level="4.2" data-path="randomisation.html"><a href="randomisation.html#slides-2"><i class="fa fa-check"></i><b>4.2</b> Slides</a></li>
+<li class="chapter" data-level="4.3" data-path="randomisation.html"><a href="randomisation.html#ressources-2"><i class="fa fa-check"></i><b>4.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="randomisation.html"><a href="randomisation.html#guide-des-méthodes-egap-2"><i class="fa fa-check"></i><b>4.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="4.3.2" data-path="randomisation.html"><a href="randomisation.html#livres-chapitres-et-articles-1"><i class="fa fa-check"></i><b>4.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="4.3.3" data-path="randomisation.html"><a href="randomisation.html#notes-dorientation-des-politiques-publiques-egap-1"><i class="fa fa-check"></i><b>4.3.3</b> Notes d’orientation des politiques publiques EGAP</a></li>
+<li class="chapter" data-level="4.3.4" data-path="randomisation.html"><a href="randomisation.html#outils-1"><i class="fa fa-check"></i><b>4.3.4</b> Outils</a></li>
+<li class="chapter" data-level="4.3.5" data-path="randomisation.html"><a href="randomisation.html#courtes-vidéos-explicatives"><i class="fa fa-check"></i><b>4.3.5</b> Courtes vidéos explicatives</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html"><i class="fa fa-check"></i><b>5</b> Tests d’hypothèses</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#contenu-3"><i class="fa fa-check"></i><b>5.1</b> Contenu</a></li>
+<li class="chapter" data-level="5.2" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#slides-3"><i class="fa fa-check"></i><b>5.2</b> Slides</a></li>
+<li class="chapter" data-level="5.3" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#ressources-3"><i class="fa fa-check"></i><b>5.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#guide-des-méthodes-egap-3"><i class="fa fa-check"></i><b>5.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="5.3.2" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#livres-chapitres-et-articles-2"><i class="fa fa-check"></i><b>5.3.2</b> Livres, chapitres et articles</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Estimations et estimateurs</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
+<li class="chapter" data-level="6.2" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
+<li class="chapter" data-level="6.3" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="6.3.2" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="6.3.3" data-path="estimations-et-estimateurs.html"><a href="estimations-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html"><i class="fa fa-check"></i><b>7</b> Puissance statistique et TODO les diagnosands de design</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html#contenu-5"><i class="fa fa-check"></i><b>7.1</b> Contenu</a></li>
+<li class="chapter" data-level="7.2" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html#slides-5"><i class="fa fa-check"></i><b>7.2</b> Slides</a></li>
+<li class="chapter" data-level="7.3" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html#ressources-5"><i class="fa fa-check"></i><b>7.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html#guide-des-méthodes-egap-5"><i class="fa fa-check"></i><b>7.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="7.3.2" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html#notes-dorientation-des-politiques-publiques-egap-et-plans-de-pré-analyse"><i class="fa fa-check"></i><b>7.3.2</b> Notes d’orientation des politiques publiques EGAP et plans de pré-analyse</a></li>
+<li class="chapter" data-level="7.3.3" data-path="puissance-statistique-et-todo-les-diagnosands-de-design.html"><a href="puissance-statistique-et-todo-les-diagnosands-de-design.html#outils-3"><i class="fa fa-check"></i><b>7.3.3</b> Outils</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="mesure.html"><a href="mesure.html"><i class="fa fa-check"></i><b>8</b> Mesure</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="mesure.html"><a href="mesure.html#contenu-6"><i class="fa fa-check"></i><b>8.1</b> Contenu</a></li>
+<li class="chapter" data-level="8.2" data-path="mesure.html"><a href="mesure.html#slides-6"><i class="fa fa-check"></i><b>8.2</b> Slides</a></li>
+<li class="chapter" data-level="8.3" data-path="mesure.html"><a href="mesure.html#ressources-6"><i class="fa fa-check"></i><b>8.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="mesure.html"><a href="mesure.html#guide-des-méthodes-egap-6"><i class="fa fa-check"></i><b>8.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="8.3.2" data-path="mesure.html"><a href="mesure.html#livres-chapitres-et-articles-4"><i class="fa fa-check"></i><b>8.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="8.3.3" data-path="mesure.html"><a href="mesure.html#notes-dorientation-des-politiques-publiques-egap-2"><i class="fa fa-check"></i><b>8.3.3</b> Notes d’orientation des politiques publiques EGAP</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><i class="fa fa-check"></i><b>9</b> Menaces pesant sur la validité interne des expériences aléatoires</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html#contenu-7"><i class="fa fa-check"></i><b>9.1</b> Contenu</a></li>
+<li class="chapter" data-level="9.2" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html#slides-7"><i class="fa fa-check"></i><b>9.2</b> Slides</a></li>
+<li class="chapter" data-level="9.3" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html#ressources-7"><i class="fa fa-check"></i><b>9.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html#guide-des-méthodes-egap-7"><i class="fa fa-check"></i><b>9.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="9.3.2" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html#livres-chapitres-et-articles-5"><i class="fa fa-check"></i><b>9.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="9.3.3" data-path="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html"><a href="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires.html#note-dorientation-des-politiques-publiques-egap"><i class="fa fa-check"></i><b>9.3.3</b> Note d’orientation des politiques publiques EGAP</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="considérations-éthiques.html"><a href="considérations-éthiques.html"><i class="fa fa-check"></i><b>10</b> Considérations éthiques</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="considérations-éthiques.html"><a href="considérations-éthiques.html#contenu-8"><i class="fa fa-check"></i><b>10.1</b> Contenu</a></li>
+<li class="chapter" data-level="10.2" data-path="considérations-éthiques.html"><a href="considérations-éthiques.html#slides-8"><i class="fa fa-check"></i><b>10.2</b> Slides</a></li>
+<li class="chapter" data-level="10.3" data-path="considérations-éthiques.html"><a href="considérations-éthiques.html#ressources-8"><i class="fa fa-check"></i><b>10.3</b> Ressources</a>
+<ul>
+<li class="chapter" data-level="10.3.1" data-path="considérations-éthiques.html"><a href="considérations-éthiques.html#livres-chapitres-et-articles-6"><i class="fa fa-check"></i><b>10.3.1</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="10.3.2" data-path="considérations-éthiques.html"><a href="considérations-éthiques.html#articles-et-plans-de-pré-analyse"><i class="fa fa-check"></i><b>10.3.2</b> Articles et plans de pré-analyse</a></li>
+</ul></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html"><i class="fa fa-check"></i><b>A</b> Glossaire des termes</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#key-concepts"><i class="fa fa-check"></i><b>A.1</b> Key Concepts</a></li>
+<li class="chapter" data-level="A.2" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#statistical-inference"><i class="fa fa-check"></i><b>A.2</b> Statistical Inference</a></li>
+<li class="chapter" data-level="A.3" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#randomization-strategies"><i class="fa fa-check"></i><b>A.3</b> Randomization Strategies</a></li>
+<li class="chapter" data-level="A.4" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#factorial-designs"><i class="fa fa-check"></i><b>A.4</b> Factorial Designs</a></li>
+<li class="chapter" data-level="A.5" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#threats"><i class="fa fa-check"></i><b>A.5</b> Threats</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html"><i class="fa fa-check"></i><b>B</b> Introduction à R et RStudio</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#r-et-rstudio"><i class="fa fa-check"></i><b>B.1</b> R et RStudio</a></li>
+<li class="chapter" data-level="B.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#télécharger-r-et-rstudio"><i class="fa fa-check"></i><b>B.2</b> Télécharger R et RStudio</a>
+<ul>
+<li class="chapter" data-level="B.2.1" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#télécharger-r"><i class="fa fa-check"></i><b>B.2.1</b> Télécharger R</a></li>
+<li class="chapter" data-level="B.2.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#télécharger-rstudio"><i class="fa fa-check"></i><b>B.2.2</b> Télécharger RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="B.3" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#linterface-rstudio"><i class="fa fa-check"></i><b>B.3</b> L’interface RStudio</a>
+<ul>
+<li class="chapter" data-level="B.3.1" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#la-console"><i class="fa fa-check"></i><b>B.3.1</b> La console</a></li>
+<li class="chapter" data-level="B.3.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#léditeur"><i class="fa fa-check"></i><b>B.3.2</b> L’éditeur</a></li>
+<li class="chapter" data-level="B.3.3" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#gestion"><i class="fa fa-check"></i><b>B.3.3</b> Gestion</a></li>
+<li class="chapter" data-level="B.3.4" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#divers"><i class="fa fa-check"></i><b>B.3.4</b> Divers</a></li>
+</ul></li>
+<li class="chapter" data-level="B.4" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#apprendre-à-utiliser-r"><i class="fa fa-check"></i><b>B.4</b> Apprendre à utiliser R</a>
+<ul>
+<li class="chapter" data-level="B.4.1" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#ressources-en-ligne"><i class="fa fa-check"></i><b>B.4.1</b> Ressources en ligne</a></li>
+<li class="chapter" data-level="B.4.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#exercise-de-base"><i class="fa fa-check"></i><b>B.4.2</b> Exercise de base</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="http://egap.org" target="blank"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Published by EGAP</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><div class="line-block">La théorie et la pratique des expériences de terrain :<br />
+Une introduction des EGAP Learning Days</div></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title"><div class="line-block">La théorie et la pratique des expériences de terrain :<br />
+Une introduction des EGAP Learning Days</div></h1>
+<p class="author"><em>Jake Bowers,<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Maarten Voors,<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> et Nahomi Ichino<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></em></p>
+<p class="date"><em>September 26, 2021</em></p>
+</div>
+<div id="introduction" class="section level1" number="1">
+<h1><span class="header-section-number">Module 1</span> Introduction</h1>
+<p>Durant la dernière décennie, <a href="http://egap.org/">Evidence in Governance and Politics (EGAP)</a> a organisé une série de workshops, <a href="https://egap.org/learning-days/">les Learning Days</a>, dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les directeurs de recherche – des cheurcheurs et praticiens – en Afrique et Amérique Latine. En partageant les méthodes pratiques et les méthodes statistiques des expériences de terrain aléatoires entre les participants, les Learning Days visent à créer et entretenir des réseaux de chercheurs dans le monde entier et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.</p>
+<p>Les Learning Days sont une combinaison d’ateliers de design, de présentations de travaux de recherche, d’utilisation de logiciel statistique et de conférences thématiques par un petit groupe d’instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les workshops abordent les méthodes de design et d’analyse pour des expériences de terrain aléatoires plutôt que des expériences aléatoires en laboratoire ou des études non-aléatoires.</p>
+<p><strong>Ce livre</strong> rassemble les matériaux développés pour les Learning Days. La version actuelle du livre est écrite principalement pour <strong>des instructeurs et des organisateurs</strong> de workshops et de cours similaires pour des directeurs de recherche — des professeurs, des cheurcheurs postdoctorals, des doctorants, des évaluateurs d’ONG et d’agences gouvernementales, etc — qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des Learning Days précédents.</p>
+<p>Ce livre est une revue complète des méthodes d’inférence causale pour les chercheurs qui développent un design de recherche expérimental. Ce livre est organisé en <strong>modules</strong> et comprend des sujets tels que l’inférence causale, la randomisation, les tests d’hypothèses, les estimations, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l’éthique de l’expérimentation. Les modules apparaissent dans l’ordre jugé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à vos besoins en tant qu’instructeur. En annexe, il y a des matériaux préparatoires comprenant un <a href="glossary-of-terms.html">glossaire des termes</a> et une <a href="introduction-to-r-and-rstudio.html">introduction à R et RStudio</a>.</p>
+<p>Ce livre comprend des <strong>slides</strong> sur le contenu principal, le <a href="researchdesignform.html">formulaire de design de recherche de EGAP</a> et des <strong>références</strong> d’exemples de recherche et des slides utilisés pendant les Learning Days précédents. Ces matériaux renforcent le travail de EGAP sur la méthodologie, résumé dans les <a href="https://egap.org/methods-guides/">guides de méthodes de EGAP</a>. Comparé aux Learning Days précédents, nous avons ajouté plus de matériaux sur les tests d’hypothèses, l’estimation et la puissance statistique. De nouveaux modules sur le processus de design de recherche, la mesure et les considérations éthiques sont désormais disponibles. Les slides et les modules présentés ici contiennent trop d’informations pour être couverts en une seule semaine, la durée habituelle d’un workshop de Learning Days. Cependant, nous avons décidé de conserver toutes les informations, afin d’aider les instructeurs à adapter leurs cours à leurs publics réspectifs.</p>
+<div id="comment-utiliser-le-livre" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Comment utiliser le livre</h2>
+<p>Pour profiter au maximum de ce livre, veuillez installer <a href="https://cran.r-project.org/">R</a> et <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> sur votre machine. En fait, les slides supposent que vous utilisiez Rmarkdown pour les adapter à vos besoins.</p>
+<p>Pour commencer avec R, voir le module <a href="introduction-to-r-and-rstudio.html">Introduction à R et RStudio</a>.</p>
+<p>Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc) soit en utilisant le bouton de téléchargement (Download) sur la première page de <a href="http://github.com/egap/theory_and_practice_of_field_experiments_french" class="uri">http://github.com/egap/theory_and_practice_of_field_experiments_french</a>, soit directement sur github en “forkant” ce repertoire.</p>
+<p>Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.</p>
+</div>
+<div id="nous-apprécions-vos-retours" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Nous apprécions vos retours !</h2>
+<p>Si vous avez des questions, des retours, ou si vous avez organisé votre propre événement, contactez-nous! Il suffit de créer une issue sur <a href="https://github.com/egap/theory_and_practice_of_field_experiments_french/issues">Github</a> ou faire des commentaires en utilisant hypothes.is dans votre navigateur et de nous le faire savoir par e-mail, <a href="mailto:admin@egap.org" class="email">admin@egap.org</a>. Nous parcourons régulièrement vos commentaires.</p>
+</div>
+<div id="remerciements" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Remerciements</h2>
+<p>Les matériaux dans ce livre ont été développés au cours des derniers Learning Days par divers instructeurs.
+Ceux-ci incluent (par ordre alphabétique) Jake Bowers, Jasper Cooper, Ana De la O, Lindsay Dolan, Natalia Garbiras Díaz, Macartan Humphreys, Nahomi Ichino, Salif Jaiteh, Gareth Nellis, Dan Nielson, Rafael Piñeiro, Fernando Rosenblatt, Tara Slough, Peter van der Windt et Maarten Voors. Nous remercions Natalia Garbiras Díaz, Macartan Humphreys, Anghella Brigeth Rosero Rodriguez, et Tara Slough en particulier pour leurs commentaires sur une première version du livre.</p>
+<p>Chez EGAP, Matt Lisiecki, Ingrid Lee, Goldie Negelev, Max Mendez-Back et d’autres ont apporté un soutien formidable. Les Learning Days ont été généreusement financés par la Fondation Hewlett et soutenus par des institutions du monde entier, notamment l’African School of Economics (Bénin), l’Université de Diego Portales (Chili), l’Université de los Andes (Colombie), le Ghana Center for Democratic Development (Ghana) , Mercy Corps (Guatemala), Invest in Knowledge (Malawi), NYU Abu Dhabi (EAU), et l’Université catholique de l’Uruguay (Uruguay).</p>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>L’ordre des noms d’auteurs est généré de manière aléatoire. <a href="https://jakebowers.org" class="uri">https://jakebowers.org</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://sites.google.com/site/maartenvoors/" class="uri">https://sites.google.com/site/maartenvoors/</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://nahomi.github.io/" class="uri">https://nahomi.github.io/</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="le-processus-de-design-de-recherche.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="book_assets/gitbook/js/app.min.js"></script>
+<script src="book_assets/gitbook/js/clipboard.min.js"></script>
+<script src="book_assets/gitbook/js/plugin-search.js"></script>
+<script src="book_assets/gitbook/js/plugin-sharing.js"></script>
+<script src="book_assets/gitbook/js/plugin-fontsettings.js"></script>
+<script src="book_assets/gitbook/js/plugin-bookdown.js"></script>
+<script src="book_assets/gitbook/js/jquery.highlight.js"></script>
+<script src="book_assets/gitbook/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/egap/theory_and_practice_of_field_experiments_spanish/edit/main/Book/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["theory_and_practice_of_field_experiments_french.pdf", "theory_and_practice_of_field_experiments_french.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"sharing": {
+"facebook": true,
+"github": true,
+"twitter": true,
+"linkedin": true,
+"weibo": true,
+"instapaper": true,
+"vk": false,
+"all": ["facebook", "github", "twitter", "linkedin", "weibo", "instapaper"]
+}
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
