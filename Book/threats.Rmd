@@ -1,38 +1,36 @@
 # Menaces pesant sur la validité interne des expériences aléatoires {.tabset}
 
-Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c'est-à-dire menacer leur validité interne.
+Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c'est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement: soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
 
-Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement: soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
-
-Dans ce module, nous couvrons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.
+Dans ce module, nous abordons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.
 
 ## Contenu {.tabset}
 
  - Passez en revue les trois hypothèses de base discutées dans [l'inférence causale](causal-inference.html) module.
 
- - We have said "Analyze as you randomize" in the module on [estimands and estimators](estimands-and-estimators.html). Remember that you randomized treatment **assignment**, not whether the treatment is received or whether a unit participates in data collection.  
+ - Nous avons dit "analysez en randomisant" dans le module sur [les estimandes et les estimateurs](estimands-and-estimators.html). N'oubliez pas que vous avez randomisé **l'assignation** du traitement. Vous n'avez pas randomisé si le traitement est reçu, ni si une unité participe à la collection de données.
 
- - **Données manquantes dans les résultats (ie l'attrition)** est particulièrement un problème si le pattern des donnees absentes est causé par le traitement lui-même. C'est un problème très courant.
+ - **Données manquantes des résultats (ie l'attrition)** sont particulièrement problèmatiques si le pattern des donnees absentes est causé par le traitement lui-même. C'est un problème très courant.
 
      - Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.
 
-     - Vous pourriez être en mesure de **lier** les estimations des effets du traitement.
+     - Vous pourriez TODO **lier** les estimations des effets du traitement.
 
  - **Non-conformité**. L'effet de l'assignation du traitement n'est pas le même que l'effet reçu du traitement. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.
 
-     - One-sided compliance occurs when some units assigned to treatment fail to take the treatment, but all units assigned to control do not take the treatment.
- 
-     - The local average treatment effect (LATE, also known as the complier average causal effect, CACE) is the average effect for the units that take the treatment when assigned, but not otherwise. If the monotonicity assumption and the exclusion restriction hold, we may be able to estimate LATE when we have non-compliance.
+     - La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.
+     
+     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées, mais pas autrement. Si la supposition de monotonie et la restriction d'exclusion sont remplis, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
 
  - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'inférence causale ([inférence causale](causalinference.html)).
 
       - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en en tenant compte.
 
- - **L'effet de Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
+ - **L'effet Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
 
-- **La non-excluabilité**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière aux unités traitées, peut perturber l'interprétation des résultats expérimentaux.
+- **La non-excluabilité**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collection de données différents ou une attention particulière aux unités traitées, peut perturber l'interprétation des résultats expérimentaux.
 
-     - Si l'effet de Hawthorne est présent pour le groupe de traitement pas pour le groupe de contrôle, alors nous avons une violation de l'hypothèse d'excluabilité.
+     - Si l'effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l'hypothèse d'excluabilité.
 
 
 
@@ -50,7 +48,7 @@ Vous pouvez également voir les slides utilisées lors des précédents EGAP Lea
 
 - [Présentation des menaces aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les différents designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [Présentation sur l'attrition et les données manquantes aux EGAP Learning Days à l'Universidad Diego Portales à Santiago, Chili, Mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
+- [Présentation sur l'attrition et les données manquantes aux EGAP Learning Days à l'Universidad Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
 ## Ressources
 
@@ -60,11 +58,11 @@ Vous pouvez également voir les slides utilisées lors des précédents EGAP Lea
 
 - Guide des méthodes EGAP [Les 10 effets de traitement que vous devez connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur l'effet the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+- Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
 ### Livres, chapitres et articles
 
-- [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles de base pour mener des études expérimentales.
+- [Procédures opérationnelles standard pour le laboratoire de Don Green à l'Université de Columbia](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles de base pour mener des études expérimentales.
 - [@gerber_field_2012]. Chapitres 5 à 8 traitent de non-conformité, d'attrition et d'interférence.
 
 ### Note d'orientation des politiques publiques EGAP

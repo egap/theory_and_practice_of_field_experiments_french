@@ -1,26 +1,26 @@
 # Considérations éthiques {.tabset}
 
-*Une expérience aléatoire implique qu'un groupe d'humains change la vie d'un autre groupe d'humains.* Ceux qui travaillent pour le gouvernement le font naturellement --- leur travail même est de fournir à leur peuple de la nourriture, un abri, la sécurité, la justice etc. Les universitaires, dont les travaux n'ont généralement pas d'impacts immédiats sur le public, doivent également se rappeler d'examiner attentivement comment leurs recherches pourraient changer la vie des personnes exposées à l'intervention, ainsi que de celles qui ne l'ont pas été.
+*Une expérience aléatoire implique qu'un groupe d'humains change la vie d'un autre groupe d'humains.* Ceux qui travaillent pour le gouvernement le font naturellement --- leur travail même est de fournir à leur peuple de la nourriture, un abri, la sécurité, la justice etc. Les universitaires, dont les travaux n'ont généralement pas d'impacts immédiats sur le public, doivent également se rappeler d'examiner attentivement comment leurs recherches pourraient changer la vie des personnes exposées à l'intervention, ainsi que de celles qui ne l'ont pas été. Lorsqu'une personne influence la vie d'une autre, l'influenceur a la responsabilité de ne pas nuire à la personne influencée.
 
-Ce module traite des sujets de base sur l'éthique de la recherche, tels que la vie privée et l'autonomie; les principes de base relatifs au respect des personnes, à la bienveillance et à la justice ; et comment le consentement éclairé aide à communiquer ces principes aux participants de l'étude.
+Ce module traite des sujets de base sur l'éthique de la recherche, tels que la vie privée et l'autonomie; les principes de base comme le respect des personnes, la bienveillance et la justice ; et comment le consentement éclairé aide à communiquer ces principes aux participants de l'étude.
 
 ## Contenu
 
  - La recherche doit peser les **bénéfices potentiels** des connaissances à tirer de la recherche par rapport aux **dommages potentiels** qu'elle peut causer aux sujets humains.
 
- - Que ressentiriez-vous si vous étiez un sujet de recherche dans votre étude ? Dans le groupe contrôle ? Dans le groupe de traitement ? Un membre de statut relativement élevé dans la communauté? Un membre de statut relativement bas dans la communauté?
+ - Que ressentiriez-vous si vous étiez un sujet de recherche dans votre étude ? Dans le groupe contrôle ? Dans le groupe de traitement ? Un membre de statut relativement élevé dans la communauté ? Un membre de statut relativement bas dans la communauté ?
 
- - Principes clés: **confidentialité** et **autonomie**.
+ - Principes clés: **la confidentialité** et **l'autonomie**.
 
  - Principes de base du rapport Belmont : **respect des personnes, bienveillance, justice**.
 
- - **Consentement éclairé**: Pouvez-vous garantir que les sujets de recherche ont la liberté de refuser de participer et/ou d'abandonner l'étude s'ils le souhaitent ? Pouvez-vous vous assurer que les sujets de recherche peuvent signaler les problèmes qui pourraient survenir?
+ - **Consentement éclairé**: Pouvez-vous garantir que les sujets de recherche ont la liberté de refuser de participer et/ou d'abandonner l'étude s'ils le souhaitent ? Pouvez-vous vous assurer que les sujets de recherche peuvent signaler les problèmes qui pourraient survenir ?
 
- - Défis pour la recherche expérimentale en sciences sociales en général:
+ - Défis de la recherche expérimentale en sciences sociales en général:
 
     - Beaucoup plus de personnes peuvent profiter (ou souffrir) de votre intervention que ceux participant directement à votre étude
 
-    - Modifier les résultats des élections ou changer la corruption peuvent entraîner de grands changements sociétaux. Est-ce aller au-delà du domaine de la recherche?
+    - Modifier les résultats des élections ou changer la corruption peuvent entraîner de grands changements sociétaux. Est-ce aller au-delà du domaine de la recherche ?
 
 ## Slides
 
@@ -40,7 +40,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 - [Le rapport Belmont](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html)
 
-- [Les commissions d'examen institutionnelles aux US](https://www.youtube.com/watch?v=U8fme1boEbE)
+- [TODO Les commissions d'examen institutionnelles aux US](https://www.youtube.com/watch?v=U8fme1boEbE)
 
 - [Exemple: Éthique de la recherche à l'Université d'Oxford au Royaume-Uni](https://researchsupport.admin.ox.ac.uk/governance/ethics)
 

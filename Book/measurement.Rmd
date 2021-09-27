@@ -2,15 +2,15 @@
 
 Pour estimer les effets et tester les hypothèses, nous utilisons souvent un résultat mesuré à l'aide de données quantitatives provenant d'enquêtes, de jeux comportementaux ou d'archives administratives. Pour les questions causales, nous utilisons généralement des données sur les résultats immédiats et finaux et les mécanismes de base. Nous utilisons des données de base pour identifier les sous-groupes pertinents, ajuster nos estimations ou randomiser notre traitement par bloc. Les mesures doivent être valides et fiables. Sachez que les données peuvent être bruitées (erreur aléatoire) et/ou biaisées (erreur systématique).
 
-Ce module traite *que mesurer* et *comment mesurer*. Il montre à quel point une bonne mesure est étroitement liée à vos [designs de recherche](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd) et [puissance statistique](statistical-power-and-design-diagnosands.html).
+Ce module traite *que mesurer* et *comment mesurer*. Il montre à quel point une bonne mesure est liée aux [designs de recherche](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd) et à la [puissance statistique](statistical-power-and-design-diagnosands.html).
 
 ## Contenu
 
- - Lorsque nous représentons un attribut d'une entité par un nombre, une lettre, un mot ou un symbole d'une manière systématique (peut-être dans une case d'un simple dataset), nous **mesurons**.
+ - Lorsque nous représentons un attribut d'une entité par un nombre, une lettre, un mot ou un symbole d'une manière systématique (TODO peut-être dans une case d'un simple dataset), nous **mesurons**.
 
  - Une mesure **valide** d'un concept ou d'un phénomène d'intérêt doit clairement représenter cette entité sous-jacente et souvent abstraite.
 
- - Une mesure **fiable** d'un concept donnerait le même score pour l'unité de mesure (par exemple, une personne ou un village) si les conditions n'ont pas changé.
+ - Une mesure **fiable** d'un concept donnerait la même valeur pour l'unité de mesure (par exemple, une personne ou un village) si les conditions n'ont pas changé.
 
  - Nous pouvons évaluer nos théories de mesure en utilisant plusieurs approches pour mesurer les résultats, les covariables ou les différences entre unités en fonction des différents rendus des mécanismes causaux.
 
@@ -36,7 +36,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 - Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur le design de questionaire](https://egap.org/resource/10-things-to-know-about-survey-design/)
+- Guide des méthodes EGAP [10 choses à savoir sur le design de questionnaire](https://egap.org/resource/10-things-to-know-about-survey-design/)
 
 - Guide des méthodes EGAP [10 choses à savoir sur l'implémentation de questionnaire](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
 

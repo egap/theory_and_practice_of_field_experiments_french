@@ -1,29 +1,34 @@
-# Statistical Power and Design Diagnosands {.tabset}
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Puissance statistique et TODO les diagnosands de design {.tabset}
 
-Before we run a study, we would like to know whether a particular design has the statistical power to detect an effect if it exists.  It is difficult to learn from an under-powered study, since it would be unclear whether a null result indicates that there was no effect or just that we failed to detect a non-zero effect that exists.  A power analysis can help you improve your design and allocate your resources better; it may even help you decide against conducting the study.
+Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique de détecter un effet s'il existe.  Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a en fait pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
 
-In this module, we introduce statistical power, core approaches to calculating power through analytical calculations and through simulation, and how design features such as blocking, covariate adjustment, and clustering impact power.
+Dans ce module, nous introduisons la puissance statistique, approches de base pour calculer la puissance par des calculs analytiques et par la simulation, et comment les caractéristiques de design telles que les blocs (TODO), l'ajustement des covariables, et les grappes (clusters) ont un impact sur la puissance statistique.
 
 ## Contenu
 
- - **Statistical power** is the ability of a study to detect an effect given that it exists.
+ - **La puissance statistique** est la capacité d'une étude à détecter un effet s'il existe.
  
- - **Power analysis** is something we do before a study.  It helps you figure out the sample you need or what effects you can detect. It is an essential step in research design and helps you communicate your design.
+ - **L'analyse de puissance** s'effectue avant la réalisation d'une étude.  Cela aide à déterminer l'échantillon dont on a besoin ou les effets que l'on peut détecter. C'est une étape essentielle dans le design de recherche et aide à TODO communiquer son design.
 
- - Common approaches to power calculation:
+ - Méthodes courantes de calcul de puissance :
  
-      - **Analytical** power calculations (using a formula)
+      - Calculs de puissance **analytique** (en utilisant une formule)
  
-      - **Simulations** (for example, using DeclareDesign)
+      - **Simulations** (par exemple, en utilisant DeclareDesign)
 
- - **Covariate adjustment** and **blocking** can increase power.
+ - **L'ajustement des covariables** et **les blocs** peuvent augmenter la puissance statistique.
 
- - For **clustered designs** you need to take account of the intra-cluster correlation (the within-cluster variance relative to the overall variance).
+ - Pour les **designs par grappe** il faut tenir compte de la corrélation intra-grappe (la variance intra-grappe par rapport à la variance globale).
  
- - Power is closely liked to [study design](the-research-design-process.html), [hypothesis testing](hypothesis-testing.html) and [estimation](estimands-and-estimators.html).
+ - La puissance statistique est étroitement liée au [design de l'étude] (the-research-design-process.html), aux [tests d'hypothèses](hypothesis-testing.html) et à [l'estimation](estimands-and-estimators.html).
 
 ## Slides
-Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur le pouvoir. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la puissance statistique. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
  - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/power-slides.Rmd)
 
@@ -33,17 +38,17 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [The power presentation from EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
+ - [La présentation de la puissance statistique des EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
 
- - [The power presentation from EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
+ - [La présentation de la puissance statistique des EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
 
- - [The power presentation from EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
+ - [La présentation de la puissance statistique des EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
 
- - [The power presentation from EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
+ - [La présentation de la puissance statistique des EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
 
- - [The power presentation from EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
+ - [La présentation de la puissance statistique des EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
 
- - [The power presentation from EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
+ - [La présentation de la puissance statistique des EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
 
 
 ## Ressources
@@ -52,29 +57,29 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - Guide des méthodes EGAP [10 choses à savoir sur la puissance statistique](https://egap.org/resource/10-things-you-need-know-about-statistical-power/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariance](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement des covariables](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
  
  - Guide des méthodes EGAP [10 choses que vos résulats non-concluants peuvent signifier](https://egap.org/resource/10-things-your-null-result-might-mean/)
 
 ### Notes d'orientation des politiques publiques EGAP et plans de pré-analyse
 
-Some examples of power analysis in designs:
+Quelques exemples d'analyse de puissance statistique dans les designs de recherche:
 
- - [Pre-Analysis Plan. Accountability Can Transform (ACT) Health: A Replication and Extension of Bjorkman and Svensson (2009)](https://osf.io/qxwmu/)
+ - [Plan de pré-analyse. La responsabilisation peut transformer (ACT) la santé : une réplication et une extension de Bjorkman et Svensson (2009)](https://osf.io/qxwmu/)
  
  - [Note d'orientation des politiques publiques EGAP 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 
 ### Outils
- - Interactive power analysis
+ - Analyse de puissance statistique interactive
  
-      - [EGAP Power Calculator](https://egap.shinyapps.io/power-app/)
+      - [Calculateur de puissance statistique EGAP](https://egap.shinyapps.io/power-app/)
  
       - [rpsychologist](https://rpsychologist.com/d3/NHST/)
 
- - R packages for power analysis
+ - Packages en R pour l'analyse de puissance statistique
  
       - [pwr](https://cran.r-project.org/web/packages/pwr/index.html)
  
-      - [DeclareDesign](https://cran.r-project.org/web/packages/DeclareDesign/index.html), see also <https://declaredesign.org/>
+      - [DeclareDesign](https://cran.r-project.org/web/packages/DeclareDesign/index.html), voir aussi <https://declaredesign.org/>
 
