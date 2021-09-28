@@ -20,7 +20,7 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
 
      - Les $p$-valeurs et comment interpréter les résultats des tests d'hypothèses.
 
-- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les contrevérités; avoir une puissance statistique élevée) .
+- Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les contrevérités ; avoir une puissance statistique élevée) .
 
 - Comment saurons-nous si notre test d'hypothèse performe bien? ([Analyse de puissance](statistical-power-and-design-diagnosands.html) a son propre module).
 

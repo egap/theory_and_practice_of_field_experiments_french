@@ -164,7 +164,7 @@ set.seed(2018)  # pour la reproductibilité
 Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment:
 
 ```{r echo=TRUE}
-# "<-"  est la commande d'affectation; ça sert à définir les choses. eg:
+# "<-"  est la commande d'affectation ; ça sert à définir les choses. eg:
 (a <- 5)     
 ```
 
