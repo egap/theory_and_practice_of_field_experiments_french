@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Module 9 Menaces pesant sur la validité interne des expériences aléatoires | theory_and_practice_of_field_experiments_french.knit</title>
+  <title>Module 6 Estimandes et estimateurs | theory_and_practice_of_field_experiments_french.knit</title>
   <meta name="description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
   <meta name="generator" content="bookdown 0.24.1 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Module 9 Menaces pesant sur la validité interne des expériences aléatoires | theory_and_practice_of_field_experiments_french.knit" />
+  <meta property="og:title" content="Module 6 Estimandes et estimateurs | theory_and_practice_of_field_experiments_french.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="egap/theory_and_practice_of_field_experiments" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Module 9 Menaces pesant sur la validité interne des expériences aléatoires | theory_and_practice_of_field_experiments_french.knit" />
+  <meta name="twitter:title" content="Module 6 Estimandes et estimateurs | theory_and_practice_of_field_experiments_french.knit" />
   
   <meta name="twitter:description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="mesure.html"/>
-<link rel="next" href="considérations-éthiques.html"/>
+<link rel="prev" href="tests-dhypothèses.html"/>
+<link rel="next" href="puissance-statistique-et-diagnosands-de-design.html"/>
 <script src="book_assets/header-attrs/header-attrs.js"></script>
 <script src="book_assets/jquery/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -673,72 +673,75 @@ Une introduction des EGAP Learning Days</div></a>
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires" class="section level1 tabset" number="9">
-<h1><span class="header-section-number">Module 9</span> Menaces pesant sur la validité interne des expériences aléatoires</h1>
-<p>Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c’est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement: soit les unités n’ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d’un voisin traité.</p>
-<p>Dans ce module, nous abordons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.</p>
-<div id="contenu-7" class="section level2 tabset" number="9.1">
-<h2><span class="header-section-number">9.1</span> Contenu</h2>
+<div id="estimandes-et-estimateurs" class="section level1 tabset" number="6">
+<h1><span class="header-section-number">Module 6</span> Estimandes et estimateurs</h1>
+<p>Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d’avoir des estimateurs sans biais des effets moyens du traitement. Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d’une expérience à l’autre avec des erreurs standards et des intervalles de confiance.</p>
+<p>Dans ce module, nous introduisons plusieurs types d’estimandes. Le choix de l’estimande est une décision scientifique et politique – sur quelle quantité aimerions-nous en savoir plus ? De plus, nous voulons sélectionner un estimateur approprié pour cette estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.</p>
+<div id="contenu-4" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Contenu</h2>
 <ul>
-<li><p>Passez en revue les trois hypothèses de base discutées dans <a href="causal-inference.html">l’inférence causale</a> module.</p></li>
-<li><p>Nous avons dit “analysez en randomisant” dans le module sur <a href="estimands-and-estimators.html">les estimandes et les estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
-<li><p><strong>Données manquantes des résultats (ie l’attrition)</strong> sont particulièrement problèmatiques si le pattern des donnees absentes est causé par le traitement lui-même. C’est un problème très courant.</p>
-<ul>
-<li><p>Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.</p></li>
-<li><p>Vous pourriez <strong>borner</strong> les estimations des effets du traitement.</p></li>
-</ul></li>
-<li><p><strong>Non-conformité</strong>. L’effet de l’assignation du traitement n’est pas le même que l’effet reçu du traitement. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.</p>
-<ul>
-<li><p>La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.</p></li>
-<li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées, mais pas autrement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplis, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
-</ul></li>
-<li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’inférence causale (<a href="causalinference.html">inférence causale</a>).</p>
-<ul>
-<li>Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en en tenant compte.</li>
-</ul></li>
-<li><p><strong>L’effet Hawthorne</strong> se produit lorsque les sujets se comportent différemment parce qu’ils sont observés.</p></li>
-<li><p><strong>La non-excluabilité</strong>. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière aux unités traitées, peut perturber l’interprétation des résultats expérimentaux.</p>
-<ul>
-<li>Si l’effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l’hypothèse d’excluabilité.</li>
-</ul></li>
+<li><p>Un <strong>effet causal</strong>, <span class="math inline">\(\tau_i\)</span>, est une comparaison des résultats potentiels non observés pour chaque unité <span class="math inline">\(i\)</span>. Par exemple, cela peut être une différence ou un ratio de résultats potentiels non observés.</p></li>
+<li><p>Pour en savoir plus sur <span class="math inline">\(\tau_{i}\)</span>, on peut traiter <span class="math inline">\(\tau_{i}\)</span> comme <strong>estimande</strong> ou quantité cible à estimer (ce module)
+ou comme quantité cible sur laquelle émettre une hypothèse (<a href="hypothesis-testing.html">module de test d’hypothèse</a>).</p></li>
+<li><p>Beaucoup de gens se concentrent sur <strong>l’effet moyen du traitement (ATE)</strong>, <span class="math inline">\(\bar{\tau}=\sum_{i=1}^n  \tau_{i}\)</span>, en partie parce qu’il permet <strong>d’estimer</strong> facilement.</p></li>
+<li><p>Un <strong>estimateur</strong> est une recette pour calculer une supposition sur la valeur d’un estimande. Par exemple, la différence entre la moyenne des résultats observés pour <span class="math inline">\(m\)</span> unités traitées et la moyenne des résultats observés pour <span class="math inline">\(N-m\)</span> unités non traitées est un estimateur de <span class="math inline">\(\bar{\tau}\)</span>.</p></li>
+<li><p>Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. Une <strong>erreur standard</strong> résume cette variabilité dans un estimateur.</p></li>
+<li><p>Un <strong>intervalle de confiance</strong> de <span class="math inline">\(100(1-\alpha)\)</span>% est un ensemble d’hypothèses qui ne peuvent être rejetées au niveau <span class="math inline">\(\alpha\)</span>. Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.</p></li>
+<li><p>Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l’estimande (être sans biais); (2) varient peu dans leurs suppositions d’une expérience à l’autre (être précis ou efficace); et peut-être idéalement (3) converger vers l’estimande quand ils utilisent de plus en plus d’informations (être cohérent).</p></li>
+<li><p><strong>Analyser en randomisant</strong> dans le contexte de l’estimation signifie que (1) nos erreurs standards devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.</p></li>
+<li><p>Nous <strong>ne contrôlons pas</strong> les covariables lorsque nous analysons les données d’expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus <strong>précise</strong>. C’est ce qu’on appelle <strong>l’ajustement de covariable</strong>. L’ajustement de covariable dans les expériences aléatoires diffère du contrôle des variables dans les études d’observation.</p></li>
+<li><p>Une intervention politique (comme une lettre qui encourage l’exercice) peut <em>avoir l’intention</em> de changer un comportement par <strong>une dose active</strong> (exercice réel). Nous pouvons apprendre l’effet causal de l’intention en envoyent les lettres de façon aléatoire. C’est ce qu’on appele <strong>l’effet d’intention de traiter</strong> (intent to treat effect, <strong>ITT</strong>).</p></li>
+<li><p>Nous pouvons apprendre sur l’effet causal de l’exercice réel en utilisant l’attribution aléatoire de lettres comme <strong>instrument</strong> la dose active (l’exercice lui-même) afin d’apprendre davantage sur l’effet causal de l’exercice <strong>chez ceux qui changeraient leur comportement après avoir reçu la lettre</strong>. Cette version de l’effet causal moyen est souvent connue sous le nom <strong>d’effet moyen local du traitement</strong>.</p></li>
 </ul>
 </div>
-<div id="slides-7" class="section level2" number="9.2">
-<h2><span class="header-section-number">9.2</span> Slides</h2>
-<p>Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur les menaces à la validité interne des expériences aléatoires. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.</p>
+<div id="slides-4" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Slides</h2>
+<p>Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.</p>
 <ul>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/threats-slides.Rmd">Code source en R Markdown</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/threats-slides.pdf">Version PDF</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/threats-slides.html">Version HTML</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/estimation-slides.Rmd">Code source en R Markdown</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/estimation-slides.pdf">Version PDF</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/estimation-slides.html">Version HTML</a></p></li>
 </ul>
-<p>Vous pouvez également voir les slides utilisées lors des précédents EGAP Learning Days :</p>
+<p>Vous pouvez aussi lire les slides des précédents EGAP Learning Days:</p>
 <ul>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf">Présentation des menaces aux EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les différents designs de randomisation)</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf">Présentation sur l’attrition et les données manquantes aux EGAP Learning Days à l’Universidad Diego Portales à Santiago, Chili, mai 2016</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf">La présentation de l’estimation aux EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf">La présentation de l’estimation aux EGAP Learning Days à l’Université des Andes, Bogotá, avril 2019</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf">La présentation de l’estimation aux EGAP Learning Days à l’Université catholique d’Uruguay, Montevideo, mars 2018</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf">La présentation de l’estimation aux EGAP Learning Days à l’Université Diego Portales à Santiago, Chili, mai 2016</a></p></li>
+</ul>
+<p>Vous pouvez également voir les problèmes d’estimation de l’effet de la dose active d’un traitement dans ces slides (ainsi que les problèmes causés par les données manquantes sur les résultats pour l’estimation de l’effet causal moyen) :</p>
+<ul>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf">La présentation des problèmes de design aux EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf">La présentation des effets de débordement et de l’attrition aux EGAP Learning Days à Guatemala City, Guatemala, août 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf">La présentation des menaces aux EGAP Learning Days à Guatemala City, Guatemala, août 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf">La présentation des complications aux EGAP Learning Days à Salima, Malawi, février 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf">La présentation des menaces aux EGAP Learning Days à l’Université Diego Portales à Santiago, Chili, mai 2016 (la section du milieu examine l’ITT et la non-conformité)</a></p></li>
 </ul>
 </div>
-<div id="ressources-7" class="section level2" number="9.3">
-<h2><span class="header-section-number">9.3</span> Ressources</h2>
-<div id="guide-des-méthodes-egap-7" class="section level3" number="9.3.1">
-<h3><span class="header-section-number">9.3.1</span> Guide des méthodes EGAP</h3>
+<div id="ressources-4" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Ressources</h2>
+<div id="guide-des-méthodes-egap-4" class="section level3" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> Guide des méthodes EGAP</h3>
 <ul>
-<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-missing-data/">10 choses à savoir sur les données manquantes</a></p></li>
 <li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/">Les 10 effets de traitement que vous devez connaître</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-covariate-adjustment/">10 choses à savoir sur l’ajustement de covariante</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-missing-data/">10 choses à savoir sur les données manquantes</a></p></li>
 <li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/">10 choses à savoir sur l’effet moyen local du traitement</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-spillovers/">10 choses à savoir sur les effets de débordement</a></p></li>
 </ul>
 </div>
-<div id="livres-chapitres-et-articles-5" class="section level3" number="9.3.2">
-<h3><span class="header-section-number">9.3.2</span> Livres, chapitres et articles</h3>
+<div id="livres-chapitres-et-articles-3" class="section level3" number="6.3.2">
+<h3><span class="header-section-number">6.3.2</span> Livres, chapitres et articles</h3>
 <ul>
-<li><a href="https://github.com/acoppock/Green-Lab-SOP">Procédures opérationnelles standard pour le laboratoire de Don Green à l’Université de Columbia</a>. Un ensemble complet de procédures et de règles de base pour mener des études expérimentales.</li>
-<li><span class="citation"><a href="#ref-gerber_field_2012" role="doc-biblioref">Gerber and Green, <em>Field <span>Experiments</span></em></a>.</span> Chapitres 5 à 8 traitent de non-conformité, d’attrition et d’interférence.</li>
+<li><p><span class="citation"><a href="#ref-gerber_field_2012" role="doc-biblioref">Gerber and Green, <em>Field <span>Experiments</span></em></a>.</span> Chapitre 2.7 sur l’excluabilité et la non-interférence, Chapitre 3, Chapitre 5 sur la non-conformité unilatérale, Chapitre 6 sur la non-conformité bilatérale, Chapitre 7 sur l’attrition, Chapitre 8 sur l’interférence entre les unités expérimentales.</p></li>
+<li><p><span class="citation"><a href="#ref-bowers2020causality" role="doc-biblioref">Jake Bowers and Thomas Leavitt, <span>“Causality &amp; Design-Based Inference,”</span> in <em>The SAGE Handbook of Research Methods in Political Science and International Relations</em>, ed. Luigi Curini and Robert Franzese (<span>Sage Publications Ltd</span>, 2020)</a>.</span></p></li>
 </ul>
 </div>
-<div id="note-dorientation-des-politiques-publiques-egap" class="section level3" number="9.3.3">
-<h3><span class="header-section-number">9.3.3</span> Note d’orientation des politiques publiques EGAP</h3>
+<div id="outils-2" class="section level3" number="6.3.3">
+<h3><span class="header-section-number">6.3.3</span> Outils</h3>
 <ul>
-<li><p><a href="https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/">Note d’orientation EGAP 11: Observateurs électoraux et fraude au Ghana</a></p></li>
-<li><p><a href="https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/">Note d’orientation EGAP 16: Effets de débordement des observateurs électoraux au Ghana</a></p></li>
+<li><p><a href="https://declaredesign.org">DeclareDesign</a></p></li>
+<li><p><a href="https://declaredesign.org/r/estimatr/">Le package estimatr en R</a></p></li>
 </ul>
 
 </div>
@@ -746,6 +749,9 @@ Une introduction des EGAP Learning Days</div></a>
 </div>
 <h3>References</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bowers2020causality" class="csl-entry">
+Bowers, Jake, and Thomas Leavitt. <span>“Causality &amp; Design-Based Inference.”</span> In <em>The SAGE Handbook of Research Methods in Political Science and International Relations</em>, edited by Luigi Curini and Robert Franzese. <span>Sage Publications Ltd</span>, 2020.
+</div>
 <div id="ref-gerber_field_2012" class="csl-entry">
 Gerber, Alan S., and Donald P. Green. <em>Field <span>Experiments</span>: <span>Design</span>, <span>Analysis</span>, and <span>Interpretation</span></em>. New York, NY: W. W. Norton &amp; Company, 2012.
 </div>
@@ -755,8 +761,8 @@ Gerber, Alan S., and Donald P. Green. <em>Field <span>Experiments</span>: <span>
           </div>
         </div>
       </div>
-<a href="mesure.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="considérations-éthiques.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="tests-dhypothèses.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="puissance-statistique-et-diagnosands-de-design.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>
@@ -787,7 +793,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/egap/theory_and_practice_of_field_experiments_spanish/edit/main/Book/threats.Rmd",
+"link": "https://github.com/egap/theory_and_practice_of_field_experiments_spanish/edit/main/Book/estimation.Rmd",
 "text": "Edit"
 },
 "history": {

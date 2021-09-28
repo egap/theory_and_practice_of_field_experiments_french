@@ -10,7 +10,7 @@ introduction
 comment-utiliser-le-livre
 nous-apprécions-vos-retours
 remerciements
-le-processus-de-design-de-recherche
+processus-de-design-de-recherche
 contenu
 slides
 formulaire-de-design-et-pré-enregistrement
@@ -18,7 +18,7 @@ ressources
 guide-des-méthodes-egap
 livres-chapitres-et-articles
 outils
-linférence-causale
+inférence-causale
 contenu-1
 slides-1
 ressources-1
@@ -42,14 +42,14 @@ slides-3
 ressources-3
 guide-des-méthodes-egap-3
 livres-chapitres-et-articles-2
-estimations-et-estimateurs
+estimandes-et-estimateurs
 contenu-4
 slides-4
 ressources-4
 guide-des-méthodes-egap-4
 livres-chapitres-et-articles-3
 outils-2
-puissance-statistique-et-todo-les-diagnosands-de-design
+puissance-statistique-et-diagnosands-de-design
 contenu-5
 slides-5
 ressources-5

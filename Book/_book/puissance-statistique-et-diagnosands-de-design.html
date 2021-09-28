@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Module 9 Menaces pesant sur la validité interne des expériences aléatoires | theory_and_practice_of_field_experiments_french.knit</title>
+  <title>Module 7 Puissance statistique et diagnosands de design | theory_and_practice_of_field_experiments_french.knit</title>
   <meta name="description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
   <meta name="generator" content="bookdown 0.24.1 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Module 9 Menaces pesant sur la validité interne des expériences aléatoires | theory_and_practice_of_field_experiments_french.knit" />
+  <meta property="og:title" content="Module 7 Puissance statistique et diagnosands de design | theory_and_practice_of_field_experiments_french.knit" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="egap/theory_and_practice_of_field_experiments" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Module 9 Menaces pesant sur la validité interne des expériences aléatoires | theory_and_practice_of_field_experiments_french.knit" />
+  <meta name="twitter:title" content="Module 7 Puissance statistique et diagnosands de design | theory_and_practice_of_field_experiments_french.knit" />
   
   <meta name="twitter:description" content="Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="mesure.html"/>
-<link rel="next" href="considérations-éthiques.html"/>
+<link rel="prev" href="estimandes-et-estimateurs.html"/>
+<link rel="next" href="mesure.html"/>
 <script src="book_assets/header-attrs/header-attrs.js"></script>
 <script src="book_assets/jquery/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -673,81 +673,77 @@ Une introduction des EGAP Learning Days</div></a>
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires" class="section level1 tabset" number="9">
-<h1><span class="header-section-number">Module 9</span> Menaces pesant sur la validité interne des expériences aléatoires</h1>
-<p>Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c’est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement: soit les unités n’ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d’un voisin traité.</p>
-<p>Dans ce module, nous abordons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.</p>
-<div id="contenu-7" class="section level2 tabset" number="9.1">
-<h2><span class="header-section-number">9.1</span> Contenu</h2>
+<div id="puissance-statistique-et-diagnosands-de-design" class="section level1 tabset" number="7">
+<h1><span class="header-section-number">Module 7</span> Puissance statistique et diagnosands de design</h1>
+<p>Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique de détecter un effet s’il existe. Il est difficile d’apprendre d’une étude qui n’a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu’il n’y a en fait pas eu d’effet, ou que nous n’avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l’étude.</p>
+<p>Dans ce module, nous introduisons la puissance statistique, approches de base pour calculer la puissance par des calculs analytiques et par la simulation, et comment les caractéristiques de design telles que les blocs (TODO), l’ajustement des covariables, et les grappes (clusters) ont un impact sur la puissance statistique.</p>
+<div id="contenu-5" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Contenu</h2>
 <ul>
-<li><p>Passez en revue les trois hypothèses de base discutées dans <a href="causal-inference.html">l’inférence causale</a> module.</p></li>
-<li><p>Nous avons dit “analysez en randomisant” dans le module sur <a href="estimands-and-estimators.html">les estimandes et les estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
-<li><p><strong>Données manquantes des résultats (ie l’attrition)</strong> sont particulièrement problèmatiques si le pattern des donnees absentes est causé par le traitement lui-même. C’est un problème très courant.</p>
+<li><p><strong>La puissance statistique</strong> est la capacité d’une étude à détecter un effet s’il existe.</p></li>
+<li><p><strong>L’analyse de puissance</strong> s’effectue avant la réalisation d’une étude. Cela aide à déterminer l’échantillon dont on a besoin ou les effets que l’on peut détecter. C’est une étape essentielle dans le design de recherche et aide à communiquer sur son design.</p></li>
+<li><p>Méthodes courantes de calcul de puissance :</p>
 <ul>
-<li><p>Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.</p></li>
-<li><p>Vous pourriez <strong>borner</strong> les estimations des effets du traitement.</p></li>
+<li><p>Calculs de puissance <strong>analytique</strong> (en utilisant une formule)</p></li>
+<li><p><strong>Simulations</strong> (par exemple, en utilisant DeclareDesign)</p></li>
 </ul></li>
-<li><p><strong>Non-conformité</strong>. L’effet de l’assignation du traitement n’est pas le même que l’effet reçu du traitement. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.</p>
-<ul>
-<li><p>La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.</p></li>
-<li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées, mais pas autrement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplis, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
-</ul></li>
-<li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’inférence causale (<a href="causalinference.html">inférence causale</a>).</p>
-<ul>
-<li>Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en en tenant compte.</li>
-</ul></li>
-<li><p><strong>L’effet Hawthorne</strong> se produit lorsque les sujets se comportent différemment parce qu’ils sont observés.</p></li>
-<li><p><strong>La non-excluabilité</strong>. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière aux unités traitées, peut perturber l’interprétation des résultats expérimentaux.</p>
-<ul>
-<li>Si l’effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l’hypothèse d’excluabilité.</li>
-</ul></li>
+<li><p><strong>L’ajustement des covariables</strong> et <strong>les blocs</strong> peuvent augmenter la puissance statistique.</p></li>
+<li><p>Pour les <strong>designs par grappe</strong> il faut tenir compte de la corrélation intra-grappe (la variance intra-grappe par rapport à la variance globale).</p></li>
+<li><p>La puissance statistique est étroitement liée au [design de l’étude] (the-research-design-process.html), aux <a href="hypothesis-testing.html">tests d’hypothèses</a> et à <a href="estimands-and-estimators.html">l’estimation</a>.</p></li>
 </ul>
 </div>
-<div id="slides-7" class="section level2" number="9.2">
-<h2><span class="header-section-number">9.2</span> Slides</h2>
-<p>Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur les menaces à la validité interne des expériences aléatoires. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.</p>
+<div id="slides-5" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Slides</h2>
+<p>Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la puissance statistique. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.</p>
 <ul>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/threats-slides.Rmd">Code source en R Markdown</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/threats-slides.pdf">Version PDF</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/threats-slides.html">Version HTML</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/power-slides.Rmd">Code source en R Markdown</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/power-slides.pdf">Version PDF</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/power-slides.html">Version HTML</a></p></li>
 </ul>
-<p>Vous pouvez également voir les slides utilisées lors des précédents EGAP Learning Days :</p>
+<p>Vous pouvez aussi lire les slides des précédents EGAP Learning Days:</p>
 <ul>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf">Présentation des menaces aux EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les différents designs de randomisation)</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf">Présentation sur l’attrition et les données manquantes aux EGAP Learning Days à l’Universidad Diego Portales à Santiago, Chili, mai 2016</a></p></li>
-</ul>
-</div>
-<div id="ressources-7" class="section level2" number="9.3">
-<h2><span class="header-section-number">9.3</span> Ressources</h2>
-<div id="guide-des-méthodes-egap-7" class="section level3" number="9.3.1">
-<h3><span class="header-section-number">9.3.1</span> Guide des méthodes EGAP</h3>
-<ul>
-<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-missing-data/">10 choses à savoir sur les données manquantes</a></p></li>
-<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/">Les 10 effets de traitement que vous devez connaître</a></p></li>
-<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/">10 choses à savoir sur l’effet moyen local du traitement</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf">La présentation de la puissance statistique des EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf">La présentation de la puissance statistique des EGAP Learning Days à l’Université des Andes, Bogotá, avril 2019</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf">La présentation de la puissance statistique des EGAP Learning Days à l’Université catholique d’Uruguay, Montevideo, mars 2018</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html">La présentation de la puissance statistique des EGAP Learning Days à Guatemala City, Guatemala, août 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf">La présentation de la puissance statistique des EGAP Learning Days à Salima, Malawi, février 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf">La présentation de la puissance statistique des EGAP Learning Days à l’Université Diego Portales à Santiago, Chili, mai 2016</a></p></li>
 </ul>
 </div>
-<div id="livres-chapitres-et-articles-5" class="section level3" number="9.3.2">
-<h3><span class="header-section-number">9.3.2</span> Livres, chapitres et articles</h3>
+<div id="ressources-5" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Ressources</h2>
+<div id="guide-des-méthodes-egap-5" class="section level3" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Guide des méthodes EGAP</h3>
 <ul>
-<li><a href="https://github.com/acoppock/Green-Lab-SOP">Procédures opérationnelles standard pour le laboratoire de Don Green à l’Université de Columbia</a>. Un ensemble complet de procédures et de règles de base pour mener des études expérimentales.</li>
-<li><span class="citation"><a href="#ref-gerber_field_2012" role="doc-biblioref">Gerber and Green, <em>Field <span>Experiments</span></em></a>.</span> Chapitres 5 à 8 traitent de non-conformité, d’attrition et d’interférence.</li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-you-need-know-about-statistical-power/">10 choses à savoir sur la puissance statistique</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-covariate-adjustment/">10 choses à savoir sur l’ajustement des covariables</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-your-null-result-might-mean/">10 choses que vos résulats non-concluants peuvent signifier</a></p></li>
 </ul>
 </div>
-<div id="note-dorientation-des-politiques-publiques-egap" class="section level3" number="9.3.3">
-<h3><span class="header-section-number">9.3.3</span> Note d’orientation des politiques publiques EGAP</h3>
+<div id="notes-dorientation-des-politiques-publiques-egap-et-plans-de-pré-analyse" class="section level3" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Notes d’orientation des politiques publiques EGAP et plans de pré-analyse</h3>
+<p>Quelques exemples d’analyse de puissance statistique dans les designs de recherche:</p>
 <ul>
-<li><p><a href="https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/">Note d’orientation EGAP 11: Observateurs électoraux et fraude au Ghana</a></p></li>
-<li><p><a href="https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/">Note d’orientation EGAP 16: Effets de débordement des observateurs électoraux au Ghana</a></p></li>
+<li><p><a href="https://osf.io/qxwmu/">Plan de pré-analyse. La responsabilisation peut transformer (ACT) la santé : une réplication et une extension de Bjorkman et Svensson (2009)</a></p></li>
+<li><p><a href="https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/">Note d’orientation des politiques publiques EGAP 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?</a></p></li>
+</ul>
+</div>
+<div id="outils-3" class="section level3" number="7.3.3">
+<h3><span class="header-section-number">7.3.3</span> Outils</h3>
+<ul>
+<li><p>Analyse de puissance statistique interactive</p>
+<ul>
+<li><p><a href="https://egap.shinyapps.io/power-app/">Calculateur de puissance statistique EGAP</a></p></li>
+<li><p><a href="https://rpsychologist.com/d3/NHST/">rpsychologist</a></p></li>
+</ul></li>
+<li><p>Packages en R pour l’analyse de puissance statistique</p>
+<ul>
+<li><p><a href="https://cran.r-project.org/web/packages/pwr/index.html">pwr</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/DeclareDesign/index.html">DeclareDesign</a>, voir aussi <a href="https://declaredesign.org/" class="uri">https://declaredesign.org/</a></p></li>
+</ul></li>
 </ul>
 
 </div>
-</div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-gerber_field_2012" class="csl-entry">
-Gerber, Alan S., and Donald P. Green. <em>Field <span>Experiments</span>: <span>Design</span>, <span>Analysis</span>, and <span>Interpretation</span></em>. New York, NY: W. W. Norton &amp; Company, 2012.
 </div>
 </div>
             </section>
@@ -755,8 +751,8 @@ Gerber, Alan S., and Donald P. Green. <em>Field <span>Experiments</span>: <span>
           </div>
         </div>
       </div>
-<a href="mesure.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="considérations-éthiques.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="estimandes-et-estimateurs.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="mesure.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>
@@ -787,7 +783,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/egap/theory_and_practice_of_field_experiments_spanish/edit/main/Book/threats.Rmd",
+"link": "https://github.com/egap/theory_and_practice_of_field_experiments_spanish/edit/main/Book/statisticalpower.Rmd",
 "text": "Edit"
 },
 "history": {
