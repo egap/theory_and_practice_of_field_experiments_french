@@ -89,7 +89,7 @@ Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des
 
 Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'Environnement. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
-```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu).'}
+```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l\'environnement global (en bleu).'}
 knitr::include_graphics("Images/save_data.png")
 ```
 
