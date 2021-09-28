@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-09-27" />
+<meta name="date" content="2021-09-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="glossaire-des-termes.html"/>
-<link rel="next" href="references.html"/>
+<link rel="next" href="réferences.html"/>
 <script src="book_assets/header-attrs/header-attrs.js"></script>
 <script src="book_assets/jquery/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -651,7 +651,7 @@ div.csl-indent {
 <li class="chapter" data-level="B.4.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#exercise-de-base"><i class="fa fa-check"></i><b>B.4.2</b> Exercise de base</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="réferences.html"><a href="réferences.html"><i class="fa fa-check"></i>Réferences</a></li>
 <li class="divider"></li>
 <li><a href="http://egap.org" target="blank"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Published by EGAP</a></li>
 
@@ -685,10 +685,10 @@ Une introduction des EGAP Learning Days</div></a>
 <h2><span class="header-section-number">B.2</span> Télécharger R et RStudio</h2>
 <div id="télécharger-r" class="section level3" number="12.2.1">
 <h3><span class="header-section-number">B.2.1</span> Télécharger R</h3>
-<p>R est téléchargeable gratuitement sur CRAN au lien correspondant à votre TODO système d’exploitation:</p>
+<p>R est téléchargeable gratuitement sur CRAN au lien correspondant à votre système d’exploitation:</p>
 <ul>
-<li>Pour <strong>Windows</strong>: <a href="https://cran.r-project.org/bin/windows/base/">https://cran.r-project.org/bin/windows/base/</a></li>
-<li>Pour <strong>Mac OS X</strong>: <a href="https://cran.r-project.org/bin/macosx/">https://cran.r-project.org/bin/macosx/</a>.
+<li>Pour <strong>Windows</strong> : <a href="https://cran.r-project.org/bin/windows/base/">https://cran.r-project.org/bin/windows/base/</a></li>
+<li>Pour <strong>Mac OS X</strong> : <a href="https://cran.r-project.org/bin/macosx/">https://cran.r-project.org/bin/macosx/</a>.
 <ul>
 <li>Sélectionner <code>R-4.0.4.pkg</code> pour OS X 10.13 et plus.</li>
 <li>Sélectionner <code>R-3.6.3.nnpkg</code> pour OS X 10.11-10.12.</li>
@@ -720,10 +720,10 @@ Figure B.2: Sélectionner le lien “Windows 10/8/7” pour Windows ou “Mac OS
 </div>
 <div id="linterface-rstudio" class="section level2" number="12.3">
 <h2><span class="header-section-number">B.3</span> L’interface RStudio</h2>
-<p>Lorsque vous ouvrez RStudio pour la première fois, trois panneaux doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.</p>
+<p>Lorsque vous ouvrez RStudio pour la première fois, trois onglets doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.</p>
 <ul>
 <li>Console (à gauche)</li>
-<li>Accounting (en haut à droite): cela inclue les onglets Environment et History</li>
+<li>Accounting (en haut à droite) : cela inclue les onglets Environment et History</li>
 <li>Miscellaneous (en bas à droite)</li>
 </ul>
 <div class="figure"><span style="display:block;" id="fig:rstudiointro"></span>
@@ -735,7 +735,7 @@ Figure B.3: Lorsque vous ouvrez RStudio, il y a trois panneaux visibles : la Con
 <div id="la-console" class="section level3" number="12.3.1">
 <h3><span class="header-section-number">B.3.1</span> La console</h3>
 <p>Vous pouvez exécuter toutes les opérations dans la console. Par exemple, si vous saisissez <code>4 + 4</code> et appuyez sur la touche Enter, la console renvoie <code>[1] 8</code>.</p>
-<p>Pour s’assurer que tout le monde est prêt à utiliser R lors des Learning Days, nous demandons aux participants d’exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche <code>Enter</code>. Vous devez être connecté à TODO l’Internet pour télécharger des packages.</p>
+<p>Pour s’assurer que tout le monde est prêt à utiliser R lors des Learning Days, nous demandons aux participants d’exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche <code>Enter</code>. Vous devez être connecté à internet pour télécharger des packages.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="introduction-à-r-et-rstudio.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;AER&quot;</span>, <span class="st">&quot;arm&quot;</span>, <span class="st">&quot;MASS&quot;</span>, <span class="st">&quot;sandwich&quot;</span>, </span>
 <span id="cb1-2"><a href="introduction-à-r-et-rstudio.html#cb1-2" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;lmtest&quot;</span>, <span class="st">&quot;estimatr&quot;</span>,<span class="st">&quot;coin&quot;</span>,<span class="st">&quot;randomizr&quot;</span>, <span class="st">&quot;DeclareDesign&quot;</span>))</span></code></pre></div>
 <p>Si le téléchargement est réussi, votre console ressemblera à la figure B.4, sauf que les URL seront différentes en fonction de votre emplacement.</p>
@@ -748,7 +748,7 @@ Figure B.4: La console après avoir exécuté les trois lignes de code répertor
 </div>
 <div id="léditeur" class="section level3" number="12.3.2">
 <h3><span class="header-section-number">B.3.2</span> L’éditeur</h3>
-<p>Afin d’écrire et sauvegarder du code reproductible, nous allons ouvrir un quatrième panneau, l’éditeur, en cliquant sur l’icône avec une page blanche et TODO un signe plus, dans le coin supérieur gauche de l’interface RStudio et en sélectionnant <code>R Script</code>, comme illustré à la figure B.5.</p>
+<p>Afin d’écrire et sauvegarder du code reproductible, nous allons ouvrir un quatrième panneau, l’éditeur, en cliquant sur l’icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l’interface RStudio et en sélectionnant <code>R Script</code>, comme illustré à la figure B.5.</p>
 <div class="figure"><span style="display:block;" id="fig:newscript"></span>
 <img src="Images/new_script.png" alt="Créez un nouveau script R et ouvrez le panneau `éditeur` en sélectionnant `R Script` dans le menu déroulant." width="60%" />
 <p class="caption">
@@ -769,12 +769,12 @@ Figure B.6: Une expression arithmétique est saisie dans l’éditeur et évalu�
 <p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environnement du panneau Gestion. Dans la Figure B.7, nous définissons la variable <code>t</code> pour prendre la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span>, et pouvons voir qu’elle est stockée sous Valeurs.</p>
 <p>Nous chargeons également un jeu de données. Ici, “ChickWeight” est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d’autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l’Environnement. En cliquant sur le nom ChickWeight, un onglet s’ouvrira avec le dataset dans la fenêtre de votre éditeur.</p>
 <div class="figure"><span style="display:block;" id="fig:savedata"></span>
-<img src="Images/save_data.png" alt="TODO The value 3 * (6/14) is assigned to the variable t (red) and the dataset ChickWeight is added to the global environment (blue). The boxes are added for emphasis." width="60%" />
+<img src="Images/save_data.png" alt="La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu)." width="60%" />
 <p class="caption">
-Figure B.7: TODO The value 3 * (6/14) is assigned to the variable t (red) and the dataset ChickWeight is added to the global environment (blue). The boxes are added for emphasis.
+Figure B.7: La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l’environnement global (en bleu).
 </p>
 </div>
-<p>Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l’instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction <code>head()</code> nous permet de voir les six premières lignes TODO du jeu de données. <code>summary()</code> résume chacune des colonnes du dataset et <code>dim()</code> fournit les dimensions du dataset avec d’abord le nombre de lignes puis de colonnes.</p>
+<p>Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l’instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction <code>head()</code> nous permet de voir les six premières lignes des données. <code>summary()</code> résume chacune des colonnes du dataset et <code>dim()</code> fournit les dimensions du dataset avec d’abord le nombre de lignes puis de colonnes.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="introduction-à-r-et-rstudio.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(ChickWeight) <span class="co"># Les 6 premières observations du dataset</span></span></code></pre></div>
 <pre><code>  weight Time Chick Diet
 1     42    0     1    1
@@ -798,7 +798,7 @@ Figure B.7: TODO The value 3 * (6/14) is assigned to the variable t (red) and th
 </div>
 <div id="divers" class="section level3" number="12.3.4">
 <h3><span class="header-section-number">B.3.4</span> Divers</h3>
-<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. Le dernier panneau Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre TODO un tracé dans ce panneau. Pendant les Leaning Days, on discutera de la manière de tracer les données.</p>
+<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. Le dernier panneau Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans ce panneau. Pendant les Leaning Days, on discutera de la manière de tracer les données.</p>
 <div class="figure"><span style="display:block;" id="fig:graph"></span>
 <img src="Images/graph.png" alt="Un exemple de courbe avec le dataset `ChickWeight` en R." width="60%" />
 <p class="caption">
@@ -818,7 +818,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <ol style="list-style-type: lower-roman">
 <li>Allez sur <a href="https://www.coursera.org">https://www.coursera.org</a></li>
 <li>Créez un compte (c’est gratuit!)</li>
-<li>Inscrivez-vous pour “R Programming at Johns Hopkins University” (instructeur: Roger Peng) sous la rubrique “Cours”</li>
+<li>Inscrivez-vous pour “R Programming at Johns Hopkins University” (instructeur : Roger Peng) sous la rubrique “Cours”</li>
 <li>Lisez les documents et regardez les vidéos de la première semaine. Les vidéos de la première semaine durent environ 2 heures 30 au total.</li>
 </ol></li>
 </ul>
@@ -828,7 +828,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <p>Voici quelques fragments de code pour vous familiariser avec certaines pratiques de base de R. Nous vous recommandons de vous entraîner en tapant les fragments de code dans votre éditeur, puis en les évaluant.</p>
 <div id="configuration-dune-session-r" class="section level4" number="12.4.2.1">
 <h4><span class="header-section-number">B.4.2.1</span> Configuration d’une session R</h4>
-<p>En général, nous lisons d’autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une “adresse” où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, ie un chemin d’accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant <code>getwd()</code> et en TODO définir un nouveau en utilisant <code>setwd()</code>. Notez que la syntaxe de ces chemins de fichiers varie selon le système d’exploitation.</p>
+<p>En général, nous lisons d’autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une “adresse” où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, ie un chemin d’accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant <code>getwd()</code> et le définir en utilisant <code>setwd()</code>. Notez que la syntaxe de ces chemins de fichiers varie selon le système d’exploitation.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="introduction-à-r-et-rstudio.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code></pre></div>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="introduction-à-r-et-rstudio.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">&quot;~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/&quot;</span>)   </span></code></pre></div>
 <p>Vous devrez peut-être installer des packages autres que ceux répertoriés ci-dessus pour exécuter certaines fonctions. Pour installer les packages, nous utilisons <code>install.packages("")</code>, en remplissant le nom du package entre les marques "", comme suit. Vous n’avez besoin d’installer les packages qu’une seule fois.</p>
@@ -837,12 +837,12 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="introduction-à-r-et-rstudio.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(randomizr)</span></code></pre></div>
 <p>Pour effacer de la mémoire de R, les données, fonctions ou valeurs stockées qui apparaissent dans l’onglet de comptabilité, utilisez <code>rm(list = ls())</code>. Il peut être utile de définir un nombre aléatoire pour garantir que la réplication est possible dans une session R différente, en particulier lorsque nous travaillons avec des méthodes basées sur la simulation.</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="introduction-à-r-et-rstudio.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list =</span> <span class="fu">ls</span>())                                   </span>
-<span id="cb12-2"><a href="introduction-à-r-et-rstudio.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2018</span>)  <span class="co"># </span><span class="al">TODO</span><span class="co"> Optional: Set a seed to make output replicable</span></span></code></pre></div>
+<span id="cb12-2"><a href="introduction-à-r-et-rstudio.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2018</span>)  <span class="co"># pour la reproductibilité</span></span></code></pre></div>
 </div>
 <div id="les-basics" class="section level4" number="12.4.2.2">
 <h4><span class="header-section-number">B.4.2.2</span> Les basics</h4>
 <p>Nous allons maintenant explorer quelques commandes de base. Afin d’affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande <code>&lt;-</code> comme discuté précédemment:</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="introduction-à-r-et-rstudio.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;&lt;-&quot;  est la commande d&#39;affectation; ça sert à définir les choses. eg:</span></span>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="introduction-à-r-et-rstudio.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;&lt;-&quot;  est la commande d&#39;affectation ; ça sert à définir les choses. eg:</span></span>
 <span id="cb13-2"><a href="introduction-à-r-et-rstudio.html#cb13-2" aria-hidden="true" tabindex="-1"></a>(a <span class="ot">&lt;-</span> <span class="dv">5</span>)     </span></code></pre></div>
 <pre><code>[1] 5</code></pre>
 <p>Nous pouvons également vouloir affecter un vecteur d’éléments à une variable. Ici, nous utilisons la même commande <code>&lt;-</code>, mais nous nous concentrons sur la façon de créer le vecteur.</p>
@@ -912,7 +912,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
         </div>
       </div>
 <a href="glossaire-des-termes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="réferences.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>
