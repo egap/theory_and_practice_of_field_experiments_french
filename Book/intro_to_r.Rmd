@@ -12,7 +12,7 @@ RStudio est un environnement de développement intégré gratuit et open source 
 
 ### Télécharger R
 
-R est téléchargeable gratuitement sur CRAN au lien correspondant à votre TODO système d'exploitation:
+R est téléchargeable gratuitement sur CRAN au lien correspondant à votre système d'exploitation:
 
 - Pour **Windows**: [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
 - Pour **Mac OS X**: [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/).
@@ -40,7 +40,7 @@ knitr::include_graphics("Images/rstudio_download.png")
 
 ## L'interface RStudio
 
-Lorsque vous ouvrez RStudio pour la première fois, trois panneaux doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.
+Lorsque vous ouvrez RStudio pour la première fois, trois onglets doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.
 
 - Console (à gauche)
 - Accounting (en haut à droite): cela inclue les onglets Environment et History
@@ -54,7 +54,7 @@ knitr::include_graphics("Images/rstudio_intro.png")
 
 Vous pouvez exécuter toutes les opérations dans la console. Par exemple, si vous saisissez `4 + 4` et appuyez sur la touche Enter, la console renvoie `[1] 8`.
 
-Pour s'assurer que tout le monde est prêt à utiliser R lors des Learning Days, nous demandons aux participants d'exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche `Enter`. Vous devez être connecté à TODO l'Internet pour télécharger des packages.
+Pour s'assurer que tout le monde est prêt à utiliser R lors des Learning Days, nous demandons aux participants d'exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche `Enter`. Vous devez être connecté à internet pour télécharger des packages.
 
 ```{r, eval = F}
 install.packages(c("ggplot2", "dplyr", "AER", "arm", "MASS", "sandwich", 
@@ -69,7 +69,7 @@ knitr::include_graphics("Images/console2a.png")
 
 ### L'éditeur
 
-Afin d'écrire et sauvegarder du code reproductible, nous allons ouvrir un quatrième panneau, l'éditeur, en cliquant sur l'icône avec une page blanche et TODO un signe plus, dans le coin supérieur gauche de l'interface RStudio et en sélectionnant `R Script`, comme illustré à la figure B.5.
+Afin d'écrire et sauvegarder du code reproductible, nous allons ouvrir un quatrième panneau, l'éditeur, en cliquant sur l'icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l'interface RStudio et en sélectionnant `R Script`, comme illustré à la figure B.5.
 
 ```{r newscript,  echo=FALSE, out.width='60%', fig.show='hold',fig.cap='Créez un nouveau script R et ouvrez le panneau `éditeur` en sélectionnant `R Script` dans le menu déroulant.'}
 knitr::include_graphics("Images/new_script.png")
@@ -89,11 +89,11 @@ Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des
 
 Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'Environnement. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
-```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='TODO The value 3 * (6/14) is assigned to the variable t (red) and the dataset ChickWeight is added to the global environment (blue). The boxes are added for emphasis.'}
+```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu).'}
 knitr::include_graphics("Images/save_data.png")
 ```
 
-Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l'instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction `head()` nous permet de voir les six premières lignes TODO du jeu de données. `summary()` résume chacune des colonnes du dataset et `dim()` fournit les dimensions du dataset avec d'abord le nombre de lignes puis de colonnes.
+Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l'instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction `head()` nous permet de voir les six premières lignes des données. `summary()` résume chacune des colonnes du dataset et `dim()` fournit les dimensions du dataset avec d'abord le nombre de lignes puis de colonnes.
 
 ```{r, warning = F, message = F}
 head(ChickWeight) # Les 6 premières observations du dataset
@@ -105,7 +105,7 @@ Contrairement à d'autres logiciels statistiques, R permet aux utilisateurs de s
 
 ### Divers
 
-R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. Le dernier panneau Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre TODO un tracé dans ce panneau. Pendant les Leaning Days, on discutera de la manière de tracer les données.
+R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. Le dernier panneau Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans ce panneau. Pendant les Leaning Days, on discutera de la manière de tracer les données.
 
 ```{r graph, out.width='60%',  echo=FALSE, fig.show='hold', fig.cap='Un exemple de courbe avec le dataset `ChickWeight` en R.'}
 knitr::include_graphics("Images/graph.png")
@@ -130,7 +130,7 @@ Voici quelques fragments de code pour vous familiariser avec certaines pratiques
 
 #### Configuration d'une session R
 
-En général, nous lisons d'autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une "adresse" où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, ie un chemin d'accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant `getwd()` et en TODO définir un nouveau en utilisant `setwd()`. Notez que la syntaxe de ces chemins de fichiers varie selon le système d'exploitation.
+En général, nous lisons d'autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une "adresse" où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, ie un chemin d'accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant `getwd()` et le définir en utilisant `setwd()`. Notez que la syntaxe de ces chemins de fichiers varie selon le système d'exploitation.
 
 ```{r, eval=F, echo=TRUE}
 getwd()
@@ -156,7 +156,7 @@ Pour effacer de la mémoire de R, les données, fonctions ou valeurs stockées q
 
 ```{r echo=TRUE}
 rm(list = ls())                                   
-set.seed(2018)  # TODO Optional: Set a seed to make output replicable
+set.seed(2018)  # pour la reproductibilité
 ```
 
 #### Les basics

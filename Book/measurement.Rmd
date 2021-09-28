@@ -6,7 +6,7 @@ Ce module traite *que mesurer* et *comment mesurer*. Il montre à quel point une
 
 ## Contenu
 
- - Lorsque nous représentons un attribut d'une entité par un nombre, une lettre, un mot ou un symbole d'une manière systématique (TODO peut-être dans une case d'un simple dataset), nous **mesurons**.
+ - Lorsque nous représentons un attribut d'une entité par un nombre, une lettre, un mot ou un symbole d'une manière systématique (par exemple, dans une case d'un simple dataset), nous **mesurons**.
 
  - Une mesure **valide** d'un concept ou d'un phénomène d'intérêt doit clairement représenter cette entité sous-jacente et souvent abstraite.
 
