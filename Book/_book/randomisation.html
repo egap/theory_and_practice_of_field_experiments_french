@@ -676,24 +676,24 @@ Une introduction des EGAP Learning Days</div></a>
 <div id="randomisation" class="section level1 tabset" number="4">
 <h1><span class="header-section-number">Module 4</span> Randomisation</h1>
 <p>Le module sur <a href="causal-inference.html">l’inférence causale</a> aborde le rôle important de la randomisation pour tirer des inférences valides à partir d’une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre design de recherche.</p>
-<p>Nous introduisons quatre façons courantes de randomiser le traitement – simple, complète, par bloc, et en grappe (cluster) – et quand ces différents types de randomisation sont disponibles et appropriés. Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs. Le module fournit des conseils sur l’implementation, y compris les meilleures pratiques pour vérifier l’homogénéité et assurer la reproductibilité.</p>
+<p>Nous introduisons quatre façons courantes de randomiser le traitement – simple, complète, par bloc, et en grappe (cluster) – et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés. Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs. Le module fournit des conseils sur l’implementation, y compris les bonnes pratiques pour vérifier l’homogénéité et assurer la reproductibilité.</p>
 <div id="contenu-2" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Contenu</h2>
 <ul>
-<li><p>Qu’est-ce que la <strong>randomisation</strong>? L’assignation aléatoire <strong>n’est pas</strong> la même que l’échantillonnage aléatoire.</p></li>
+<li><p>Qu’est-ce que la <strong>randomisation</strong>? L’assignation aléatoire <strong>n’est pas</strong> la même chose que l’échantillonnage aléatoire.</p></li>
 <li><p>Quatre façons courantes de randomiser le traitement :</p>
 <ul>
 <li><p><strong>Simple</strong> : assigner de manière aléatoire des unités au traitement (comme un tirage au sort).</p></li>
-<li><p><strong>Complète</strong> : au sein d’une liste d’unités éligibles, assigner un numéro fixe pour recevoir un traitement (comme tirer d’une urne).</p></li>
+<li><p><strong>Complète</strong> : au sein d’une liste d’unités éligibles, assigner un numéro fixe pour recevoir un traitement (comme un tirage d’une urne sans remise).</p></li>
 <li><p><strong>Par bloc (ou stratifié)</strong> : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.</p></li>
-<li><p><strong>En grappe (cluster)</strong> : assigner des groupes (grappes ou clusters) d’observations à la même condition de traitement.</p></li>
+<li><p><strong>En grappe (cluster)</strong> : assigner des groupes (grappes ou clusters) à la même condition de traitement.</p></li>
 </ul></li>
 <li><p>Quelques designs courants:</p>
 <ul>
 <li><p><strong>Accès randomisé</strong> : randomiser la disponibilité du traitement.</p></li>
-<li><p><strong>Accès differé randomisé</strong> : randomiser le timing de l’accès.</p></li>
-<li><p><strong>Factoriel</strong> : randomiser les unités en combinaisons de bras de traitement.</p></li>
-<li><p><strong>Incitatif</strong> : randomiser l’invitation à recevoir le traitement.</p></li>
+<li><p><strong>Accès randomisé differé</strong> : randomiser le timing de l’accès au traitement.</p></li>
+<li><p><strong>Factoriel</strong> : randomiser les unités en combinant les bras de traitement.</p></li>
+<li><p><strong>Incitatif</strong> : randomiser l’incitation à recevoir le traitement.</p></li>
 </ul></li>
 <li><p>Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d’homogénéité. On peut, par exemple, utiliser le test omnibus <span class="math inline">\(d^2\)</span> de <code>xBalance</code> dans le package <code>RItools</code> (car c’est une inférence basée sur la randomisation) ou on peut approximer ce résultat avec un test <span class="math inline">\(F\)</span>.</p></li>
 <li><p>La randomisation a <strong>des limites</strong>. Nous en discutons ici et nous vous orientons vers le module sur <a href="threats-to-internal-validity-of-randomized-experiments.html">les menaces</a> pour en savoir plus.</p></li>
@@ -711,12 +711,12 @@ Une introduction des EGAP Learning Days</div></a>
 Vous pouvez également voir plus d’exemples de randomisation en R sur <a href="https://egap.org/resource/10-things-to-know-about-randomization/">10 choses à savoir sur la randomisation</a>.</p>
 <p>Vous pouvez aussi lire les slides des précédents EGAP Learning Days:</p>
 <ul>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf">La présentation des issues de design aux EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf">La présentation de la randomisation aux EGAP Learning Days à l’Université des Andes, Bogotá, avril 2019</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-montevideo.pdf">La présentation de la randomisation aux EGAP Learning Days à l’Université catholique d’Uruguay, Montevideo, mars 2018</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-guatemala.pdf">La présentation de la randomisation aux EGAP Learning Days à Guatemala City, Guatemala, août 2017</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-malawi.pdf">La présentation de la randomisation aux EGAP Learning Days à Salima, Malawi, février 2017</a></p></li>
-<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf">La présentation de la randomisation aux EGAP Learning Days à l’Université Diego Portales à Santiago, Chili, mai 2016</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf">Présentation des problèmes de design aux EGAP Learning Days à l’African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf">Présentation de la randomisation aux EGAP Learning Days à l’Université des Andes, Bogotá, avril 2019</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-montevideo.pdf">Présentation de la randomisation aux EGAP Learning Days à l’Université catholique d’Uruguay, Montevideo, mars 2018</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-guatemala.pdf">Présentation de la randomisation aux EGAP Learning Days à Guatemala City, Guatemala, août 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-malawi.pdf">Présentation de la randomisation aux EGAP Learning Days à Salima, Malawi, février 2017</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf">Présentation de la randomisation aux EGAP Learning Days à l’Université Diego Portales à Santiago, Chili, mai 2016</a></p></li>
 </ul>
 </div>
 <div id="ressources-2" class="section level2" number="4.3">
@@ -747,7 +747,7 @@ Vous pouvez également voir plus d’exemples de randomisation en R sur <a href=
 <ul>
 <li><a href="https://egap.org/resource/brief-24-reducing-elite-capture-in-the-solomon-islands/">Note d’orientation des politiques publiques EGAP 24 : Réduire l’accaparation par les élites dans les îles Salomon</a></li>
 </ul>
-<p><em>Accès differé randomisé</em></p>
+<p><em>Accès randomisé differé</em></p>
 <ul>
 <li><p><a href="https://egap.org/resource/brief-35-reducing-reconvictions-among-released-prisoners/">Note d’orientation des politiques publiques EGAP 35 : Réduire la récidive parmi les détenus libérés</a></p></li>
 <li><p><a href="https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/">Note d’orientation des politiques publiques EGAP 60 : Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan</a></p></li>
@@ -756,7 +756,7 @@ Vous pouvez également voir plus d’exemples de randomisation en R sur <a href=
 <ul>
 <li><a href="https://egap.org/resource/brief-22-getting-out-the-vote/">Note d’orientation des politiques publiques EGAP 22 : Pousser au vote</a></li>
 </ul>
-<p><em>Randomisation en grappe bloquée</em></p>
+<p><em>Randomisation en grappe par bloc</em></p>
 <ul>
 <li><p><a href="https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/">Note d’orientation des politiques publiques EGAP 54 : Révélations de malversations des politicens en place</a></p></li>
 <li><p><a href="https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/">Note d’orientation des politiques publiques EGAP 56 : Signaler la corruption</a></p></li>
@@ -772,7 +772,7 @@ Vous pouvez également voir plus d’exemples de randomisation en R sur <a href=
 <h3><span class="header-section-number">4.3.5</span> Courtes vidéos explicatives</h3>
 <ul>
 <li><p><a href="https://www.youtu.be/02A61b3hxvA">Randomisation vs. échantillonnage aléatoire</a></p></li>
-<li><p><a href="https://www.youtu.be/bL2U9z8hX1k">Randomisation en grappes vs en blocs</a></p></li>
+<li><p><a href="https://www.youtu.be/bL2U9z8hX1k">Randomisation en grappe vs en bloc</a></p></li>
 </ul>
 
 </div>

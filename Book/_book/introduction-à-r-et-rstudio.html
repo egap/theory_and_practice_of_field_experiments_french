@@ -727,9 +727,9 @@ Figure B.2: Sélectionner le lien “Windows 10/8/7” pour Windows ou “Mac OS
 <li>Miscellaneous (en bas à droite)</li>
 </ul>
 <div class="figure"><span style="display:block;" id="fig:rstudiointro"></span>
-<img src="Images/rstudio_intro.png" alt="Lorsque vous ouvrez RStudio, il y a trois panneaux visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite)." width="80%" />
+<img src="Images/rstudio_intro.png" alt="Lorsque vous ouvrez RStudio, il y a trois fenêtres visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite)." width="80%" />
 <p class="caption">
-Figure B.3: Lorsque vous ouvrez RStudio, il y a trois panneaux visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite).
+Figure B.3: Lorsque vous ouvrez RStudio, il y a trois fenêtres visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite).
 </p>
 </div>
 <div id="la-console" class="section level3" number="12.3.1">
@@ -748,14 +748,14 @@ Figure B.4: La console après avoir exécuté les trois lignes de code répertor
 </div>
 <div id="léditeur" class="section level3" number="12.3.2">
 <h3><span class="header-section-number">B.3.2</span> L’éditeur</h3>
-<p>Afin d’écrire et sauvegarder du code reproductible, nous allons ouvrir un quatrième panneau, l’éditeur, en cliquant sur l’icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l’interface RStudio et en sélectionnant <code>R Script</code>, comme illustré à la figure B.5.</p>
+<p>Afin d’écrire et sauvegarder du code reproductible, nous allons ouvrir une quatrième fenêtre, l’éditeur, en cliquant sur l’icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l’interface RStudio et en sélectionnant <code>R Script</code>, comme illustré à la figure B.5.</p>
 <div class="figure"><span style="display:block;" id="fig:newscript"></span>
-<img src="Images/new_script.png" alt="Créez un nouveau script R et ouvrez le panneau `éditeur` en sélectionnant `R Script` dans le menu déroulant." width="60%" />
+<img src="Images/new_script.png" alt="Créez un nouveau script R et ouvrez la fenêtre `éditeur` en sélectionnant `R Script` dans le menu déroulant." width="60%" />
 <p class="caption">
-Figure B.5: Créez un nouveau script R et ouvrez le panneau <code>éditeur</code> en sélectionnant <code>R Script</code> dans le menu déroulant.
+Figure B.5: Créez un nouveau script R et ouvrez la fenêtre <code>éditeur</code> en sélectionnant <code>R Script</code> dans le menu déroulant.
 </p>
 </div>
-<p>Une fois le script R ouvert, il devrait y avoir quatre panneaux dans l’interface RStudio, maintenant avec l’ajout du panneau Éditeur. Nous pouvons exécuter une arithmétique simple en entrant une formule dans l’éditeur et en appuyant sur <code>Ctrl + Entrée</code> (Windows) ou <code>Commande + Entrée</code> (Mac). La formule et la “réponse” apparaîtront dans la console, comme illustré à la Figure B.6.</p>
+<p>Une fois le script R ouvert, il devrait y avoir quatre fenêtres dans l’interface RStudio, maintenant avec l’ajout de la fenêtre Éditeur. Nous pouvons exécuter une arithmétique simple en entrant une formule dans l’éditeur et en appuyant sur <code>Ctrl + Entrée</code> (Windows) ou <code>Commande + Entrée</code> (Mac). La formule et la “réponse” apparaîtront dans la console, comme illustré à la Figure B.6.</p>
 <div class="figure"><span style="display:block;" id="fig:firstaddition"></span>
 <img src="Images/first_addition.png" alt="Une expression arithmétique est saisie dans l'éditeur et évaluée dans la console. Les cases rouges sont ajoutées pour une visibilité accrue." width="60%" />
 <p class="caption">
@@ -766,7 +766,7 @@ Figure B.6: Une expression arithmétique est saisie dans l’éditeur et évalu�
 </div>
 <div id="gestion" class="section level3" number="12.3.3">
 <h3><span class="header-section-number">B.3.3</span> Gestion</h3>
-<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environnement du panneau Gestion. Dans la Figure B.7, nous définissons la variable <code>t</code> pour prendre la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span>, et pouvons voir qu’elle est stockée sous Valeurs.</p>
+<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous définissons la variable <code>t</code> pour prendre la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span>, et pouvons voir qu’elle est stockée sous Valeurs.</p>
 <p>Nous chargeons également un jeu de données. Ici, “ChickWeight” est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d’autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l’Environnement. En cliquant sur le nom ChickWeight, un onglet s’ouvrira avec le dataset dans la fenêtre de votre éditeur.</p>
 <div class="figure"><span style="display:block;" id="fig:savedata"></span>
 <img src="Images/save_data.png" alt="La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu)." width="60%" />
@@ -798,7 +798,7 @@ Figure B.7: La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et l
 </div>
 <div id="divers" class="section level3" number="12.3.4">
 <h3><span class="header-section-number">B.3.4</span> Divers</h3>
-<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. Le dernier panneau Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans ce panneau. Pendant les Leaning Days, on discutera de la manière de tracer les données.</p>
+<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de tracer les données.</p>
 <div class="figure"><span style="display:block;" id="fig:graph"></span>
 <img src="Images/graph.png" alt="Un exemple de courbe avec le dataset `ChickWeight` en R." width="60%" />
 <p class="caption">
@@ -839,8 +839,8 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="introduction-à-r-et-rstudio.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list =</span> <span class="fu">ls</span>())                                   </span>
 <span id="cb12-2"><a href="introduction-à-r-et-rstudio.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2018</span>)  <span class="co"># pour la reproductibilité</span></span></code></pre></div>
 </div>
-<div id="les-basics" class="section level4" number="12.4.2.2">
-<h4><span class="header-section-number">B.4.2.2</span> Les basics</h4>
+<div id="les-basiques" class="section level4" number="12.4.2.2">
+<h4><span class="header-section-number">B.4.2.2</span> Les basiques</h4>
 <p>Nous allons maintenant explorer quelques commandes de base. Afin d’affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande <code>&lt;-</code> comme discuté précédemment:</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="introduction-à-r-et-rstudio.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;&lt;-&quot;  est la commande d&#39;affectation ; ça sert à définir les choses. eg:</span></span>
 <span id="cb13-2"><a href="introduction-à-r-et-rstudio.html#cb13-2" aria-hidden="true" tabindex="-1"></a>(a <span class="ot">&lt;-</span> <span class="dv">5</span>)     </span></code></pre></div>

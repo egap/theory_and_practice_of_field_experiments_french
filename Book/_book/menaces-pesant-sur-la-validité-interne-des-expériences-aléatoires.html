@@ -676,28 +676,28 @@ Une introduction des EGAP Learning Days</div></a>
 <div id="menaces-pesant-sur-la-validité-interne-des-expériences-aléatoires" class="section level1 tabset" number="9">
 <h1><span class="header-section-number">Module 9</span> Menaces pesant sur la validité interne des expériences aléatoires</h1>
 <p>Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c’est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n’ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d’un voisin traité.</p>
-<p>Dans ce module, nous abordons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.</p>
+<p>Dans ce module, nous abordons certaines menaces courantes et les bonnes pratiques pour les éviter ou les contourner.</p>
 <div id="contenu-7" class="section level2 tabset" number="9.1">
 <h2><span class="header-section-number">9.1</span> Contenu</h2>
 <ul>
 <li><p>Passez en revue les trois hypothèses de base discutées dans <a href="causal-inference.html">l’inférence causale</a> module.</p></li>
 <li><p>Nous avons dit “analysez en randomisant” dans le module sur <a href="estimands-and-estimators.html">les estimandes et les estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
-<li><p><strong>Données manquantes des résultats (ie l’attrition)</strong> sont particulièrement problèmatiques si le pattern des donnees absentes est causé par le traitement lui-même. C’est un problème très courant.</p>
+<li><p><strong>Les données manquantes dans les résultats (ie l’attrition)</strong> sont particulièrement problèmatiques si le pattern des données absentes est causé par le traitement lui-même. C’est un problème très courant.</p>
 <ul>
 <li><p>Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.</p></li>
 <li><p>Vous pourriez <strong>borner</strong> les estimations des effets du traitement.</p></li>
 </ul></li>
-<li><p><strong>Non-conformité</strong>. L’effet de l’assignation du traitement n’est pas le même que l’effet reçu du traitement. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.</p>
+<li><p><strong>Non-conformité</strong>. L’effet de l’assignation du traitement n’est pas le même que l’effet du traitement reçu. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.</p>
 <ul>
 <li><p>La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.</p></li>
-<li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées, mais pas autrement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplis, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
+<li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées au traitement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplis, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
 </ul></li>
-<li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’inférence causale (<a href="causalinference.html">inférence causale</a>).</p>
+<li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’<a href="causalinference.html">inférence causale</a>.</p>
 <ul>
-<li>Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en en tenant compte.</li>
+<li>Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.</li>
 </ul></li>
 <li><p><strong>L’effet Hawthorne</strong> se produit lorsque les sujets se comportent différemment parce qu’ils sont observés.</p></li>
-<li><p><strong>La non-excluabilité</strong>. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière aux unités traitées, peut perturber l’interprétation des résultats expérimentaux.</p>
+<li><p><strong>La non-excluabilité</strong>. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière pour les unités traitées, peut perturber l’interprétation des résultats expérimentaux.</p>
 <ul>
 <li>Si l’effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l’hypothèse d’excluabilité.</li>
 </ul></li>
