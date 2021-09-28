@@ -46,7 +46,7 @@ Lorsque vous ouvrez RStudio pour la première fois, trois onglets doivent être 
 - Accounting (en haut à droite) : cela inclue les onglets Environment et History
 - Miscellaneous (en bas à droite)
 
-```{r rstudiointro, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Lorsque vous ouvrez RStudio, il y a trois panneaux visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite).'}
+```{r rstudiointro, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Lorsque vous ouvrez RStudio, il y a trois fenêtres visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite).'}
 knitr::include_graphics("Images/rstudio_intro.png")
 ```
 
@@ -69,13 +69,13 @@ knitr::include_graphics("Images/console2a.png")
 
 ### L'éditeur
 
-Afin d'écrire et sauvegarder du code reproductible, nous allons ouvrir un quatrième panneau, l'éditeur, en cliquant sur l'icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l'interface RStudio et en sélectionnant `R Script`, comme illustré à la figure B.5.
+Afin d'écrire et sauvegarder du code reproductible, nous allons ouvrir une quatrième fenêtre, l'éditeur, en cliquant sur l'icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l'interface RStudio et en sélectionnant `R Script`, comme illustré à la figure B.5.
 
-```{r newscript,  echo=FALSE, out.width='60%', fig.show='hold',fig.cap='Créez un nouveau script R et ouvrez le panneau `éditeur` en sélectionnant `R Script` dans le menu déroulant.'}
+```{r newscript,  echo=FALSE, out.width='60%', fig.show='hold',fig.cap='Créez un nouveau script R et ouvrez la fenêtre `éditeur` en sélectionnant `R Script` dans le menu déroulant.'}
 knitr::include_graphics("Images/new_script.png")
 ```
 
-Une fois le script R ouvert, il devrait y avoir quatre panneaux dans l'interface RStudio, maintenant avec l'ajout du panneau Éditeur. Nous pouvons exécuter une arithmétique simple en entrant une formule dans l'éditeur et en appuyant sur `Ctrl + Entrée` (Windows) ou `Commande + Entrée` (Mac). La formule et la "réponse" apparaîtront dans la console, comme illustré à la Figure B.6.
+Une fois le script R ouvert, il devrait y avoir quatre fenêtres dans l'interface RStudio, maintenant avec l'ajout de la fenêtre Éditeur. Nous pouvons exécuter une arithmétique simple en entrant une formule dans l'éditeur et en appuyant sur `Ctrl + Entrée` (Windows) ou `Commande + Entrée` (Mac). La formule et la "réponse" apparaîtront dans la console, comme illustré à la Figure B.6.
 
 ```{r firstaddition,  echo=FALSE, out.width='60%', fig.show='hold', fig.cap='Une expression arithmétique est saisie dans l\'éditeur et évaluée dans la console. Les cases rouges sont ajoutées pour une visibilité accrue.'}
 knitr::include_graphics("Images/first_addition.png")
@@ -85,7 +85,7 @@ R peut être utilisé pour toute opération arithmétique, y compris, mais sans 
 
 ### Gestion
 
-Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du panneau Gestion. Dans la Figure B.7, nous définissons la variable `t` pour prendre la valeur $3 \times \frac{6}{14}$, et pouvons voir qu'elle est stockée sous Valeurs.
+Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous définissons la variable `t` pour prendre la valeur $3 \times \frac{6}{14}$, et pouvons voir qu'elle est stockée sous Valeurs.
 
 Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'Environnement. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
@@ -105,7 +105,7 @@ Contrairement à d'autres logiciels statistiques, R permet aux utilisateurs de s
 
 ### Divers
 
-R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. Le dernier panneau Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans ce panneau. Pendant les Leaning Days, on discutera de la manière de tracer les données.
+R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de tracer les données.
 
 ```{r graph, out.width='60%',  echo=FALSE, fig.show='hold', fig.cap='Un exemple de courbe avec le dataset `ChickWeight` en R.'}
 knitr::include_graphics("Images/graph.png")
@@ -159,7 +159,7 @@ rm(list = ls())
 set.seed(2018)  # pour la reproductibilité
 ```
 
-#### Les basics
+#### Les basiques
 
 Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment:
 

@@ -1,6 +1,6 @@
 # Processus de design de recherche
 
-Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques des modules qui suivent.
+Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentée dans les modules qui suivent.
 
 Ce module présente le [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days sont organisés autour du formulaire de design de recherche. Nous vous incitons à utilser le logiciel [DeclareDesign](http://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
 
@@ -16,16 +16,16 @@ Ce module présente le [formulaire de design de recherche EGAP](https://egap.git
 
 - Présentation des composants de base de [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
 
-- Introduire le package pour le design de recherche, [DeclareDesign](http://declaredesign.org).
+- Introduction de package [DeclareDesign](http://declaredesign.org) pour le design de recherche.
 
-- L'évolution des sciences sociales vers **l'examen des designs, au lieu de l'examination des résultats**.
+- L'évolution des sciences sociales s'oriente vers **l'examen des designs, au lieu de l'examination des résultats**.
 
-- **Le pré-enregistrement** -- ce que c'est, et pourquoi et comment nous devons le faire.
+- **Le pré-enregistrement** -- ce que c'est, pourquoi et comment nous devons le faire.
 
 
 ## Slides
 
-Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur le recherche de design. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur le design de recherche. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
 - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.Rmd)
 
@@ -41,7 +41,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [Présentation de DeclareDesign  aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
-Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problèmatiques relatives dans le design de la recherche, au lieu des résultats:
+Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problèmatiques relatives au design de la recherche, plutôt qu'aux résultats:
 
  - [Design Talk aux EGAP Learning Days à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 
@@ -57,7 +57,7 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
  - [Design Talk 3 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
 
- - [Design Talk from EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
+ - [Design Talk aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
 
 ## Formulaire de design et pré-enregistrement
 

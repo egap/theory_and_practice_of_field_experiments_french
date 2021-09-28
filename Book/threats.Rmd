@@ -2,7 +2,7 @@
 
 Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c'est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
 
-Dans ce module, nous abordons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.
+Dans ce module, nous abordons certaines menaces courantes et les bonnes pratiques pour les éviter ou les contourner.
 
 ## Contenu {.tabset}
 
@@ -10,25 +10,25 @@ Dans ce module, nous abordons certaines menaces courantes et les meilleures prat
 
  - Nous avons dit "analysez en randomisant" dans le module sur [les estimandes et les estimateurs](estimands-and-estimators.html). N'oubliez pas que vous avez randomisé **l'assignation** du traitement. Vous n'avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.
 
- - **Données manquantes des résultats (ie l'attrition)** sont particulièrement problèmatiques si le pattern des donnees absentes est causé par le traitement lui-même. C'est un problème très courant.
+ - **Les données manquantes dans les résultats (ie l'attrition)** sont particulièrement problèmatiques si le pattern des données absentes est causé par le traitement lui-même. C'est un problème très courant.
 
      - Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.
 
      - Vous pourriez **borner** les estimations des effets du traitement.
 
- - **Non-conformité**. L'effet de l'assignation du traitement n'est pas le même que l'effet reçu du traitement. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.
+ - **Non-conformité**. L'effet de l'assignation du traitement n'est pas le même que l'effet du traitement reçu. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.
 
      - La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.
      
-     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées, mais pas autrement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplis, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
+     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées au traitement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplis, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
 
- - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'inférence causale ([inférence causale](causalinference.html)).
+ - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'[inférence causale](causalinference.html).
 
-      - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en en tenant compte.
+      - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.
 
  - **L'effet Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
 
-- **La non-excluabilité**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière aux unités traitées, peut perturber l'interprétation des résultats expérimentaux.
+- **La non-excluabilité**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière pour les unités traitées, peut perturber l'interprétation des résultats expérimentaux.
 
      - Si l'effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l'hypothèse d'excluabilité.
 

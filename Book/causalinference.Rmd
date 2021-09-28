@@ -2,7 +2,7 @@
 
 Une grande partie des sciences sociales porte sur la causalité. On peut se demander si [l'inscription des électeurs augmente la participation politique](https://egap.org/resource/electoral-administration-in-kenya/), si [la responsabilisation bottom-up peut améliorer les perspectives en matière de santé](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/), ou si [les récits personnels des migrants aident à réduire les attitudes préjudiciables à leur égard](https://egap.org/resource/brief-70-how-personal-narratives-reduce-negative-attitudes-towards-immigrants-in-kenya/).
 
-Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions de causalité, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher and Rubin](#causalinference-classics). On recourt davantage aux expériences ; la randomisation est devenue la norme de référence pour répondre aux questions causales.
+Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions de causalité, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher et Rubin](#causalinference-classics). On recourt davantage aux expériences ; la randomisation est devenue la norme de référence pour répondre aux questions causales.
 
 Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle à résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'excluabilité.
 
@@ -16,11 +16,11 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
  - Les trois principales **hypothèses de base** pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'excluabilité.
 
- - Comparaison des études aléatoires avec des études d'observation.
+ - Comparaison des études aléatoires avec les études d'observation.
 
  - La randomisation apporte une validité interne élevée, mais elle ne peut pas assurer la **validité externe**.
 
- - Votre question causale est liée à votre[design de recherche](the-research-design-process.html).
+ - Votre question causale est liée à votre [design de recherche](the-research-design-process.html).
 
 ## Slides
 
@@ -34,19 +34,19 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [La présentation de l'inférence causale aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-benin.pdf)
+ - [Présentation de l'inférence causale aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-benin.pdf)
 
- - [La présentation de l'inférence causale aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-bogota.pdf)
+ - [Présentation de l'inférence causale aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-bogota.pdf)
 
- - [La présentation de l'inférence causale aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/causality-montevideo.pdf)
+ - [Présentation de l'inférence causale aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/causality-montevideo.pdf)
 
- - [La présentation de l'inférence causale aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-guatemala.pdf)
+ - [Présentation de l'inférence causale aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-guatemala.pdf)
 
- - [La présentation à l'introduction sur les expériences aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/intro_experiments-guatemala.pdf)
+ - [Présentation à l'introduction sur les expériences aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/intro_experiments-guatemala.pdf)
 
- - [La présentation de l'inférence causale aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-malawi.pdf)
+ - [Présentation de l'inférence causale aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-malawi.pdf)
 
- - [La présentation de l'inférence causale aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
+ - [Présentation de l'inférence causale aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
 
 ## Ressources
 
@@ -76,7 +76,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - [@morgan_counterfactuals_2007, Chapitre 1]. Ce livre comprend de bons examples de raisonnement pour faire des assertions de causalité à partir de données d'observation.
 
-- [@glennerster_running_2013]. Ceci est une excellente introduction pour mener des expériences de terrain illustrée par nombreux exemples.
+- [@glennerster_running_2013]. Ceci est une excellente introduction pour mener des expériences de terrain, illustrée par nombreux exemples.
 
 ### Notes d'orientation des politiques publiques EGAP
 

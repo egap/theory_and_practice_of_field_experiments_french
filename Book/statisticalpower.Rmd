@@ -5,7 +5,7 @@ output:
 ---
 # Puissance statistique et diagnosands de design {.tabset}
 
-Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique de détecter un effet s'il existe.  Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a en fait pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
+Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique de détecter un effet s'il existe.  Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
 
 Dans ce module, nous introduisons la puissance statistique, approches de base pour calculer la puissance par des calculs analytiques et par la simulation, et comment les caractéristiques de design telles que les blocs, l'ajustement des covariables et les grappes (clusters) ont un impact sur la puissance statistique.
 
@@ -13,7 +13,7 @@ Dans ce module, nous introduisons la puissance statistique, approches de base po
 
  - **La puissance statistique** est la capacité d'une étude à détecter un effet s'il existe.
  
- - **L'analyse de puissance** s'effectue avant la réalisation d'une étude.  Cela aide à déterminer l'échantillon dont on a besoin ou les effets que l'on peut détecter. C'est une étape essentielle dans le design de recherche et aide à communiquer sur son design.
+ - **L'analyse de puissance** s'effectue avant la réalisation d'une étude.  Cela aide à déterminer l'échantillon dont on a besoin ou les effets que l'on peut détecter. C'est une étape essentielle dans le design de recherche et cela aide à communiquer sur son design.
 
  - Méthodes courantes de calcul de puissance :
  
@@ -21,11 +21,11 @@ Dans ce module, nous introduisons la puissance statistique, approches de base po
  
       - **Simulations** (par exemple, en utilisant DeclareDesign)
 
- - **L'ajustement des covariables** et **les blocs** peuvent augmenter la puissance statistique.
+ - **L'ajustement des covariables** et **des blocs** peut augmenter la puissance statistique.
 
  - Pour les **designs par grappe** il faut tenir compte de la corrélation intra-grappe (la variance intra-grappe par rapport à la variance globale).
  
- - La puissance statistique est étroitement liée au [design de l'étude] (the-research-design-process.html), aux [tests d'hypothèses](hypothesis-testing.html) et à [l'estimation](estimands-and-estimators.html).
+ - La puissance statistique est étroitement liée au [design de l'étude](the-research-design-process.html), aux [tests d'hypothèses](hypothesis-testing.html) et à [l'estimation](estimands-and-estimators.html).
 
 ## Slides
 Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la puissance statistique. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
@@ -38,17 +38,17 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [La présentation de la puissance statistique des EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
+ - [Présentation de la puissance statistique des EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
 
- - [La présentation de la puissance statistique des EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
+ - [Présentation de la puissance statistique des EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
 
- - [La présentation de la puissance statistique des EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
+ - [Présentation de la puissance statistique des EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
 
- - [La présentation de la puissance statistique des EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
+ - [Présentation de la puissance statistique des EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
 
- - [La présentation de la puissance statistique des EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
+ - [Présentation de la puissance statistique des EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
 
- - [La présentation de la puissance statistique des EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
+ - [Présentation de la puissance statistique des EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
 
 
 ## Ressources
@@ -65,7 +65,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 Quelques exemples d'analyse de puissance statistique dans les designs de recherche:
 
- - [Plan de pré-analyse. La responsabilisation peut transformer (ACT) la santé : une réplication et une extension de Bjorkman et Svensson (2009)](https://osf.io/qxwmu/)
+ - [Plan de pré-analyse. La responsabilisation peut transformer la santé : une réplication et une extension de Bjorkman et Svensson (2009)](https://osf.io/qxwmu/)
  
  - [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 

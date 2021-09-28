@@ -1,35 +1,35 @@
 # Estimandes et estimateurs {.tabset}
 
-Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais des effets moyens du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre avec des erreurs standards et des intervalles de confiance.
+Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur standard et les intervalles de confiance.
 
-Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cette estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
+Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cet estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
 
 
 ## Contenu
 
 - Un **effet causal**, $\tau_i$, est une comparaison des résultats potentiels non observés pour chaque unité $i$.  Par exemple, cela peut être une différence ou un ratio de résultats potentiels non observés.  
 
-- Pour en savoir plus sur $\tau_{i}$, on peut traiter $\tau_{i}$ comme **estimande** ou quantité cible à estimer (ce module) 
-ou comme quantité cible sur laquelle émettre une hypothèse ([module de test d'hypothèse](hypothesis-testing.html)).
+- Pour en savoir plus sur $\tau_{i}$, on peut traiter $\tau_{i}$ comme un **estimande** ou une quantité cible à estimer (voir ce module)
+ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le module des tests d'hypothèses](hypothesis-testing.html)).
 
 - Beaucoup de gens se concentrent sur **l'effet moyen du traitement (ATE)**, $\bar{\tau}=\sum_{i=1}^n
    \tau_{i}$, en partie parce qu'il permet **d'estimer** facilement.
 
 - Un **estimateur** est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour $m$ unités traitées et la moyenne des résultats observés pour $N-m$ unités non traitées est un estimateur de $\bar{\tau}$.
 
-- Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. Une **erreur standard** résume cette variabilité dans un estimateur.
+- Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. **L'erreur standard** résume cette variabilité dans un estimateur.
 
 - Un **intervalle de confiance** de $100(1-\alpha)$% est un ensemble d'hypothèses qui ne peuvent être rejetées au niveau $\alpha$. Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.
 
-- Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) varient peu dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
+- Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) peu varier dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
 
  - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs standards devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 
  - Nous **ne contrôlons pas** les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus **précise**. C'est ce qu'on appelle **l'ajustement de covariable**. L'ajustement de covariable dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 
- - Une intervention politique (comme une lettre qui encourage l'exercice) peut *avoir l'intention* de changer un comportement par **une dose active** (exercice réel). Nous pouvons apprendre l'effet causal de l'intention en envoyent les lettres de façon aléatoire. C'est ce qu'on appele **l'effet d'intention de traiter** (intent to treat effect, **ITT**).
+ - Une intervention politique (comme une lettre qui incite à l'exercice) peut *avoir l'intention* de changer un comportement par **une dose active** (exercice réel). Nous pouvons apprendre l'effet causal de l'intention en envoyent les lettres de façon aléatoire. C'est ce qu'on appele **l'effet d'intention de traiter** (intent to treat effect, **ITT**).
  
- - Nous pouvons apprendre sur l'effet causal de l'exercice réel en utilisant l'attribution aléatoire de lettres comme **instrument** la dose active (l'exercice lui-même) afin d'apprendre davantage sur l'effet causal de l'exercice **chez ceux qui changeraient leur comportement après avoir reçu la lettre**. Cette version de l'effet causal moyen est souvent connue sous le nom **d'effet moyen local du traitement**.
+ - Nous pouvons apprendre sur l'effet causal de l'exercice réel en utilisant l'attribution aléatoire de lettres comme **instrument** de la dose active (l'exercice lui-même) afin d'apprendre davantage sur l'effet causal de l'exercice **chez ceux qui changeraient leur comportement après avoir reçu la lettre**. Cette version de l'effet causal moyen est souvent connue sous le nom **d'effet moyen local du traitement**.
 
 
 ## Slides
@@ -44,25 +44,25 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
- - [La présentation de l'estimation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
+ - [Présentation de l'estimation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
 
- - [La présentation de l'estimation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf)
+ - [Présentation de l'estimation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf)
 
- - [La présentation de l'estimation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf)
+ - [Présentation de l'estimation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf)
 
- - [La présentation de l'estimation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf)
+ - [Présentation de l'estimation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf)
 
-Vous pouvez également voir les problèmes d'estimation de l'effet de la dose active d'un traitement dans ces slides (ainsi que les problèmes causés par les données manquantes sur les résultats pour l'estimation de l’effet causal moyen) :
+Vous pouvez également voir les problèmes d'estimation de l'effet de la dose active d'un traitement dans ces slides (ainsi que les problèmes causés par les données manquantes dans les résultats pour l'estimation de l’effet causal moyen) :
 
-- [La présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [La présentation des effets de débordement et de l'attrition aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
+- [Présentation des effets de débordement et de l'attrition aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
 
-- [La présentation des menaces aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
+- [Présentation des menaces aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
 
-- [La présentation des complications aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf)
+- [Présentation des complications aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf)
 
-- [La présentation des menaces aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016 (la section du milieu examine l'ITT et la non-conformité)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
+- [Présentation des menaces aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016 (la section du milieu examine l'ITT et la non-conformité)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
 
 ## Ressources
