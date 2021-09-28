@@ -40,7 +40,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 - [Le rapport Belmont](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html)
 
-- [Les comités d’éthique institutionnels aux US](https://www.youtube.com/watch?v=U8fme1boEbE)
+- [Les comités de revue éthique institutionnels aux US](https://www.youtube.com/watch?v=U8fme1boEbE)
 
 - [Exemple : Éthique de la recherche à l'Université d'Oxford au Royaume-Uni](https://researchsupport.admin.ox.ac.uk/governance/ethics)
 
