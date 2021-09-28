@@ -68,9 +68,9 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 ### Livres, chapitres et articles
 
- - [@gerber_field_2012]. Chapitre 3: Distributions d'échantillonnage, inférence statistique et test d'hypothèse.
+ - [@gerber_field_2012]. Chapitre 3 : Distributions d'échantillonnage, inférence statistique et test d'hypothèse.
  
  - [@rosenbaum2010design]. Chapitre 2 : Inférence causale dans les expériences aléatoires.
  
- - [@rosenbaum2017observation]. Partie I: Expériences aléatoires.
+ - [@rosenbaum2017observation]. Partie I : Expériences aléatoires.
 

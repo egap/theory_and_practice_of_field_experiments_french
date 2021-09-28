@@ -10,11 +10,11 @@ Ce module traite des sujets de base sur l'éthique de la recherche, tels que la 
 
  - Que ressentiriez-vous si vous étiez un sujet de recherche dans votre étude ? Dans le groupe contrôle ? Dans le groupe de traitement ? Un membre de statut relativement élevé dans la communauté ? Un membre de statut relativement bas dans la communauté ?
 
- - Principes clés: **la confidentialité** et **l'autonomie**.
+ - Principes clés : **la confidentialité** et **l'autonomie**.
 
  - Principes de base du rapport Belmont : **respect des personnes, bienveillance, justice**.
 
- - **Consentement éclairé**: Pouvez-vous garantir que les sujets de recherche ont la liberté de refuser de participer et/ou d'abandonner l'étude s'ils le souhaitent ? Pouvez-vous vous assurer que les sujets de recherche peuvent signaler les problèmes qui pourraient survenir ?
+ - **Consentement éclairé** : Pouvez-vous garantir que les sujets de recherche ont la liberté de refuser de participer et/ou d'abandonner l'étude s'ils le souhaitent ? Pouvez-vous vous assurer que les sujets de recherche peuvent signaler les problèmes qui pourraient survenir ?
 
  - Défis de la recherche expérimentale en sciences sociales en général:
 
@@ -42,11 +42,11 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 - [Les comités d’éthique institutionnels aux US](https://www.youtube.com/watch?v=U8fme1boEbE)
 
-- [Exemple: Éthique de la recherche à l'Université d'Oxford au Royaume-Uni](https://researchsupport.admin.ox.ac.uk/governance/ethics)
+- [Exemple : Éthique de la recherche à l'Université d'Oxford au Royaume-Uni](https://researchsupport.admin.ox.ac.uk/governance/ethics)
 
-- [Exemple: Éthique pour les chercheurs dans l'UE](https://ec.europa.eu/research/participants/data/ref/fp7/89888/ethics-for-researchers_en.pdf)
+- [Exemple : Éthique pour les chercheurs dans l'UE](https://ec.europa.eu/research/participants/data/ref/fp7/89888/ethics-for-researchers_en.pdf)
 
-- [Exemple: Éthique de la recherche à l'Université catholique du Chile](http://eticayseguridad.uc.cl/)
+- [Exemple : Éthique de la recherche à l'Université catholique du Chile](http://eticayseguridad.uc.cl/)
 
 ### Livres, chapitres et articles
 
@@ -58,6 +58,6 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 Exemples de plans de pré-analyse et d'articles sur les considérations éthiques:
 
-- [Plan de pré-analyse: les effets des bons non-alimentaires dans un contexte humanitaire, le cas du programme de réponse rapide aux mouvements de population au Congo](https://osf.io/eutx7/)
+- [Plan de pré-analyse : les effets des bons non-alimentaires dans un contexte humanitaire, le cas du programme de réponse rapide aux mouvements de population au Congo](https://osf.io/eutx7/)
 
-- [Article: Appendix E.1 Lutter contre la violence à l'égard des femmes en encourageant la dénonciation: une expérience dans les médias de masse en Ouganda rural](http://jasper-cooper.com/papers/Green_et_al.pdf)
+- [Article : Appendix E.1 Lutter contre la violence à l'égard des femmes en encourageant la dénonciation : une expérience dans les médias de masse en Ouganda rural](http://jasper-cooper.com/papers/Green_et_al.pdf)

@@ -1,6 +1,6 @@
 # Menaces pesant sur la validité interne des expériences aléatoires {.tabset}
 
-Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c'est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement: soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
+Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c'est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
 
 Dans ce module, nous abordons certaines menaces courantes et les meilleures pratiques pour les éviter ou les contourner.
 
@@ -67,6 +67,6 @@ Vous pouvez également voir les slides utilisées lors des précédents EGAP Lea
 
 ### Note d'orientation des politiques publiques EGAP
 
-- [Note d'orientation EGAP 11: Observateurs électoraux et fraude au Ghana ](https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/)
+- [Note d'orientation EGAP 11 : Observateurs électoraux et fraude au Ghana ](https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/)
 
-- [Note d'orientation EGAP 16: Effets de débordement des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
+- [Note d'orientation EGAP 16 : Effets de débordement des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)

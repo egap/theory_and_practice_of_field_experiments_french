@@ -67,7 +67,7 @@ Quelques exemples d'analyse de puissance statistique dans les designs de recherc
 
  - [Plan de pré-analyse. La responsabilisation peut transformer (ACT) la santé : une réplication et une extension de Bjorkman et Svensson (2009)](https://osf.io/qxwmu/)
  
- - [Note d'orientation des politiques publiques EGAP 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+ - [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 
 ### Outils

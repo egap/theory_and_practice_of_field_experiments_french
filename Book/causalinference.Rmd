@@ -14,7 +14,7 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
  - La **randomisation** nous aide à comprendre les assertions causales contrefactuelles d'une manière particulièrement utile.
 
- - Les trois principales **hypothèses de base** pour l'inférence causale: l'assignation aléatoire des sujets au traitement, la non-interférence et l'excluabilité.
+ - Les trois principales **hypothèses de base** pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'excluabilité.
 
  - Comparaison des études aléatoires avec des études d'observation.
 
@@ -82,12 +82,12 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 Quelques exemples de questions causales :
 
-- [Note d'orientation des politiques publiques EGAP 38: Les campagnes d'éducation des électeurs à la radio sont-elles efficaces pour décourager les électeurs de voter pour des partis ou candidats qui s'engagent dans l'achat de voix ?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
+- [Note d'orientation des politiques publiques EGAP 38 : Les campagnes d'éducation des électeurs à la radio sont-elles efficaces pour décourager les électeurs de voter pour des partis ou candidats qui s'engagent dans l'achat de voix ?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
 
-- [Note d'orientation des politiques publiques EGAP 51: Les technologies de l'information et de communication gratuites et anonymes peuvent-elles renforcer la responsabilité locale et améliorer les prestations de services publics ?](https://egap.org/resource/does-information-technology-improve-public-service-delivery-lessons-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 51 : Les technologies de l'information et de communication gratuites et anonymes peuvent-elles renforcer la responsabilité locale et améliorer les prestations de services publics ?](https://egap.org/resource/does-information-technology-improve-public-service-delivery-lessons-from-uganda/)
 
-- [Note d'orientation des politiques publiques EGAP 58: La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
-- [Note d'orientation des politiques publiques EGAP 69: Une surveillance citoyenne bottom-up améliore-t-elle les prestations de services publics ?](https://egap.org/resource/brief-69-bottom-up-accountability-and-public-service-provision-in-brazil/)
+- [Note d'orientation des politiques publiques EGAP 69 : Une surveillance citoyenne bottom-up améliore-t-elle les prestations de services publics ?](https://egap.org/resource/brief-69-bottom-up-accountability-and-public-service-provision-in-brazil/)
 
 

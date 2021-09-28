@@ -75,35 +75,35 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - [@glennerster_running_2013]. Chapitre 2 sur la randomisation.
 
-- [@gerber_field_2012]. Chapitre 2: Inférence causale et expérimentation
+- [@gerber_field_2012]. Chapitre 2 : Inférence causale et expérimentation
 
 ### Notes d'orientation des politiques publiques EGAP
 
 *Designs factoriels*
 
-- [Note d'orientation des politiques publiques EGAP 57: Comment les médias influencent les normes sociales : la preuve au Mexique](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
+- [Note d'orientation des politiques publiques EGAP 57 : Comment les médias influencent les normes sociales : la preuve au Mexique](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
 
-- [Note d'orientation des politiques publiques EGAP 58: La responsabilisation bottom-up fonctionne-t-elle ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up fonctionne-t-elle ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 *Randomiser l'accès*
 
-- [Note d'orientation des politiques publiques EGAP 24: Réduire l'accaparation par les élites dans les îles Salomon](https://egap.org/resource/brief-24-reducing-elite-capture-in-the-solomon-islands/)
+- [Note d'orientation des politiques publiques EGAP 24 : Réduire l'accaparation par les élites dans les îles Salomon](https://egap.org/resource/brief-24-reducing-elite-capture-in-the-solomon-islands/)
 
 *Accès differé randomisé*
 
-  - [Note d'orientation des politiques publiques EGAP 35: Réduire la récidive parmi les détenus libérés](https://egap.org/resource/brief-35-reducing-reconvictions-among-released-prisoners/)
+  - [Note d'orientation des politiques publiques EGAP 35 : Réduire la récidive parmi les détenus libérés](https://egap.org/resource/brief-35-reducing-reconvictions-among-released-prisoners/)
 
-  - [Note d'orientation des politiques publiques EGAP 60: Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan](https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/)
+  - [Note d'orientation des politiques publiques EGAP 60 : Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan](https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/)
 
 *Randomisation en grappe (cluster)*
 
-  - [Note d'orientation des politiques publiques EGAP 22: Pousser au vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
+  - [Note d'orientation des politiques publiques EGAP 22 : Pousser au vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
 
 *Randomisation en grappe bloquée*
 
-  - [Note d'orientation des politiques publiques EGAP 54: Révélations de malversations des politicens en place](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
+  - [Note d'orientation des politiques publiques EGAP 54 : Révélations de malversations des politicens en place](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
 
-  - [Note d'orientation des politiques publiques EGAP 56: Signaler la corruption](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
+  - [Note d'orientation des politiques publiques EGAP 56 : Signaler la corruption](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
 
 
 ### Outils
