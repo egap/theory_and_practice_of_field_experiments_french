@@ -19,7 +19,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
     - **En grappe (cluster)** : assigner des groupes (grappes ou clusters) à la même condition de traitement.
     
     
-- Quelques designs courants:
+- Quelques designs courants :
     
     - **Accès randomisé** : randomiser la disponibilité du traitement.
     
@@ -46,7 +46,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 Les fichiers liés montrent comment [faire de la randomisation réplicable en R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd). 
 Vous pouvez également voir plus d'exemples de randomisation en R sur [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/).
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
 - [Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 

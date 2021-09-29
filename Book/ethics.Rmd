@@ -16,7 +16,7 @@ Ce module traite des sujets de base sur l'éthique de la recherche, tels que la 
 
  - **Consentement éclairé** : Pouvez-vous garantir que les sujets de recherche ont la liberté de refuser de participer et/ou d'abandonner l'étude s'ils le souhaitent ? Pouvez-vous vous assurer que les sujets de recherche peuvent signaler les problèmes qui pourraient survenir ?
 
- - Défis de la recherche expérimentale en sciences sociales en général:
+ - Défis de la recherche expérimentale en sciences sociales en général :
 
     - Beaucoup plus de personnes peuvent profiter (ou souffrir) de votre intervention que ceux participant directement à votre étude
 
@@ -56,7 +56,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 ### Articles et plans de pré-analyse
 
-Exemples de plans de pré-analyse et d'articles sur les considérations éthiques:
+Exemples de plans de pré-analyse et d'articles sur les considérations éthiques :
 
 - [Plan de pré-analyse : les effets des bons non-alimentaires dans un contexte humanitaire, le cas du programme de réponse rapide aux mouvements de population au Congo](https://osf.io/eutx7/)
 

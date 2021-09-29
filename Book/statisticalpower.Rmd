@@ -36,7 +36,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/power-slides.html)
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
  - [Présentation de la puissance statistique des EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
 
@@ -63,7 +63,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 ### Notes d'orientation des politiques publiques EGAP et plans de pré-analyse
 
-Quelques exemples d'analyse de puissance statistique dans les designs de recherche:
+Quelques exemples d'analyse de puissance statistique dans les designs de recherche :
 
  - [Plan de pré-analyse. La responsabilisation peut transformer la santé : une réplication et une extension de Bjorkman et Svensson (2009)](https://osf.io/qxwmu/)
  

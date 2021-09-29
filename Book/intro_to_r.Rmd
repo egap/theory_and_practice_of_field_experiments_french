@@ -12,7 +12,7 @@ RStudio est un environnement de développement intégré gratuit et open source 
 
 ### Télécharger R
 
-R est téléchargeable gratuitement sur CRAN au lien correspondant à votre système d'exploitation:
+R est téléchargeable gratuitement sur CRAN au lien correspondant à votre système d'exploitation :
 
 - Pour **Windows** : [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
 - Pour **Mac OS X** : [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/).
@@ -118,7 +118,7 @@ knitr::include_graphics("Images/graph.png")
 Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer à apprendre R. Nous vous recommandons deux sources :
 
 - Code School, qui fonctionne entièrement sur votre navigateur [https://www.codeschool.com/courses/try-r](https://www.codeschool.com/courses/try-r).
-- Coursera, via un cours de programmation R en ligne organisé par l'Université Johns Hopkins:
+- Coursera, via un cours de programmation R en ligne organisé par l'Université Johns Hopkins :
     i. Allez sur [https://www.coursera.org](https://www.coursera.org)
     ii. Créez un compte (c'est gratuit !)
     iii. Inscrivez-vous pour "R Programming at Johns Hopkins University" (instructeur : Roger Peng) sous la rubrique "Cours"
@@ -161,10 +161,10 @@ set.seed(2018)  # pour la reproductibilité
 
 #### Les basiques
 
-Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment:
+Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment :
 
 ```{r echo=TRUE}
-# "<-"  est la commande d'affectation ; ça sert à définir les choses. eg:
+# "<-"  est la commande d'affectation ; ça sert à définir les choses. eg :
 (a <- 5)     
 ```
 
@@ -179,7 +179,7 @@ Nous pouvons également vouloir affecter un vecteur d'éléments à une variable
 On peut alors se référer aux éléments d'un vecteur en désignant leur position à l'intérieur de parenthèses `[]`.
 
 ```{r echo=TRUE}
-# Extract elements of a vector:
+# Extrait les éléments d'un vecteur :
 b[1]                   # Retourne la position 1
 b[5:4]                 # Retourne les positions 5 et 4, dans cet ordre
 b[-1]                  # Retourne tout sauf le premier élément
@@ -202,7 +202,7 @@ sd(b)       # Écart type de tous les éléments
 var(b)      # Variance de tous les éléments
 ```
 
-On peut aussi appliquer des transformations arithmétiques à tous les éléments d'un vecteur:
+On peut aussi appliquer des transformations arithmétiques à tous les éléments d'un vecteur :
 
 ```{r echo=TRUE}
 b^2               # Carré de la variable
@@ -211,7 +211,7 @@ log(b)            # Log de la variable
 exp(b)            # Exponentielle de la variable
 ```
 
-Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire "la condition X est-elle vraie ?") sur tous les éléments d'un vecteur:
+Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire "la condition X est-elle vraie ?") sur tous les éléments d'un vecteur :
 
 ```{r echo=TRUE}
 b == 2                     # égal à

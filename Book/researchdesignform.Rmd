@@ -68,7 +68,7 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
      - [Version HTML](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
 
-- Liens vers les répertoires pour pré-enregistrement/plans de pré-analyse:
+- Liens vers les répertoires pour pré-enregistrement/plans de pré-analyse :
 
     - Le registre EGAP, hébergé par OSF (https://egap.org/registry/)
 
@@ -76,7 +76,7 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
     - OSF (https://osf.io/registries)
 
-- Exemples d'autres pré-enregistrements/plans de pré-analyse:
+- Exemples d'autres pré-enregistrements/plans de pré-analyse :
 
     - SMS au Mozambique du [gouvernement fédéral américain](https://oes.gsa.gov/projects/sms-mozambique/)
 

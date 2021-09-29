@@ -39,7 +39,7 @@ Voir le module sur [l'inférence causale](causal-inference.html), [les estimande
 
 - **Assignation aléatoire** Assignation des sujets à des conditions expérimentales avec des probabilités connues strictement comprises entre 0 et 1.
   Cela équivaut à un échantillonnage aléatoire sans remise à partir des résultats potentiels.
-  Il existe plusieurs stratégies d'assignation aléatoire: simple, complète, par grappe (cluster), par bloc, ou une combinaison bloc et grappe.
+  Il existe plusieurs stratégies d'assignation aléatoire : simple, complète, par grappe (cluster), par bloc, ou une combinaison bloc et grappe.
   Voir le module sur [la randomisation](randomization.html).
 
 - **Validité externe** Les résultats de votre étude vous renseignent sur des contextes en dehors de votre échantillon --- dans d'autres endroits ou pour d'autres interventions.
