@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-09-28" />
+<meta name="date" content="2021-09-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -624,11 +624,11 @@ div.csl-indent {
 <li class="appendix"><span><b>Appendix</b></span></li>
 <li class="chapter" data-level="A" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html"><i class="fa fa-check"></i><b>A</b> Glossaire des termes</a>
 <ul>
-<li class="chapter" data-level="A.1" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#key-concepts"><i class="fa fa-check"></i><b>A.1</b> Key Concepts</a></li>
-<li class="chapter" data-level="A.2" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#statistical-inference"><i class="fa fa-check"></i><b>A.2</b> Statistical Inference</a></li>
-<li class="chapter" data-level="A.3" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#randomization-strategies"><i class="fa fa-check"></i><b>A.3</b> Randomization Strategies</a></li>
-<li class="chapter" data-level="A.4" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#factorial-designs"><i class="fa fa-check"></i><b>A.4</b> Factorial Designs</a></li>
-<li class="chapter" data-level="A.5" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#threats"><i class="fa fa-check"></i><b>A.5</b> Threats</a></li>
+<li class="chapter" data-level="A.1" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#concepts-clés"><i class="fa fa-check"></i><b>A.1</b> Concepts clés</a></li>
+<li class="chapter" data-level="A.2" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#inférence-statistique"><i class="fa fa-check"></i><b>A.2</b> Inférence statistique</a></li>
+<li class="chapter" data-level="A.3" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#stratégies-de-randomisation"><i class="fa fa-check"></i><b>A.3</b> Stratégies de randomisation</a></li>
+<li class="chapter" data-level="A.4" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#designs-factoriels"><i class="fa fa-check"></i><b>A.4</b> Designs factoriels</a></li>
+<li class="chapter" data-level="A.5" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#menaces"><i class="fa fa-check"></i><b>A.5</b> Menaces</a></li>
 </ul></li>
 <li class="chapter" data-level="B" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html"><i class="fa fa-check"></i><b>B</b> Introduction à R et RStudio</a>
 <ul>
@@ -676,178 +676,153 @@ Une introduction des EGAP Learning Days</div></a>
 <div id="glossaire-des-termes" class="section level1 tabset" number="11">
 <h1><span class="header-section-number">A</span> Glossaire des termes</h1>
 <p>Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et plus généralement à travers les discussions d’expériences de terrain aléatoires.</p>
-<div id="key-concepts" class="section level2" number="11.1">
-<h2><span class="header-section-number">A.1</span> Key Concepts</h2>
-<p>See the module on <a href="causal-inference.html">causal inference</a>, <a href="estimands-and-estimators.html">estimands and estimators</a>.</p>
+<div id="concepts-clés" class="section level2" number="11.1">
+<h2><span class="header-section-number">A.1</span> Concepts clés</h2>
+<p>Voir le module sur <a href="causal-inference.html">l’inférence causale</a>, <a href="estimands-and-estimators.html">les estimandes et estimateurs</a>.</p>
 <ul>
-<li><strong>Potential outcome <span class="math inline">\(Y_i(T)\)</span></strong> The outcome <span class="math inline">\(Y\)</span> that unit <span class="math inline">\(i\)</span> <em>would</em>
-have under treatment condition <span class="math inline">\(T\)</span>. We think of these as fixed quantities for a specific point in time. <span class="math inline">\(T\)</span> can be 0 for control or 1 for treatment if there is only one type of treatment. See the module on <a href="causal-inference.html">causal inference</a>.</li>
-<li><strong>Treatment effect <span class="math inline">\(\tau_i\)</span> for unit <span class="math inline">\(i\)</span></strong> The contrast between potential
-outcomes under two treatment conditions for unit <span class="math inline">\(i\)</span>. We typically define the treatment effect as the difference in potential outcomes under treatment and control, <span class="math inline">\(Y_i(1)-Y_i(0)\)</span>. See the module on <a href="causal-inference.html">causal inference</a>.</li>
-<li><strong>Fundamental problem of causal inference</strong> in the counterfactual framework. We can’t observe both <span class="math inline">\(Y_i(1)\)</span> and <span class="math inline">\(Y_i(0)\)</span> for a given unit, so we can’t get <span class="math inline">\(\tau_i\)</span> directly. See the module on <a href="causal-inference.html">causal inference</a>.</li>
-<li><strong>Estimand</strong> The thing you want to estimate. An example of an estimand is the average treatment effect. In counterfactual causal inference, this is a function of potential outcomes, not fully observed outcomes. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
-<li><strong>Estimator</strong> How you make a guess about the value of your estimand from the
-data you have (i.e., observed). An example of an estimator is the difference-in-means. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.
+<li><p><strong>Résultat potentiel <span class="math inline">\(Y_i(T)\)</span></strong> Le résultat <span class="math inline">\(Y\)</span> que l’unité <span class="math inline">\(i\)</span> <em>aurait</em> sous la condition de traitement <span class="math inline">\(T\)</span>. Ceux-ci sont considérés comme des quantités fixes pour un moment précis.
+<span class="math inline">\(T\)</span> peut être 0 pour le contrôle ou 1 pour le traitement s’il n’y a qu’un seul type de traitement. Voir le module sur <a href="causal-inference.html">l’inférence causale</a>.</p></li>
+<li><p><strong>Effet du traitement <span class="math inline">\(\tau_i\)</span> pour l’unité <span class="math inline">\(i\)</span></strong> Le contraste entre les résultats potentiels sous les deux conditions de traitement pour l’unité <span class="math inline">\(i\)</span>.
+L’effet du traitement est généralement défini comme la différence entre les résultats potentiels sous traitement et sous contrôle, <span class="math inline">\(Y_i(1)-Y_i(0)\)</span>.
+Voir le module sur <a href="causal-inference.html">l’inférence causale</a>.</p></li>
+<li><p><strong>Problème fondamental de l’inférence causale</strong> dans le framework contrefactuel. On ne peut pas observer à la fois <span class="math inline">\(Y_i(1)\)</span> et <span class="math inline">\(Y_i(0)\)</span> pour une unité donnée, donc on ne peut pas obtenir <span class="math inline">\(\tau_i\)</span> directement.
+Voir le module sur <a href="causal-inference.html">l’inférence causale</a>.</p></li>
+<li><p><strong>Estimande</strong> Ce que vous visez à estimer. Un exemple d’un estimande est l’effet moyen du traitement.
+Dans l’inférence causale contrefactuelle, l’effet moyen du traitement est fonction des résultats potentiels, et non des résultats observés.
+Voir le module sur les <a href="estimands-and-estimators.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Estimateur</strong> Comment on devine la valeur de l’estimande à partir des données dont on dispose (les données observées).
+Un exemple d’estimateur est la différence des moyennes. Voir le module sur les <a href="estimands-and-estimators.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Effet moyen du traitement (Average treatment effect, ATE)</strong> La moyenne de l’effet du traitement pour tous les individus de votre groupe de sujets.
+C’est un type d’<strong>estimande</strong>. Si on définit <span class="math inline">\(\tau_i\)</span> comme étant <span class="math inline">\(Y_i(1)-Y_i(0)\)</span>, alors l’effet moyen du traitement est <span class="math inline">\(\overline{Y_i(1)-Y_i(0)}\)</span>, ce qui équivaut aussi à <span class="math inline">\(\overline{{Y}_i(1)}-\overline{{Y}_i(0)}\)</span>.
+Notez qu’on n’utilise pas le style de notation <span class="math inline">\(E[Y_i (1)]\)</span> ici parce que <span class="math inline">\(E[]\)</span> signifie “moyenne sur des opérations répétées,” mais <span class="math inline">\(\overline{Y}\)</span> signifie “moyenne sur un ensemble d’observations.”
+Voir le module sur <a href="causal-inference.html">l’inférence causale</a> et le module sur les <a href="estimands-and-estimators.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Échantillonnage aléatoire</strong> Sélection de sujets dans une population avec des probabilités connues strictement comprises entre 0 et 1.</p></li>
+<li><p><strong>Une experience avec <span class="math inline">\(k\)</span> bras de traitement</strong> Une experience qui comprend <span class="math inline">\(k\)</span> conditions de traitement
+(y compris le contrôle). Voir le module sur <a href="randomization.html">la randomisation</a>.</p></li>
+<li><p><strong>Assignation aléatoire</strong> Assignation des sujets à des conditions expérimentales avec des probabilités connues strictement comprises entre 0 et 1.
+Cela équivaut à un échantillonnage aléatoire sans remise à partir des résultats potentiels.
+Il existe plusieurs stratégies d’assignation aléatoire: simple, complète, par grappe (cluster), par bloc, ou une combinaison bloc et grappe.
+Voir le module sur <a href="randomization.html">la randomisation</a>.</p></li>
+<li><p><strong>Validité externe</strong> Les résultats de votre étude vous renseignent sur des contextes en dehors de votre échantillon — dans d’autres endroits ou pour d’autres interventions.</p></li>
+</ul>
+</div>
+<div id="inférence-statistique" class="section level2" number="11.2">
+<h2><span class="header-section-number">A.2</span> Inférence statistique</h2>
+<p>Voir les modules sur <a href="hypothesis-testing.html">les tests d’hypothèses</a> et <a href="statistical-power-and-design-diagnosands.html">la puissance statistique</a>.</p>
 <ul>
-<li><strong>Average treatment effect, ATE</strong> The average of the treatment effect for all individuals in your subject pool. This is a type of <strong>estimand</strong>. If we define <span class="math inline">\(\tau_i\)</span> to be <span class="math inline">\(Y_i(1)-Y_i(0)\)</span>, then the ATE is <span class="math inline">\(\overline{Y_i(1)-Y_i(0)}\)</span>, which is also equivalent to <span class="math inline">\(\overline{{Y}_i(1)}-\overline{{Y}_i(0)}\)</span>. Notice that we do not use the <span class="math inline">\(E[Y_i (1)]\)</span> style of notation here because <span class="math inline">\(E[]\)</span> means “average over repeated operations,” but <span class="math inline">\(\overline{Y}\)</span> means “average over a set of observations.” See the module on <a href="causal-inference.html">causal inference</a> and the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
+<li><p><strong>Hypothèse</strong> Une affirmation simple, claire et falsifiable sur le monde.
+Dans l’inférence causale contrefactuelle, une hypothèse est une déclaration sur une relation pour les résultats potentiels,
+comme <span class="math inline">\(H_0: Y_i(T_i=0) = Y_i(T_i=1) + \tau_i\)</span> pour l’hypothèse que le résultat potentiel sous traitement est le résultat potentiel sous contrôle plus un certain effet pour chaque unité <span class="math inline">\(i\)</span>.
+Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
+<li><p><strong>Hypothèse nulle</strong> Une conjecture sur le monde que vous pouvez rejeter après avoir vu les données.
+Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
+<li><p><strong>TODO Hypothèse nulle forte d’absence d’effet</strong> L’hypothèse nulle selon laquelle il n’y a aucun effet du traitement pour aucun sujet.
+Cela signifie <span class="math inline">\(Y_i(1)=Y_i(0)\)</span> pour tout <span class="math inline">\(i\)</span>. On pourrait écrire ceci comme <span class="math inline">\(H_0: Y_i(T_i=0) = Y_i(T_i=1)\)</span>.
+Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
+<li><p><strong><span class="math inline">\(p\)</span>-valeur</strong> La probabilité de voir une statistique de test aussi grande (en valeur absolue) ou plus grande que la statistique de test calculée à partir des données observées.
+Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
+<li><p><strong>Test unilatéral ou bilatéral</strong> Lorsque vous vous attendez fortement à ce que l’effet soit positif ou négatif, vous pouvez effectuer un test unilatéral.
+Lorsque vous n’avez pas d’attente, effectuez un test bilatéral. Un test unilatéral a plus de puissance qu’un test bilatéral pour la même expérience.
+Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
+<li><p><strong>Écart type</strong> Racine carrée de l’écart quadratique moyen par rapport à la moyenne d’une variable. C’est une mesure de la dispersion ou de la propagation d’une statistique.
+<span class="math inline">\(SD_x=\sqrt{\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^2}\)</span></p></li>
+<li><p><strong>Taux de faux positifs/Erreur de type I d’un test</strong> Un test d’hypothèse qui fonctionne bien rejette une hypothèse concernant un véritable effet causal pas plus de <span class="math inline">\(\alpha\)</span>% du temps.
+Le taux de faux positifs est le taux pour lequel le test jette le doute sur une hypothèse vraie.
+C’est le taux pour lequel le test incitera l’analyste à dire “statistiquement significatif” alors qu’en fait, il n’y a pas de relation causale.
+Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
+<li><p><strong>Distribution d’échantillonnage</strong> La distribution des estimations (par exemple, les estimations de l’ATE) pour toutes les assignations de traitement possibles.
+Pour l’inférence statistique des expériences randomisées, la distribution des estimations à partir d’un estimateur est générée à partir d’une randomisation.
+Beaucoup appellent cela une “distribution d’échantillonnage” parce que les manuels utilisent souvent l’idée d’échantillons répétés d’une population plutôt que de randomisations répétées pour décrire ce type de variation.</p></li>
+<li><p><strong>Erreur type</strong> L’écart type de la distribution d’échantillonnage. Une erreur type plus élevée signifie que nos estimations sont plus sensibles aux variations d’échantillonnage.
+Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Couverture d’un intervalle de confiance</strong> Un intervalle de confiance qui fonctionne bien contient le véritable effet causal 100 $ ( 1 - )$ % du temps.
+Un intervalle de confiance a une <em>couverture incorrecte</em> lorsqu’il exclut le vrai paramètre moins de 100 $ (1 - )$% du temps.
+Par exemple, un intervalle de confiance à 95 % est censé exclure le vrai paramètre seulement moins de 5 % du temps.</p></li>
+<li><p><strong>Puissance statistique d’un test</strong> Probabilité qu’un test de causalité détectera un effet de traitement statistiquement significatif si l’effet existe.
+Voir le module sur la <a href="statistical-power-and-design-diagnosands.html">puissance statistique</a>.
+Cela dépend :</p>
+<ul>
+<li>du nombre d’observations dans chaque bras de l’expérience</li>
+<li>de la taille de l’effet (généralement mesurée en unités standardisées)</li>
+<li>du bruit sur la variable de résultat</li>
+<li>le niveau de signification (<span class="math inline">\(\alpha\)</span>, par convention)</li>
+<li>d’autres facteurs, y compris la proportion de vos unités qui sont affectées à différentes conditions de traitement.</li>
 </ul></li>
-<li><strong>Random sampling</strong> Selecting subjects from a population with known
-probabilities strictly between 0 and 1.</li>
-<li><strong><span class="math inline">\(k\)</span>-arm experiment</strong> An experiment that has <span class="math inline">\(k\)</span> treatment conditions
-(including control). See the module on <a href="randomization.html">randomization</a>.</li>
-<li><strong>Random assignment</strong> Assigning subjects to experimental conditions with known probabilities strictly between 0 and 1. This is equivalent to random sampling without replacement from the potential outcomes. There are several strategies for random assignment: simple, complete, cluster, block, blocked-cluster. See the module on <a href="randomization.html">randomization</a>.</li>
-<li><strong>External validity</strong> Findings from your study teach you about contexts outside of your sample — in other locations or for other interventions.</li>
+<li><p><strong>Corrélation intra-cluster</strong> Dans quelle mesure les résultats potentiels des unités sont corrélés au sein des clusters par rapport à l’ensemble des clusters. Une corrélation intra-cluster plus élevée nuit à la puissance.</p></li>
+<li><p><strong>Non biaisé</strong> Un estimateur est sans biais si vous <em>attendez</em> qu’il renvoie le bon résultat. Cela signifie que si vous deviez exécuter l’expérience plusieurs fois,
+l’estimation peut parfois être trop élevée ou trop faible, mais elle sera correcte en moyenne. Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Biais</strong> Le biais est la différence entre la valeur moyenne de l’estimateur sur l’ensemble de sa distribution d’échantillonnage et la valeur fixe unique de l’estimande.
+Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Consistance d’un estimateur</strong> Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur de l’estimande à mesure que la taille de l’échantillon augmente est un <em>estimateur cohérent</em> de cette estimation. Un estimateur cohérent peut être sans biais ou non.
+Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
+<li><p><strong>Précision/efficacité d’un estimateur</strong> La variation ou la largeur de la distribution d’échantillonnage d’un estimateur. Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
 </ul>
 </div>
-<div id="statistical-inference" class="section level2" number="11.2">
-<h2><span class="header-section-number">A.2</span> Statistical Inference</h2>
-<p>See modules on <a href="hypothesis-testing.html">hypothesis testing</a> and <a href="statistical-power-and-design-diagnosands.html">statistical power</a>.</p>
+<div id="stratégies-de-randomisation" class="section level2" number="11.3">
+<h2><span class="header-section-number">A.3</span> Stratégies de randomisation</h2>
+<p>Voir le module sur <a href="randomization.html">la randomisation</a>.</p>
 <ul>
-<li><strong>Hypothesis</strong> A simple, clear, falsifiable claim about the world. In
-counterfactual causal inference, this is a statement about a relationship
-among potential outcomes, like <span class="math inline">\(H_0: Y_i(T_i=0) = Y_i(T_i=1) + \tau_i\)</span> for
-the hypothesis that the potential outcome under treatment is the
-potential outcome under control plus some effect for each unit <span class="math inline">\(i\)</span>. See the
-module on <a href="hypothesis-testing.html">hypothesis testing</a>.</li>
-<li><strong>Null hypothesis</strong> A conjecture about the world that you may reject after
-seeing the data. See the module on <a href="hypothesis-testing.html">hypothesis testing</a>.</li>
-<li><strong>Sharp null hypothesis of no effect</strong> The null hypothesis that there is no
-treatment effect for any subject. This means <span class="math inline">\(Y_i(1)=Y_i(0)\)</span> for all <span class="math inline">\(i\)</span>. We
-might write this as <span class="math inline">\(H_0: Y_i(T_i=0) = Y_i(T_i=1)\)</span>. See the module on
-<a href="hypothesis-testing.html">hypothesis testing</a>.</li>
-<li><strong><span class="math inline">\(p\)</span>-value</strong> The probability of seeing a test statistic as large (in absolute value) as or larger than the test statistic calculated from observed data. See the module on <a href="hypothesis-testing.html">hypothesis testing</a>.</li>
-<li><strong>One-sided vs. two-sided test</strong> When you have a strong expectation that the
-effect is either positive or negative, you can conduct a one-sided test.
-When you do not have such a strong expectation, conduct a two-sided test. A
-one-sided test has more power than a two-sided test for the same experiment.
-See the module on <a href="hypothesis-testing.html">hypothesis testing</a>.</li>
-<li><strong>Standard deviation</strong> Square root of the mean-square deviation from the average of a variable. It is a measure of the dispersion or spread of a statistic.
-<span class="math inline">\(SD_x=\sqrt{\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^2}\)</span></li>
-<li><strong>False Positive Rate/Type I Error of a Test</strong> A well-operating hypothesis
-test rejects a hypothesis about a true causal effect no more than <span class="math inline">\(\alpha\)</span> %
-of the time. The false positive rate is the rate at which a test will cast
-doubt on a true hypothesis. It is the rate at which the test will encourage the analyst to say “statistically significant” when, in fact, there is no causal relationship. See the module on <a href="hypothesis-testing.html">hypothesis testing</a>.</li>
-<li><strong>Sampling distribution</strong> The distribution of estimates (e.g., estimates of the ATE) for all possible treatment assignments. In design-based statistical inference for randomized experiments, the distribution of estimates from an estimator is generated from randomizations. Many call this a “sampling distribution” because textbooks often use the idea of repeated samples from a population rather than repeated randomizations to describe this kind of variation.</li>
-<li><strong>Standard error</strong> The standard deviation of the sampling distribution. A bigger standard error means that our estimates are more susceptible to sampling variation. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
-<li><strong>Coverage of a confidence interval</strong> A well-operating confidence interval
-contains the true causal effect <span class="math inline">\(100 ( 1 - \alpha)\)</span> % of the time. A
-confidence interval has <em>incorrect coverage</em> when it excludes the true
-parameter less than <span class="math inline">\(100 (1 - \alpha)\)</span>% of the time. For example, a 95%
-confidence interval is supposed to only exclude the true parameter less than
-5% of the time.</li>
-<li><strong>Statistical power of a test</strong> Probability that a test of causal effects
-will detect a statistically significant treatment effect if the effect
-exists. See the module on <a href="statistical-power-and-design-diagnosands.html">statistical power</a>. This depends on:
-<ul>
-<li>The number of observations in each arm of the experiment</li>
-<li>Effect size (usually measured in standardized units)</li>
-<li>Noisiness of the outcome variable</li>
-<li>Significance level (<span class="math inline">\(\alpha\)</span>, which is fixed by convention)</li>
-<li>Other factors including what proportion of your units are assigned to
-different treatment conditions.</li>
-</ul></li>
-<li><strong>Intra-cluster correlation</strong> How correlated the potential outcomes of units
-are within clusters compared to across clusters. Higher intra-cluster
-correlation hurts power.</li>
-<li><strong>Unbiased</strong> An estimator is unbiased if you <em>expect</em> that it will return the
-right outcome. That means that if you were to run the experiment many times,
-the estimate might be too high or to low sometimes but it will be right on
-average. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
-<li><strong>Bias</strong> Bias is the difference between the average value of the estimator
-across its sampling distribution and the single, fixed value of the estimand. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
-<li><strong>Consistency of an estimator</strong> An estimator that produces answers that
-become ever nearer to the true value of the estimand as the sample size increases is a <em>consistent estimator</em> of that estimand. A consistent estimator may or may not be unbiased. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
-<li><strong>Precision/Efficiency of an estimator</strong> The variation in or width of the
-sampling distribution of an estimator. See the module on <a href="estimands-and-estimators.html">estimands and estimators</a>.</li>
+<li><p><strong>Simple</strong> Un tirage au sort indépendant pour chaque unité. Vous n’êtes pas assuré que votre expérience aura un nombre spécifique d’unités traitées.</p></li>
+<li><p><strong>Terminé</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
+<li><p><strong>Bloc</strong> Divisez d’abord l’échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d’unités au sein desquelles vous effectuez une assignation aléatoire.</p></li>
+<li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont affectés au hasard aux conditions de traitement. Un cluster est un ensemble d’unités qui seront toujours affectées au même statut de traitement.</p></li>
+<li><p><strong>Combinaison Grappe et Bloc</strong> Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, attribuez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.</p></li>
 </ul>
 </div>
-<div id="randomization-strategies" class="section level2" number="11.3">
-<h2><span class="header-section-number">A.3</span> Randomization Strategies</h2>
-<p>See the module on <a href="randomization.html">randomization</a>.</p>
+<div id="designs-factoriels" class="section level2" number="11.4">
+<h2><span class="header-section-number">A.4</span> Designs factoriels</h2>
+<p>Voir le module sur <a href="randomization.html">la randomisation</a>.</p>
 <ul>
-<li><strong>Simple</strong> An independent coin flip for each unit. You are not guaranteed
-that your experiment will have a specific number of treated units.</li>
-<li><strong>Complete</strong> Assign <span class="math inline">\(m\)</span> out of <span class="math inline">\(N\)</span> units to treatment. You know how
-many units will be treated in your experiment and each unit has a <span class="math inline">\(m/N\)</span>
-probability of being treated. The number of ways treatment can be assigned
-(number of permutations of treatment assignment) is <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</li>
-<li><strong>Block</strong> First divide the sample into blocks, then do complete randomization separately in each block. A block is a set of units within which you conduct random assignment.</li>
-<li><strong>Cluster</strong> Clusters of units are randomly assigned to treatment conditions.
-A cluster is a set of units that will always be assigned to the same
-treatment status.</li>
-<li><strong>Blocked-Cluster</strong> First form blocks of clusters. Then in each block,
-randomly assign the clusters to treatment conditions using complete
-randomization.</li>
-</ul>
-</div>
-<div id="factorial-designs" class="section level2" number="11.4">
-<h2><span class="header-section-number">A.4</span> Factorial Designs</h2>
-<p>See the module on <a href="randomization.html">randomization</a>.</p>
+<li><p><strong>Design factoriel</strong> Un design avec plus d’un traitement, chaque traitement étant attribué indépendamment. Le plan factoriel le plus simple est un 2 par 2.</p></li>
+<li><p><strong>Effet marginal conditionnel</strong> L’effet d’un traitement, conditionnel au maintien de l’autre pour une valeur fixe.
+Par exemple: <span class="math inline">\(Y_i(T_1=1|T_2=0)-Y_i(T_1=0|T_2=0)\)</span> est l’effet marginal de <span class="math inline">\(T_1\)</span> conditionnel à <span class="math inline">\(T_2=0\)</span>.</p></li>
+<li><p><strong>Effet marginal moyen</strong> Effet principal de chaque traitement dans un plan factoriel.
+C’est la moyenne des effets marginaux conditionnels pour toutes les conditions de l’autre traitement, pondérée par la proportion de l’échantillon qui a été affectée à chaque condition.</p></li>
+<li><p><strong>Effet d’interaction</strong> Dans un plan factoriel, nous pouvons également estimer les effets d’interaction.</p>
 <ul>
-<li><strong>Factorial design</strong> A design with more than one treatment, with each
-treatment assigned independently. The simplest factorial design is a 2 by 2.</li>
-<li><strong>Conditional marginal effect</strong> The effect of one treatment, conditional on
-the other being held at a fixed value. For example:
-<span class="math inline">\(Y_i(T_1=1|T_2=0)-Y_i(T_1=0|T_2=0)\)</span> is the marginal effect of <span class="math inline">\(T_1\)</span>
-conditional on <span class="math inline">\(T_2=0\)</span>.</li>
-<li><strong>Average marginal effect</strong> Main effect of each treatment in a factorial
-design. It is the average of the conditional marginal effects for all the
-conditions of the other treatment, weighted by the proportion of the sample
-that was assigned to each condition.</li>
-<li><strong>Interaction effect</strong> In a factorial design, we may also estimate
-interaction effects.
-<ul>
-<li>No interaction effect: one treatment does not amplify or reduce the
-effect of the other treatment.</li>
-<li>Multiplicative interaction effect: the effect of one treatment depends on which condition a unit was assigned for the other treatment. This means one treatment <em>does</em> amplify or reduce the effect of the other. The effect of two treatments together is <em>not</em> the sum of the effect of each treatment.</li>
+<li>Pas d’effet d’interaction : un traitement n’amplifie ni ne diminue l’effet de l’autre traitement.</li>
+<li>Effet d’interaction multiplicatif : l’effet d’un traitement dépend de la condition à laquelle une unité a été attribuée pour l’autre traitement.
+Cela signifie qu’un traitement amplifie ou réduit l’effet de l’autre. L’effet de deux traitements ensemble n’est <em>pas</em> la somme de l’effet de chaque traitement.</li>
 </ul></li>
 </ul>
 </div>
-<div id="threats" class="section level2" number="11.5">
-<h2><span class="header-section-number">A.5</span> Threats</h2>
-<p>See the module on <a href="threats-to-internal-validity-of-randomized-experiments.html">threats</a>.</p>
+<div id="menaces" class="section level2" number="11.5">
+<h2><span class="header-section-number">A.5</span> Menaces</h2>
+<p>Voir le module sur les <a href="threats-to-internal-validity-of-randomized-experiments.html">menaces</a>.</p>
 <ul>
-<li><strong>Hawthorne effect</strong> When a subject responds to being observed.</li>
-<li><strong>Spillover</strong> When a subject responds to another subject’s treatment status.
-Example: my health depends on whether my neighbor is vaccinated, as well as
-whether I am vaccinated.</li>
-<li><strong>Attrition</strong> When outcomes for some subjects are not measured. This might be caused, for example, by people migrating, refusing to respond to endline surveys, or dying. This is especially problematic for inference when it is correlated with treatment status.</li>
-<li><strong>Compliance</strong> A unit’s treatment status matches its assigned treatment
-condition. Example of non-compliance: a unit assigned to treatment doesn’t
-take it. Example of compliance: a unit assigned to control does not take
-treatment.</li>
-<li><strong>Compliance types</strong> There are four types of units in terms of compliance:
+<li><p><strong>Effet Hawthorne</strong> lorsqu’un sujet réagit différemment quand il est observé.</p></li>
+<li><p><strong>Effet de débordement</strong> lorsqu’un sujet répond au statut de traitement d’un autre sujet.
+Exemple : ma santé dépend du statut de vaccination de mon voisin, ainsi que de mon statut.</p></li>
+<li><p><strong>Attrition</strong> Lorsque les résultats pour certains sujets ne sont pas mesurés.
+Cela peut être causé, par exemple, par des personnes qui migrent, refusent de répondre aux enquêtes finales ou meurent.
+Ceci est particulièrement problématique pour l’inférence lorsque l’attrition est corrélée avec l’état du traitement.</p></li>
+<li><p><strong>Conformité</strong> Le statut de traitement d’une unité correspond à la condition de traitement qui lui a été assignée.
+Exemple de non-conformité : une unité affectée au traitement ne le prend pas.
+Exemple d’observance : une unité affectée au contrôle ne prend pas de traitement.</p></li>
+<li><p><strong>Types de conformité</strong> Il existe quatre types d’unités en termes de conformité :</p>
 <ul>
-<li><strong>Compliers</strong> Units that would take treatment if assigned to treatment and would be untreated if assigned to control.</li>
-<li><strong>Always-takers</strong> Units that would take treatment if assigned to treatment and if assigned to control.</li>
-<li><strong>Never-takers</strong> Units that would be untreated if assigned to treatment and if assigned to control.</li>
-<li><strong>Defiers</strong> Units that would be untreated if assigned to treatment and
-would take treatment if assigned to control.</li>
+<li><strong>Conformistes</strong> Unités qui prendraient un traitement si elles étaient affectées au traitement et qui ne seraient pas traitées si elles étaient affectées au contrôle.</li>
+<li><strong>Toujours preneurs</strong> Unités qui prendraient un traitement si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
+<li><strong>Never-takers</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
+<li><strong>Non-conformistes</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et qui prendraient un traitement si elles étaient affectées au contrôle.</li>
 </ul></li>
-<li><strong>One-sided non-compliance</strong> The experiment has only compliers and
-<em>either</em> always-takers or never-takers. Usually, we think of
-one-sided non-compliance as having only never-takers and compliers, meaning
-that that local average treatment effect is the effect of treatment on the
-treated.</li>
-<li><strong>Two-sided non-compliance</strong> The experiment may have all four latent groups.</li>
-<li><strong>Encouragement design</strong> An experiment that randomizes <span class="math inline">\(T\)</span> (treatment
-assignment), and we measure <span class="math inline">\(D\)</span> (whether the unit takes treatment) and <span class="math inline">\(Y\)</span>
-(outcome). We can estimate the ITT and the LATE (local average treatment
-effect, aka CACE—complier average causal effect). It requires three
-assumptions.
+<li><p><strong>Non-conformité unilatérale</strong> L’expérience n’a que des sujets conformistes et <em>soit</em> des “toujours preneurs” ou des “jamais preneurs.”
+Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur le traité.</p></li>
+<li><p><strong>Non-conformité bilatérale</strong> L’expérience peut avoir les quatre groupes latents.</p></li>
+<li><p><strong>Design incitatif</strong> Une expérience qui randomise <span class="math inline">\(T\)</span> (assignation de traitement), et nous mesurons <span class="math inline">\(D\)</span> (si l’unité prend le traitement) et <span class="math inline">\(Y\)</span> (le résultat).
+On peut estimer l’ITT et le LATE/CACE. Cela nécessite trois hypothèses.</p>
 <ul>
-<li><strong>Monotonicity</strong> Assumption of either no defiers or no compliers. Usually we assume no defiers which means that the effect of assignment on take up of treatment is either positive or zero but not negative.</li>
-<li><strong>First stage</strong> Assumption that there is an effect of <span class="math inline">\(T\)</span> on <span class="math inline">\(D\)</span>.</li>
-<li><strong>Exclusion restriction</strong> Assumption that <span class="math inline">\(T\)</span> affects <span class="math inline">\(Y\)</span> only through <span class="math inline">\(D\)</span>. This is usually the most problematic assumption.</li>
+<li><strong>Monotonicité</strong> Hypothèse qu’il n’y a soit pas de sujets non-conformistes ou de conformistes.
+Habituellement, nous supposons qu’il n’y a pas de non-conformistes, ce qui signifie que l’effet de l’affectation sur la prise du traitement est soit positif, soit nul mais pas négatif.</li>
+<li><strong>Première étape</strong> Hypothèse qu’il y a un effet de <span class="math inline">\(T\)</span> sur <span class="math inline">\(D\)</span>.</li>
+<li><strong>Restriction d’exclusion</strong> Hypothèse selon laquelle <span class="math inline">\(T\)</span> affecte <span class="math inline">\(Y\)</span> uniquement jusqu’à <span class="math inline">\(D\)</span>. C’est généralement l’hypothèse la plus problématique.</li>
 </ul></li>
-<li><strong>Intention-to-treat effect (ITT)</strong> The effect of <span class="math inline">\(T\)</span> (treatment assignment) on <span class="math inline">\(Y\)</span>.</li>
-<li><strong>Local average treatment effect (LATE)</strong> The effect of <span class="math inline">\(D\)</span> (taking
-treatment) on <span class="math inline">\(Y\)</span> for compliers. Also known as the complier average causal
-effect (CACE). Under the exclusion restriction and monotonicity, the LATE is
-equal to ITT divided by the proportion of your sample who are compliers.</li>
-<li><strong>Downstream experiment</strong> An encouragement design study that takes advantage
-of the randomization of <span class="math inline">\(T\)</span> by a previous study. The outcome from that
-previous study is the <span class="math inline">\(D\)</span> in the downstream experiment.</li>
+<li><p><strong>Effet d’intention de traiter (ITT)</strong> L’effet de <span class="math inline">\(T\)</span> (assignation de traitement) sur <span class="math inline">\(Y\)</span>.</p></li>
+<li><p><strong>Effet moyen local du traitement (LATE)</strong> L’effet de <span class="math inline">\(D\)</span> (prise de traitement) sur <span class="math inline">\(Y\)</span> pour les conformistes.
+Également connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE).
+Si l’hypothèse de monotonie et la restriction d’exclusion sont remplies, le LATE est égal à l’ITT divisé par la proportion conformiste de votre échantillon.</p></li>
+<li><p><strong>Expérience aval</strong> Une étude de design incitatif qui profite de la randomisation de <span class="math inline">\(T\)</span> d’une étude précédente.
+Le résultat de cette étude précédente est le <span class="math inline">\(D\)</span> dans l’expérience aval.</p></li>
 </ul>
 
 </div>

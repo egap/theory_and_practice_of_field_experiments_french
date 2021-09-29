@@ -77,11 +77,11 @@ ressources-8
 livres-chapitres-et-articles-6
 articles-et-plans-de-pré-analyse
 glossaire-des-termes
-key-concepts
-statistical-inference
-randomization-strategies
-factorial-designs
-threats
+concepts-clés
+inférence-statistique
+stratégies-de-randomisation
+designs-factoriels
+menaces
 introduction-à-r-et-rstudio
 r-et-rstudio
 télécharger-r-et-rstudio

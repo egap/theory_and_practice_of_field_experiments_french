@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-09-28" />
+<meta name="date" content="2021-09-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -624,11 +624,11 @@ div.csl-indent {
 <li class="appendix"><span><b>Appendix</b></span></li>
 <li class="chapter" data-level="A" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html"><i class="fa fa-check"></i><b>A</b> Glossaire des termes</a>
 <ul>
-<li class="chapter" data-level="A.1" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#key-concepts"><i class="fa fa-check"></i><b>A.1</b> Key Concepts</a></li>
-<li class="chapter" data-level="A.2" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#statistical-inference"><i class="fa fa-check"></i><b>A.2</b> Statistical Inference</a></li>
-<li class="chapter" data-level="A.3" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#randomization-strategies"><i class="fa fa-check"></i><b>A.3</b> Randomization Strategies</a></li>
-<li class="chapter" data-level="A.4" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#factorial-designs"><i class="fa fa-check"></i><b>A.4</b> Factorial Designs</a></li>
-<li class="chapter" data-level="A.5" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#threats"><i class="fa fa-check"></i><b>A.5</b> Threats</a></li>
+<li class="chapter" data-level="A.1" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#concepts-clés"><i class="fa fa-check"></i><b>A.1</b> Concepts clés</a></li>
+<li class="chapter" data-level="A.2" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#inférence-statistique"><i class="fa fa-check"></i><b>A.2</b> Inférence statistique</a></li>
+<li class="chapter" data-level="A.3" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#stratégies-de-randomisation"><i class="fa fa-check"></i><b>A.3</b> Stratégies de randomisation</a></li>
+<li class="chapter" data-level="A.4" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#designs-factoriels"><i class="fa fa-check"></i><b>A.4</b> Designs factoriels</a></li>
+<li class="chapter" data-level="A.5" data-path="glossaire-des-termes.html"><a href="glossaire-des-termes.html#menaces"><i class="fa fa-check"></i><b>A.5</b> Menaces</a></li>
 </ul></li>
 <li class="chapter" data-level="B" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html"><i class="fa fa-check"></i><b>B</b> Introduction à R et RStudio</a>
 <ul>
@@ -681,7 +681,7 @@ Une introduction des EGAP Learning Days</div></a>
 <h2><span class="header-section-number">9.1</span> Contenu</h2>
 <ul>
 <li><p>Passez en revue les trois hypothèses de base discutées dans <a href="causal-inference.html">l’inférence causale</a> module.</p></li>
-<li><p>Nous avons dit “analysez en randomisant” dans le module sur <a href="estimands-and-estimators.html">les estimandes et les estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
+<li><p>Nous avons dit “analysez en randomisant” dans le module sur les <a href="estimands-and-estimators.html">estimandes et estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
 <li><p><strong>Les données manquantes dans les résultats (ie l’attrition)</strong> sont particulièrement problèmatiques si le pattern des données absentes est causé par le traitement lui-même. C’est un problème très courant.</p>
 <ul>
 <li><p>Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.</p></li>
@@ -690,7 +690,7 @@ Une introduction des EGAP Learning Days</div></a>
 <li><p><strong>Non-conformité</strong>. L’effet de l’assignation du traitement n’est pas le même que l’effet du traitement reçu. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.</p>
 <ul>
 <li><p>La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.</p></li>
-<li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées au traitement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplis, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
+<li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées au traitement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplies, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
 </ul></li>
 <li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’<a href="causalinference.html">inférence causale</a>.</p>
 <ul>
