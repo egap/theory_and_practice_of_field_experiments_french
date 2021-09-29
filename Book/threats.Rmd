@@ -8,7 +8,7 @@ Dans ce module, nous abordons certaines menaces courantes et les bonnes pratique
 
  - Passez en revue les trois hypothèses de base discutées dans [l'inférence causale](causal-inference.html) module.
 
- - Nous avons dit "analysez en randomisant" dans le module sur [les estimandes et les estimateurs](estimands-and-estimators.html). N'oubliez pas que vous avez randomisé **l'assignation** du traitement. Vous n'avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.
+ - Nous avons dit "analysez en randomisant" dans le module sur les [estimandes et estimateurs](estimands-and-estimators.html). N'oubliez pas que vous avez randomisé **l'assignation** du traitement. Vous n'avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.
 
  - **Les données manquantes dans les résultats (ie l'attrition)** sont particulièrement problèmatiques si le pattern des données absentes est causé par le traitement lui-même. C'est un problème très courant.
 
@@ -20,7 +20,7 @@ Dans ce module, nous abordons certaines menaces courantes et les bonnes pratique
 
      - La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.
      
-     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées au traitement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplis, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
+     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées au traitement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplies, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
 
  - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'[inférence causale](causalinference.html).
 
