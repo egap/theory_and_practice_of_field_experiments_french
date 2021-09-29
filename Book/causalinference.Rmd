@@ -8,7 +8,7 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
 ## Contenu
 
- - Qu'entendons-nous par **"cause"**? Et pourquoi est-il important d'être clair sur le sens des assertions de causalité?
+ - Qu'entendons-nous par **"cause"** ? Et pourquoi est-il important d'être clair sur le sens des assertions de causalité ?
 
  - Une introduction aux **résultats potentiels** comme une façon de penser aux états contrefactuels du monde.
 

@@ -18,7 +18,7 @@ Ici, nous fournissons des liens vers des ressources pour aider les gens à en ap
   - ir2 est un package R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs de l'inférence aléatoire pour les différentes estimandes
 
 - Lecture des résultats
-  - Comment comprendre et interpréter la sortie de régression?
+  - Comment comprendre et interpréter la sortie de régression ?
   
 - Intégration une recherche qualitative
 

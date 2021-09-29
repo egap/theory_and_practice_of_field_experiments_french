@@ -120,7 +120,7 @@ Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer 
 - Code School, qui fonctionne entièrement sur votre navigateur [https://www.codeschool.com/courses/try-r](https://www.codeschool.com/courses/try-r).
 - Coursera, via un cours de programmation R en ligne organisé par l'Université Johns Hopkins:
     i. Allez sur [https://www.coursera.org](https://www.coursera.org)
-    ii. Créez un compte (c'est gratuit!)
+    ii. Créez un compte (c'est gratuit !)
     iii. Inscrivez-vous pour "R Programming at Johns Hopkins University" (instructeur : Roger Peng) sous la rubrique "Cours"
     iv. Lisez les documents et regardez les vidéos de la première semaine. Les vidéos de la première semaine durent environ 2 heures 30 au total.
     
@@ -211,7 +211,7 @@ log(b)            # Log de la variable
 exp(b)            # Exponentielle de la variable
 ```
 
-Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire « la condition X est-elle vraie ? ») sur tous les éléments d'un vecteur:
+Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire "la condition X est-elle vraie ?") sur tous les éléments d'un vecteur:
 
 ```{r echo=TRUE}
 b == 2                     # égal à

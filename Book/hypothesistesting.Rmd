@@ -1,12 +1,15 @@
 # Tests d'hypothèses {.tabset}
 
-Ce n'est pas possible d'observer directement les effets causaux à cause du *problème fondamental de l'inférence causale* ([module de l'inférence causale](causal-inference.html)).  Comment pouvons-nous en savoir plus sur ces *effets causaux non observés* en utilisant ce que nous observons?  Dans une expérience aléatoire, nous pouvons évaluer des *suppositions* ou des *hypothèses* sur les effets causaux non observés. Pour ce faire, nous comparons ce que nous observons dans une expérience à ce que nous observerions si nous pouvions répéter la manipulation expérimentale et que la supposition ou l'hypothèse était vraie.
+Ce n'est pas possible d'observer directement les effets causaux à cause du *problème fondamental de l'inférence causale* ([module de l'inférence causale](causal-inference.html)).
+Comment pouvons-nous en savoir plus sur ces *effets causaux non observés* en utilisant ce que nous observons ?
+Dans une expérience aléatoire, nous pouvons évaluer des *suppositions* ou des *hypothèses* sur les effets causaux non observés.
+Pour ce faire, nous comparons ce que nous observons dans une expérience à ce que nous observerions si nous pouvions répéter la manipulation expérimentale et que la supposition ou l'hypothèse était vraie.
 
 Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'inférence causale, les $p$-valeurs et ce qu'il faut faire lorsque nous avons plusieurs hypothèses à tester.
 
 ## Contenu
 
-- Qu'est-ce qu'une **bonne hypothèse** ?
+- Qu'est-ce qu'une **bonne hypothèse** ?
 
 - La relation entre les tests d'hypothèses et l'inférence causale.
 
@@ -22,7 +25,7 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
 
 - Un bon test d'hypothèse doit (1) rarement mettre en doute la vérité (c'est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c'est-à-dire mettre souvent en doute les contrevérités ; avoir une puissance statistique élevée) .
 
-- Comment saurons-nous si notre test d'hypothèse performe bien? ([Analyse de puissance statistique](statistical-power-and-design-diagnosands.html) a son propre module).
+- Comment saurons-nous si notre test d'hypothèse performe bien ? ([Analyse de puissance statistique](statistical-power-and-design-diagnosands.html) a son propre module).
 
     - Taux de faux positifs.
     

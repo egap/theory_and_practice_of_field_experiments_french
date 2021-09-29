@@ -6,7 +6,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
 ## Contenu
 
-- Qu'est-ce que la **randomisation**? L'assignation aléatoire **n'est pas** la même chose que l'échantillonnage aléatoire.
+- Qu'est-ce que la **randomisation** ? L'assignation aléatoire **n'est pas** la même chose que l'échantillonnage aléatoire.
 
 - Quatre façons courantes de randomiser le traitement :
 
@@ -83,7 +83,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 - [Note d'orientation des politiques publiques EGAP 57 : Comment les médias influencent les normes sociales : la preuve au Mexique](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
 
-- [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up fonctionne-t-elle ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up fonctionne-t-elle  ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
 *Randomiser l'accès*
 

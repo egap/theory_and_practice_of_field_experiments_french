@@ -130,9 +130,10 @@ Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc) soit en
 
 Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.
 
-## Nous apprécions vos retours!
+## Nous apprécions vos retours !
 
-Si vous avez des questions, des retours, ou si vous avez organisé votre propre événement, contactez-nous! Il suffit de créer une issue sur [Github](https://github.com/egap/theory_and_practice_of_field_experiments_french/issues) ou faire des commentaires en utilisant hypothes.is dans votre navigateur et de nous le faire savoir par e-mail, admin@egap.org. Nous parcourons régulièrement vos commentaires.
+Si vous avez des questions, des retours, ou si vous avez organisé votre propre événement, contactez-nous !
+Il suffit de créer une issue sur [Github](https://github.com/egap/theory_and_practice_of_field_experiments_french/issues) ou faire des commentaires en utilisant hypothes.is dans votre navigateur et de nous le faire savoir par e-mail, admin@egap.org. Nous parcourons régulièrement vos commentaires.
 
 ## Remerciements
 
