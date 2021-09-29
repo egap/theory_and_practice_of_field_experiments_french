@@ -6,56 +6,49 @@
 
 Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et plus généralement à travers les discussions d'expériences de terrain aléatoires.
 
-## Key Concepts
+## Concepts clés
 
-See the module on [causal inference](causal-inference.html), [estimands and estimators](estimands-and-estimators.html).
+Voir le module sur [l'inférence causale](causal-inference.html), [les estimandes et les estimateurs](estimands-and-estimators.html).
 
-- **Potential outcome $Y_i(T)$** The outcome $Y$ that unit $i$ *would*
-  have under treatment condition $T$.  We think of these as fixed quantities for a specific point in time.  $T$ can be 0 for control or 1 for treatment if there is only one type of treatment. See the module on [causal inference](causal-inference.html).
-- **Treatment effect $\tau_i$ for unit $i$** The contrast between potential
-  outcomes under two treatment conditions for unit $i$.  We typically define the treatment effect as the difference in potential outcomes under treatment and control, $Y_i(1)-Y_i(0)$.  See the module on [causal inference](causal-inference.html).
-- **Fundamental problem of causal inference** in the counterfactual framework.  We can't observe both $Y_i(1)$ and $Y_i(0)$ for a given unit, so we can't get $\tau_i$ directly. See the module on [causal inference](causal-inference.html).
-- **Estimand** The thing you want to estimate.  An example of an estimand is the average treatment effect. In counterfactual causal inference, this is a function of potential outcomes, not fully observed outcomes. See the module on [estimands and estimators](estimands-and-estimators.html).
-- **Estimator** How you make a guess about the value of your estimand from the
-  data you have (i.e., observed).  An example of an estimator is the difference-in-means. See the module on [estimands and estimators](estimands-and-estimators.html).
-  - **Average treatment effect, ATE** The average of the treatment effect for all individuals in your subject pool.  This is a type of **estimand**.  If we define $\tau_i$ to be $Y_i(1)-Y_i(0)$, then the ATE is $\overline{Y_i(1)-Y_i(0)}$, which is also equivalent to $\overline{{Y}_i(1)}-\overline{{Y}_i(0)}$. Notice that we do not use the $E[Y_i (1)]$ style of notation here because $E[]$ means "average over repeated operations," but $\overline{Y}$ means "average over a set of observations". See the module on [causal inference](causal-inference.html) and the module on [estimands and estimators](estimands-and-estimators.html).
-- **Random sampling** Selecting subjects from a population with known
-  probabilities strictly between 0 and 1.
-- **$k$-arm experiment** An experiment that has $k$ treatment conditions
-  (including control). See the module on [randomization](randomization.html).
-- **Random assignment** Assigning subjects to experimental conditions with known probabilities strictly between 0 and 1.  This is equivalent to random sampling without replacement from the potential outcomes.  There are several strategies for random assignment: simple, complete, cluster, block, blocked-cluster. See the module on [randomization](randomization.html).
-- **External validity** Findings from your study teach you about contexts outside of your sample --- in other locations or for other interventions.
+- **Résultat potentiel $Y_i(T)$** Le résultat $Y$ que l'unité $i$ *aurait* sous la condition de traitement $T$.  Ceux-ci sont considérés comme des quantités fixes pour un moment précis.  $T$ peut être 0 pour le contrôle ou 1 pour le traitement s'il n'y a qu'un seul type de traitement. Voir le module sur [l'inférence causale](causal-inference.html).
+- **Effet du traitement $\tau_i$ pour l'unité $i$** Le contraste entre les résultats potentiels sous deux conditions de traitement pour l'unité $i$.  L'effet du traitement est généralement défini comme la différence entre les résultats potentiels sous traitement et sous contrôle, $Y_i(1)-Y_i(0)$.  Voir le module sur [l'inférence causale](causal-inference.html).
+- **Problème fondamental de l'inférence causale** dans le framework contrefactuel.  On ne peut pas observer à la fois $Y_i(1)$ et $Y_i(0)$ pour une unité donnée, donc on ne peut pas obtenir $\tau_i$ directement. Voir le module sur [l'inférence causale](causal-inference.html).
+- **Estimande** Ce que vous visez à estimer.  Un exemple d'un estimande est l'effet moyen du traitement. Dans l'inférence causale contrefactuelle, l'effet moyen du traitement est fonction des résultats potentiels, et non des résultats observés. Voir le module sur [les estimandes et les estimateurs](estimands-and-estimators.html).
+- **Estimateur** Comment on devine la valeur de son estimande à partir des données dont on dispose
+ (les données observées).  Un exemple d'estimateur est la différence des moyennes. Voir le module sur [les estimandes et les estimateurs](estimands-and-estimators.html).
+  - **L'effet moyen du traitement (Average treatment effect, ATE)** La moyenne de l'effet du traitement pour tous les individus de votre groupe de sujets.  C'est un type d'**estimande**.  Si on définit $\tau_i$ comme étant $Y_i(1)-Y_i(0)$, alors l'effet moyen du traitement est $\overline{Y_i(1)-Y_i(0)}$, ce qui équivaut aussi à $\overline{{Y}_i(1)}-\overline{{Y}_i(0)}$. Notez qu'on n'utilise pas le style de notation$E[Y_i (1)]$ ice parce que $E[]$ signifie "moyenne sur des opérations répétées," mais $\overline{Y}$ signifie "moyenne sur un ensemble d'observations". Voir le module sur [l'inférence causale](causal-inference.html) et le module sur [les estimandes et les estimateurs](estimands-and-estimators.html).
+- **Échantillonnage aléatoire** Sélection de sujets dans une population avec des probabilités connues strictement comprises entre 0 et 1.
+- **Une experience avec $k$ bras de traitement** Une experience qui comprend $k$ conditions de traitement
+  (y compris le contrôle). Voir le module sur [la randomisation](randomization.html).
+- **Assignation aléatoire** Assignation des sujets à des conditions expérimentales avec des probabilités connues strictement comprises entre 0 et 1.  Cela équivaut à un échantillonnage aléatoire sans remise à partir des résultats potentiels.  Il existe plusieurs stratégies d'assignation aléatoire: simple, complète, par grappe (cluster), par bloc, TODO blocked-cluster. Voir le module sur [la randomisation](randomization.html).
+- **Validité externe** Les résultats de votre étude vous renseignent sur des contextes en dehors de votre échantillon --- dans d'autres endroits ou pour d'autres interventions.
 
-## Statistical Inference
+## Inférence statistique
 
-See modules on [hypothesis testing](hypothesis-testing.html) and [statistical power](statistical-power-and-design-diagnosands.html).
+Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la puissance statistique](statistical-power-and-design-diagnosands.html).
 
-- **Hypothesis** A simple, clear, falsifiable claim about the world. In
-  counterfactual causal inference, this is a statement about a relationship
-  among potential outcomes, like $H_0: Y_i(T_i=0) = Y_i(T_i=1) + \tau_i$ for
-  the hypothesis that the potential outcome under treatment is the
-  potential outcome under control plus some effect for each unit $i$. See the
-  module on [hypothesis testing](hypothesis-testing.html).
-- **Null hypothesis**  A conjecture about the world that you may reject after
-  seeing the data.  See the module on [hypothesis testing](hypothesis-testing.html).
-- **Sharp null hypothesis of no effect** The null hypothesis that there is no
-  treatment effect for any subject.  This means $Y_i(1)=Y_i(0)$ for all $i$. We
-  might write this as $H_0: Y_i(T_i=0) = Y_i(T_i=1)$.  See the module on
-  [hypothesis testing](hypothesis-testing.html).
-- **$p$-value** The probability of seeing a test statistic as large (in absolute value) as or larger than the test statistic calculated from observed data.  See the module on [hypothesis testing](hypothesis-testing.html).
+- **Hypothèse** Une affirmation simple, claire et falsifiable sur le monde. Dans l'inférence causale contrefactuelle, une hypothèse est une déclaration sur une relation
+  parmi les résultats potentiels, comme $H_0: Y_i(T_i=0) = Y_i(T_i=1) + \tau_i$ pour
+  l'hypothèse que le résultat potentiel sous traitement est le
+  résultat potentiel sous contrôle plus un certain effet pour chaque unité $i$. Voir le
+  module sur [les tests d'hypothèses](hypothesis-testing.html).
+- **Hypothèse nulle**  Une conjecture sur le monde que vous pouvez rejeter après
+  voir les données.  Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
+- **TODO Sharp null hypothesis of no effect** L'hypothèse nulle selon laquelle il n'y a aucun effet du traitement pour aucun sujet.  Cela signifie $Y_i(1)=Y_i(0)$ pour tout $i$. On pourrait écrire ceci comme $H_0: Y_i(T_i=0) = Y_i(T_i=1)$.  Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
+- **$p$-valeur** La probabilité de voir une statistique de test aussi grande (en valeur absolue) ou plus grande que la statistique de test calculée à partir des données observées.  Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
 - **One-sided vs. two-sided test** When you have a strong expectation that the
   effect is either positive or negative, you can conduct a one-sided test.
   When you do not have such a strong expectation, conduct a two-sided test.  A
   one-sided test has more power than a two-sided test for the same experiment.
-  See the module on [hypothesis testing](hypothesis-testing.html).
-- **Standard deviation** Square root of the mean-square deviation from the average of a variable.  It is a measure of the dispersion or spread of a statistic.
+  Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
+- **Standard deviation** Square root of the mean-square deviation from the average of a variable.  C'est une mesure de la dispersion ou de la propagation d'une statistique.
   $SD_x=\sqrt{\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^2}$
 - **False Positive Rate/Type I Error of a Test** A well-operating hypothesis
   test rejects a hypothesis about a true causal effect no more than $\alpha$ %
   of the time. The false positive rate is the rate at which a test will cast
-  doubt on a true hypothesis.  It is the rate at which the test will encourage the analyst to say "statistically significant" when, in fact, there is no causal relationship. See the module on [hypothesis testing](hypothesis-testing.html).
+  doubt on a true hypothesis.  It is the rate at which the test will encourage the analyst to say "statistically significant" when, in fact, there is no causal relationship. Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
 - **Sampling distribution** The distribution of estimates (e.g., estimates of the ATE) for all possible treatment assignments. In design-based statistical inference for randomized experiments, the distribution of estimates from an estimator is generated from randomizations. Many call this a "sampling distribution" because textbooks often use the idea of repeated samples from a population rather than repeated randomizations to describe this kind of variation.
-- **Standard error** The standard deviation of the sampling distribution.  A bigger standard error means that our estimates are more susceptible to sampling variation. See the module on [estimands and estimators](estimands-and-estimators.html).
+- **Standard error** L'écart type de la distribution d'échantillonnage. A bigger standard error means that our estimates are more susceptible to sampling variation. Voir le module sur [estimands and estimators](estimands-and-estimators.html).
 - **Coverage of a confidence interval** A well-operating confidence interval
   contains the true causal effect $100 ( 1 - \alpha)$ % of the time. A
   confidence interval has *incorrect coverage* when it excludes the true
@@ -64,7 +57,7 @@ See modules on [hypothesis testing](hypothesis-testing.html) and [statistical po
   5% of the time.
 - **Statistical power of a test**  Probability that a test of causal effects
   will detect a statistically significant treatment effect if the effect
-  exists. See the module on [statistical power](statistical-power-and-design-diagnosands.html). This depends on:
+  exists. Voir le module sur [statistical power](statistical-power-and-design-diagnosands.html). This depends on:
     -  The number of observations in each arm of the experiment
     -  Effect size (usually measured in standardized units)
     -  Noisiness of the outcome variable
@@ -77,19 +70,19 @@ See modules on [hypothesis testing](hypothesis-testing.html) and [statistical po
 - **Unbiased** An estimator is unbiased if you *expect* that it will return the
   right outcome. That means that if you were to run the experiment many times,
   the estimate might be too high or to low sometimes but it will be right on
-  average. See the module on [estimands and estimators](estimands-and-estimators.html).
+  average. Voir le module sur [estimands and estimators](estimands-and-estimators.html).
 - **Bias** Bias is the difference between the average value of the estimator
-  across its sampling distribution and the single, fixed value of the estimand. See the module on [estimands and estimators](estimands-and-estimators.html).
+  across its sampling distribution and the single, fixed value of the estimand. Voir le module sur [estimands and estimators](estimands-and-estimators.html).
 - **Consistency of an estimator** An estimator that produces answers that
-  become ever nearer to the true value of the estimand as the sample size increases is a *consistent estimator* of that estimand. A consistent estimator may or may not be unbiased. See the module on [estimands and estimators](estimands-and-estimators.html).
+  become ever nearer to the true value of the estimand as the sample size increases is a *consistent estimator* of that estimand. A consistent estimator may or may not be unbiased. Voir le module sur [estimands and estimators](estimands-and-estimators.html).
 - **Precision/Efficiency of an estimator** The variation in or width of the
-  sampling distribution of an estimator. See the module on [estimands and estimators](estimands-and-estimators.html).
+  sampling distribution of an estimator. Voir le module sur [estimands and estimators](estimands-and-estimators.html).
 
 
 
-## Randomization Strategies
+## Stratégies de randomisation
 
-See the module on [randomization](randomization.html).
+Voir le module sur [la randomisation](randomization.html).
 
 - **Simple** An independent coin flip for each unit.  You are not guaranteed
   that your experiment will have a specific number of treated units.
@@ -107,7 +100,7 @@ See the module on [randomization](randomization.html).
 
 ## Factorial Designs
 
-See the module on [randomization](randomization.html).
+Voir le module sur [la randomisation](randomization.html).
 
 - **Factorial design** A design with more than one treatment, with each
   treatment assigned independently.  The simplest factorial design is a 2 by 2.
@@ -127,7 +120,7 @@ See the module on [randomization](randomization.html).
 
 ## Threats
 
-See the module on [threats](threats-to-internal-validity-of-randomized-experiments.html).
+Voir le module sur [threats](threats-to-internal-validity-of-randomized-experiments.html).
 
 - **Hawthorne effect** When a subject responds to being observed.
 - **Spillover** When a subject responds to another subject's treatment status.
