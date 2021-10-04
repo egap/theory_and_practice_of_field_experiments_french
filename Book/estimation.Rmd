@@ -12,7 +12,7 @@ Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'es
 - Pour en savoir plus sur $\tau_{i}$, on peut traiter $\tau_{i}$ comme un **estimande** ou une quantité cible à estimer (voir ce module)
 ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le module des tests d'hypothèses](hypothesis-testing.html)).
 
-- Beaucoup de gens se concentrent sur **l'effet moyen du traitement (ATE)**, $\bar{\tau}=\sum_{i=1}^n
+- Beaucoup de gens se concentrent sur **l'effet moyen du traitement (Average Treatment Effect / ATE)**, $\bar{\tau}=\sum_{i=1}^n
    \tau_{i}$, en partie parce qu'il permet **d'estimer** facilement.
 
 - Un **estimateur** est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour $m$ unités traitées et la moyenne des résultats observés pour $N-m$ unités non traitées est un estimateur de $\bar{\tau}$.

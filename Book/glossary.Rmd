@@ -56,7 +56,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
 - **Hypothèse nulle**  Une conjecture sur le monde que vous pouvez rejeter après avoir vu les données.
   Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
 
-- **TODO Hypothèse nulle forte d'absence d'effet** L'hypothèse nulle selon laquelle il n'y a aucun effet du traitement pour aucun sujet.
+- **Hypothèse nulle forte d'absence d'effet** L'hypothèse nulle selon laquelle il n'y a aucun effet du traitement pour aucun sujet.
   Cela signifie $Y_i(1)=Y_i(0)$ pour tout $i$. On pourrait écrire ceci comme $H_0: Y_i(T_i=0) = Y_i(T_i=1)$.
   Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
 
@@ -70,7 +70,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
 - **Écart type** Racine carrée de l'écart quadratique moyen par rapport à la moyenne d'une variable. C'est une mesure de la dispersion ou de la propagation d'une statistique.
   $SD_x=\sqrt{\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^2}$
 
-- **Taux de faux positifs/Erreur de type I d'un test** Un test d'hypothèse qui fonctionne bien rejette une hypothèse concernant un véritable effet causal pas plus de $\alpha$% du temps.
+- **Taux de faux positifs/Erreur de type I d'un test** Un test d'hypothèse qui fonctionne bien rejette une hypothèse concernant un véritable effet causal pas plus de $\alpha$ % du temps.
   Le taux de faux positifs est le taux pour lequel le test jette le doute sur une hypothèse vraie.
   C'est le taux pour lequel le test incitera l'analyste à dire "statistiquement significatif" alors qu'en fait, il n'y a pas de relation causale.
   Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
@@ -82,8 +82,8 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
 - **Erreur type** L'écart type de la distribution d'échantillonnage. Une erreur type plus élevée signifie que nos estimations sont plus sensibles aux variations d'échantillonnage.
   Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
 
-- **Couverture d'un intervalle de confiance** Un intervalle de confiance qui fonctionne bien contient le véritable effet causal 100 $ ( 1 - \alpha)$ % du temps.
-  Un intervalle de confiance a une *couverture incorrecte* lorsqu'il exclut le vrai paramètre moins de 100 $ (1 - \alpha)$% du temps.
+- **Couverture d'un intervalle de confiance** Un intervalle de confiance qui fonctionne bien contient le véritable effet causal $100 ( 1 - \alpha)$ % du temps.
+  Un intervalle de confiance a une *couverture incorrecte* lorsqu'il exclut le vrai paramètre moins de $100 (1 - \alpha)$ % du temps.
   Par exemple, un intervalle de confiance à 95 % est censé exclure le vrai paramètre seulement moins de 5 % du temps.
 
 - **Puissance statistique d'un test** Probabilité qu'un test de causalité détectera un effet de traitement statistiquement significatif si l'effet existe.
@@ -103,7 +103,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
 - **Biais** Le biais est la différence entre la valeur moyenne de l'estimateur sur l'ensemble de sa distribution d'échantillonnage et la valeur fixe unique de l'estimande.
   Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
 
-- **Consistance d'un estimateur** Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur de l'estimande à mesure que la taille de l'échantillon augmente est un *estimateur cohérent* de cette estimation. Un estimateur cohérent peut être sans biais ou non.
+- **Cohérence d'un estimateur** Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur de l'estimande à mesure que la taille de l'échantillon augmente est un *estimateur cohérent* de cette estimation. Un estimateur cohérent peut être sans biais ou non.
   Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
 
 - **Précision/efficacité d'un estimateur** La variation ou la largeur de la distribution d'échantillonnage d'un estimateur. Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).

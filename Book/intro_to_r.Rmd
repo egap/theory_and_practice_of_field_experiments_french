@@ -130,7 +130,7 @@ Voici quelques fragments de code pour vous familiariser avec certaines pratiques
 
 #### Configuration d'une session R
 
-En général, nous lisons d'autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une "adresse" où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, ie un chemin d'accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant `getwd()` et le définir en utilisant `setwd()`. Notez que la syntaxe de ces chemins de fichiers varie selon le système d'exploitation.
+En général, nous lisons d'autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une "adresse" où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, i.e. un chemin d'accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant `getwd()` et le définir en utilisant `setwd()`. Notez que la syntaxe de ces chemins de fichiers varie selon le système d'exploitation.
 
 ```{r, eval=F, echo=TRUE}
 getwd()
@@ -161,7 +161,7 @@ set.seed(2018)  # pour la reproductibilité
 
 #### Les basiques
 
-Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment :
+Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (i.e. un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment :
 
 ```{r echo=TRUE}
 # "<-"  est la commande d'affectation ; ça sert à définir les choses. eg :
