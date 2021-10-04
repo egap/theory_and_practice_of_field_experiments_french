@@ -763,7 +763,7 @@ Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et es
 <p>Voir le module sur <a href="randomization.html">la randomisation</a>.</p>
 <ul>
 <li><p><strong>Simple</strong> Un tirage au sort indépendant pour chaque unité. Vous n’êtes pas assuré que votre expérience aura un nombre spécifique d’unités traitées.</p></li>
-<li><p><strong>Terminé</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
+<li><p><strong>Complète</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
 <li><p><strong>Bloc</strong> Divisez d’abord l’échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d’unités au sein desquelles vous effectuez une assignation aléatoire.</p></li>
 <li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont affectés au hasard aux conditions de traitement. Un cluster est un ensemble d’unités qui seront toujours affectées au même statut de traitement.</p></li>
 <li><p><strong>Combinaison Grappe et Bloc</strong> Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, attribuez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.</p></li>
@@ -803,22 +803,22 @@ Exemple d’observance : une unité affectée au contrôle ne prend pas de trait
 <ul>
 <li><strong>Conformistes</strong> Unités qui prendraient un traitement si elles étaient affectées au traitement et qui ne seraient pas traitées si elles étaient affectées au contrôle.</li>
 <li><strong>Toujours preneurs</strong> Unités qui prendraient un traitement si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
-<li><strong>Never-takers</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
+<li><strong>Jamais preneurs</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
 <li><strong>Non-conformistes</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et qui prendraient un traitement si elles étaient affectées au contrôle.</li>
 </ul></li>
 <li><p><strong>Non-conformité unilatérale</strong> L’expérience n’a que des sujets conformistes et <em>soit</em> des “toujours preneurs” ou des “jamais preneurs.”
 Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur le traité.</p></li>
 <li><p><strong>Non-conformité bilatérale</strong> L’expérience peut avoir les quatre groupes latents.</p></li>
 <li><p><strong>Design incitatif</strong> Une expérience qui randomise <span class="math inline">\(T\)</span> (assignation de traitement), et nous mesurons <span class="math inline">\(D\)</span> (si l’unité prend le traitement) et <span class="math inline">\(Y\)</span> (le résultat).
-On peut estimer l’ITT et le LATE/CACE. Cela nécessite trois hypothèses.</p>
+On peut estimer l’effet d’intention de traiter (intent to treat effect, ITT), l’effet moyen local du traitement (Local average treatment effect, LATE) et l’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.</p>
 <ul>
 <li><strong>Monotonicité</strong> Hypothèse qu’il n’y a soit pas de sujets non-conformistes ou de conformistes.
 Habituellement, nous supposons qu’il n’y a pas de non-conformistes, ce qui signifie que l’effet de l’affectation sur la prise du traitement est soit positif, soit nul mais pas négatif.</li>
 <li><strong>Première étape</strong> Hypothèse qu’il y a un effet de <span class="math inline">\(T\)</span> sur <span class="math inline">\(D\)</span>.</li>
 <li><strong>Restriction d’exclusion</strong> Hypothèse selon laquelle <span class="math inline">\(T\)</span> affecte <span class="math inline">\(Y\)</span> uniquement jusqu’à <span class="math inline">\(D\)</span>. C’est généralement l’hypothèse la plus problématique.</li>
 </ul></li>
-<li><p><strong>Effet d’intention de traiter (ITT)</strong> L’effet de <span class="math inline">\(T\)</span> (assignation de traitement) sur <span class="math inline">\(Y\)</span>.</p></li>
-<li><p><strong>Effet moyen local du traitement (LATE)</strong> L’effet de <span class="math inline">\(D\)</span> (prise de traitement) sur <span class="math inline">\(Y\)</span> pour les conformistes.
+<li><p><strong>Effet d’intention de traiter (intent to treat effect, ITT)</strong> L’effet de <span class="math inline">\(T\)</span> (assignation de traitement) sur <span class="math inline">\(Y\)</span>.</p></li>
+<li><p><strong>Effet moyen local du traitement (Local average treatment effect, LATE)</strong> L’effet de <span class="math inline">\(D\)</span> (prise de traitement) sur <span class="math inline">\(Y\)</span> pour les conformistes.
 Également connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE).
 Si l’hypothèse de monotonie et la restriction d’exclusion sont remplies, le LATE est égal à l’ITT divisé par la proportion conformiste de votre échantillon.</p></li>
 <li><p><strong>Expérience aval</strong> Une étude de design incitatif qui profite de la randomisation de <span class="math inline">\(T\)</span> d’une étude précédente.
