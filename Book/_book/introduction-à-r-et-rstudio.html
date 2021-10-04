@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-09-29" />
+<meta name="date" content="2021-10-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="glossaire-des-termes.html"/>
-<link rel="next" href="réferences.html"/>
+<link rel="next" href="références.html"/>
 <script src="book_assets/header-attrs/header-attrs.js"></script>
 <script src="book_assets/jquery/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -651,7 +651,7 @@ div.csl-indent {
 <li class="chapter" data-level="B.4.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#exercise-de-base"><i class="fa fa-check"></i><b>B.4.2</b> Exercise de base</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="réferences.html"><a href="réferences.html"><i class="fa fa-check"></i>Réferences</a></li>
+<li class="chapter" data-level="" data-path="références.html"><a href="références.html"><i class="fa fa-check"></i>Références</a></li>
 <li class="divider"></li>
 <li><a href="http://egap.org" target="blank"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Published by EGAP</a></li>
 
@@ -830,7 +830,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <p>Voici quelques fragments de code pour vous familiariser avec certaines pratiques de base de R. Nous vous recommandons de vous entraîner en tapant les fragments de code dans votre éditeur, puis en les évaluant.</p>
 <div id="configuration-dune-session-r" class="section level4" number="12.4.2.1">
 <h4><span class="header-section-number">B.4.2.1</span> Configuration d’une session R</h4>
-<p>En général, nous lisons d’autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une “adresse” où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, ie un chemin d’accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant <code>getwd()</code> et le définir en utilisant <code>setwd()</code>. Notez que la syntaxe de ces chemins de fichiers varie selon le système d’exploitation.</p>
+<p>En général, nous lisons d’autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une “adresse” où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, i.e. un chemin d’accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant <code>getwd()</code> et le définir en utilisant <code>setwd()</code>. Notez que la syntaxe de ces chemins de fichiers varie selon le système d’exploitation.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="introduction-à-r-et-rstudio.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code></pre></div>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="introduction-à-r-et-rstudio.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">&quot;~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/&quot;</span>)</span></code></pre></div>
 <p>Vous devrez peut-être installer des packages autres que ceux répertoriés ci-dessus pour exécuter certaines fonctions. Pour installer les packages, nous utilisons <code>install.packages("")</code>, en remplissant le nom du package entre les marques "", comme suit. Vous n’avez besoin d’installer les packages qu’une seule fois.</p>
@@ -843,7 +843,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 </div>
 <div id="les-basiques" class="section level4" number="12.4.2.2">
 <h4><span class="header-section-number">B.4.2.2</span> Les basiques</h4>
-<p>Nous allons maintenant explorer quelques commandes de base. Afin d’affecter un scalaire (ie un élément unique) à une variable, nous utilisons la commande <code>&lt;-</code> comme discuté précédemment :</p>
+<p>Nous allons maintenant explorer quelques commandes de base. Afin d’affecter un scalaire (i.e. un élément unique) à une variable, nous utilisons la commande <code>&lt;-</code> comme discuté précédemment :</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="introduction-à-r-et-rstudio.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;&lt;-&quot;  est la commande d&#39;affectation ; ça sert à définir les choses. eg :</span></span>
 <span id="cb13-2"><a href="introduction-à-r-et-rstudio.html#cb13-2" aria-hidden="true" tabindex="-1"></a>(a <span class="ot">&lt;-</span> <span class="dv">5</span>)</span></code></pre></div>
 <pre><code>[1] 5</code></pre>
@@ -914,7 +914,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
         </div>
       </div>
 <a href="glossaire-des-termes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="réferences.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="références.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>
