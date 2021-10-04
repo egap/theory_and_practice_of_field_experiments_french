@@ -114,7 +114,7 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Simple** Un tirage au sort indépendant pour chaque unité. Vous n'êtes pas assuré que votre expérience aura un nombre spécifique d'unités traitées.
 
-- **Terminé** Assigner $m$ sur $N$ unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de $m/N$ d'être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d'assignation de traitement) est $\frac{N!}{m!(N-m)!}$.
+- **Complète** Assigner $m$ sur $N$ unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de $m/N$ d'être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d'assignation de traitement) est $\frac{N!}{m!(N-m)!}$.
 
 - **Bloc** Divisez d'abord l'échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d'unités au sein desquelles vous effectuez une assignation aléatoire.
 
@@ -159,7 +159,7 @@ Voir le module sur les [menaces](threats-to-internal-validity-of-randomized-expe
 - **Types de conformité** Il existe quatre types d'unités en termes de conformité :
      - **Conformistes** Unités qui prendraient un traitement si elles étaient affectées au traitement et qui ne seraient pas traitées si elles étaient affectées au contrôle.
      - **Toujours preneurs** Unités qui prendraient un traitement si elles étaient affectées au traitement et si elles étaient affectées au contrôle.
-     - **Never-takers** Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.
+     - **Jamais preneurs** Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.
      - **Non-conformistes** Unités qui ne seraient pas traitées si elles étaient affectées au traitement et qui prendraient un traitement si elles étaient affectées au contrôle.
 
 - **Non-conformité unilatérale** L'expérience n'a que des sujets conformistes et *soit* des "toujours preneurs" ou des "jamais preneurs".
@@ -168,15 +168,15 @@ Voir le module sur les [menaces](threats-to-internal-validity-of-randomized-expe
 - **Non-conformité bilatérale** L'expérience peut avoir les quatre groupes latents.
 
 - **Design incitatif** Une expérience qui randomise $T$ (assignation de traitement), et nous mesurons $D$ (si l'unité prend le traitement) et $Y$ (le résultat).
-  On peut estimer l'ITT et le LATE/CACE. Cela nécessite trois hypothèses.
+  On peut estimer l'effet d'intention de traiter (intent to treat effect, ITT), l'effet moyen local du traitement (Local average treatment effect, LATE) et l'effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.
      - **Monotonicité** Hypothèse qu'il n'y a soit pas de sujets non-conformistes ou de conformistes.
        Habituellement, nous supposons qu'il n'y a pas de non-conformistes, ce qui signifie que l'effet de l'affectation sur la prise du traitement est soit positif, soit nul mais pas négatif.
      - **Première étape** Hypothèse qu'il y a un effet de $T$ sur $D$.
      - **Restriction d'exclusion** Hypothèse selon laquelle $T$ affecte $Y$ uniquement jusqu'à $D$. C'est généralement l'hypothèse la plus problématique.
 
-- **Effet d'intention de traiter (ITT)** L'effet de $T$ (assignation de traitement) sur $Y$.
+- **Effet d'intention de traiter (intent to treat effect, ITT)** L'effet de $T$ (assignation de traitement) sur $Y$.
 
-- **Effet moyen local du traitement (LATE)** L'effet de $D$ (prise de traitement) sur $Y$ pour les conformistes.
+- **Effet moyen local du traitement (Local average treatment effect, LATE)** L'effet de $D$ (prise de traitement) sur $Y$ pour les conformistes.
   Également connu sous le nom d'effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE).
   Si l'hypothèse de monotonie et la restriction d'exclusion sont remplies, le LATE est égal à l'ITT divisé par la proportion conformiste de votre échantillon.
 
