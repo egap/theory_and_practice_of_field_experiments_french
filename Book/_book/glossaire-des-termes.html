@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-07" />
+<meta name="date" content="2021-10-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -746,7 +746,7 @@ Cela dépend :</p>
 <li>de la taille de l’effet (généralement mesurée en unités standardisées)</li>
 <li>du bruit sur la variable de résultat</li>
 <li>le niveau de signification (<span class="math inline">\(\alpha\)</span>, par convention)</li>
-<li>d’autres facteurs, y compris la proportion de vos unités qui sont affectées à différentes conditions de traitement.</li>
+<li>d’autres facteurs, y compris la proportion de vos unités qui sont assignées à différentes conditions de traitement.</li>
 </ul></li>
 <li><p><strong>Corrélation intra-cluster</strong> Dans quelle mesure les résultats potentiels des unités sont corrélés au sein des clusters par rapport à l’ensemble des clusters. Une corrélation intra-cluster plus élevée nuit à la puissance.</p></li>
 <li><p><strong>Non biaisé</strong> Un estimateur est sans biais si vous <em>attendez</em> qu’il renvoie le bon résultat. Cela signifie que si vous deviez exécuter l’expérience plusieurs fois,
@@ -763,9 +763,9 @@ Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et es
 <p>Voir le module sur <a href="randomization.html">la randomisation</a>.</p>
 <ul>
 <li><p><strong>Simple</strong> Un tirage au sort indépendant pour chaque unité. Vous n’êtes pas assuré que votre expérience aura un nombre spécifique d’unités traitées.</p></li>
-<li><p><strong>Complète</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
+<li><p><strong>Complète</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être assigné (nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
 <li><p><strong>Bloc</strong> Divisez d’abord l’échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d’unités au sein desquelles vous effectuez une assignation aléatoire.</p></li>
-<li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont affectés au hasard aux conditions de traitement. Un cluster est un ensemble d’unités qui seront toujours affectées au même statut de traitement.</p></li>
+<li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont assignés au hasard aux conditions de traitement. Un cluster est un ensemble d’unités qui seront toujours assignées au même statut de traitement.</p></li>
 <li><p><strong>Combinaison Grappe et Bloc</strong> Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, attribuez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.</p></li>
 </ul>
 </div>
@@ -777,7 +777,7 @@ Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et es
 <li><p><strong>Effet marginal conditionnel</strong> L’effet d’un traitement, conditionnel au maintien de l’autre pour une valeur fixe.
 Par exemple: <span class="math inline">\(Y_i(T_1=1|T_2=0)-Y_i(T_1=0|T_2=0)\)</span> est l’effet marginal de <span class="math inline">\(T_1\)</span> conditionnel à <span class="math inline">\(T_2=0\)</span>.</p></li>
 <li><p><strong>Effet marginal moyen</strong> Effet principal de chaque traitement dans un plan factoriel.
-C’est la moyenne des effets marginaux conditionnels pour toutes les conditions de l’autre traitement, pondérée par la proportion de l’échantillon qui a été affectée à chaque condition.</p></li>
+C’est la moyenne des effets marginaux conditionnels pour toutes les conditions de l’autre traitement, pondérée par la proportion de l’échantillon qui a été assignée à chaque condition.</p></li>
 <li><p><strong>Effet d’interaction</strong> Dans un plan factoriel, nous pouvons également estimer les effets d’interaction.</p>
 <ul>
 <li>Pas d’effet d’interaction : un traitement n’amplifie ni ne diminue l’effet de l’autre traitement.</li>
@@ -797,14 +797,14 @@ Exemple : ma santé dépend du statut de vaccination de mon voisin, ainsi que de
 Cela peut être causé, par exemple, par des personnes qui migrent, refusent de répondre aux enquêtes finales ou meurent.
 Ceci est particulièrement problématique pour l’inférence lorsque l’attrition est corrélée avec l’état du traitement.</p></li>
 <li><p><strong>Conformité</strong> Le statut de traitement d’une unité correspond à la condition de traitement qui lui a été assignée.
-Exemple de non-conformité : une unité affectée au traitement ne le prend pas.
-Exemple d’observance : une unité affectée au contrôle ne prend pas de traitement.</p></li>
+Exemple de non-conformité : une unité assignée au traitement ne le prend pas.
+Exemple d’observance : une unité assignée au contrôle ne prend pas de traitement.</p></li>
 <li><p><strong>Types de conformité</strong> Il existe quatre types d’unités en termes de conformité :</p>
 <ul>
-<li><strong>Conformistes</strong> Unités qui prendraient un traitement si elles étaient affectées au traitement et qui ne seraient pas traitées si elles étaient affectées au contrôle.</li>
-<li><strong>Toujours preneurs</strong> Unités qui prendraient un traitement si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
-<li><strong>Jamais preneurs</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.</li>
-<li><strong>Non-conformistes</strong> Unités qui ne seraient pas traitées si elles étaient affectées au traitement et qui prendraient un traitement si elles étaient affectées au contrôle.</li>
+<li><strong>Conformistes</strong> Unités qui prendraient un traitement si elles étaient assignées au traitement et qui ne seraient pas traitées si elles étaient assignées au contrôle.</li>
+<li><strong>Toujours preneurs</strong> Unités qui prendraient un traitement si elles étaient assignées au traitement et si elles étaient assignées au contrôle.</li>
+<li><strong>Jamais preneurs</strong> Unités qui ne seraient pas traitées si elles étaient assignées au traitement et si elles étaient assignées au contrôle.</li>
+<li><strong>Non-conformistes</strong> Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.</li>
 </ul></li>
 <li><p><strong>Non-conformité unilatérale</strong> L’expérience n’a que des sujets conformistes et <em>soit</em> des “toujours preneurs” ou des “jamais preneurs.”
 Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur le traité.</p></li>
@@ -813,7 +813,7 @@ Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant 
 On peut estimer l’effet d’intention de traiter (intent to treat effect, ITT), l’effet moyen local du traitement (Local average treatment effect, LATE) et l’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.</p>
 <ul>
 <li><strong>Monotonicité</strong> Hypothèse qu’il n’y a soit pas de sujets non-conformistes ou de conformistes.
-Habituellement, nous supposons qu’il n’y a pas de non-conformistes, ce qui signifie que l’effet de l’affectation sur la prise du traitement est soit positif, soit nul mais pas négatif.</li>
+Habituellement, nous supposons qu’il n’y a pas de non-conformistes, ce qui signifie que l’effet de l’assignation sur la prise du traitement est soit positif, soit nul mais pas négatif.</li>
 <li><strong>Première étape</strong> Hypothèse qu’il y a un effet de <span class="math inline">\(T\)</span> sur <span class="math inline">\(D\)</span>.</li>
 <li><strong>Restriction d’exclusion</strong> Hypothèse selon laquelle <span class="math inline">\(T\)</span> affecte <span class="math inline">\(Y\)</span> uniquement jusqu’à <span class="math inline">\(D\)</span>. C’est généralement l’hypothèse la plus problématique.</li>
 </ul></li>
