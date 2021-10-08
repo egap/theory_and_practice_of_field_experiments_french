@@ -93,7 +93,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
     - de la taille de l'effet (généralement mesurée en unités standardisées)
     - du bruit sur la variable de résultat
     - le niveau de signification ($\alpha$, par convention)
-    - d'autres facteurs, y compris la proportion de vos unités qui sont affectées à différentes conditions de traitement.
+    - d'autres facteurs, y compris la proportion de vos unités qui sont assignées à différentes conditions de traitement.
 
 - **Corrélation intra-cluster** Dans quelle mesure les résultats potentiels des unités sont corrélés au sein des clusters par rapport à l'ensemble des clusters. Une corrélation intra-cluster plus élevée nuit à la puissance.
 
@@ -114,11 +114,11 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Simple** Un tirage au sort indépendant pour chaque unité. Vous n'êtes pas assuré que votre expérience aura un nombre spécifique d'unités traitées.
 
-- **Complète** Assigner $m$ sur $N$ unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de $m/N$ d'être traitée. Le nombre de façons dont le traitement peut être affecté (nombre de permutations d'assignation de traitement) est $\frac{N!}{m!(N-m)!}$.
+- **Complète** Assigner $m$ sur $N$ unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de $m/N$ d'être traitée. Le nombre de façons dont le traitement peut être assigné (nombre de permutations d'assignation de traitement) est $\frac{N!}{m!(N-m)!}$.
 
 - **Bloc** Divisez d'abord l'échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d'unités au sein desquelles vous effectuez une assignation aléatoire.
 
-- **Grappe (Cluster)** Les groupes d'unités sont affectés au hasard aux conditions de traitement. Un cluster est un ensemble d'unités qui seront toujours affectées au même statut de traitement.
+- **Grappe (Cluster)** Les groupes d'unités sont assignés au hasard aux conditions de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
 
 - **Combinaison Grappe et Bloc** Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, attribuez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.
 
@@ -132,7 +132,7 @@ Voir le module sur [la randomisation](randomization.html).
   Par exemple: $Y_i(T_1=1|T_2=0)-Y_i(T_1=0|T_2=0)$ est l'effet marginal de $T_1$ conditionnel à $T_2=0$.
 
 - **Effet marginal moyen** Effet principal de chaque traitement dans un plan factoriel.
-  C'est la moyenne des effets marginaux conditionnels pour toutes les conditions de l'autre traitement, pondérée par la proportion de l'échantillon qui a été affectée à chaque condition.
+  C'est la moyenne des effets marginaux conditionnels pour toutes les conditions de l'autre traitement, pondérée par la proportion de l'échantillon qui a été assignée à chaque condition.
 
 - **Effet d'interaction** Dans un plan factoriel, nous pouvons également estimer les effets d'interaction.
     - Pas d'effet d'interaction : un traitement n'amplifie ni ne diminue l'effet de l'autre traitement.
@@ -153,14 +153,14 @@ Voir le module sur les [menaces](threats-to-internal-validity-of-randomized-expe
    Ceci est particulièrement problématique pour l'inférence lorsque l'attrition est corrélée avec l'état du traitement.
 
 - **Conformité** Le statut de traitement d'une unité correspond à la condition de traitement qui lui a été assignée.
-   Exemple de non-conformité : une unité affectée au traitement ne le prend pas.
-   Exemple d'observance : une unité affectée au contrôle ne prend pas de traitement.
+   Exemple de non-conformité : une unité assignée au traitement ne le prend pas.
+   Exemple d'observance : une unité assignée au contrôle ne prend pas de traitement.
 
 - **Types de conformité** Il existe quatre types d'unités en termes de conformité :
-     - **Conformistes** Unités qui prendraient un traitement si elles étaient affectées au traitement et qui ne seraient pas traitées si elles étaient affectées au contrôle.
-     - **Toujours preneurs** Unités qui prendraient un traitement si elles étaient affectées au traitement et si elles étaient affectées au contrôle.
-     - **Jamais preneurs** Unités qui ne seraient pas traitées si elles étaient affectées au traitement et si elles étaient affectées au contrôle.
-     - **Non-conformistes** Unités qui ne seraient pas traitées si elles étaient affectées au traitement et qui prendraient un traitement si elles étaient affectées au contrôle.
+     - **Conformistes** Unités qui prendraient un traitement si elles étaient assignées au traitement et qui ne seraient pas traitées si elles étaient assignées au contrôle.
+     - **Toujours preneurs** Unités qui prendraient un traitement si elles étaient assignées au traitement et si elles étaient assignées au contrôle.
+     - **Jamais preneurs** Unités qui ne seraient pas traitées si elles étaient assignées au traitement et si elles étaient assignées au contrôle.
+     - **Non-conformistes** Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.
 
 - **Non-conformité unilatérale** L'expérience n'a que des sujets conformistes et *soit* des "toujours preneurs" ou des "jamais preneurs".
   Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur le traité.
@@ -170,7 +170,7 @@ Voir le module sur les [menaces](threats-to-internal-validity-of-randomized-expe
 - **Design incitatif** Une expérience qui randomise $T$ (assignation de traitement), et nous mesurons $D$ (si l'unité prend le traitement) et $Y$ (le résultat).
   On peut estimer l'effet d'intention de traiter (intent to treat effect, ITT), l'effet moyen local du traitement (Local average treatment effect, LATE) et l'effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.
      - **Monotonicité** Hypothèse qu'il n'y a soit pas de sujets non-conformistes ou de conformistes.
-       Habituellement, nous supposons qu'il n'y a pas de non-conformistes, ce qui signifie que l'effet de l'affectation sur la prise du traitement est soit positif, soit nul mais pas négatif.
+       Habituellement, nous supposons qu'il n'y a pas de non-conformistes, ce qui signifie que l'effet de l'assignation sur la prise du traitement est soit positif, soit nul mais pas négatif.
      - **Première étape** Hypothèse qu'il y a un effet de $T$ sur $D$.
      - **Restriction d'exclusion** Hypothèse selon laquelle $T$ affecte $Y$ uniquement jusqu'à $D$. C'est généralement l'hypothèse la plus problématique.
 
