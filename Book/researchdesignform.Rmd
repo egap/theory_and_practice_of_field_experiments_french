@@ -41,7 +41,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
  - [Présentation de DeclareDesign  aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
-Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problèmatiques relatives au design de la recherche, plutôt qu'aux résultats:
+Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problématiques relatives au design de recherche, plutôt qu'aux résultats:
 
  - [Design Talk aux EGAP Learning Days à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 

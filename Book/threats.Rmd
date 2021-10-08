@@ -10,7 +10,7 @@ Dans ce module, nous abordons certaines menaces courantes et les bonnes pratique
 
  - Nous avons dit "analysez en randomisant" dans le module sur les [estimandes et estimateurs](estimands-and-estimators.html). N'oubliez pas que vous avez randomisé **l'assignation** du traitement. Vous n'avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.
 
- - **Les données manquantes dans les résultats (i.e. l'attrition)** sont particulièrement problèmatiques si le pattern des données absentes est causé par le traitement lui-même. C'est un problème très courant.
+ - **Les données manquantes dans les résultats (i.e. l'attrition)** sont particulièrement problématiques si le pattern des données absentes est causé par le traitement lui-même. C'est un problème très courant.
 
      - Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.
 
