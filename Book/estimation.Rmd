@@ -29,7 +29,7 @@ ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le modu
 
  - Une intervention politique (comme une lettre qui incite à l'exercice) peut *avoir l'intention* de changer un comportement par **une dose active** (exercice réel). Nous pouvons apprendre l'effet causal de l'intention en envoyent les lettres de façon aléatoire. C'est ce qu'on appele **l'effet d'intention de traiter** (intent to treat effect, **ITT**).
  
- - Nous pouvons apprendre sur l'effet causal de l'exercice réel en utilisant l'attribution aléatoire de lettres comme **instrument** de la dose active (l'exercice lui-même) afin d'apprendre davantage sur l'effet causal de l'exercice **chez ceux qui changeraient leur comportement après avoir reçu la lettre**. Cette version de l'effet causal moyen est souvent connue sous le nom **d'effet moyen local du traitement**.
+ - Nous pouvons apprendre sur l'effet causal de l'exercice réel en utilisant l'assignation aléatoire de lettres comme **instrument** de la dose active (l'exercice lui-même) afin d'apprendre davantage sur l'effet causal de l'exercice **chez ceux qui changeraient leur comportement après avoir reçu la lettre**. Cette version de l'effet causal moyen est souvent connue sous le nom **d'effet moyen local du traitement**.
 
 
 ## Slides
