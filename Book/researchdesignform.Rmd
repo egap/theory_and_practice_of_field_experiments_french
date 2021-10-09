@@ -2,7 +2,7 @@
 
 Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentée dans les modules qui suivent.
 
-Ce module présente le [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days sont organisés autour du formulaire de design de recherche. Nous vous incitons à utilser le logiciel [DeclareDesign](http://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
+Ce module présente le [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days sont organisés autour du formulaire de design de recherche. Nous vous incitons à utiliser le logiciel [DeclareDesign](http://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
 
 ## Contenu
 
@@ -10,15 +10,15 @@ Ce module présente le [formulaire de design de recherche EGAP](https://egap.git
 
 - Certains **designs de recherche** sont mieux pour répondre à certaines questions. Nous voulons choisir le design qui répond le mieux à nos questions clés compte tenu des contraintes et de nos moyens.
 
-- Les questions que nous posons découlent --- souvent implicitement --- de nos valeurs et de notre compréhension du fonctionnement du monde. Ces **théories** rendent nos questions pertinentes. Et les expériences que nous réalisons nous renseignent sur la théorie. Cependant, nous espérons que les preuves et les données issues de ces designs de recherche amélioreront notre compréhension.
+- Les questions que nous posons découlent --- souvent implicitement --- de nos valeurs et de notre compréhension du fonctionnement du monde. Ces **théories** rendent nos questions pertinentes. Et les expériences que nous réalisons nous renseignent sur la théorie. Ainsi, nous espérons que les preuves et les données issues de ces designs de recherche amélioreront notre compréhension.
 
 - Composants de base d'un design de recherche
 
 - Présentation des composants de base de [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
 
-- Introduction de package [DeclareDesign](http://declaredesign.org) pour le design de recherche.
+- Introduction du package [DeclareDesign](http://declaredesign.org) pour le design de recherche.
 
-- L'évolution des sciences sociales s'oriente vers **l'examen des designs, au lieu de l'examination des résultats**.
+- L'évolution des sciences sociales s'oriente vers **la revue des designs, au lieu de la revue des résultats**.
 
 - **Le pré-enregistrement** -- ce que c'est, pourquoi et comment nous devons le faire.
 

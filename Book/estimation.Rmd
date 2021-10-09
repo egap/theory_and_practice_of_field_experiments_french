@@ -71,7 +71,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
  - Guide des méthodes EGAP [Les 10 effets de traitement que vous devez connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariante](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariable](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
 
  - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 

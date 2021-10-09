@@ -120,13 +120,13 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Grappe (Cluster)** Les groupes d'unités sont assignés au hasard aux conditions de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
 
-- **Combinaison Grappe et Bloc** Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, attribuez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.
+- **Combinaison Grappe et Bloc** Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, assignez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.
 
 ## Designs factoriels
 
 Voir le module sur [la randomisation](randomization.html).
 
-- **Design factoriel** Un design avec plus d'un traitement, chaque traitement étant attribué indépendamment. Le plan factoriel le plus simple est un 2 par 2.
+- **Design factoriel** Un design avec plus d'un traitement, chaque traitement étant assigné indépendamment. Le plan factoriel le plus simple est un 2 par 2.
 
 - **Effet marginal conditionnel** L'effet d'un traitement, conditionnel au maintien de l'autre pour une valeur fixe.
   Par exemple: $Y_i(T_1=1|T_2=0)-Y_i(T_1=0|T_2=0)$ est l'effet marginal de $T_1$ conditionnel à $T_2=0$.
@@ -136,7 +136,7 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Effet d'interaction** Dans un plan factoriel, nous pouvons également estimer les effets d'interaction.
     - Pas d'effet d'interaction : un traitement n'amplifie ni ne diminue l'effet de l'autre traitement.
-    - Effet d'interaction multiplicatif : l'effet d'un traitement dépend de la condition à laquelle une unité a été attribuée pour l'autre traitement.
+    - Effet d'interaction multiplicatif : l'effet d'un traitement dépend de la condition de l'unité pour un autre traitment.
       Cela signifie qu'un traitement amplifie ou réduit l'effet de l'autre. L'effet de deux traitements ensemble n'est *pas* la somme de l'effet de chaque traitement.
 
 ## Menaces
