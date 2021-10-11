@@ -81,7 +81,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
 ### Livres, chapitres et articles
 
- - [@gerber_field_2012]. Chapitre 2.7 sur l'excluabilité et la non-interférence, Chapitre 3, Chapitre 5 sur la non-conformité unilatérale, Chapitre 6 sur la non-conformité bilatérale, Chapitre 7 sur l'attrition, Chapitre 8 sur l'interférence entre les unités expérimentales.
+ - [@gerber_field_2012]. Chapitre 2.7 sur l'exclusion et la non-interférence, Chapitre 3, Chapitre 5 sur la non-conformité unilatérale, Chapitre 6 sur la non-conformité bilatérale, Chapitre 7 sur l'attrition, Chapitre 8 sur l'interférence entre les unités expérimentales.
 
  - [@bowers2020causality].
 

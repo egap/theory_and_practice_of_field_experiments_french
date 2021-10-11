@@ -28,9 +28,9 @@ Dans ce module, nous abordons certaines menaces courantes et les bonnes pratique
 
  - **L'effet Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
 
-- **La non-excluabilité**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière pour les unités traitées, peut perturber l'interprétation des résultats expérimentaux.
+- **La non-exclusion**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière pour les unités traitées, peut perturber l'interprétation des résultats expérimentaux.
 
-     - Si l'effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l'hypothèse d'excluabilité.
+     - Si l'effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l'hypothèse d'exclusion.
 
 
 
