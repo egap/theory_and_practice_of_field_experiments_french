@@ -110,11 +110,11 @@ readr::write_lines(htmlhead, file = "header.html")
 
 # Introduction
 
-Durant la dernière décennie, [Evidence in Governance and Politics (EGAP)](http://egap.org/) a organisé une série de workshops, [les Learning Days](https://egap.org/learning-days/), dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les chargés de recherche -- chercheurs et praticiens -- en Afrique et Amérique Latine.  En partageant entre participants, méthodes pratiques et méthodes statistiques pour mener des expériences de terrain aléatoires, les Learning Days visent à créer et entretenir des réseaux de chercheurs dans le monde et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.
+Durant la dernière décennie, [Evidence in Governance and Politics (EGAP)](https://egap.org/) a organisé une série de workshops, [les Learning Days](https://egap.org/learning-days/), dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les chargés de recherche -- chercheurs et praticiens -- en Afrique et Amérique Latine.  En partageant entre participants, méthodes pratiques et méthodes statistiques pour mener des expériences de terrain aléatoires, les Learning Days visent à créer et entretenir des réseaux de chercheurs dans le monde et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.
 
 Les Learning Days sont une combinaison d'ateliers de design, de présentations de travaux de recherche, d'utilisation de logiciel statistique et de conférences thématiques par un petit groupe d'instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les workshops abordent les méthodes de design et d'analyse pour des expériences de terrain aléatoires plutôt que des expériences aléatoires en laboratoire ou des études non-aléatoires.
 
-**Ce livre** rassemble les matériaux développés pour les Learning Days. La version actuelle du livre est écrite principalement pour **des instructeurs et des organisateurs** de workshops et de cours similaires pour des chargés de recherche --- des professeurs, des chercheurs postdoctorals, des doctorants, des évaluateurs d'ONG et d'agences gouvernementales, etc. --- qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des Learning Days précédents.
+**Ce livre** rassemble les matériaux développés pour les Learning Days. La version actuelle du livre est écrite principalement pour **des instructeurs et des organisateurs** de workshops et de cours similaires à l'intention de chargés de recherche --- professeurs, chercheurs postdoctorals, doctorants, évaluateurs d'ONG et d'agences gouvernementales, etc. --- qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des Learning Days précédents.
 
 Ce livre est une revue complète des méthodes d'inférence causale pour les chercheurs qui développent un design de recherche expérimental. Ce livre est organisé en **modules** et comprend des sujets tels que l'inférence causale, la randomisation, les tests d'hypothèses, les estimandes, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l'éthique de l'expérimentation. Les modules apparaissent dans l'ordre jugé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à vos besoins en tant qu'instructeur. En annexe, il y a des matériaux préparatoires comprenant un [glossaire des termes](glossary-of-terms.html) et une [introduction à R et RStudio](introduction-to-r-and-rstudio.html).
 
@@ -122,11 +122,11 @@ Ce livre comprend des **slides** sur le contenu principal, le [formulaire de des
 
 ## Comment utiliser le livre
 
-Pour profiter au maximum de ce livre, veuillez installer [R](https://cran.r-project.org/) et [RStudio](https://www.rstudio.com/products/rstudio/download/) sur votre machine. En fait, les slides supposent que vous utilisiez Rmarkdown pour les adapter à vos besoins.
+Pour profiter au maximum de ce livre, veuillez installer [R](https://cran.r-project.org/) et [RStudio](https://www.rstudio.com/products/rstudio/download/) sur votre ordinateur. En fait, les slides supposent que vous utilisiez Rmarkdown pour les adapter à vos besoins.
 
 Pour commencer avec R, voir le module [Introduction à R et RStudio](introduction-to-r-and-rstudio.html).
 
-Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc.) soit en utilisant le bouton de téléchargement (Download) sur la première page de <http://github.com/egap/theory_and_practice_of_field_experiments_french>, soit directement sur github en "forkant" ce repertoire.
+Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc.) soit en utilisant le bouton de téléchargement (Download) sur la première page de <https://github.com/egap/theory_and_practice_of_field_experiments_french>, soit directement sur github en "forkant" ce repertoire.
 
 Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.
 
