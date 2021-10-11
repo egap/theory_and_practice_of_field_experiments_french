@@ -56,7 +56,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
 - **Hypothèse nulle**  Une conjecture sur le monde que vous pouvez rejeter après avoir vu les données.
   Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
 
-- **Hypothèse nulle forte d'absence d'effet** L'hypothèse nulle selon laquelle il n'y a aucun effet du traitement pour aucun sujet.
+- **Hypothèse nulle stricte d'absence d'effet** L'hypothèse nulle selon laquelle il n'y a aucun effet du traitement pour aucun sujet.
   Cela signifie $Y_i(1)=Y_i(0)$ pour tout $i$. On pourrait écrire ceci comme $H_0: Y_i(T_i=0) = Y_i(T_i=1)$.
   Voir le module sur [les tests d'hypothèses](hypothesis-testing.html).
 
