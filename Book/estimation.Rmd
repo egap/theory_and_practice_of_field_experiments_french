@@ -17,7 +17,7 @@ ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le modu
 
 - Un **estimateur** est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour $m$ unités traitées et la moyenne des résultats observés pour $N-m$ unités non traitées est un estimateur de $\bar{\tau}$.
 
-- Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. **L'erreur standard** résume cette variabilité dans un estimateur.
+- Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. **L'erreur standard** résume cette variabilité au sein d'un estimateur.
 
 - Un **intervalle de confiance** de $100(1-\alpha)$% est un ensemble d'hypothèses qui ne peuvent être rejetées au niveau $\alpha$. Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.
 

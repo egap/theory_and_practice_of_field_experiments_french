@@ -85,11 +85,11 @@ R peut être utilisé pour toute opération arithmétique, y compris, mais sans 
 
 ### Gestion
 
-Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous définissons la variable `t` pour prendre la valeur $3 \times \frac{6}{14}$, et pouvons voir qu'elle est stockée sous Valeurs.
+Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous affectons la valeur $3 \times \frac{6}{14}$ à la variable `t`, et pouvons voir qu'elle est stockée sous Valeurs.
 
 Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'Environnement. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
-```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l\'environnement global (en bleu).'}
+```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l\'environnement global (en bleu).'}
 knitr::include_graphics("Images/save_data.png")
 ```
 
@@ -98,14 +98,14 @@ Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et
 ```{r, warning = F, message = F}
 head(ChickWeight) # Les 6 premières observations du dataset
 summary(ChickWeight) # Résumé de toutes les variables
-dim(ChickWeight) # Dimensions du dataset dans l'ordre lignes puis colonnes
+dim(ChickWeight) # Dimensions du dataset dans l'ordre "ligne" puis "colonne"
 ```
 
 Contrairement à d'autres logiciels statistiques, R permet aux utilisateurs de stocker simultanément plusieurs ensembles de données, éventuellement de dimensions différentes. Cette fonctionnalité rend R assez flexible pour l'analyse à l'aide de plusieurs méthodes.
 
 ### Divers
 
-R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de tracer les données.
+R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de représenter les données.
 
 ```{r graph, out.width='60%',  echo=FALSE, fig.show='hold', fig.cap='Un exemple de courbe avec le dataset `ChickWeight` en R.'}
 knitr::include_graphics("Images/graph.png")
@@ -115,7 +115,7 @@ knitr::include_graphics("Images/graph.png")
 
 ### Ressources en ligne
 
-Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer à apprendre R. Nous vous recommandons deux sources :
+Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer avec R. Nous vous recommandons deux sources :
 
 - Code School, qui fonctionne entièrement sur votre navigateur [https://www.codeschool.com/courses/try-r](https://www.codeschool.com/courses/try-r).
 - Coursera, via un cours de programmation R en ligne organisé par l'Université Johns Hopkins :
@@ -171,9 +171,11 @@ Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un s
 Nous pouvons également vouloir affecter un vecteur d'éléments à une variable. Ici, nous utilisons la même commande `<-`, mais nous nous concentrons sur la façon de créer le vecteur.
 
 ```{r echo=TRUE}
-(b <- 1:10)              # ":"  est utilisé pour définir une chaîne d'entiers
+# ":"  est utilisé pour définir une chaîne d'entiers
+(b <- 1:10)
 
-(v <- c(1, 3, 2, 4, pi))   # utilisez c() pour faire un vecteur avec n'importe quoi dedans
+# utilisez c() pour faire un vecteur avec n'importe quoi dedans
+(v <- c(1, 3, 2, 4, pi))
 ```
 
 On peut alors se référer aux éléments d'un vecteur en désignant leur position à l'intérieur de parenthèses `[]`.
@@ -187,7 +189,7 @@ b[-1]                  # Retourne tout sauf le premier élément
 # Retourne tous les nombres indiqués comme "TRUE"
 b[c(TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE)]  
                                                                           
-# Attribue une nouvelle valeur aux éléments particuliers d'un vecteur
+# Attribue une nouvelle valeur à l'élément particulier d'un vecteur
 b[5] <- 0
 ```
 
@@ -220,7 +222,8 @@ b >= 5                     # plus petit ou égal à
 b <= 5 | b / 4 == 2        # | signifie OU
 b>2 & b<9                  # & signifie ET
 is.na(b)                   # Indique si la donnée est manquante
-which(b<5)                 # Donne les indices des éléments dont la valeur répond à la condition
+# Donne les indices des éléments dont la valeur répond à la condition
+which(b<5)
 ```
 
-La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre des sujets avancés au cours des Learning Days.
+La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des Learning Days.

@@ -10,13 +10,13 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
 - Quatre façons courantes de randomiser le traitement :
 
-    - **Simple** : assigner de manière aléatoire des unités au traitement (comme un tirage au sort).
+    - **Simple** : assigner de manière aléatoire les unités au traitement (comme un tirage au sort).
 
     - **Complète** : au sein d'une liste d'unités éligibles, assigner un nombre fixe d'unités au traitement (comme un tirage d'une urne sans remise).
 
     - **Par bloc (ou stratifiée)** : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
       
-    - **En grappe (cluster)** : assigner des groupes (grappes ou clusters) à la même condition de traitement.
+    - **Par grappe (cluster)** : assigner des groupes (grappes ou clusters) à la même condition de traitement.
     
     
 - Quelques designs courants :
@@ -95,11 +95,11 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
   - [Note d'orientation des politiques publiques EGAP 60 : Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan](https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/)
 
-*Randomisation en grappe (cluster)*
+*Randomisation par grappe (cluster)*
 
   - [Note d'orientation des politiques publiques EGAP 22 : Pousser au vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
 
-*Randomisation combinée en grappe et par bloc*
+*Randomisation combinée par grappe et par bloc*
 
   - [Note d'orientation des politiques publiques EGAP 54 : Révélations de malversations des politicens en place](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
 
@@ -115,5 +115,5 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
  - [Randomisation vs. échantillonnage aléatoire](https://www.youtu.be/02A61b3hxvA)
  
- - [Randomisation en grappe vs en bloc](https://www.youtu.be/bL2U9z8hX1k)
+ - [Randomisation par grappe vs. par bloc](https://www.youtu.be/bL2U9z8hX1k)
  

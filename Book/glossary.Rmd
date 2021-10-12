@@ -114,13 +114,13 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Simple** Un tirage au sort indépendant pour chaque unité. Vous n'êtes pas assuré que votre expérience aura un nombre spécifique d'unités traitées.
 
-- **Complète** Assigner $m$ sur $N$ unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de $m/N$ d'être traitée. Le nombre de façons dont le traitement peut être assigné (nombre de permutations d'assignation de traitement) est $\frac{N!}{m!(N-m)!}$.
+- **Complète** Assigner $m$ sur $N$ unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de $m/N$ d'être traitée. Le nombre de façons dont le traitement peut être assigné (i.e. nombre de permutations d'assignation de traitement) est $\frac{N!}{m!(N-m)!}$.
 
 - **Bloc** Divisez d'abord l'échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d'unités au sein desquelles vous effectuez une assignation aléatoire.
 
-- **Grappe (Cluster)** Les groupes d'unités sont assignés au hasard aux conditions de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
+- **Grappe (Cluster)** Les groupes d'unités sont assignés au hasard à une condition de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
 
-- **Combinaison Grappe et Bloc** Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, assignez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.
+- **Combinaison Grappe et Bloc** Premièrement formez les blocs. Ensuite, dans chaque bloc, assignez au hasard les grappes à une condition de traitement en utilisant une randomisation complète.
 
 ## Designs factoriels
 
@@ -162,8 +162,8 @@ Voir le module sur les [menaces](threats-to-internal-validity-of-randomized-expe
      - **Jamais preneurs** Unités qui ne seraient pas traitées si elles étaient assignées au traitement et si elles étaient assignées au contrôle.
      - **Non-conformistes** Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.
 
-- **Non-conformité unilatérale** L'expérience n'a que des sujets conformistes et *soit* des "toujours preneurs" ou des "jamais preneurs".
-  Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur le traité.
+- **Non-conformité unilatérale** L'expérience n'a que des sujets "conformistes" et *soit* des "toujours preneurs" ou des "jamais preneurs".
+  Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets "jamais-preneurs" et "conformistes", ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur le traité.
 
 - **Non-conformité bilatérale** L'expérience peut avoir les quatre groupes latents.
 
