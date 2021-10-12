@@ -168,7 +168,7 @@
 \title{La théorie et la pratique des expériences de terrain :\\
 Une introduction des EGAP Learning Days}
 \author{Jake Bowers,\footnote{L'ordre des noms d'auteurs est généré de manière aléatoire. \url{https://jakebowers.org}} Maarten Voors,\footnote{\url{https://sites.google.com/site/maartenvoors/}} et Nahomi Ichino\footnote{\url{https://nahomi.github.io/}}}
-\date{October 11, 2021}
+\date{October 12, 2021}
 
 \begin{document}
 \maketitle
@@ -505,13 +505,13 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
   \begin{itemize}
   \item
-    \textbf{Simple} : assigner de manière aléatoire des unités au traitement (comme un tirage au sort).
+    \textbf{Simple} : assigner de manière aléatoire les unités au traitement (comme un tirage au sort).
   \item
     \textbf{Complète} : au sein d'une liste d'unités éligibles, assigner un nombre fixe d'unités au traitement (comme un tirage d'une urne sans remise).
   \item
     \textbf{Par bloc (ou stratifiée)} : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
   \item
-    \textbf{En grappe (cluster)} : assigner des groupes (grappes ou clusters) à la même condition de traitement.
+    \textbf{Par grappe (cluster)} : assigner des groupes (grappes ou clusters) à la même condition de traitement.
   \end{itemize}
 \item
   Quelques designs courants :
@@ -620,7 +620,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
   \href{https://egap.org/resource/reducing-youth-support-for-violence-through-training-and-cash-transfers-in-afghanistan/}{Note d'orientation des politiques publiques EGAP 60 : Réduire le soutien des jeunes à la violence grâce à la formation et aux transferts de cash en Afghanistan}
 \end{itemize}
 
-\emph{Randomisation en grappe (cluster)}
+\emph{Randomisation par grappe (cluster)}
 
 \begin{itemize}
 \tightlist
@@ -628,7 +628,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
   \href{https://egap.org/resource/brief-22-getting-out-the-vote/}{Note d'orientation des politiques publiques EGAP 22 : Pousser au vote}
 \end{itemize}
 
-\emph{Randomisation combinée en grappe et par bloc}
+\emph{Randomisation combinée par grappe et par bloc}
 
 \begin{itemize}
 \item
@@ -653,7 +653,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 \item
   \href{https://www.youtu.be/02A61b3hxvA}{Randomisation vs.~échantillonnage aléatoire}
 \item
-  \href{https://www.youtu.be/bL2U9z8hX1k}{Randomisation en grappe vs en bloc}
+  \href{https://www.youtu.be/bL2U9z8hX1k}{Randomisation par grappe vs.~par bloc}
 \end{itemize}
 
 \hypertarget{tests-dhypothuxe8ses}{%
@@ -782,7 +782,7 @@ Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'es
 \item
   Un \textbf{estimateur} est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour \(m\) unités traitées et la moyenne des résultats observés pour \(N-m\) unités non traitées est un estimateur de \(\bar{\tau}\).
 \item
-  Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. \textbf{L'erreur standard} résume cette variabilité dans un estimateur.
+  Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. \textbf{L'erreur standard} résume cette variabilité au sein d'un estimateur.
 \item
   Un \textbf{intervalle de confiance} de \(100(1-\alpha)\)\% est un ensemble d'hypothèses qui ne peuvent être rejetées au niveau \(\alpha\). Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.
 \item
@@ -1430,13 +1430,13 @@ Voir le module sur \href{randomization.html}{la randomisation}.
 \item
   \textbf{Simple} Un tirage au sort indépendant pour chaque unité. Vous n'êtes pas assuré que votre expérience aura un nombre spécifique d'unités traitées.
 \item
-  \textbf{Complète} Assigner \(m\) sur \(N\) unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de \(m/N\) d'être traitée. Le nombre de façons dont le traitement peut être assigné (i.e. nombre de permutations d'assignation de traitement) est \(\frac{N!}{m!(N-m)!}\).
+  \textbf{Complète} Assigner \(m\) sur \(N\) unités au traitement. Vous savez combien d'unités seront traitées dans votre expérience et chaque unité a une probabilité de \(m/N\) d'être traitée. Le nombre de façons dont le traitement peut être assigné (i.e.~nombre de permutations d'assignation de traitement) est \(\frac{N!}{m!(N-m)!}\).
 \item
   \textbf{Bloc} Divisez d'abord l'échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d'unités au sein desquelles vous effectuez une assignation aléatoire.
 \item
-  \textbf{Grappe (Cluster)} Les groupes d'unités sont assignés au hasard aux conditions de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
+  \textbf{Grappe (Cluster)} Les groupes d'unités sont assignés au hasard à une condition de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
 \item
-  \textbf{Combinaison Grappe et Bloc} Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, assignez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.
+  \textbf{Combinaison Grappe et Bloc} Premièrement formez les blocs. Ensuite, dans chaque bloc, assignez au hasard les grappes à une condition de traitement en utilisant une randomisation complète.
 \end{itemize}
 
 \hypertarget{designs-factoriels}{%
@@ -1500,8 +1500,8 @@ Voir le module sur les \href{threats-to-internal-validity-of-randomized-experime
     \textbf{Non-conformistes} Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.
   \end{itemize}
 \item
-  \textbf{Non-conformité unilatérale} L'expérience n'a que des sujets conformistes et \emph{soit} des ``toujours preneurs'' ou des ``jamais preneurs''.
-  Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur le traité.
+  \textbf{Non-conformité unilatérale} L'expérience n'a que des sujets ``conformistes'' et \emph{soit} des ``toujours preneurs'' ou des ``jamais preneurs''.
+  Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets ``jamais-preneurs'' et ``conformistes'', ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur le traité.
 \item
   \textbf{Non-conformité bilatérale} L'expérience peut avoir les quatre groupes latents.
 \item
@@ -1651,12 +1651,12 @@ R peut être utilisé pour toute opération arithmétique, y compris, mais sans 
 \hypertarget{gestion}{%
 \subsection{Gestion}\label{gestion}}
 
-Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur \texttt{\textless{}-}. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous définissons la variable \texttt{t} pour prendre la valeur \(3 \times \frac{6}{14}\), et pouvons voir qu'elle est stockée sous Valeurs.
+Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur \texttt{\textless{}-}. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous affectons la valeur \(3 \times \frac{6}{14}\) à la variable \texttt{t}, et pouvons voir qu'elle est stockée sous Valeurs.
 
 Nous chargeons également un jeu de données. Ici, ``ChickWeight'' est un dataset intégré à R~; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'Environnement. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{Images/save_data} \caption{La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu).}\label{fig:savedata}
+\includegraphics[width=0.6\linewidth]{Images/save_data} \caption{La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu).}\label{fig:savedata}
 \end{figure}
 
 Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l'instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction \texttt{head()} nous permet de voir les six premières lignes des données. \texttt{summary()} résume chacune des colonnes du dataset et \texttt{dim()} fournit les dimensions du dataset avec d'abord le nombre de lignes puis de colonnes.
@@ -1696,7 +1696,7 @@ Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{dim}\NormalTok{(ChickWeight) }\CommentTok{\# Dimensions du dataset dans l\textquotesingle{}ordre lignes puis colonnes}
+\FunctionTok{dim}\NormalTok{(ChickWeight) }\CommentTok{\# Dimensions du dataset dans l\textquotesingle{}ordre "ligne" puis "colonne"}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1709,7 +1709,7 @@ Contrairement à d'autres logiciels statistiques, R permet aux utilisateurs de s
 \hypertarget{divers}{%
 \subsection{Divers}\label{divers}}
 
-R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de tracer les données.
+R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de représenter les données.
 
 \begin{figure}
 \includegraphics[width=0.6\linewidth]{Images/graph} \caption{Un exemple de courbe avec le dataset `ChickWeight` en R.}\label{fig:graph}
@@ -1721,7 +1721,7 @@ R fournit une suite d'outils, allant des fonctions intégrées aux packages pour
 \hypertarget{ressources-en-ligne}{%
 \subsection{Ressources en ligne}\label{ressources-en-ligne}}
 
-Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer à apprendre R. Nous vous recommandons deux sources~:
+Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer avec R. Nous vous recommandons deux sources~:
 
 \begin{itemize}
 \tightlist
@@ -1811,7 +1811,8 @@ Nous pouvons également vouloir affecter un vecteur d'éléments à une variable
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{(b }\OtherTok{\textless{}{-}} \DecValTok{1}\SpecialCharTok{:}\DecValTok{10}\NormalTok{) }\CommentTok{\# ":"  est utilisé pour définir une chaîne d\textquotesingle{}entiers}
+\CommentTok{\# ":"  est utilisé pour définir une chaîne d\textquotesingle{}entiers}
+\NormalTok{(b }\OtherTok{\textless{}{-}} \DecValTok{1}\SpecialCharTok{:}\DecValTok{10}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1821,7 +1822,8 @@ Nous pouvons également vouloir affecter un vecteur d'éléments à une variable
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{(v }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{3}\NormalTok{, }\DecValTok{2}\NormalTok{, }\DecValTok{4}\NormalTok{, pi)) }\CommentTok{\# utilisez c() pour faire un vecteur avec n\textquotesingle{}importe quoi dedans}
+\CommentTok{\# utilisez c() pour faire un vecteur avec n\textquotesingle{}importe quoi dedans}
+\NormalTok{(v }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{3}\NormalTok{, }\DecValTok{2}\NormalTok{, }\DecValTok{4}\NormalTok{, pi))}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1875,7 +1877,7 @@ On peut alors se référer aux éléments d'un vecteur en désignant leur positi
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{\# Attribue une nouvelle valeur aux éléments particuliers d\textquotesingle{}un vecteur}
+\CommentTok{\# Attribue une nouvelle valeur à l\textquotesingle{}élément particulier d\textquotesingle{}un vecteur}
 \NormalTok{b[}\DecValTok{5}\NormalTok{] }\OtherTok{\textless{}{-}} \DecValTok{0}
 \end{Highlighting}
 \end{Shaded}
@@ -2048,7 +2050,8 @@ Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire ``la condi
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{which}\NormalTok{(b }\SpecialCharTok{\textless{}} \DecValTok{5}\NormalTok{) }\CommentTok{\# Donne les indices des éléments dont la valeur répond à la condition}
+\CommentTok{\# Donne les indices des éléments dont la valeur répond à la condition}
+\FunctionTok{which}\NormalTok{(b }\SpecialCharTok{\textless{}} \DecValTok{5}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -2056,7 +2059,7 @@ Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire ``la condi
 [1] 1 2 3 4 5
 \end{verbatim}
 
-La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre des sujets avancés au cours des Learning Days.
+La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des Learning Days.
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{0}{0}

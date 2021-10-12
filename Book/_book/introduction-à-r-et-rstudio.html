@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-11" />
+<meta name="date" content="2021-10-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -768,12 +768,12 @@ Figure B.6: Une expression arithmétique est saisie dans l’éditeur et évalu�
 </div>
 <div id="gestion" class="section level3" number="12.3.3">
 <h3><span class="header-section-number">B.3.3</span> Gestion</h3>
-<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous définissons la variable <code>t</code> pour prendre la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span>, et pouvons voir qu’elle est stockée sous Valeurs.</p>
+<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous affectons la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span> à la variable <code>t</code>, et pouvons voir qu’elle est stockée sous Valeurs.</p>
 <p>Nous chargeons également un jeu de données. Ici, “ChickWeight” est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d’autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l’Environnement. En cliquant sur le nom ChickWeight, un onglet s’ouvrira avec le dataset dans la fenêtre de votre éditeur.</p>
 <div class="figure"><span style="display:block;" id="fig:savedata"></span>
-<img src="Images/save_data.png" alt="La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu)." width="60%" />
+<img src="Images/save_data.png" alt="La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu)." width="60%" />
 <p class="caption">
-Figure B.7: La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l’environnement global (en bleu).
+Figure B.7: La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l’environnement global (en bleu).
 </p>
 </div>
 <p>Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l’instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction <code>head()</code> nous permet de voir les six premières lignes des données. <code>summary()</code> résume chacune des colonnes du dataset et <code>dim()</code> fournit les dimensions du dataset avec d’abord le nombre de lignes puis de colonnes.</p>
@@ -794,13 +794,13 @@ Figure B.7: La valeur 3 * (6/14) est attribuée à la variable t (en rouge) et l
  3rd Qu.:164   3rd Qu.:16.0   17     : 12          
  Max.   :373   Max.   :21.0   19     : 12          
                               (Other):506          </code></pre>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="introduction-à-r-et-rstudio.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(ChickWeight) <span class="co"># Dimensions du dataset dans l&#39;ordre lignes puis colonnes</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="introduction-à-r-et-rstudio.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(ChickWeight) <span class="co"># Dimensions du dataset dans l&#39;ordre &quot;ligne&quot; puis &quot;colonne&quot;</span></span></code></pre></div>
 <pre><code>[1] 578   4</code></pre>
 <p>Contrairement à d’autres logiciels statistiques, R permet aux utilisateurs de stocker simultanément plusieurs ensembles de données, éventuellement de dimensions différentes. Cette fonctionnalité rend R assez flexible pour l’analyse à l’aide de plusieurs méthodes.</p>
 </div>
 <div id="divers" class="section level3" number="12.3.4">
 <h3><span class="header-section-number">B.3.4</span> Divers</h3>
-<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de tracer les données.</p>
+<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de représenter les données.</p>
 <div class="figure"><span style="display:block;" id="fig:graph"></span>
 <img src="Images/graph.png" alt="Un exemple de courbe avec le dataset `ChickWeight` en R." width="60%" />
 <p class="caption">
@@ -813,7 +813,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <h2><span class="header-section-number">B.4</span> Apprendre à utiliser R</h2>
 <div id="ressources-en-ligne" class="section level3" number="12.4.1">
 <h3><span class="header-section-number">B.4.1</span> Ressources en ligne</h3>
-<p>Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer à apprendre R. Nous vous recommandons deux sources :</p>
+<p>Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer avec R. Nous vous recommandons deux sources :</p>
 <ul>
 <li>Code School, qui fonctionne entièrement sur votre navigateur <a href="https://www.codeschool.com/courses/try-r">https://www.codeschool.com/courses/try-r</a>.</li>
 <li>Coursera, via un cours de programmation R en ligne organisé par l’Université Johns Hopkins :
@@ -848,9 +848,11 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <span id="cb13-2"><a href="introduction-à-r-et-rstudio.html#cb13-2" aria-hidden="true" tabindex="-1"></a>(a <span class="ot">&lt;-</span> <span class="dv">5</span>)</span></code></pre></div>
 <pre><code>[1] 5</code></pre>
 <p>Nous pouvons également vouloir affecter un vecteur d’éléments à une variable. Ici, nous utilisons la même commande <code>&lt;-</code>, mais nous nous concentrons sur la façon de créer le vecteur.</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="introduction-à-r-et-rstudio.html#cb15-1" aria-hidden="true" tabindex="-1"></a>(b <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) <span class="co"># &quot;:&quot;  est utilisé pour définir une chaîne d&#39;entiers</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="introduction-à-r-et-rstudio.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;:&quot;  est utilisé pour définir une chaîne d&#39;entiers</span></span>
+<span id="cb15-2"><a href="introduction-à-r-et-rstudio.html#cb15-2" aria-hidden="true" tabindex="-1"></a>(b <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code></pre></div>
 <pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="introduction-à-r-et-rstudio.html#cb17-1" aria-hidden="true" tabindex="-1"></a>(v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">4</span>, pi)) <span class="co"># utilisez c() pour faire un vecteur avec n&#39;importe quoi dedans</span></span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="introduction-à-r-et-rstudio.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># utilisez c() pour faire un vecteur avec n&#39;importe quoi dedans</span></span>
+<span id="cb17-2"><a href="introduction-à-r-et-rstudio.html#cb17-2" aria-hidden="true" tabindex="-1"></a>(v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">4</span>, pi))</span></code></pre></div>
 <pre><code>[1] 1.000 3.000 2.000 4.000 3.142</code></pre>
 <p>On peut alors se référer aux éléments d’un vecteur en désignant leur position à l’intérieur de parenthèses <code>[]</code>.</p>
 <div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="introduction-à-r-et-rstudio.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Extrait les éléments d&#39;un vecteur :</span></span>
@@ -863,7 +865,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="introduction-à-r-et-rstudio.html#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Retourne tous les nombres indiqués comme &quot;TRUE&quot;</span></span>
 <span id="cb25-2"><a href="introduction-à-r-et-rstudio.html#cb25-2" aria-hidden="true" tabindex="-1"></a>b[<span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>)]</span></code></pre></div>
 <pre><code>[1] 1 3 6 7</code></pre>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="introduction-à-r-et-rstudio.html#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attribue une nouvelle valeur aux éléments particuliers d&#39;un vecteur</span></span>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="introduction-à-r-et-rstudio.html#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attribue une nouvelle valeur à l&#39;élément particulier d&#39;un vecteur</span></span>
 <span id="cb27-2"><a href="introduction-à-r-et-rstudio.html#cb27-2" aria-hidden="true" tabindex="-1"></a>b[<span class="dv">5</span>] <span class="ot">&lt;-</span> <span class="dv">0</span></span></code></pre></div>
 <p>Il existe un ensemble de fonctions pré-existantes qui peuvent être appliquées à des vecteurs comme <code>b</code>.</p>
 <div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="introduction-à-r-et-rstudio.html#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(b) <span class="co"># Somme de tous les éléments</span></span></code></pre></div>
@@ -900,9 +902,10 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <pre><code> [1] FALSE FALSE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE FALSE FALSE</code></pre>
 <div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="introduction-à-r-et-rstudio.html#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">is.na</span>(b) <span class="co"># Indique si la donnée est manquante</span></span></code></pre></div>
 <pre><code> [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
-<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="introduction-à-r-et-rstudio.html#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(b <span class="sc">&lt;</span> <span class="dv">5</span>) <span class="co"># Donne les indices des éléments dont la valeur répond à la condition</span></span></code></pre></div>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="introduction-à-r-et-rstudio.html#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Donne les indices des éléments dont la valeur répond à la condition</span></span>
+<span id="cb60-2"><a href="introduction-à-r-et-rstudio.html#cb60-2" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(b <span class="sc">&lt;</span> <span class="dv">5</span>)</span></code></pre></div>
 <pre><code>[1] 1 2 3 4 5</code></pre>
-<p>La logique de base de ces commandes s’applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre des sujets avancés au cours des Learning Days.</p>
+<p>La logique de base de ces commandes s’applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des Learning Days.</p>
 
 </div>
 </div>

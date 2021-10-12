@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-11" />
+<meta name="date" content="2021-10-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -763,10 +763,10 @@ Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et es
 <p>Voir le module sur <a href="randomization.html">la randomisation</a>.</p>
 <ul>
 <li><p><strong>Simple</strong> Un tirage au sort indépendant pour chaque unité. Vous n’êtes pas assuré que votre expérience aura un nombre spécifique d’unités traitées.</p></li>
-<li><p><strong>Complète</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être assigné (nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
+<li><p><strong>Complète</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être assigné (i.e. nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
 <li><p><strong>Bloc</strong> Divisez d’abord l’échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d’unités au sein desquelles vous effectuez une assignation aléatoire.</p></li>
-<li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont assignés au hasard aux conditions de traitement. Un cluster est un ensemble d’unités qui seront toujours assignées au même statut de traitement.</p></li>
-<li><p><strong>Combinaison Grappe et Bloc</strong> Premièrement formez des blocs de clusters. Ensuite, dans chaque bloc, assignez au hasard les grappes aux conditions de traitement en utilisant une randomisation complète.</p></li>
+<li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont assignés au hasard à une condition de traitement. Un cluster est un ensemble d’unités qui seront toujours assignées au même statut de traitement.</p></li>
+<li><p><strong>Combinaison Grappe et Bloc</strong> Premièrement formez les blocs. Ensuite, dans chaque bloc, assignez au hasard les grappes à une condition de traitement en utilisant une randomisation complète.</p></li>
 </ul>
 </div>
 <div id="designs-factoriels" class="section level2" number="11.4">
@@ -806,8 +806,8 @@ Exemple d’observance : une unité assignée au contrôle ne prend pas de trait
 <li><strong>Jamais preneurs</strong> Unités qui ne seraient pas traitées si elles étaient assignées au traitement et si elles étaient assignées au contrôle.</li>
 <li><strong>Non-conformistes</strong> Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.</li>
 </ul></li>
-<li><p><strong>Non-conformité unilatérale</strong> L’expérience n’a que des sujets conformistes et <em>soit</em> des “toujours preneurs” ou des “jamais preneurs.”
-Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets jamais-preneurs et conformistes, ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur le traité.</p></li>
+<li><p><strong>Non-conformité unilatérale</strong> L’expérience n’a que des sujets “conformistes” et <em>soit</em> des “toujours preneurs” ou des “jamais preneurs.”
+Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets “jamais-preneurs” et “conformistes,” ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur le traité.</p></li>
 <li><p><strong>Non-conformité bilatérale</strong> L’expérience peut avoir les quatre groupes latents.</p></li>
 <li><p><strong>Design incitatif</strong> Une expérience qui randomise <span class="math inline">\(T\)</span> (assignation de traitement), et nous mesurons <span class="math inline">\(D\)</span> (si l’unité prend le traitement) et <span class="math inline">\(Y\)</span> (le résultat).
 On peut estimer l’effet d’intention de traiter (intent to treat effect, ITT), l’effet moyen local du traitement (Local average treatment effect, LATE) et l’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.</p>

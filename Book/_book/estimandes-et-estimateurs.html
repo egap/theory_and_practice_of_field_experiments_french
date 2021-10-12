@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-11" />
+<meta name="date" content="2021-10-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -685,7 +685,7 @@ Une introduction des EGAP Learning Days</div></a>
 ou comme une quantité cible sur laquelle émettre une hypothèse (<a href="hypothesis-testing.html">voir le module des tests d’hypothèses</a>).</p></li>
 <li><p>Beaucoup de gens se concentrent sur <strong>l’effet moyen du traitement (Average Treatment Effect / ATE)</strong>, <span class="math inline">\(\bar{\tau}=\sum_{i=1}^n  \tau_{i}\)</span>, en partie parce qu’il permet <strong>d’estimer</strong> facilement.</p></li>
 <li><p>Un <strong>estimateur</strong> est une recette pour calculer une supposition sur la valeur d’un estimande. Par exemple, la différence entre la moyenne des résultats observés pour <span class="math inline">\(m\)</span> unités traitées et la moyenne des résultats observés pour <span class="math inline">\(N-m\)</span> unités non traitées est un estimateur de <span class="math inline">\(\bar{\tau}\)</span>.</p></li>
-<li><p>Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. <strong>L’erreur standard</strong> résume cette variabilité dans un estimateur.</p></li>
+<li><p>Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. <strong>L’erreur standard</strong> résume cette variabilité au sein d’un estimateur.</p></li>
 <li><p>Un <strong>intervalle de confiance</strong> de <span class="math inline">\(100(1-\alpha)\)</span>% est un ensemble d’hypothèses qui ne peuvent être rejetées au niveau <span class="math inline">\(\alpha\)</span>. Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.</p></li>
 <li><p>Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l’estimande (être sans biais) ; (2) peu varier dans leurs suppositions d’une expérience à l’autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l’estimande quand ils utilisent de plus en plus d’informations (être cohérent).</p></li>
 <li><p><strong>Analyser en randomisant</strong> dans le contexte de l’estimation signifie que (1) nos erreurs standard devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.</p></li>
