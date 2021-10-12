@@ -24,3 +24,4 @@ Book/EGAP-learningdays-guide.Rmd
 *.nav
 *cache*
 Book/renv/*
+.idea/*
