@@ -4,7 +4,7 @@
 
 # Glossaire des termes{.tabset}
 
-Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et plus généralement à travers les discussions d'expériences de terrain aléatoires.
+Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et plus généralement quand on parle d'expériences de terrain aléatoires.
 
 ## Concepts clés
 
@@ -17,7 +17,7 @@ Voir le module sur [l'inférence causale](causal-inference.html), [les estimande
   L'effet du traitement est généralement défini comme la différence entre les résultats potentiels sous traitement et sous contrôle, $Y_i(1)-Y_i(0)$.
   Voir le module sur [l'inférence causale](causal-inference.html).
 
-- **Problème fondamental de l'inférence causale** dans le framework contrefactuel. On ne peut pas observer à la fois $Y_i(1)$ et $Y_i(0)$ pour une unité donnée, donc on ne peut pas obtenir $\tau_i$ directement.
+- **Problème fondamental de l'inférence causale** dans le cadre contrefactuel. On ne peut pas observer à la fois $Y_i(1)$ et $Y_i(0)$ pour une unité donnée, donc on ne peut pas obtenir $\tau_i$ directement.
   Voir le module sur [l'inférence causale](causal-inference.html).
 
 - **Estimande** Ce que vous visez à estimer. Un exemple d'un estimande est l'effet moyen du traitement.
@@ -29,7 +29,7 @@ Voir le module sur [l'inférence causale](causal-inference.html), [les estimande
 
 - **Effet moyen du traitement (Average treatment effect, ATE)** La moyenne de l'effet du traitement pour tous les individus de votre groupe de sujets.
   C'est un type d'**estimande**. Si on définit $\tau_i$ comme étant $Y_i(1)-Y_i(0)$, alors l'effet moyen du traitement est $\overline{Y_i(1)-Y_i(0)}$, ce qui équivaut aussi à $\overline{{Y}_i(1)}-\overline{{Y}_i(0)}$.
-  Notez qu'on n'utilise pas le style de notation $E[Y_i (1)]$ ici parce que $E[]$ signifie "moyenne sur des opérations répétées," mais $\overline{Y}$ signifie "moyenne sur un ensemble d'observations".
+  Notez qu'on n'utilise pas le style de notation $E[Y_i (1)]$ ici parce que $E[]$ signifie "moyenne sur des opérations répétées," quand $\overline{Y}$ signifie "moyenne sur un ensemble d'observations".
   Voir le module sur [l'inférence causale](causal-inference.html) et le module sur les [estimandes et estimateurs](estimands-and-estimators.html).
 
 - **Échantillonnage aléatoire** Sélection de sujets dans une population avec des probabilités connues strictement comprises entre 0 et 1.
@@ -39,7 +39,7 @@ Voir le module sur [l'inférence causale](causal-inference.html), [les estimande
 
 - **Assignation aléatoire** Assignation des sujets à des conditions expérimentales avec des probabilités connues strictement comprises entre 0 et 1.
   Cela équivaut à un échantillonnage aléatoire sans remise à partir des résultats potentiels.
-  Il existe plusieurs stratégies d'assignation aléatoire : simple, complète, par grappe (cluster), par bloc, ou une combinaison bloc et grappe.
+  Il existe plusieurs stratégies d'assignation aléatoire : simple, complète, par grappe (cluster), par bloc, ou une combinaison de blocs et grappes.
   Voir le module sur [la randomisation](randomization.html).
 
 - **Validité externe** Les résultats de votre étude vous renseignent sur des contextes en dehors de votre échantillon --- dans d'autres endroits ou pour d'autres interventions.
@@ -90,7 +90,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
   Voir le module sur la [puissance statistique](statistical-power-and-design-diagnosands.html).
   Cela dépend :
     - du nombre d'observations dans chaque bras de l'expérience
-    - de la taille de l'effet (généralement mesurée en unités standardisées)
+    - de l'ampleur de l'effet (généralement mesuré en unités standardisées)
     - du bruit sur la variable de résultat
     - le niveau de signification ($\alpha$, par convention)
     - d'autres facteurs, y compris la proportion de vos unités qui sont assignées à différentes conditions de traitement.

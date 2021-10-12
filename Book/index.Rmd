@@ -122,7 +122,7 @@ Ce livre comprend des **slides** sur le contenu principal, le [formulaire de des
 
 ## Comment utiliser le livre
 
-Pour profiter au maximum de ce livre, veuillez installer [R](https://cran.r-project.org/) et [RStudio](https://www.rstudio.com/products/rstudio/download/) sur votre ordinateur. En fait, les slides supposent que vous utilisiez Rmarkdown pour les adapter à vos besoins.
+Pour profiter au maximum de ce livre, veuillez installer [R](https://cran.r-project.org/) et [RStudio](https://www.rstudio.com/products/rstudio/download/) sur votre ordinateur. En fait, les slides supposent que vous utilisiez R Markdown pour les adapter à vos besoins.
 
 Pour commencer avec R, voir le module [Introduction à R et RStudio](introduction-to-r-and-rstudio.html).
 

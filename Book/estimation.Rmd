@@ -7,7 +7,7 @@ Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'es
 
 ## Contenu
 
-- Un **effet causal**, $\tau_i$, est une comparaison des résultats potentiels non observés pour chaque unité $i$.  Par exemple, cela peut être une différence ou un ratio de résultats potentiels non observés.  
+- Un **effet causal**, $\tau_i$, est une comparaison des résultats potentiels non observés pour chaque unité $i$.  Par exemple, cela peut être une différence ou un ratio entre résultats potentiels non observés.
 
 - Pour en savoir plus sur $\tau_{i}$, on peut traiter $\tau_{i}$ comme un **estimande** ou une quantité cible à estimer (voir ce module)
 ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le module des tests d'hypothèses](hypothesis-testing.html)).
@@ -23,7 +23,7 @@ ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le modu
 
 - Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) peu varier dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
 
- - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs standards devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
+ - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs standard devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 
  - Nous **ne contrôlons pas** les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus **précise**. C'est ce qu'on appelle **l'ajustement de covariable**. L'ajustement de covariable dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 
@@ -54,7 +54,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
 
 Vous pouvez également voir les problèmes d'estimation de l'effet de la dose active d'un traitement dans ces slides (ainsi que les problèmes causés par les données manquantes dans les résultats pour l'estimation de l’effet causal moyen) :
 
-- [Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
 - [Présentation des effets de débordement et de l'attrition aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
 
@@ -69,7 +69,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
 ### Guide des méthodes EGAP
 
- - Guide des méthodes EGAP [Les 10 effets de traitement que vous devez connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
+ - Guide des méthodes EGAP [Les 10 effets de traitement à connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
  - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariable](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
 

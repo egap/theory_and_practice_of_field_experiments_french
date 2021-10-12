@@ -2,7 +2,7 @@
 
 Le module sur [l'inférence causale](causal-inference.html) aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre design de recherche.
 
-Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés.  Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs.  Le module fournit des conseils sur l'implementation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
+Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés.  Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs.  Le module fournit des conseils sur l'implémentation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
 
 ## Contenu
 
@@ -12,9 +12,9 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
     - **Simple** : assigner de manière aléatoire des unités au traitement (comme un tirage au sort).
 
-    - **Complète** : au sein d'une liste d'unités éligibles, assigner un numéro fixe pour recevoir un traitement (comme un tirage d'une urne sans remise).
+    - **Complète** : au sein d'une liste d'unités éligibles, assigner un nombre fixe d'unités au traitement (comme un tirage d'une urne sans remise).
 
-    - **Par bloc (ou stratifié)** : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
+    - **Par bloc (ou stratifiée)** : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
       
     - **En grappe (cluster)** : assigner des groupes (grappes ou clusters) à la même condition de traitement.
     
@@ -43,8 +43,8 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/randomization-slides.html)
 
-Les fichiers liés montrent comment [faire de la randomisation réplicable en R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd). 
-Vous pouvez également voir plus d'exemples de randomisation en R sur [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/).
+Les fichiers liés montrent comment [faire une randomisation reproducible en R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd).
+Vous pouvez également voir plus d'exemples de randomisation en R ici : [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/).
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
@@ -99,7 +99,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
   - [Note d'orientation des politiques publiques EGAP 22 : Pousser au vote](https://egap.org/resource/brief-22-getting-out-the-vote/)
 
-*Randomisation en grappe par bloc*
+*Randomisation combinée en grappe et par bloc*
 
   - [Note d'orientation des politiques publiques EGAP 54 : Révélations de malversations des politicens en place](https://egap.org/resource/evidence-from-mexico-the-effect-of-incumbent-malfeasance-revelations/)
 

@@ -1,6 +1,6 @@
 # Processus de design de recherche
 
-Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentée dans les modules qui suivent.
+Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentées dans les modules qui suivent.
 
 Ce module présente le [formulaire de design de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days sont organisés autour du formulaire de design de recherche. Nous vous incitons à utiliser le logiciel [DeclareDesign](https://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
 
@@ -93,7 +93,7 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
 ### Livres, chapitres et articles
 
-- [Pré-enregistrement comme outil pour renforcer l'évaluation fédérale](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf). Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de plans de pré-analyse pour [toutes leurs pages d'expériences de terrain](https://oes.gsa.gov/work/).
+- [Pré-enregistrement comme outil pour renforcer l'évaluation fédérale](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf). Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de plans de pré-analyse pour [toutes leurs expériences de terrain](https://oes.gsa.gov/work/).
 
 - [@christensen_transparent_2019]. Le livre résume les nouvelles approches de la recherche en sciences sociales sur la transparence et la reproductibilité.
 

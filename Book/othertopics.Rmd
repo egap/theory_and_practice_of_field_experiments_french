@@ -14,7 +14,7 @@ Ici, nous fournissons des liens vers des ressources pour aider les gens à en ap
   - Quels sont les compromis ? Comment extrapoler ?
 
 - Inférence aléatoire et procédures en ri2
-  - L'inférence aléatoire est une méthode pour le calcul des p-valeurs pour les tests d'hypothèse
+  - L'inférence aléatoire est une méthode pour le calcul des p-valeurs pour les tests d'hypothèses
   - ir2 est un package R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs de l'inférence aléatoire pour les différentes estimandes
 
 - Lecture des résultats

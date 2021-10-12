@@ -5,9 +5,9 @@ output:
 ---
 # Puissance statistique et diagnosandes de design {.tabset}
 
-Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique de détecter un effet s'il existe.  Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
+Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique nécessaire pour détecter un effet s'il existe.  Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
 
-Dans ce module, nous introduisons la puissance statistique, approches de base pour calculer la puissance par des calculs analytiques et par la simulation, et comment les caractéristiques de design telles que les blocs, l'ajustement des covariables et les grappes (clusters) ont un impact sur la puissance statistique.
+Dans ce module, nous introduisons la puissance statistique, les approches de base pour calculer la puissance par calcul analytique ou par simulation, et comment les caractéristiques de design telles que les blocs, l'ajustement des covariables et les grappes (clusters) ont un impact sur la puissance statistique.
 
 ## Contenu
 
