@@ -90,7 +90,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
   Voir le module sur la [puissance statistique](statistical-power-and-design-diagnosands.html).
   Cela dépend :
     - du nombre d'observations dans chaque bras de l'expérience
-    - de l'ampleur de l'effet (généralement mesuré en unités standardisées)
+    - de la taille de l'effet (généralement mesuré en unités standardisées)
     - du bruit sur la variable de résultat
     - le niveau de signification ($\alpha$, par convention)
     - d'autres facteurs, y compris la proportion de vos unités qui sont assignées à différentes conditions de traitement.
