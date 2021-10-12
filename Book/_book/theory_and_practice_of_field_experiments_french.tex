@@ -184,11 +184,11 @@ Une introduction des EGAP Learning Days}
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
-Durant la dernière décennie, \href{http://egap.org/}{Evidence in Governance and Politics (EGAP)} a organisé une série de workshops, \href{https://egap.org/learning-days/}{les Learning Days}, dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les chargés de recherche -- chercheurs et praticiens -- en Afrique et Amérique Latine. En partageant entre participants, méthodes pratiques et méthodes statistiques pour mener des expériences de terrain aléatoires, les Learning Days visent à créer et entretenir des réseaux de chercheurs dans le monde et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.
+Durant la dernière décennie, \href{https://egap.org/}{Evidence in Governance and Politics (EGAP)} a organisé une série de workshops, \href{https://egap.org/learning-days/}{les Learning Days}, dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les chargés de recherche -- chercheurs et praticiens -- en Afrique et Amérique Latine. En partageant entre participants, méthodes pratiques et méthodes statistiques pour mener des expériences de terrain aléatoires, les Learning Days visent à créer et entretenir des réseaux de chercheurs dans le monde et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.
 
 Les Learning Days sont une combinaison d'ateliers de design, de présentations de travaux de recherche, d'utilisation de logiciel statistique et de conférences thématiques par un petit groupe d'instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les workshops abordent les méthodes de design et d'analyse pour des expériences de terrain aléatoires plutôt que des expériences aléatoires en laboratoire ou des études non-aléatoires.
 
-\textbf{Ce livre} rassemble les matériaux développés pour les Learning Days. La version actuelle du livre est écrite principalement pour \textbf{des instructeurs et des organisateurs} de workshops et de cours similaires pour des chargés de recherche --- des professeurs, des chercheurs postdoctorals, des doctorants, des évaluateurs d'ONG et d'agences gouvernementales, etc. --- qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des Learning Days précédents.
+\textbf{Ce livre} rassemble les matériaux développés pour les Learning Days. La version actuelle du livre est écrite principalement pour \textbf{des instructeurs et des organisateurs} de workshops et de cours similaires à l'intention de chargés de recherche --- professeurs, chercheurs postdoctorals, doctorants, évaluateurs d'ONG et d'agences gouvernementales, etc. --- qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des Learning Days précédents.
 
 Ce livre est une revue complète des méthodes d'inférence causale pour les chercheurs qui développent un design de recherche expérimental. Ce livre est organisé en \textbf{modules} et comprend des sujets tels que l'inférence causale, la randomisation, les tests d'hypothèses, les estimandes, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l'éthique de l'expérimentation. Les modules apparaissent dans l'ordre jugé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à vos besoins en tant qu'instructeur. En annexe, il y a des matériaux préparatoires comprenant un \href{glossary-of-terms.html}{glossaire des termes} et une \href{introduction-to-r-and-rstudio.html}{introduction à R et RStudio}.
 
@@ -197,11 +197,11 @@ Ce livre comprend des \textbf{slides} sur le contenu principal, le \href{researc
 \hypertarget{comment-utiliser-le-livre}{%
 \section{Comment utiliser le livre}\label{comment-utiliser-le-livre}}
 
-Pour profiter au maximum de ce livre, veuillez installer \href{https://cran.r-project.org/}{R} et \href{https://www.rstudio.com/products/rstudio/download/}{RStudio} sur votre machine. En fait, les slides supposent que vous utilisiez Rmarkdown pour les adapter à vos besoins.
+Pour profiter au maximum de ce livre, veuillez installer \href{https://cran.r-project.org/}{R} et \href{https://www.rstudio.com/products/rstudio/download/}{RStudio} sur votre ordinateur. En fait, les slides supposent que vous utilisiez R Markdown pour les adapter à vos besoins.
 
 Pour commencer avec R, voir le module \href{introduction-to-r-and-rstudio.html}{Introduction à R et RStudio}.
 
-Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc.) soit en utilisant le bouton de téléchargement (Download) sur la première page de \url{http://github.com/egap/theory_and_practice_of_field_experiments_french}, soit directement sur github en ``forkant'' ce repertoire.
+Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc.) soit en utilisant le bouton de téléchargement (Download) sur la première page de \url{https://github.com/egap/theory_and_practice_of_field_experiments_french}, soit directement sur github en ``forkant'' ce repertoire.
 
 Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.
 
@@ -222,9 +222,9 @@ Chez EGAP, Matt Lisiecki, Ingrid Lee, Goldie Negelev, Max Mendez-Back et d'autre
 \hypertarget{processus-de-design-de-recherche}{%
 \chapter{Processus de design de recherche}\label{processus-de-design-de-recherche}}
 
-Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires. Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentée dans les modules qui suivent.
+Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires. Avant d'entrer dans le détail du design de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons le meilleur design possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentées dans les modules qui suivent.
 
-Ce module présente le \href{https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd}{formulaire de design de recherche EGAP}, une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days sont organisés autour du formulaire de design de recherche. Nous vous incitons à utiliser le logiciel \href{http://declaredesign.org}{DeclareDesign} pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
+Ce module présente le \href{https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd}{formulaire de design de recherche EGAP}, une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les Learning Days sont organisés autour du formulaire de design de recherche. Nous vous incitons à utiliser le logiciel \href{https://declaredesign.org}{DeclareDesign} pour explorer les implications des différents choix que nous pourrions faire pour nos designs de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
 
 \hypertarget{contenu}{%
 \section{Contenu}\label{contenu}}
@@ -241,7 +241,7 @@ Ce module présente le \href{https://egap.github.io/learningdays-resources/Exerc
 \item
   Présentation des composants de base de \href{https://egap.github.io/learningdays-resources/Exercises/design-form.html}{formulaire de design de recherche EGAP}.
 \item
-  Introduction du package \href{http://declaredesign.org}{DeclareDesign} pour le design de recherche.
+  Introduction du package \href{https://declaredesign.org}{DeclareDesign} pour le design de recherche.
 \item
   L'évolution des sciences sociales s'oriente vers \textbf{la revue des designs, au lieu de la revue des résultats}.
 \item
@@ -349,7 +349,7 @@ Vous pouvez également voir les slides des Design Talks lors des précédents EG
 
 \begin{itemize}
 \item
-  \href{https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf}{Pré-enregistrement comme outil pour renforcer l'évaluation fédérale}. Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de plans de pré-analyse pour \href{https://oes.gsa.gov/work/}{toutes leurs pages d'expériences de terrain}.
+  \href{https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf}{Pré-enregistrement comme outil pour renforcer l'évaluation fédérale}. Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de plans de pré-analyse pour \href{https://oes.gsa.gov/work/}{toutes leurs expériences de terrain}.
 \item
   \autocite{christensen_transparent_2019}. Le livre résume les nouvelles approches de la recherche en sciences sociales sur la transparence et la reproductibilité.
 \item
@@ -372,7 +372,7 @@ Une grande partie des sciences sociales porte sur la causalité. On peut se dema
 
 Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions de causalité, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de \protect\hyperlink{causalinference-classics}{Fisher et Rubin}. On recourt davantage aux expériences ; la randomisation est devenue la norme de référence pour répondre aux questions causales.
 
-Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle à résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
+Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle des résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
 
 \hypertarget{contenu-1}{%
 \section{Contenu}\label{contenu-1}}
@@ -454,7 +454,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 \item
   \autocite{fisher_design_1935}. Fisher introduit l'idée de la randomisation et des tests d'hypothèses pour apprendre l'inférence causale.
 \item
-  \autocite{rubin:1974}. Rubin introduit l'idée de résultats potentiels et relie les conceptualisations contrefactuelles de la causalité à l'inférence statistique.
+  \autocite{rubin:1974}. Rubin introduit l'idée de résultats potentiels et relie la conceptualisation contrefactuelle de la causalité à l'inférence statistique.
 \end{itemize}
 
 \hypertarget{revue-actuelle}{%
@@ -492,7 +492,7 @@ Quelques exemples de questions causales :
 
 Le module sur \href{causal-inference.html}{l'inférence causale} aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre design de recherche.
 
-Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés. Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs. Le module fournit des conseils sur l'implementation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
+Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés. Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs. Le module fournit des conseils sur l'implémentation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
 
 \hypertarget{contenu-2}{%
 \section{Contenu}\label{contenu-2}}
@@ -507,9 +507,9 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
   \item
     \textbf{Simple} : assigner de manière aléatoire des unités au traitement (comme un tirage au sort).
   \item
-    \textbf{Complète} : au sein d'une liste d'unités éligibles, assigner un numéro fixe pour recevoir un traitement (comme un tirage d'une urne sans remise).
+    \textbf{Complète} : au sein d'une liste d'unités éligibles, assigner un nombre fixe d'unités au traitement (comme un tirage d'une urne sans remise).
   \item
-    \textbf{Par bloc (ou stratifié)} : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
+    \textbf{Par bloc (ou stratifiée)} : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
   \item
     \textbf{En grappe (cluster)} : assigner des groupes (grappes ou clusters) à la même condition de traitement.
   \end{itemize}
@@ -546,8 +546,8 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
   \href{https://egap.github.io/learningdays-resources/Slides/randomization-slides.html}{Version HTML}
 \end{itemize}
 
-Les fichiers liés montrent comment \href{https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd}{faire de la randomisation réplicable en R}.
-Vous pouvez également voir plus d'exemples de randomisation en R sur \href{https://egap.org/resource/10-things-to-know-about-randomization/}{10 choses à savoir sur la randomisation}.
+Les fichiers liés montrent comment \href{https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd}{faire une randomisation reproducible en R}.
+Vous pouvez également voir plus d'exemples de randomisation en R ici : \href{https://egap.org/resource/10-things-to-know-about-randomization/}{10 choses à savoir sur la randomisation}.
 
 Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
@@ -628,7 +628,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
   \href{https://egap.org/resource/brief-22-getting-out-the-vote/}{Note d'orientation des politiques publiques EGAP 22 : Pousser au vote}
 \end{itemize}
 
-\emph{Randomisation en grappe par bloc}
+\emph{Randomisation combinée en grappe et par bloc}
 
 \begin{itemize}
 \item
@@ -698,7 +698,7 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
   \item
     Couverture correcte de l'intervalle de confiance.
   \item
-    Évaluer le taux de faux positifs d'un test d'hypothèse pour un design donné et un choix de statistique de test;
+    Évaluer le taux de faux positifs d'un test d'hypothèse pour un design et un choix de statistique de test donnés;
     cas d'un essai aléatoire par grappe (cluster) et l'erreur standard robuste pour cluster.
   \end{itemize}
 \item
@@ -744,7 +744,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
 \begin{itemize}
 \item
-  Guide des méthodes EGAP \href{https://egap.org/resource/10-things-to-know-about-hypothesis-testing/}{10 choses à savoir sur les tests d'hypothèse}
+  Guide des méthodes EGAP \href{https://egap.org/resource/10-things-to-know-about-hypothesis-testing/}{10 choses à savoir sur les tests d'hypothèses}
 \item
   Guide des méthodes EGAP \href{https://egap.org/resource/10-things-to-know-about-multiple-comparisons/}{10 choses à savoir sur les comparaisons multiples}
 \end{itemize}
@@ -754,7 +754,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
 \begin{itemize}
 \item
-  \autocite{gerber_field_2012}. Chapitre 3 : Distributions d'échantillonnage, inférence statistique et test d'hypothèse.
+  \autocite{gerber_field_2012}. Chapitre 3 : Distributions d'échantillonnage, inférence statistique et tests d'hypothèses.
 \item
   \autocite{rosenbaum2010design}. Chapitre 2 : Inférence causale dans les expériences aléatoires.
 \item
@@ -773,7 +773,7 @@ Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'es
 
 \begin{itemize}
 \item
-  Un \textbf{effet causal}, \(\tau_i\), est une comparaison des résultats potentiels non observés pour chaque unité \(i\). Par exemple, cela peut être une différence ou un ratio de résultats potentiels non observés.
+  Un \textbf{effet causal}, \(\tau_i\), est une comparaison des résultats potentiels non observés pour chaque unité \(i\). Par exemple, cela peut être une différence ou un ratio entre résultats potentiels non observés.
 \item
   Pour en savoir plus sur \(\tau_{i}\), on peut traiter \(\tau_{i}\) comme un \textbf{estimande} ou une quantité cible à estimer (voir ce module)
   ou comme une quantité cible sur laquelle émettre une hypothèse (\href{hypothesis-testing.html}{voir le module des tests d'hypothèses}).
@@ -788,7 +788,7 @@ Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'es
 \item
   Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) peu varier dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
 \item
-  \textbf{Analyser en randomisant} dans le contexte de l'estimation signifie que (1) nos erreurs standards devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
+  \textbf{Analyser en randomisant} dans le contexte de l'estimation signifie que (1) nos erreurs standard devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 \item
   Nous \textbf{ne contrôlons pas} les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus \textbf{précise}. C'est ce qu'on appelle \textbf{l'ajustement de covariable}. L'ajustement de covariable dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 \item
@@ -828,7 +828,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
 \begin{itemize}
 \item
-  \href{https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf}{Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (first section reviews randomization designs)}
+  \href{https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf}{Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)}
 \item
   \href{https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf}{Présentation des effets de débordement et de l'attrition aux EGAP Learning Days à Guatemala City, Guatemala, août 2017}
 \item
@@ -847,7 +847,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
 \begin{itemize}
 \item
-  Guide des méthodes EGAP \href{https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/}{Les 10 effets de traitement que vous devez connaître}
+  Guide des méthodes EGAP \href{https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/}{Les 10 effets de traitement à connaître}
 \item
   Guide des méthodes EGAP \href{https://egap.org/resource/10-things-to-know-about-covariate-adjustment/}{10 choses à savoir sur l'ajustement de covariable}
 \item
@@ -878,12 +878,12 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
   \href{https://declaredesign.org/r/estimatr/}{Le package estimatr en R}
 \end{itemize}
 
-\hypertarget{puissance-statistique-et-diagnosands-de-design}{%
-\chapter{Puissance statistique et diagnosands de design}\label{puissance-statistique-et-diagnosands-de-design}}
+\hypertarget{puissance-statistique-et-diagnosandes-de-design}{%
+\chapter{Puissance statistique et diagnosandes de design}\label{puissance-statistique-et-diagnosandes-de-design}}
 
-Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique de détecter un effet s'il existe. Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
+Avant de commencer une étude, nous aimerions savoir si notre design a la puissance statistique nécessaire pour détecter un effet s'il existe. Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance peut vous aider à améliorer votre design et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
 
-Dans ce module, nous introduisons la puissance statistique, approches de base pour calculer la puissance par des calculs analytiques et par la simulation, et comment les caractéristiques de design telles que les blocs, l'ajustement des covariables et les grappes (clusters) ont un impact sur la puissance statistique.
+Dans ce module, nous introduisons la puissance statistique, les approches de base pour calculer la puissance par calcul analytique ou par simulation, et comment les caractéristiques de design telles que les blocs, l'ajustement des covariables et les grappes (clusters) ont un impact sur la puissance statistique.
 
 \hypertarget{contenu-5}{%
 \section{Contenu}\label{contenu-5}}
@@ -1260,7 +1260,7 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 \item
   \href{https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html}{Le rapport Belmont}
 \item
-  \href{https://www.youtube.com/watch?v=U8fme1boEbE}{Les comités de revue éthique institutionnels aux US}
+  \href{https://www.youtube.com/watch?v=U8fme1boEbE}{Les comités de revue éthique institutionnels aux USA}
 \item
   \href{https://researchsupport.admin.ox.ac.uk/governance/ethics}{Exemple : Éthique de la recherche à l'Université d'Oxford au Royaume-Uni}
 \item
@@ -1300,7 +1300,7 @@ Exemples de plans de pré-analyse et d'articles sur les considérations éthique
 \hypertarget{glossaire-des-termes}{%
 \chapter{Glossaire des termes}\label{glossaire-des-termes}}
 
-Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et plus généralement à travers les discussions d'expériences de terrain aléatoires.
+Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et plus généralement quand on parle d'expériences de terrain aléatoires.
 
 \hypertarget{concepts-cluxe9s}{%
 \section{Concepts clés}\label{concepts-cluxe9s}}
@@ -1316,7 +1316,7 @@ Voir le module sur \href{causal-inference.html}{l'inférence causale}, \href{est
   L'effet du traitement est généralement défini comme la différence entre les résultats potentiels sous traitement et sous contrôle, \(Y_i(1)-Y_i(0)\).
   Voir le module sur \href{causal-inference.html}{l'inférence causale}.
 \item
-  \textbf{Problème fondamental de l'inférence causale} dans le framework contrefactuel. On ne peut pas observer à la fois \(Y_i(1)\) et \(Y_i(0)\) pour une unité donnée, donc on ne peut pas obtenir \(\tau_i\) directement.
+  \textbf{Problème fondamental de l'inférence causale} dans le cadre contrefactuel. On ne peut pas observer à la fois \(Y_i(1)\) et \(Y_i(0)\) pour une unité donnée, donc on ne peut pas obtenir \(\tau_i\) directement.
   Voir le module sur \href{causal-inference.html}{l'inférence causale}.
 \item
   \textbf{Estimande} Ce que vous visez à estimer. Un exemple d'un estimande est l'effet moyen du traitement.
@@ -1328,7 +1328,7 @@ Voir le module sur \href{causal-inference.html}{l'inférence causale}, \href{est
 \item
   \textbf{Effet moyen du traitement (Average treatment effect, ATE)} La moyenne de l'effet du traitement pour tous les individus de votre groupe de sujets.
   C'est un type d'\textbf{estimande}. Si on définit \(\tau_i\) comme étant \(Y_i(1)-Y_i(0)\), alors l'effet moyen du traitement est \(\overline{Y_i(1)-Y_i(0)}\), ce qui équivaut aussi à \(\overline{{Y}_i(1)}-\overline{{Y}_i(0)}\).
-  Notez qu'on n'utilise pas le style de notation \(E[Y_i (1)]\) ici parce que \(E[]\) signifie ``moyenne sur des opérations répétées,'' mais \(\overline{Y}\) signifie ``moyenne sur un ensemble d'observations''.
+  Notez qu'on n'utilise pas le style de notation \(E[Y_i (1)]\) ici parce que \(E[]\) signifie ``moyenne sur des opérations répétées,'' quand \(\overline{Y}\) signifie ``moyenne sur un ensemble d'observations''.
   Voir le module sur \href{causal-inference.html}{l'inférence causale} et le module sur les \href{estimands-and-estimators.html}{estimandes et estimateurs}.
 \item
   \textbf{Échantillonnage aléatoire} Sélection de sujets dans une population avec des probabilités connues strictement comprises entre 0 et 1.
@@ -1338,7 +1338,7 @@ Voir le module sur \href{causal-inference.html}{l'inférence causale}, \href{est
 \item
   \textbf{Assignation aléatoire} Assignation des sujets à des conditions expérimentales avec des probabilités connues strictement comprises entre 0 et 1.
   Cela équivaut à un échantillonnage aléatoire sans remise à partir des résultats potentiels.
-  Il existe plusieurs stratégies d'assignation aléatoire : simple, complète, par grappe (cluster), par bloc, ou une combinaison bloc et grappe.
+  Il existe plusieurs stratégies d'assignation aléatoire : simple, complète, par grappe (cluster), par bloc, ou une combinaison de blocs et grappes.
   Voir le module sur \href{randomization.html}{la randomisation}.
 \item
   \textbf{Validité externe} Les résultats de votre étude vous renseignent sur des contextes en dehors de votre échantillon --- dans d'autres endroits ou pour d'autres interventions.
@@ -1398,7 +1398,7 @@ Voir les modules sur \href{hypothesis-testing.html}{les tests d'hypothèses} et 
   \item
     du nombre d'observations dans chaque bras de l'expérience
   \item
-    de la taille de l'effet (généralement mesurée en unités standardisées)
+    de la taille de l'effet (généralement mesuré en unités standardisées)
   \item
     du bruit sur la variable de résultat
   \item
@@ -1532,7 +1532,7 @@ Voir le module sur les \href{threats-to-internal-validity-of-randomized-experime
 \hypertarget{introduction-uxe0-r-et-rstudio}{%
 \chapter{Introduction à R et RStudio}\label{introduction-uxe0-r-et-rstudio}}
 
-Tout au long du livre, nous incluons du code R pour l'estimation, la simulation et la création d'exemples. Nous avons utilisé RStudio pour créer les slides. Pour les personnaliser à vos propres fins, nous supposons que vous utiliserez R Markdown. Ci-dessous, voici les guides pour configurer R et RStudio sur votre machine, ainsi que quelques commandes de base fréquemment utilisées.
+Tout au long du livre, nous incluons du code R pour l'estimation, la simulation et la création d'exemples. Nous avons utilisé RStudio pour créer les slides. Pour les personnaliser à vos propres fins, nous supposons que vous utiliserez R Markdown. Ci-dessous, voici les guides pour configurer R et RStudio sur votre ordinateur, ainsi que quelques commandes de base fréquemment utilisées.
 
 \hypertarget{r-et-rstudio}{%
 \section{R et RStudio}\label{r-et-rstudio}}
