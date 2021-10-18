@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-17" />
+<meta name="date" content="2021-10-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -642,7 +642,7 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="B.3.1" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#la-console"><i class="fa fa-check"></i><b>B.3.1</b> La console</a></li>
 <li class="chapter" data-level="B.3.2" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#léditeur"><i class="fa fa-check"></i><b>B.3.2</b> L’éditeur</a></li>
-<li class="chapter" data-level="B.3.3" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#gestion"><i class="fa fa-check"></i><b>B.3.3</b> Gestion</a></li>
+<li class="chapter" data-level="B.3.3" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#accounting"><i class="fa fa-check"></i><b>B.3.3</b> Accounting</a></li>
 <li class="chapter" data-level="B.3.4" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#divers"><i class="fa fa-check"></i><b>B.3.4</b> Divers</a></li>
 </ul></li>
 <li class="chapter" data-level="B.4" data-path="introduction-à-r-et-rstudio.html"><a href="introduction-à-r-et-rstudio.html#apprendre-à-utiliser-r"><i class="fa fa-check"></i><b>B.4</b> Apprendre à utiliser R</a>
@@ -685,7 +685,7 @@ Une introduction des EGAP Learning Days</div></a>
 <h2><span class="header-section-number">B.2</span> Télécharger R et RStudio</h2>
 <div id="télécharger-r" class="section level3" number="12.2.1">
 <h3><span class="header-section-number">B.2.1</span> Télécharger R</h3>
-<p>R est téléchargeable gratuitement sur CRAN au lien correspondant à votre système d’exploitation :</p>
+<p>R est téléchargeable gratuitement sur CRAN. Cliquer sur le lien correspondant à votre système d’exploitation :</p>
 <ul>
 <li>Pour <strong>Windows</strong> : <a href="https://cran.r-project.org/bin/windows/base/">https://cran.r-project.org/bin/windows/base/</a></li>
 <li>Pour <strong>Mac OS X</strong> : <a href="https://cran.r-project.org/bin/macosx/">https://cran.r-project.org/bin/macosx/</a>.
@@ -720,7 +720,7 @@ Figure B.2: Sélectionner le lien “Windows 10/8/7” pour Windows ou “Mac OS
 </div>
 <div id="linterface-rstudio" class="section level2" number="12.3">
 <h2><span class="header-section-number">B.3</span> L’interface RStudio</h2>
-<p>Lorsque vous ouvrez RStudio pour la première fois, trois onglets doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.</p>
+<p>Lorsque vous ouvrez RStudio pour la première fois, trois fenêtres doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.</p>
 <ul>
 <li>Console (à gauche)</li>
 <li>Accounting (en haut à droite) : cela inclue les onglets Environment et History</li>
@@ -766,10 +766,10 @@ Figure B.6: Une expression arithmétique est saisie dans l’éditeur et évalu�
 </div>
 <p>R peut être utilisé pour toute opération arithmétique, y compris, mais sans s’y limiter, l’addition (<code>+</code>), la soustraction (<code>-</code>), la multiplication scalaire (<code>*</code>), la division (<code>/</code>) et l’exponentielle (<code>^</code> ).</p>
 </div>
-<div id="gestion" class="section level3" number="12.3.3">
-<h3><span class="header-section-number">B.3.3</span> Gestion</h3>
-<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous affectons la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span> à la variable <code>t</code>, et pouvons voir qu’elle est stockée sous Valeurs.</p>
-<p>Nous chargeons également un jeu de données. Ici, “ChickWeight” est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d’autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l’Environnement. En cliquant sur le nom ChickWeight, un onglet s’ouvrira avec le dataset dans la fenêtre de votre éditeur.</p>
+<div id="accounting" class="section level3" number="12.3.3">
+<h3><span class="header-section-number">B.3.3</span> Accounting</h3>
+<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environment de la fenêtre Accounting. Dans la Figure B.7, nous affectons la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span> à la variable <code>t</code>, et pouvons voir qu’elle est stockée sous Values.</p>
+<p>Nous chargeons également un jeu de données. Ici, “ChickWeight” est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d’autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l’onglet Environment. En cliquant sur le nom ChickWeight, un onglet s’ouvrira avec le dataset dans la fenêtre de votre éditeur.</p>
 <div class="figure"><span style="display:block;" id="fig:savedata"></span>
 <img src="Images/save_data.png" alt="La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu)." width="60%" />
 <p class="caption">
@@ -894,7 +894,7 @@ Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
 <pre><code> [1] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
 <div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="introduction-à-r-et-rstudio.html#cb50-1" aria-hidden="true" tabindex="-1"></a>b <span class="sc">&lt;</span> <span class="dv">5</span> <span class="co"># plus petit que</span></span></code></pre></div>
 <pre><code> [1]  TRUE  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE</code></pre>
-<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="introduction-à-r-et-rstudio.html#cb52-1" aria-hidden="true" tabindex="-1"></a>b <span class="sc">&gt;=</span> <span class="dv">5</span> <span class="co"># plus petit ou égal à</span></span></code></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="introduction-à-r-et-rstudio.html#cb52-1" aria-hidden="true" tabindex="-1"></a>b <span class="sc">&gt;=</span> <span class="dv">5</span> <span class="co"># plus grand ou égal à</span></span></code></pre></div>
 <pre><code> [1] FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
 <div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="introduction-à-r-et-rstudio.html#cb54-1" aria-hidden="true" tabindex="-1"></a>b <span class="sc">&lt;=</span> <span class="dv">5</span> <span class="sc">|</span> b <span class="sc">/</span> <span class="dv">4</span> <span class="sc">==</span> <span class="dv">2</span> <span class="co"># | signifie OU</span></span></code></pre></div>
 <pre><code> [1]  TRUE  TRUE  TRUE  TRUE  TRUE FALSE FALSE  TRUE FALSE FALSE</code></pre>
