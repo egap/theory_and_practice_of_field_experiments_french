@@ -120,7 +120,7 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Grappe (Cluster)** Les groupes d'unités sont assignés au hasard à une condition de traitement. Un cluster est un ensemble d'unités qui seront toujours assignées au même statut de traitement.
 
-- **Combinaison Grappe et Bloc** Premièrement formez les blocs. Ensuite, dans chaque bloc, assignez au hasard les grappes à une condition de traitement en utilisant une randomisation complète.
+- **Combinaison par grappe et par bloc** Premièrement formez les blocs. Ensuite, dans chaque bloc, assignez au hasard les grappes à une condition de traitement en utilisant une randomisation complète.
 
 ## Designs factoriels
 

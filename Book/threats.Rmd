@@ -1,6 +1,6 @@
 # Menaces pesant sur la validité interne des expériences aléatoires {.tabset}
 
-Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets de causalité, c'est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
+Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets causaux, c'est-à-dire menacer leur validité interne. Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était attribué ou elles ont subi des effets de débordement d'un voisin traité.
 
 Dans ce module, nous abordons certaines menaces courantes et les bonnes pratiques pour les éviter ou les contourner.
 
@@ -56,7 +56,7 @@ Vous pouvez également voir les slides utilisées lors des précédents EGAP Lea
 
 - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
-- Guide des méthodes EGAP [Les 10 effets de traitement que vous devez connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
+- Guide des méthodes EGAP [Les 10 types d'effets de traitement à connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
 - Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 

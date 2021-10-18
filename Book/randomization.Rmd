@@ -16,7 +16,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
     - **Par bloc (ou stratifiée)** : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.
       
-    - **Par grappe (cluster)** : assigner des groupes (grappes ou clusters) à la même condition de traitement.
+    - **Par grappe (cluster)** : assigner des groupes d'observation (grappes ou clusters) à la même condition de traitement.
     
     
 - Quelques designs courants :
@@ -29,7 +29,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
     
     - **Incitatif** : randomiser l'incitation à recevoir le traitement.
 
-- Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d'homogénéité. On peut, par exemple, utiliser le test omnibus $d^2$ de `xBalance` dans le package `RItools` (car c'est une inférence basée sur la randomisation) ou on peut approximer ce résultat avec un test $F$.
+- Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d'homogénéité. On peut, par exemple, utiliser le test omnibus $d^2$ de `xBalance` dans le package `RItools` (car c'est une inférence de randomisation) ou on peut approximer ce résultat avec un test $F$.
 
 - La randomisation a **des limites**.  Nous en discutons ici et nous vous orientons vers le module sur [les menaces](threats-to-internal-validity-of-randomized-experiments.html) pour en savoir plus.
 
@@ -108,7 +108,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
 ### Outils
 
-- [RItools](https://cran.r-project.org/web/packages/RItools/index.html), un ensemble d'outils pour l'inférence basée sur la randomisation, y compris le test d'homogénéité.
+- [RItools](https://cran.r-project.org/web/packages/RItools/index.html), un ensemble d'outils pour l'inférence de randomisation, y compris le test d'homogénéité.
 
 
 ### Courtes vidéos explicatives

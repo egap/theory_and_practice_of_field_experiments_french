@@ -2,13 +2,13 @@
 
 Une grande partie des sciences sociales porte sur la causalité. On peut se demander si [l'inscription des électeurs augmente la participation politique](https://egap.org/resource/electoral-administration-in-kenya/), si [la responsabilisation bottom-up peut améliorer les perspectives en matière de santé](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/), ou si [les récits personnels des migrants aident à réduire les attitudes préjudiciables à leur égard](https://egap.org/resource/brief-70-how-personal-narratives-reduce-negative-attitudes-towards-immigrants-in-kenya/).
 
-Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions de causalité, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher et Rubin](#causalinference-classics). On recourt davantage aux expériences ; la randomisation est devenue la norme de référence pour répondre aux questions causales.
+Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions causales, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher et Rubin](#causalinference-classics). On recourt davantage aux expériences ; la randomisation est devenue la norme de référence pour répondre aux questions causales.
 
-Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions de causalité peuvent être interprétées. Nous présentons le modèle des résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
+Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions causales peuvent être interprétées. Nous présentons le modèle des résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
 
 ## Contenu
 
- - Qu'entendons-nous par **"cause"** ? Et pourquoi est-il important d'être clair sur le sens des assertions de causalité ?
+ - Qu'entendons-nous par **"cause"** ? Et pourquoi est-il important d'être clair sur le sens des assertions causales ?
 
  - Une introduction aux **résultats potentiels** comme une façon de penser aux états contrefactuels du monde.
 
@@ -64,7 +64,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
 #### Classiques {#causalinference-classics}
 
-- [@fisher_design_1935]. Fisher introduit l'idée de la randomisation et des tests d'hypothèses pour apprendre l'inférence causale.
+- [@fisher_design_1935]. Fisher introduit l'idée de la randomisation et des tests d'hypothèses pour étudier l'inférence causale.
 
 - [@rubin:1974]. Rubin introduit l'idée de résultats potentiels et relie la conceptualisation contrefactuelle de la causalité à l'inférence statistique.
 
@@ -74,7 +74,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 
 - [@gerber_field_2012, Chapitre 1]. Ce livre est une excellente ressource pour de nombreux sujets du design expérimental.
 
-- [@morgan_counterfactuals_2007, Chapitre 1]. Ce livre comprend de bons examples de raisonnement pour faire des assertions de causalité à partir de données d'observation.
+- [@morgan_counterfactuals_2007, Chapitre 1]. Ce livre comprend de bons examples de raisonnement pour faire des assertions causales à partir de données d'observation.
 
 - [@glennerster_running_2013]. Ceci est une excellente introduction pour mener des expériences de terrain, illustrée par nombreux exemples.
 
