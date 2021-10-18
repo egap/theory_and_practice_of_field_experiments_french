@@ -163,7 +163,7 @@ Voir le module sur les [menaces](threats-to-internal-validity-of-randomized-expe
      - **Non-conformistes** Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.
 
 - **Non-conformité unilatérale** L'expérience n'a que des sujets "conformistes" et *soit* des "toujours preneurs" ou des "jamais preneurs".
-  Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets "jamais-preneurs" et "conformistes", ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur le traité.
+  Habituellement, nous pensons à la non-conformité unilatérale comme n'ayant que des sujets "jamais-preneurs" et "conformistes", ce qui signifie que l'effet moyen local du traitement est l'effet du traitement sur les unités traitées.
 
 - **Non-conformité bilatérale** L'expérience peut avoir les quatre groupes latents.
 
