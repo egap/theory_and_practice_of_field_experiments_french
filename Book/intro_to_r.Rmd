@@ -12,7 +12,7 @@ RStudio est un environnement de développement intégré gratuit et open source 
 
 ### Télécharger R
 
-R est téléchargeable gratuitement sur CRAN au lien correspondant à votre système d'exploitation :
+R est téléchargeable gratuitement sur CRAN. Cliquer sur le lien correspondant à votre système d'exploitation :
 
 - Pour **Windows** : [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
 - Pour **Mac OS X** : [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/).
@@ -40,7 +40,7 @@ knitr::include_graphics("Images/rstudio_download.png")
 
 ## L'interface RStudio
 
-Lorsque vous ouvrez RStudio pour la première fois, trois onglets doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.
+Lorsque vous ouvrez RStudio pour la première fois, trois fenêtres doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.
 
 - Console (à gauche)
 - Accounting (en haut à droite) : cela inclue les onglets Environment et History
@@ -83,11 +83,11 @@ knitr::include_graphics("Images/first_addition.png")
 
 R peut être utilisé pour toute opération arithmétique, y compris, mais sans s'y limiter, l'addition (`+`), la soustraction (`-`), la multiplication scalaire (`*`), la division (`/`) et l'exponentielle (`^` ).
 
-### Gestion
+### Accounting
 
-Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environnement du fenêtre Gestion. Dans la Figure B.7, nous affectons la valeur $3 \times \frac{6}{14}$ à la variable `t`, et pouvons voir qu'elle est stockée sous Valeurs.
+Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environment de la fenêtre Accounting. Dans la Figure B.7, nous affectons la valeur $3 \times \frac{6}{14}$ à la variable `t`, et pouvons voir qu'elle est stockée sous Values.
 
-Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'Environnement. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
+Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'onglet Environment. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
 ```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l\'environnement global (en bleu).'}
 knitr::include_graphics("Images/save_data.png")
@@ -218,7 +218,7 @@ Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire "la condit
 ```{r echo=TRUE}
 b == 2                     # égal à
 b < 5                      # plus petit que
-b >= 5                     # plus petit ou égal à
+b >= 5                     # plus grand ou égal à
 b <= 5 | b / 4 == 2        # | signifie OU
 b>2 & b<9                  # & signifie ET
 is.na(b)                   # Indique si la donnée est manquante
