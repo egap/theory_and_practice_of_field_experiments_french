@@ -1,16 +1,17 @@
 # Considérations éthiques {.tabset}
 
-*Une expérience aléatoire implique qu'un groupe d'humains change la vie d'un autre groupe d'humains.* Ceux qui travaillent pour le gouvernement le font naturellement --- leur travail même est de fournir à leur peuple de la nourriture, un abri, la sécurité, la justice etc. Les universitaires, dont les travaux n'ont généralement pas d'impacts immédiats sur le public, doivent également se rappeler d'examiner attentivement comment leurs recherches pourraient changer la vie des personnes exposées à l'intervention, ainsi que de celles qui ne l'ont pas été. Lorsqu'une personne influence la vie d'une autre, l'influenceur a la responsabilité de ne pas nuire à la personne influencée.
+*Une expérience aléatoire implique qu'un groupe d'humains change la vie d'un autre groupe d'humains.* Ceux qui travaillent pour le gouvernement le font naturellement --- leur travail même est de fournir à leur peuple de la nourriture, un abri, la sécurité, la justice, etc.
+Les universitaires, dont les travaux n'ont généralement pas d'impacts immédiats sur le public, doivent également se rappeler d'examiner attentivement comment leurs recherches pourraient changer la vie des personnes exposées à l'intervention, ainsi que de celles qui ne l'ont pas été. Lorsqu'une personne influence la vie d'une autre, l'influenceur a la responsabilité de ne pas nuire à la personne influencée.
 
-Ce module traite des sujets de base sur l'éthique de la recherche, tels que la vie privée et l'autonomie ; les principes de base comme le respect des personnes, la bienveillance et la justice ; et comment le consentement éclairé aide à communiquer ces principes aux participants de l'étude.
+Ce module traite des sujets de base sur l'éthique de la recherche, tels que le respect de la vie privée et l'autonomie ; les principes de base comme le respect des personnes, la bienveillance et la justice ; et comment le consentement éclairé aide à communiquer ces principes aux participants de l'étude.
 
 ## Contenu
 
  - La recherche doit peser les **bénéfices potentiels** des connaissances à tirer de la recherche par rapport aux **dommages potentiels** qu'elle peut causer aux sujets humains.
 
- - Que ressentiriez-vous si vous étiez un sujet de recherche dans votre étude ? Dans le groupe contrôle ? Dans le groupe de traitement ? Un membre de statut relativement élevé dans la communauté ? Un membre de statut relativement bas dans la communauté ?
+ - Que ressentiriez-vous si vous étiez un sujet de recherche dans votre étude ? Dans le groupe de contrôle ? Dans le groupe de traitement ? Un membre de statut relativement élevé dans la communauté ? Un membre de statut relativement bas dans la communauté ?
 
- - Principes clés : **la confidentialité** et **l'autonomie**.
+ - Principes clés : **resepect de la vie privée** et **autonomie**.
 
  - Principes de base du rapport Belmont : **respect des personnes, bienveillance, justice**.
 
