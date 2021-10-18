@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-12" />
+<meta name="date" content="2021-10-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -686,7 +686,7 @@ Une introduction des EGAP Learning Days</div></a>
 <li><p><strong>Simple</strong> : assigner de manière aléatoire les unités au traitement (comme un tirage au sort).</p></li>
 <li><p><strong>Complète</strong> : au sein d’une liste d’unités éligibles, assigner un nombre fixe d’unités au traitement (comme un tirage d’une urne sans remise).</p></li>
 <li><p><strong>Par bloc (ou stratifiée)</strong> : assigner un traitement dans des strates ou des blocs spécifiques, comme si vous meniez une expérience dans chaque bloc.</p></li>
-<li><p><strong>Par grappe (cluster)</strong> : assigner des groupes (grappes ou clusters) à la même condition de traitement.</p></li>
+<li><p><strong>Par grappe (cluster)</strong> : assigner des groupes d’observation (grappes ou clusters) à la même condition de traitement.</p></li>
 </ul></li>
 <li><p>Quelques designs courants :</p>
 <ul>
@@ -695,7 +695,7 @@ Une introduction des EGAP Learning Days</div></a>
 <li><p><strong>Factoriel</strong> : randomiser les unités en combinant les bras de traitement.</p></li>
 <li><p><strong>Incitatif</strong> : randomiser l’incitation à recevoir le traitement.</p></li>
 </ul></li>
-<li><p>Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d’homogénéité. On peut, par exemple, utiliser le test omnibus <span class="math inline">\(d^2\)</span> de <code>xBalance</code> dans le package <code>RItools</code> (car c’est une inférence basée sur la randomisation) ou on peut approximer ce résultat avec un test <span class="math inline">\(F\)</span>.</p></li>
+<li><p>Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d’homogénéité. On peut, par exemple, utiliser le test omnibus <span class="math inline">\(d^2\)</span> de <code>xBalance</code> dans le package <code>RItools</code> (car c’est une inférence de randomisation) ou on peut approximer ce résultat avec un test <span class="math inline">\(F\)</span>.</p></li>
 <li><p>La randomisation a <strong>des limites</strong>. Nous en discutons ici et nous vous orientons vers le module sur <a href="threats-to-internal-validity-of-randomized-experiments.html">les menaces</a> pour en savoir plus.</p></li>
 </ul>
 </div>
@@ -765,7 +765,7 @@ Vous pouvez également voir plus d’exemples de randomisation en R ici : <a hre
 <div id="outils-1" class="section level3" number="4.3.4">
 <h3><span class="header-section-number">4.3.4</span> Outils</h3>
 <ul>
-<li><a href="https://cran.r-project.org/web/packages/RItools/index.html">RItools</a>, un ensemble d’outils pour l’inférence basée sur la randomisation, y compris le test d’homogénéité.</li>
+<li><a href="https://cran.r-project.org/web/packages/RItools/index.html">RItools</a>, un ensemble d’outils pour l’inférence de randomisation, y compris le test d’homogénéité.</li>
 </ul>
 </div>
 <div id="courtes-vidéos-explicatives" class="section level3" number="4.3.5">

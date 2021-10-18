@@ -24,7 +24,7 @@
 <meta name="author" content="Jake Bowers, Maarten Voors, et Nahomi Ichino" />
 
 
-<meta name="date" content="2021-10-12" />
+<meta name="date" content="2021-10-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -724,21 +724,21 @@ Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</
 <li><p><strong>Test unilatéral ou bilatéral</strong> Lorsque vous vous attendez fortement à ce que l’effet soit positif ou négatif, vous pouvez effectuer un test unilatéral.
 Lorsque vous n’avez pas d’attente, effectuez un test bilatéral. Un test unilatéral a plus de puissance qu’un test bilatéral pour la même expérience.
 Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
-<li><p><strong>Écart type</strong> Racine carrée de l’écart quadratique moyen par rapport à la moyenne d’une variable. C’est une mesure de la dispersion ou de la propagation d’une statistique.
+<li><p><strong>Écart type</strong> Racine carrée de l’écart quadratique moyen par rapport à la moyenne d’une variable. C’est une mesure de la dispersion d’une statistique.
 <span class="math inline">\(SD_x=\sqrt{\frac{1}{n}\sum_{i=1}^n(x_i-\bar{x})^2}\)</span></p></li>
 <li><p><strong>Taux de faux positifs/Erreur de type I d’un test</strong> Un test d’hypothèse qui fonctionne bien rejette une hypothèse concernant un véritable effet causal pas plus de <span class="math inline">\(\alpha\)</span> % du temps.
-Le taux de faux positifs est le taux pour lequel le test jette le doute sur une hypothèse vraie.
+Le taux de faux positifs est le taux pour lequel le test met en doute une hypothèse qui est en réalité vraie.
 C’est le taux pour lequel le test incitera l’analyste à dire “statistiquement significatif” alors qu’en fait, il n’y a pas de relation causale.
 Voir le module sur <a href="hypothesis-testing.html">les tests d’hypothèses</a>.</p></li>
 <li><p><strong>Distribution d’échantillonnage</strong> La distribution des estimations (par exemple, les estimations de l’ATE) pour toutes les assignations de traitement possibles.
-Pour l’inférence statistique des expériences randomisées, la distribution des estimations à partir d’un estimateur est générée à partir d’une randomisation.
+Pour l’inférence statistique basée sur le design des expériences randomisées, la distribution des estimations d’un estimateur est générée à partir d’une randomisation.
 Beaucoup appellent cela une “distribution d’échantillonnage” parce que les manuels utilisent souvent l’idée d’échantillons répétés d’une population plutôt que de randomisations répétées pour décrire ce type de variation.</p></li>
 <li><p><strong>Erreur type</strong> L’écart type de la distribution d’échantillonnage. Une erreur type plus élevée signifie que nos estimations sont plus sensibles aux variations d’échantillonnage.
 Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
 <li><p><strong>Couverture d’un intervalle de confiance</strong> Un intervalle de confiance qui fonctionne bien contient le véritable effet causal <span class="math inline">\(100 ( 1 - \alpha)\)</span> % du temps.
 Un intervalle de confiance a une <em>couverture incorrecte</em> lorsqu’il exclut le vrai paramètre moins de <span class="math inline">\(100 (1 - \alpha)\)</span> % du temps.
 Par exemple, un intervalle de confiance à 95 % est censé exclure le vrai paramètre seulement moins de 5 % du temps.</p></li>
-<li><p><strong>Puissance statistique d’un test</strong> Probabilité qu’un test de causalité détectera un effet de traitement statistiquement significatif si l’effet existe.
+<li><p><strong>Puissance statistique d’un test</strong> Probabilité qu’un test d’effet causal détectera un effet de traitement statistiquement significatif si l’effet existe.
 Voir le module sur la <a href="statistical-power-and-design-diagnosands.html">puissance statistique</a>.
 Cela dépend :</p>
 <ul>
@@ -753,7 +753,7 @@ Cela dépend :</p>
 l’estimation peut parfois être trop élevée ou trop faible, mais elle sera correcte en moyenne. Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
 <li><p><strong>Biais</strong> Le biais est la différence entre la valeur moyenne de l’estimateur sur l’ensemble de sa distribution d’échantillonnage et la valeur fixe unique de l’estimande.
 Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
-<li><p><strong>Cohérence d’un estimateur</strong> Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur de l’estimande à mesure que la taille de l’échantillon augmente est un <em>estimateur cohérent</em> de cette estimation. Un estimateur cohérent peut être sans biais ou non.
+<li><p><strong>Cohérence d’un estimateur</strong> Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur de l’estimande à mesure que la taille de l’échantillon augmente est un <em>estimateur cohérent</em> de cette estimande. Un estimateur cohérent peut être sans biais ou non.
 Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
 <li><p><strong>Précision/efficacité d’un estimateur</strong> La variation ou la largeur de la distribution d’échantillonnage d’un estimateur. Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et estimateurs</a>.</p></li>
 </ul>
@@ -764,24 +764,24 @@ Voir le module sur les <a href="estimands-and-estimateurs.html">estimandes et es
 <ul>
 <li><p><strong>Simple</strong> Un tirage au sort indépendant pour chaque unité. Vous n’êtes pas assuré que votre expérience aura un nombre spécifique d’unités traitées.</p></li>
 <li><p><strong>Complète</strong> Assigner <span class="math inline">\(m\)</span> sur <span class="math inline">\(N\)</span> unités au traitement. Vous savez combien d’unités seront traitées dans votre expérience et chaque unité a une probabilité de <span class="math inline">\(m/N\)</span> d’être traitée. Le nombre de façons dont le traitement peut être assigné (i.e. nombre de permutations d’assignation de traitement) est <span class="math inline">\(\frac{N!}{m!(N-m)!}\)</span>.</p></li>
-<li><p><strong>Bloc</strong> Divisez d’abord l’échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d’unités au sein desquelles vous effectuez une assignation aléatoire.</p></li>
-<li><p><strong>Grappe (Cluster)</strong> Les groupes d’unités sont assignés au hasard à une condition de traitement. Un cluster est un ensemble d’unités qui seront toujours assignées au même statut de traitement.</p></li>
-<li><p><strong>Combinaison Grappe et Bloc</strong> Premièrement formez les blocs. Ensuite, dans chaque bloc, assignez au hasard les grappes à une condition de traitement en utilisant une randomisation complète.</p></li>
+<li><p><strong>Bloc</strong> Divisez d’abord l’échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d’unités au sein duquel vous effectuez une assignation aléatoire.</p></li>
+<li><p><strong>Grappe (Cluster)</strong> Les grappes d’unités sont assignés de manière aléatoire à une condition de traitement. Un cluster est un ensemble d’unités qui sera toujours assigné au même statut de traitement.</p></li>
+<li><p><strong>Combinaison par grappe et par bloc</strong> Premièrement formez les blocs (de grappe). Ensuite, dans chaque bloc, assignez de manière aléatoire les grappes à une condition de traitement en utilisant une randomisation complète.</p></li>
 </ul>
 </div>
 <div id="designs-factoriels" class="section level2" number="11.4">
 <h2><span class="header-section-number">A.4</span> Designs factoriels</h2>
 <p>Voir le module sur <a href="randomization.html">la randomisation</a>.</p>
 <ul>
-<li><p><strong>Design factoriel</strong> Un design avec plus d’un traitement, chaque traitement étant assigné indépendamment. Le plan factoriel le plus simple est un 2 par 2.</p></li>
-<li><p><strong>Effet marginal conditionnel</strong> L’effet d’un traitement, conditionnel au maintien de l’autre pour une valeur fixe.
+<li><p><strong>Design factoriel</strong> Un design avec plus d’un traitement, chaque traitement étant assigné indépendamment. Le design factoriel le plus simple est un 2 par 2.</p></li>
+<li><p><strong>Effet marginal conditionnel</strong> L’effet du traitement, conditionnel au maintien de l’autre pour une valeur fixe.
 Par exemple: <span class="math inline">\(Y_i(T_1=1|T_2=0)-Y_i(T_1=0|T_2=0)\)</span> est l’effet marginal de <span class="math inline">\(T_1\)</span> conditionnel à <span class="math inline">\(T_2=0\)</span>.</p></li>
-<li><p><strong>Effet marginal moyen</strong> Effet principal de chaque traitement dans un plan factoriel.
+<li><p><strong>Effet marginal moyen</strong> Effet principal de chaque traitement dans un design factoriel.
 C’est la moyenne des effets marginaux conditionnels pour toutes les conditions de l’autre traitement, pondérée par la proportion de l’échantillon qui a été assignée à chaque condition.</p></li>
-<li><p><strong>Effet d’interaction</strong> Dans un plan factoriel, nous pouvons également estimer les effets d’interaction.</p>
+<li><p><strong>Effet d’interaction</strong> Dans un design factoriel, nous pouvons également estimer les effets d’interaction.</p>
 <ul>
 <li>Pas d’effet d’interaction : un traitement n’amplifie ni ne diminue l’effet de l’autre traitement.</li>
-<li>Effet d’interaction multiplicatif : l’effet d’un traitement dépend de la condition de l’unité pour un autre traitment.
+<li>Effet d’interaction multiplicatif : l’effet d’un traitement dépend de la condition d’assignation de l’unité à un autre traitment.
 Cela signifie qu’un traitement amplifie ou réduit l’effet de l’autre. L’effet de deux traitements ensemble n’est <em>pas</em> la somme de l’effet de chaque traitement.</li>
 </ul></li>
 </ul>
@@ -795,10 +795,10 @@ Cela signifie qu’un traitement amplifie ou réduit l’effet de l’autre. L�
 Exemple : ma santé dépend du statut de vaccination de mon voisin, ainsi que de mon statut.</p></li>
 <li><p><strong>Attrition</strong> Lorsque les résultats pour certains sujets ne sont pas mesurés.
 Cela peut être causé, par exemple, par des personnes qui migrent, refusent de répondre aux enquêtes finales ou meurent.
-Ceci est particulièrement problématique pour l’inférence lorsque l’attrition est corrélée avec l’état du traitement.</p></li>
+Ceci est particulièrement problématique pour l’inférence lorsque l’attrition est corrélée avec le statut du traitement.</p></li>
 <li><p><strong>Conformité</strong> Le statut de traitement d’une unité correspond à la condition de traitement qui lui a été assignée.
 Exemple de non-conformité : une unité assignée au traitement ne le prend pas.
-Exemple d’observance : une unité assignée au contrôle ne prend pas de traitement.</p></li>
+Exemple de conformité : une unité assignée au contrôle ne prend pas de traitement.</p></li>
 <li><p><strong>Types de conformité</strong> Il existe quatre types d’unités en termes de conformité :</p>
 <ul>
 <li><strong>Conformistes</strong> Unités qui prendraient un traitement si elles étaient assignées au traitement et qui ne seraient pas traitées si elles étaient assignées au contrôle.</li>
@@ -807,15 +807,15 @@ Exemple d’observance : une unité assignée au contrôle ne prend pas de trait
 <li><strong>Non-conformistes</strong> Unités qui ne seraient pas traitées si elles étaient assignées au traitement et qui prendraient un traitement si elles étaient assignées au contrôle.</li>
 </ul></li>
 <li><p><strong>Non-conformité unilatérale</strong> L’expérience n’a que des sujets “conformistes” et <em>soit</em> des “toujours preneurs” ou des “jamais preneurs.”
-Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets “jamais-preneurs” et “conformistes,” ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur le traité.</p></li>
+Habituellement, nous pensons à la non-conformité unilatérale comme n’ayant que des sujets “jamais-preneurs” et “conformistes,” ce qui signifie que l’effet moyen local du traitement est l’effet du traitement sur les unités traitées.</p></li>
 <li><p><strong>Non-conformité bilatérale</strong> L’expérience peut avoir les quatre groupes latents.</p></li>
 <li><p><strong>Design incitatif</strong> Une expérience qui randomise <span class="math inline">\(T\)</span> (assignation de traitement), et nous mesurons <span class="math inline">\(D\)</span> (si l’unité prend le traitement) et <span class="math inline">\(Y\)</span> (le résultat).
-On peut estimer l’effet d’intention de traiter (intent to treat effect, ITT), l’effet moyen local du traitement (Local average treatment effect, LATE) et l’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.</p>
+On peut estimer l’effet d’intention de traiter (intent to treat effect, ITT), l’effet moyen local du traitement (Local average treatment effect, LATE) aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE). Cela nécessite trois hypothèses.</p>
 <ul>
-<li><strong>Monotonicité</strong> Hypothèse qu’il n’y a soit pas de sujets non-conformistes ou de conformistes.
+<li><strong>Monotonicité</strong> Hypothèse qu’il n’y a pas de sujets non-conformistes ou bien pas de conformistes.
 Habituellement, nous supposons qu’il n’y a pas de non-conformistes, ce qui signifie que l’effet de l’assignation sur la prise du traitement est soit positif, soit nul mais pas négatif.</li>
 <li><strong>Première étape</strong> Hypothèse qu’il y a un effet de <span class="math inline">\(T\)</span> sur <span class="math inline">\(D\)</span>.</li>
-<li><strong>Restriction d’exclusion</strong> Hypothèse selon laquelle <span class="math inline">\(T\)</span> affecte <span class="math inline">\(Y\)</span> uniquement jusqu’à <span class="math inline">\(D\)</span>. C’est généralement l’hypothèse la plus problématique.</li>
+<li><strong>Restriction d’exclusion</strong> Hypothèse selon laquelle <span class="math inline">\(T\)</span> affecte <span class="math inline">\(Y\)</span> uniquement à travers <span class="math inline">\(D\)</span>. C’est généralement l’hypothèse la plus problématique.</li>
 </ul></li>
 <li><p><strong>Effet d’intention de traiter (intent to treat effect, ITT)</strong> L’effet de <span class="math inline">\(T\)</span> (assignation de traitement) sur <span class="math inline">\(Y\)</span>.</p></li>
 <li><p><strong>Effet moyen local du traitement (Local average treatment effect, LATE)</strong> L’effet de <span class="math inline">\(D\)</span> (prise de traitement) sur <span class="math inline">\(Y\)</span> pour les conformistes.
