@@ -3,7 +3,7 @@ title: |
   | La théorie et la pratique des expériences de terrain : 
   | Une introduction des EGAP Learning Days
 author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]
-date: '`r format(Sys.Date(), "%B %e, %Y")`'
+date: '`r format(Sys.Date(), "%d-%m-%Y")`'
 site: bookdown::bookdown_site
 knit: "bookdown::render_book"
 documentclass: book
