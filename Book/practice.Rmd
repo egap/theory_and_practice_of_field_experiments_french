@@ -18,7 +18,7 @@ Comment vous souviendrez-vous de ce que vous avez fait un an, deux ou dix ans ? 
 
  - Travailler avec des partenaires : humilité et respect et écoute
  - Budgets et limites physiques sur la taille de l'échantillon expérimental (limites sur le contrôle de la randomisation)
-    - Exemple : des designs de randomisation par grappe avec un petit nombre de clusters
+    - Exemple : des designs de randomisation par grappe avec un petit nombre de grappes
 
 ### Plans de pré-analyse
 

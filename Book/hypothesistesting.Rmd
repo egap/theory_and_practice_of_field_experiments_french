@@ -32,7 +32,7 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
     - Couverture correcte de l'intervalle de confiance.
 
     - Évaluer le taux de faux positifs d'un test d'hypothèse pour un design et un choix de statistique de test donnés;
-      cas d'un essai aléatoire par grappe (cluster) avec utilisation de l'erreur standard robuste pour cluster.
+      cas d'un essai aléatoire par grappe (cluster) avec utilisation de l'erreur standard robuste pour grappe.
 
 - Soyez prudent lorsque vous testez **de nombreuses hypothèses**, par exemple quand vous avez plus de deux bras de traitement ou que vous évaluez les effets d'un traitement sur plusieurs résultats. Nous devons veiller à **ajuster les $p$-valeurs ou les intervalles de confiance** pour refléter le nombre de tests ou d'intervalles produits.
 

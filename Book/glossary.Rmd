@@ -95,7 +95,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
     - le niveau de signification ($\alpha$, par convention)
     - d'autres facteurs, y compris la proportion de vos unités qui sont assignées à différentes conditions de traitement.
 
-- **Corrélation intra-cluster** Dans quelle mesure les résultats potentiels des unités sont corrélés au sein des clusters par rapport à l'ensemble des clusters. Une corrélation intra-cluster plus élevée nuit à la puissance.
+- **Corrélation intra-grappe** (intra-cluster correlation, ICC) Dans quelle mesure les résultats potentiels des unités sont corrélés au sein des grappes par rapport à l'ensemble des grappes. Une corrélation intra-grappe plus élevée nuit à la puissance.
 
 - **Non biaisé** Un estimateur est sans biais si vous *attendez* qu'il renvoie le bon résultat. Cela signifie que si vous deviez exécuter l'expérience plusieurs fois,
   l'estimation peut parfois être trop élevée ou trop faible, mais elle sera correcte en moyenne. Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
@@ -118,7 +118,7 @@ Voir le module sur [la randomisation](randomization.html).
 
 - **Bloc** Divisez d'abord l'échantillon en blocs, puis randomisez séparément dans chaque bloc. Un bloc est un ensemble d'unités au sein duquel vous effectuez une assignation aléatoire.
 
-- **Grappe (Cluster)** Les grappes d'unités sont assignés de manière aléatoire à une condition de traitement. Un cluster est un ensemble d'unités qui sera toujours assigné au même statut de traitement.
+- **Grappe (Cluster)** Les grappes d'unités sont assignés de manière aléatoire à une condition de traitement. Une grappe est un ensemble d'unités qui sera toujours assigné au même statut de traitement.
 
 - **Combinaison par grappe et par bloc** Premièrement formez les blocs (de grappe). Ensuite, dans chaque bloc, assignez de manière aléatoire les grappes à une condition de traitement en utilisant une randomisation complète.
 
