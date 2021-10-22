@@ -27,7 +27,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
     
     - **Factoriel** : randomiser les unités en combinant les bras de traitement.
     
-    - **Incitatif** : randomiser l'incitation à recevoir le traitement.
+    - **Incitatif** : randomiser l'incitation à prendre le traitement.
 
 - Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d'homogénéité. On peut, par exemple, utiliser le test omnibus $d^2$ de `xBalance` dans le package `RItools` (car c'est une inférence de randomisation) ou on peut approximer ce résultat avec un test $F$.
 
