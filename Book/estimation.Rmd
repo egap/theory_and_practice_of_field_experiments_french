@@ -23,7 +23,7 @@ ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le modu
 
 - Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) peu varier dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
 
- - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs type devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
+ - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs types devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 
  - Nous **ne contrôlons pas** les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus **précise**. C'est ce qu'on appelle **l'ajustement de covariance**. L'ajustement de covariance dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 
