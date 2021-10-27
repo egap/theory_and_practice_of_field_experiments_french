@@ -168,7 +168,7 @@
 \title{La théorie et la pratique des expériences de terrain :\\
 Une introduction des EGAP Learning Days}
 \author{Jake Bowers,\footnote{L'ordre des noms d'auteurs est généré de manière aléatoire. \url{https://jakebowers.org}} Maarten Voors,\footnote{\url{https://sites.google.com/site/maartenvoors/}} et Nahomi Ichino\footnote{\url{https://nahomi.github.io/}}}
-\date{22-10-2021}
+\date{27-10-2021}
 
 \begin{document}
 \maketitle
@@ -699,7 +699,7 @@ Dans ce module, nous présentons les tests d'hypothèses, leur lien avec l'infé
     Couverture correcte de l'intervalle de confiance.
   \item
     Évaluer le taux de faux positifs d'un test d'hypothèse pour un design et un choix de statistique de test donnés;
-    cas d'un essai aléatoire par grappe (cluster) avec utilisation de l'erreur standard robuste pour grappe.
+    cas d'un essai aléatoire par grappe (cluster) avec utilisation de l'erreur type robuste pour grappe.
   \end{itemize}
 \item
   Soyez prudent lorsque vous testez \textbf{de nombreuses hypothèses}, par exemple quand vous avez plus de deux bras de traitement ou que vous évaluez les effets d'un traitement sur plusieurs résultats. Nous devons veiller à \textbf{ajuster les \(p\)-valeurs ou les intervalles de confiance} pour refléter le nombre de tests ou d'intervalles produits.
@@ -764,7 +764,7 @@ Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
 \hypertarget{estimandes-et-estimateurs}{%
 \chapter{Estimandes et estimateurs}\label{estimandes-et-estimateurs}}
 
-Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement. Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur standard et les intervalles de confiance.
+Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement. Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur type et les intervalles de confiance.
 
 Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ? De plus, nous voulons sélectionner un estimateur approprié pour cet estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
 
@@ -782,13 +782,13 @@ Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'es
 \item
   Un \textbf{estimateur} est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour \(m\) unités traitées et la moyenne des résultats observés pour \(N-m\) unités non traitées est un estimateur de \(\bar{\tau}\).
 \item
-  Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. \textbf{L'erreur standard} résume cette variabilité au sein d'un estimateur.
+  Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. \textbf{L'erreur type} résume cette variabilité au sein d'un estimateur.
 \item
   Un \textbf{intervalle de confiance} de \(100(1-\alpha)\)\% est un ensemble d'hypothèses qui ne peuvent être rejetées au niveau \(\alpha\). Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.
 \item
   Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) peu varier dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
 \item
-  \textbf{Analyser en randomisant} dans le contexte de l'estimation signifie que (1) nos erreurs standard devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
+  \textbf{Analyser en randomisant} dans le contexte de l'estimation signifie que (1) nos erreurs type devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 \item
   Nous \textbf{ne contrôlons pas} les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus \textbf{précise}. C'est ce qu'on appelle \textbf{l'ajustement de covariance}. L'ajustement de covariance dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 \item
@@ -1384,7 +1384,7 @@ Voir les modules sur \href{hypothesis-testing.html}{les tests d'hypothèses} et 
   Pour l'inférence statistique basée sur le design des expériences randomisées, la distribution des estimations d'un estimateur est générée à partir d'une randomisation.
   Beaucoup appellent cela une ``distribution d'échantillonnage'' parce que les manuels utilisent souvent l'idée d'échantillons répétés d'une population plutôt que de randomisations répétées pour décrire ce type de variation.
 \item
-  \textbf{Erreur standard (erreur type)} L'écart type de la distribution d'échantillonnage. Une erreur standard plus élevée signifie que nos estimations sont plus sensibles aux variations d'échantillonnage.
+  \textbf{Erreur type} L'écart type de la distribution d'échantillonnage. Une erreur type plus élevée signifie que nos estimations sont plus sensibles aux variations d'échantillonnage.
   Voir le module sur les \href{estimands-and-estimateurs.html}{estimandes et estimateurs}.
 \item
   \textbf{Couverture d'un intervalle de confiance} Un intervalle de confiance qui fonctionne bien contient le véritable effet causal \(100 ( 1 - \alpha)\) \% du temps.
