@@ -5,4 +5,4 @@
 - Distribution d'échantillonnage
 - Variance
 - Écart type
-- Erreur standard
+- Erreur type

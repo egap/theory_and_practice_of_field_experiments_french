@@ -1,6 +1,6 @@
 # Estimandes et estimateurs {.tabset}
 
-Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur standard et les intervalles de confiance.
+Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur type et les intervalles de confiance.
 
 Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cet estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
 
@@ -17,13 +17,13 @@ ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le modu
 
 - Un **estimateur** est une recette pour calculer une supposition sur la valeur d'un estimande. Par exemple, la différence entre la moyenne des résultats observés pour $m$ unités traitées et la moyenne des résultats observés pour $N-m$ unités non traitées est un estimateur de $\bar{\tau}$.
 
-- Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. **L'erreur standard** résume cette variabilité au sein d'un estimateur.
+- Différentes randomisations produiront différentes valeurs du même estimateur ciblant le même estimande. **L'erreur type** résume cette variabilité au sein d'un estimateur.
 
 - Un **intervalle de confiance** de $100(1-\alpha)$% est un ensemble d'hypothèses qui ne peuvent être rejetées au niveau $\alpha$. Nous avons tendance à rapporter des intervalles de confiance contenant des hypothèses sur les valeurs de notre estimande et à utiliser notre estimateur comme statistique de test.
 
 - Les estimateurs devraient (1) éviter les erreurs systématiques dans leur estimation de l'estimande (être sans biais) ; (2) peu varier dans leurs suppositions d'une expérience à l'autre (être précis ou efficace) ; et peut-être idéalement (3) converger vers l'estimande quand ils utilisent de plus en plus d'informations (être cohérent).
 
- - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs standard devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
+ - **Analyser en randomisant** dans le contexte de l'estimation signifie que (1) nos erreurs type devraient mesurer la variabilité de la randomisation et (2) nos estimateurs devraient cibler des estimandes définis en termes de résultats potentiels.
 
  - Nous **ne contrôlons pas** les covariables lorsque nous analysons les données d'expériences aléatoires. Pourtant les covariables peuvent rendre notre estimation plus **précise**. C'est ce qu'on appelle **l'ajustement de covariance**. L'ajustement de covariance dans les expériences aléatoires diffère du contrôle des variables dans les études d'observation.
 
