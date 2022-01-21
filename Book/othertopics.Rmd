@@ -1,6 +1,6 @@
 # Other Topics {.tabset}
 
-Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant le workshop mais qui sont importants pour la conception expérimentale.
+Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant l'atelier mais qui sont importants pour la conception expérimentale.
 
 ## Contenu
  

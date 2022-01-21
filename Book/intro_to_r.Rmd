@@ -4,7 +4,7 @@ Tout au long du livre, nous incluons du code R pour l'estimation, la simulation 
 
 ## R et RStudio
 
-R est un environnement logiciel libre utilisé couramment pour l'analyse statistique et le calcul. Étant donné que les participants aux Learning Days arrivent avec un bagage statistique et des outils différents, nous utilisons R pour nous assurer que tout le monde se comprend. Nous recommendons l'utilisation de R de manière générale pour sa flexibilité, sa richesse et son support complet, principalement via des forums en ligne.
+R est un environnement logiciel libre utilisé couramment pour l'analyse statistique et le calcul. Étant donné que les participants aux journées d'apprentissage arrivent avec un bagage statistique et des outils différents, nous utilisons R pour nous assurer que tout le monde se comprend. Nous recommendons l'utilisation de R de manière générale pour sa flexibilité, sa richesse et son support complet, principalement via des forums en ligne.
 
 RStudio est un environnement de développement intégré gratuit et open source avec une interface utilisateur qui rend R beaucoup plus convivial. R Markdown est une fonctionnalité de RStudio qui permet de présenter facilement du code, des résultats et du texte au format .pdf, .html ou .doc.
 
@@ -54,7 +54,7 @@ knitr::include_graphics("Images/rstudio_intro.png")
 
 Vous pouvez exécuter toutes les opérations dans la console. Par exemple, si vous saisissez `4 + 4` et appuyez sur la touche Enter, la console renvoie `[1] 8`.
 
-Pour s'assurer que tout le monde est prêt à utiliser R lors des Learning Days, nous demandons aux participants d'exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche `Enter`. Vous devez être connecté à internet pour télécharger des packages.
+Pour s'assurer que tout le monde est prêt à utiliser R lors des journées d'apprentissage, nous demandons aux participants d'exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche `Enter`. Vous devez être connecté à internet pour télécharger des packages.
 
 ```{r, eval = F}
 install.packages(c("ggplot2", "dplyr", "AER", "arm", "MASS", "sandwich", 
@@ -93,7 +93,7 @@ Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset 
 knitr::include_graphics("Images/save_data.png")
 ```
 
-Les workshops Learning Days utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l'instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction `head()` nous permet de voir les six premières lignes des données. `summary()` résume chacune des colonnes du dataset et `dim()` fournit les dimensions du dataset avec d'abord le nombre de lignes puis de colonnes.
+Les ateliers des journées d'apprentissage utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l'instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction `head()` nous permet de voir les six premières lignes des données. `summary()` résume chacune des colonnes du dataset et `dim()` fournit les dimensions du dataset avec d'abord le nombre de lignes puis de colonnes.
 
 ```{r, warning = F, message = F}
 head(ChickWeight) # Les 6 premières observations du dataset
@@ -226,4 +226,4 @@ is.na(b)                   # Indique si la donnée est manquante
 which(b<5)
 ```
 
-La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des Learning Days.
+La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des journées d'apprentissage.
