@@ -101,5 +101,5 @@ Vous pouvez également voir les slides des discussions de conception lors des pr
 
 ### Outils
 
-- [DeclareDesign](https://declaredesign.org/), un ensemble passionnant et complet d'outils logiciels pour décrire, évaluer et mener des recherches empiriques.
+- [DeclareDesign](https://declaredesign.org/), un ensemble complet d'outils logiciels passionnants pour décrire, évaluer et mener des recherches empiriques.
 

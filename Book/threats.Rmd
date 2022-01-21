@@ -1,4 +1,4 @@
-# Menaces pesant sur la validité interne des expériences aléatoires {.tabset}
+# Menaces affectant la validité interne des expériences aléatoires {.tabset}
 
 Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets causaux, c'est-à-dire menacer leur validité interne.
 Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était assigné ou elles ont subi des effets de débordement d'un voisin traité.

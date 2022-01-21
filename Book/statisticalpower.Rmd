@@ -3,7 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
-# Puissance statistique et diagnosandes de conception {.tabset}
+# Puissance statistique et diagnostics de conception {.tabset}
 
 Avant de commencer une étude, nous aimerions savoir si notre conception a la puissance statistique nécessaire pour détecter un effet s'il existe.  Il est difficile d'apprendre d'une étude qui n'a pas une puissance statistique suffisante. Sans une puissance statistique suffisante, nous ne savons pas si un résultat nul signifie qu'il n'y a pas eu d'effet, ou que nous n'avons pas réussi à détecter un effet non nul qui existe. Une analyse de puissance statistique peut vous aider à améliorer votre conception et à mieux répartir vos ressources. Cela peut même vous aider à décider de ne pas mener l'étude.
 
