@@ -46,19 +46,19 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 Les fichiers liés montrent comment [faire une randomisation reproducible en R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd).
 Vous pouvez également voir plus d'exemples de randomisation en R ici : [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/).
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 
-- [Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des problèmes de design aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [Présentation de la randomisation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf)
+- [Présentation de la randomisation aux journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf)
 
-- [Présentation de la randomisation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-montevideo.pdf)
+- [Présentation de la randomisation aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-montevideo.pdf)
 
-- [Présentation de la randomisation aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-guatemala.pdf)
+- [Présentation de la randomisation aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-guatemala.pdf)
 
-- [Présentation de la randomisation aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-malawi.pdf)
+- [Présentation de la randomisation aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-malawi.pdf)
 
-- [Présentation de la randomisation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf)
+- [Présentation de la randomisation aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-santiago.pdf)
 
 
 ## Ressources

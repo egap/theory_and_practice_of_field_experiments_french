@@ -45,11 +45,11 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/threats-slides.html)
 
-Vous pouvez également voir les slides utilisées lors des précédents EGAP Learning Days :
+Vous pouvez également voir les slides utilisées lors des précédentes journées d'apprentissage du réseau EGAP :
 
-- [Présentation des menaces aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les différents designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des menaces aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les différents designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [Présentation sur l'attrition et les données manquantes aux EGAP Learning Days à l'Universidad Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
+- [Présentation sur l'attrition et les données manquantes aux journées d'apprentissage du réseau EGAP à l'Universidad Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
 ## Ressources
 

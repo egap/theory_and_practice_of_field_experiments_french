@@ -10,7 +10,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>EGAP Learning Days</a></li>
+        <li><a href="./"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Journées d'apprentissage du réseau EGAP</a></li>
       after: |
         <li><a href="http://egap.org" target="blank"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Publié par EGAP</a></li>
       sharing:

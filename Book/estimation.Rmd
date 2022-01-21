@@ -42,27 +42,27 @@ Vous trouverez ci-dessous des slides avec le contenu de base pour cette section.
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/estimation-slides.html)
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP:
 
- - [Présentation de l'estimation aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
+ - [Présentation de l'estimation aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-benin.pdf)
 
- - [Présentation de l'estimation aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf)
+ - [Présentation de l'estimation aux journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-bogota.pdf)
 
- - [Présentation de l'estimation aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf)
+ - [Présentation de l'estimation aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-montevideo.pdf)
 
- - [Présentation de l'estimation aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf)
+ - [Présentation de l'estimation aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/estimation-santiago.pdf)
 
 Vous pouvez également voir les problèmes d'estimation de l'effet de la dose active d'un traitement dans ces slides (ainsi que les problèmes causés par les données manquantes dans les résultats pour l'estimation de l’effet causal moyen) :
 
-- [Présentation des problèmes de design aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des problèmes de design aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [Présentation des effets de débordement et de l'attrition aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
+- [Présentation des effets de débordement et de l'attrition aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
 
-- [Présentation des menaces aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
+- [Présentation des menaces aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
 
-- [Présentation des complications aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf)
+- [Présentation des complications aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/complications-malawi.pdf)
 
-- [Présentation des menaces aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016 (la section du milieu examine l'ITT et la non-conformité)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
+- [Présentation des menaces aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016 (la section du milieu examine l'ITT et la non-conformité)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
 
 ## Ressources

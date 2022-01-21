@@ -46,19 +46,19 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/hypothesistesting-slides.html)
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 
- - [Présentation des tests d'hypothèses aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-benin.pdf)
+ - [Présentation des tests d'hypothèses aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-benin.pdf)
 
- - [Présentation des tests d'hypothèses aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-bogota.pdf)
+ - [Présentation des tests d'hypothèses aux journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-bogota.pdf)
 
- - [Présentation des tests d'hypothèses aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-montevideo.pdf)
+ - [Présentation des tests d'hypothèses aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-montevideo.pdf)
 
- - [Présentation des tests d'hypothèses aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-guatemala.pdf)
+ - [Présentation des tests d'hypothèses aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-guatemala.pdf)
 
- - [Présentation des tests d'hypothèses aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-malawi.pdf)
+ - [Présentation des tests d'hypothèses aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-malawi.pdf)
 
- - [Présentation des tests d'hypothèses aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-santiago.pdf)
+ - [Présentation des tests d'hypothèses aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/hypothesistesting-santiago.pdf)
 
 
 ## Ressources

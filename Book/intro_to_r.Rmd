@@ -137,7 +137,7 @@ getwd()
 ```
 
 ```{r, eval = F}
-setwd("~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/")   
+setwd("~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/")
 ```
 
 Vous devrez peut-être installer des packages autres que ceux répertoriés ci-dessus pour exécuter certaines fonctions. Pour installer les packages, nous utilisons `install.packages("")`, en remplissant le nom du package entre les marques "", comme suit. Vous n'avez besoin d'installer les packages qu'une seule fois.

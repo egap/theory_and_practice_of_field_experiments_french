@@ -32,21 +32,21 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.html)
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 
- - [Présentation de l'inférence causale aux EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-benin.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-benin.pdf)
 
- - [Présentation de l'inférence causale aux EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-bogota.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-bogota.pdf)
 
- - [Présentation de l'inférence causale aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/causality-montevideo.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/causality-montevideo.pdf)
 
- - [Présentation de l'inférence causale aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-guatemala.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-guatemala.pdf)
 
- - [Présentation à l'introduction sur les expériences aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/intro_experiments-guatemala.pdf)
+ - [Présentation à l'introduction sur les expériences aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/intro_experiments-guatemala.pdf)
 
- - [Présentation de l'inférence causale aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-malawi.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-malawi.pdf)
 
- - [Présentation de l'inférence causale aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
 
 ## Ressources
 

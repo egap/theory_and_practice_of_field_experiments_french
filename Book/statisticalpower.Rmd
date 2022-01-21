@@ -36,19 +36,19 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
  - [Version HTML](https://egap.github.io/learningdays-resources/Slides/power-slides.html)
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days :
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 
- - [Présentation de la puissance statistique des EGAP Learning Days à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
+ - [Présentation de la puissance statistique des journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-benin.pdf)
 
- - [Présentation de la puissance statistique des EGAP Learning Days à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
+ - [Présentation de la puissance statistique des journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/power-bogota.pdf)
 
- - [Présentation de la puissance statistique des EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
+ - [Présentation de la puissance statistique des journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/power-montevideo.pdf)
 
- - [Présentation de la puissance statistique des EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
+ - [Présentation de la puissance statistique des journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-guatemala.html)
 
- - [Présentation de la puissance statistique des EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
+ - [Présentation de la puissance statistique des journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/power-malawi.pdf)
 
- - [Présentation de la puissance statistique des EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
+ - [Présentation de la puissance statistique des journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/power-santiago.pdf)
 
 
 ## Ressources

@@ -33,31 +33,31 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 - [Version HTML](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.html)
 
-Vous pouvez aussi lire les slides des précédents EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP:
 
- - [Présentation de DeclareDesign aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
+ - [Présentation de DeclareDesign aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
 
- - [Présentation de DeclareDesign aux EGAP Learning Days à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
+ - [Présentation de DeclareDesign aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
 
- - [Présentation de DeclareDesign  aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
+ - [Présentation de DeclareDesign  aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
-Vous pouvez également voir les slides des Design Talks lors des précédents EGAP Learning Days, où les présentateurs se concentrent sur les problématiques relatives au design de recherche, plutôt qu'aux résultats:
+Vous pouvez également voir les slides des Design Talks lors des précédentes journées d'apprentissage du réseau EGAP, où les présentateurs se concentrent sur les problématiques relatives au design de recherche, plutôt qu'aux résultats:
 
- - [Design Talk aux EGAP Learning Days à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
+ - [Design Talk aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 
- - [Design Talk 1 aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-montevideo.pdf)
+ - [Design Talk 1 aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-montevideo.pdf)
 
- - [Design Talk 2 aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-montevideo.pdf)
+ - [Design Talk 2 aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-montevideo.pdf)
 
- - [Design Talk 3 aux EGAP Learning Days à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-montevideo.pdf)
+ - [Design Talk 3 aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-montevideo.pdf)
 
- - [Design Talk 1 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-santiago.pdf)
+ - [Design Talk 1 aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-santiago.pdf)
 
- - [Design Talk 2 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-santiago.pdf)
+ - [Design Talk 2 aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-santiago.pdf)
 
- - [Design Talk 3 aux EGAP Learning Days à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
+ - [Design Talk 3 aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
 
- - [Design Talk aux EGAP Learning Days à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
+ - [Design Talk aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
 
 ## Formulaire de design et pré-enregistrement
 

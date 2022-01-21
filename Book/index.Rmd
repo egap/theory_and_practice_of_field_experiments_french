@@ -1,7 +1,7 @@
 ---
 title: |
   | La théorie et la pratique des expériences de terrain : 
-  | Une introduction des EGAP Learning Days
+  | Une introduction des journées d'apprentissage du réseau EGAP
 author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]
 date: '`r format(Sys.Date(), "%d-%m-%Y")`'
 site: bookdown::bookdown_site
@@ -11,7 +11,7 @@ bibliography: learningdays-book.bib
 link-citations: yes
 colorlinks: yes
 github-repo: egap/theory_and_practice_of_field_experiments
-description: "Les EGAP Learning Days, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche"
+description: "Les journées d'apprentissage du réseau EGAP, inférence causale, expériences aléatoires, expériences de terrain, design expérimental, design de recherche"
 fontsize: 12pt
 geometry: margin=1in
 graphics: yes
