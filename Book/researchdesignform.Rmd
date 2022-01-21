@@ -2,7 +2,7 @@
 
 Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail de la conception de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons la meilleure conception possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentées dans les modules qui suivent.
 
-Ce module présente le [formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une checklist pour vous guider à travers les nombreuses étapes du processus de recherche. Les journées d'apprentissage sont organisées autour du formulaire de conception de recherche. Nous vous incitons à utiliser le logiciel [DeclareDesign](https://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos conceptions de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
+Ce module présente le [formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une liste de contrôle pour vous guider à travers les nombreuses étapes du processus de recherche. Les journées d'apprentissage sont organisées autour du formulaire de conception de recherche. Nous vous incitons à utiliser le logiciel [DeclareDesign](https://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos conceptions de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
 
 ## Contenu
 
@@ -61,7 +61,7 @@ Vous pouvez également voir les slides des discussions de conception lors des pr
 
 ## Formulaire de conception et pré-enregistrement
 
-- [Formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html). Une checklist que nous avons créée pour les journées d'apprentissage pour vous guider à travers les étapes du processus de recherche.
+- [Formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html). Une liste de contrôle que nous avons créée pour les journées d'apprentissage pour vous guider à travers les étapes du processus de recherche.
      - [Version Docx](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
 
      - [Version PDF](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
