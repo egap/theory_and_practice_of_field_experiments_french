@@ -2,6 +2,17 @@ This is the repository for the EGAP Learning Days Book. Currently in R Markdown 
 
 You can find the preview of this example at <https://egap.github.io/theory_and_practice_of_field_experiments>
 
+install.packages("bookdown")
+install.packages("renv")
+renv::restore()
+install.packages("here")
+install.packages("readr")
+install.packages("mime")
+install.packages("styler")
+setwd("C:/Data_Perso/theory_and_practice_of_field_experiments_french/Book")
+bookdown::render_book('index.Rmd', 'bookdown::gitbook')
+bookdown::render_book('index.Rmd', 'bookdown::pdf_book')
+
 | English     | French      |
 | ----------- | ----------- |
 | average causal effect |  l’effet causal moyen |
