@@ -1,6 +1,6 @@
 # Other Topics {.tabset}
 
-Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant le workshop mais qui sont importants pour le design expérimental.
+Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant le workshop mais qui sont importants pour la conception expérimentale.
 
 ## Contenu
  
@@ -22,9 +22,9 @@ Ici, nous fournissons des liens vers des ressources pour aider les gens à en ap
   
 - Intégration une recherche qualitative
 
-- Designs évolutifs
-  - La plupart des designs sont statiques : c'est-à-dire que les mêmes procédures d'assignation des traitements et de mesure des résultats sont appliquées tout au long de l'expérience.
-  - Les designs évolutifs ajustent l'assignation du traitement et du contrôle sur la base d'une analyse intermédiaire du résultat de l'expérience.
+- Conceptions évolutives
+  - La plupart des conceptions sont statiques : c'est-à-dire que les mêmes procédures d'assignation des traitements et de mesure des résultats sont appliquées tout au long de l'expérience.
+  - Les conceptions évolutives ajustent l'assignation du traitement et du contrôle sur la base d'une analyse intermédiaire du résultat de l'expérience.
 
 - Meta-analyse
 

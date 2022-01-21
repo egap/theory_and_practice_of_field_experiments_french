@@ -20,7 +20,7 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
  - La randomisation apporte une validité interne élevée, mais elle ne peut pas assurer la **validité externe**.
 
- - Votre question causale est liée à votre [design de recherche](the-research-design-process.html).
+ - Votre question causale est liée à votre [conception de recherche](the-research-design-process.html).
 
 ## Slides
 
@@ -72,7 +72,7 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 - [@brady2008causation].
 
-- [@gerber_field_2012, Chapitre 1]. Ce livre est une excellente ressource pour de nombreux sujets du design expérimental.
+- [@gerber_field_2012, Chapitre 1]. Ce livre est une excellente ressource pour de nombreux sujets de la conception expérimentale.
 
 - [@morgan_counterfactuals_2007, Chapitre 1]. Ce livre comprend de bons examples de raisonnement pour faire des assertions causales à partir de données d'observation.
 

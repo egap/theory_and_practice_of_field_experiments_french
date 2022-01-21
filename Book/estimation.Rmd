@@ -2,7 +2,7 @@
 
 Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur type et les intervalles de confiance.
 
-Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cet estimande dans le cadre du design de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
+Dans ce module, nous introduisons plusieurs types d'estimandes. Le choix de l'estimande est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour cet estimande dans le cadre de la conception de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un estimande et comment caractériser sa variabilité.
 
 
 ## Contenu
@@ -54,7 +54,7 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 Vous pouvez également voir les problèmes d'estimation de l'effet de la dose active d'un traitement dans ces slides (ainsi que les problèmes causés par les données manquantes dans les résultats pour l'estimation de l’effet causal moyen) :
 
-- [Présentation des problèmes de design aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des problèmes de conception aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les conceptions de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
 - [Présentation des effets de débordement et de l'attrition aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
 

@@ -1,8 +1,8 @@
 # Randomisation {.tabset}
 
-Le module sur [l'inférence causale](causal-inference.html) aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre design de recherche.
+Le module sur [l'inférence causale](causal-inference.html) aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre conception de recherche.
 
-Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés.  Nous couvrons également plusieurs designs courants, y compris les designs factoriels et les designs incitatifs.  Le module fournit des conseils sur l'implémentation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
+Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés.  Nous couvrons également plusieurs conceptions courantes, y compris les conceptions factorielles et les conceptions incitatives.  Le module fournit des conseils sur l'implémentation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
 
 ## Contenu
 
@@ -19,7 +19,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
     - **Par grappe (cluster)** : assigner des groupes d'observation (grappes ou clusters) à la même condition de traitement.
     
     
-- Quelques designs courants :
+- Quelques conceptions courantes :
     
     - **Accès randomisé** : randomiser la disponibilité du traitement.
     
@@ -48,7 +48,7 @@ Vous pouvez également voir plus d'exemples de randomisation en R ici : [10 chos
 
 Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 
-- [Présentation des problèmes de design aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les designs de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des problèmes de conception aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les conceptions de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
 - [Présentation de la randomisation aux journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/randomization-bogota.pdf)
 
@@ -79,7 +79,7 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 ### Notes d'orientation des politiques publiques EGAP
 
-*Designs factoriels*
+*Conceptions factorielles*
 
 - [Note d'orientation des politiques publiques EGAP 57 : Comment les médias influencent les normes sociales : la preuve au Mexique](https://egap.org/resource/how-media-influence-social-norms-evidence-from-mexico/)
 
