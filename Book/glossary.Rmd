@@ -8,7 +8,7 @@ Ci-dessous voici les termes principaux, fréquemment utilisés dans le livre et 
 
 ## Concepts clés
 
-Voir le module sur [l'inférence causale](causal-inference.html), [les estimandes et estimateurs](estimands-and-estimators.html).
+Voir le module sur [l'inférence causale](causal-inference.html), [les paramètres et estimateurs](estimands-and-estimators.html).
 
 - **Résultat potentiel $Y_i(T)$** Le résultat $Y$ que l'unité $i$ *aurait* sous la condition de traitement $T$. Ceux-ci sont considérés comme des quantités fixes pour un moment précis.
   $T$ peut être 0 pour le contrôle ou 1 pour le traitement s'il n'y a qu'un seul type de traitement. Voir le module sur [l'inférence causale](causal-inference.html).
@@ -20,17 +20,17 @@ Voir le module sur [l'inférence causale](causal-inference.html), [les estimande
 - **Problème fondamental de l'inférence causale** dans le cadre contrefactuel. On ne peut pas observer à la fois $Y_i(1)$ et $Y_i(0)$ pour une unité donnée, donc on ne peut pas obtenir $\tau_i$ directement.
   Voir le module sur [l'inférence causale](causal-inference.html).
 
-- **Estimande** Ce que vous visez à estimer. Un exemple d'un estimande est l'effet moyen du traitement.
+- **Paramètre** Ce que vous visez à estimer. Un exemple d'un paramètre est l'effet moyen du traitement.
   Dans l'inférence causale contrefactuelle, l'effet moyen du traitement est fonction des résultats potentiels, et non des résultats observés.
-  Voir le module sur les [estimandes et estimateurs](estimands-and-estimators.html).
+  Voir le module sur les [paramètres et estimateurs](estimands-and-estimators.html).
 
-- **Estimateur** Comment on devine la valeur de l'estimande à partir des données dont on dispose (les données observées).
-  Un exemple d'estimateur est la différence des moyennes. Voir le module sur les [estimandes et estimateurs](estimands-and-estimators.html).
+- **Estimateur** Comment on devine la valeur du paramètre à partir des données dont on dispose (les données observées).
+  Un exemple d'estimateur est la différence des moyennes. Voir le module sur les [paramètres et estimateurs](estimands-and-estimators.html).
 
 - **Effet moyen du traitement (Average treatment effect, ATE)** La moyenne de l'effet du traitement pour tous les individus de votre groupe de sujets.
-  C'est un type d'**estimande**. Si on définit $\tau_i$ comme étant $Y_i(1)-Y_i(0)$, alors l'effet moyen du traitement est $\overline{Y_i(1)-Y_i(0)}$, ce qui équivaut aussi à $\overline{{Y}_i(1)}-\overline{{Y}_i(0)}$.
+  C'est un type de **paramètre**. Si on définit $\tau_i$ comme étant $Y_i(1)-Y_i(0)$, alors l'effet moyen du traitement est $\overline{Y_i(1)-Y_i(0)}$, ce qui équivaut aussi à $\overline{{Y}_i(1)}-\overline{{Y}_i(0)}$.
   Notez qu'on n'utilise pas le style de notation $E[Y_i (1)]$ ici parce que $E[]$ signifie "moyenne sur des opérations répétées," quand $\overline{Y}$ signifie "moyenne sur un ensemble d'observations".
-  Voir le module sur [l'inférence causale](causal-inference.html) et le module sur les [estimandes et estimateurs](estimands-and-estimators.html).
+  Voir le module sur [l'inférence causale](causal-inference.html) et le module sur les [paramètres et estimateurs](estimands-and-estimators.html).
 
 - **Échantillonnage aléatoire** Sélection de sujets dans une population avec des probabilités connues strictement comprises entre 0 et 1.
 
@@ -80,7 +80,7 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
   Beaucoup appellent cela une "distribution d'échantillonnage" parce que les manuels utilisent souvent l'idée d'échantillons répétés d'une population plutôt que de randomisations répétées pour décrire ce type de variation.
 
 - **Erreur type** L'écart type de la distribution d'échantillonnage. Une erreur type plus élevée signifie que nos estimations sont plus sensibles aux variations d'échantillonnage.
-  Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
+  Voir le module sur les [paramètres et estimateurs](estimands-and-estimateurs.html).
 
 - **Couverture d'un intervalle de confiance** Un intervalle de confiance qui fonctionne bien contient le véritable effet causal $100 ( 1 - \alpha)$ % du temps.
   Un intervalle de confiance a une *couverture incorrecte* lorsqu'il exclut le vrai paramètre moins de $100 (1 - \alpha)$ % du temps.
@@ -98,15 +98,15 @@ Voir les modules sur [les tests d'hypothèses](hypothesis-testing.html) et [la p
 - **Corrélation intra-grappe** (intra-cluster correlation, ICC) Dans quelle mesure les résultats potentiels des unités sont corrélés au sein des grappes par rapport à l'ensemble des grappes. Une corrélation intra-grappe plus élevée nuit à la puissance.
 
 - **Non biaisé** Un estimateur est sans biais si vous *attendez* qu'il renvoie le bon résultat. Cela signifie que si vous deviez exécuter l'expérience plusieurs fois,
-  l'estimation peut parfois être trop élevée ou trop faible, mais elle sera correcte en moyenne. Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
+  l'estimation peut parfois être trop élevée ou trop faible, mais elle sera correcte en moyenne. Voir le module sur les [paramètres et estimateurs](estimands-and-estimateurs.html).
 
-- **Biais** Le biais est la différence entre la valeur moyenne de l'estimateur sur l'ensemble de sa distribution d'échantillonnage et la valeur fixe unique de l'estimande.
-  Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
+- **Biais** Le biais est la différence entre la valeur moyenne de l'estimateur sur l'ensemble de sa distribution d'échantillonnage et la valeur fixe unique du paramètre.
+  Voir le module sur les [paramètres et estimateurs](estimands-and-estimateurs.html).
 
-- **Cohérence d'un estimateur** Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur de l'estimande à mesure que la taille de l'échantillon augmente est un *estimateur cohérent* de cette estimande. Un estimateur cohérent peut être sans biais ou non.
-  Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
+- **Cohérence d'un estimateur** Un estimateur qui produit des réponses qui se rapprochent de plus en plus de la vraie valeur du paramètre à mesure que la taille de l'échantillon augmente est un *estimateur cohérent* de ce paramètre. Un estimateur cohérent peut être sans biais ou non.
+  Voir le module sur les [paramètres et estimateurs](estimands-and-estimateurs.html).
 
-- **Précision/efficacité d'un estimateur** La variation ou la largeur de la distribution d'échantillonnage d'un estimateur. Voir le module sur les [estimandes et estimateurs](estimands-and-estimateurs.html).
+- **Précision/efficacité d'un estimateur** La variation ou la largeur de la distribution d'échantillonnage d'un estimateur. Voir le module sur les [paramètres et estimateurs](estimands-and-estimateurs.html).
 
 ## Stratégies de randomisation
 
