@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="randomisation.html"/>
-<link rel="next" href="estimandes-et-estimateurs.html"/>
+<link rel="next" href="paramètres-et-estimateurs.html"/>
 <script src="book_assets/header-attrs/header-attrs.js"></script>
 <script src="book_assets/jquery/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -566,15 +566,15 @@ div.csl-indent {
 <li class="chapter" data-level="5.3.2" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#livres-chapitres-et-articles-2"><i class="fa fa-check"></i><b>5.3.2</b> Livres, chapitres et articles</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Estimandes et estimateurs</a>
+<li class="chapter" data-level="6" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Paramètres et estimateurs</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
-<li class="chapter" data-level="6.2" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
-<li class="chapter" data-level="6.3" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
+<li class="chapter" data-level="6.1" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
+<li class="chapter" data-level="6.2" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
+<li class="chapter" data-level="6.3" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
 <ul>
-<li class="chapter" data-level="6.3.1" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
-<li class="chapter" data-level="6.3.2" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
-<li class="chapter" data-level="6.3.3" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
+<li class="chapter" data-level="6.3.1" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="6.3.2" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="6.3.3" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="puissance-statistique-et-diagnostics-de-conception.html"><a href="puissance-statistique-et-diagnostics-de-conception.html"><i class="fa fa-check"></i><b>7</b> Puissance statistique et diagnostics de conception</a>
@@ -674,7 +674,7 @@ Une introduction des journées d’apprentissage du réseau EGAP</div></a>
             <section class="normal" id="section-">
 <div id="tests-dhypothèses" class="section level1 tabset" number="5">
 <h1><span class="header-section-number">Module 5</span> Tests d’hypothèses</h1>
-<p>Ce n’est pas possible d’observer directement les effets causaux à cause du <em>problème fondamental de l’inférence causale</em> (<a href="causal-inference.html">module de l’inférence causale</a>).
+<p>Ce n’est pas possible d’observer directement les effets causaux à cause du <em>problème fondamental de l’inférence causale</em> (<a href="inférence-causale.html">module de l’inférence causale</a>).
 Comment pouvons-nous en savoir plus sur ces <em>effets causaux non observés</em> en utilisant ce que nous observons ?
 Dans une expérience aléatoire, nous pouvons évaluer des <em>suppositions</em> ou des <em>hypothèses</em> sur les effets causaux non observés.
 Pour ce faire, nous comparons ce que nous observons dans une expérience à ce que nous observerions si nous pouvions répéter la manipulation expérimentale et que la supposition ou l’hypothèse était vraie.</p>
@@ -692,7 +692,7 @@ Pour ce faire, nous comparons ce que nous observons dans une expérience à ce q
 <li><p>Les <span class="math inline">\(p\)</span>-valeurs et comment interpréter les résultats des tests d’hypothèses.</p></li>
 </ul></li>
 <li><p>Un bon test d’hypothèse doit (1) rarement mettre en doute la vérité (c’est-à-dire avoir un taux de faux positifs contrôlé et faible) et (2) distinguer facilement le signal du bruit (c’est-à-dire mettre souvent en doute les contrevérités ; avoir une puissance statistique élevée) .</p></li>
-<li><p>Comment saurons-nous si notre test d’hypothèse performe bien ? (Se référer au <a href="statistical-power-and-design-diagnosands.html">module d’analyse de puissance statistique</a>).</p>
+<li><p>Comment saurons-nous si notre test d’hypothèse performe bien ? (Se référer au <a href="puissance-statistique-et-diagnostics-de-conception.html">module d’analyse de puissance statistique</a>).</p>
 <ul>
 <li><p>Taux de faux positifs.</p></li>
 <li><p>Couverture correcte de l’intervalle de confiance.</p></li>
@@ -758,7 +758,7 @@ Rosenbaum, Paul R. <span>“<span class="nocase">Design of observational studies
         </div>
       </div>
 <a href="randomisation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="estimandes-et-estimateurs.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="paramètres-et-estimateurs.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>

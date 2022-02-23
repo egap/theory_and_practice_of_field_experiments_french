@@ -566,15 +566,15 @@ div.csl-indent {
 <li class="chapter" data-level="5.3.2" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#livres-chapitres-et-articles-2"><i class="fa fa-check"></i><b>5.3.2</b> Livres, chapitres et articles</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Estimandes et estimateurs</a>
+<li class="chapter" data-level="6" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Paramètres et estimateurs</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
-<li class="chapter" data-level="6.2" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
-<li class="chapter" data-level="6.3" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
+<li class="chapter" data-level="6.1" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
+<li class="chapter" data-level="6.2" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
+<li class="chapter" data-level="6.3" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
 <ul>
-<li class="chapter" data-level="6.3.1" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
-<li class="chapter" data-level="6.3.2" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
-<li class="chapter" data-level="6.3.3" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
+<li class="chapter" data-level="6.3.1" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="6.3.2" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="6.3.3" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="puissance-statistique-et-diagnostics-de-conception.html"><a href="puissance-statistique-et-diagnostics-de-conception.html"><i class="fa fa-check"></i><b>7</b> Puissance statistique et diagnostics de conception</a>
@@ -674,7 +674,7 @@ Une introduction des journées d’apprentissage du réseau EGAP</div></a>
             <section class="normal" id="section-">
 <div id="randomisation" class="section level1 tabset" number="4">
 <h1><span class="header-section-number">Module 4</span> Randomisation</h1>
-<p>Le module sur <a href="causal-inference.html">l’inférence causale</a> aborde le rôle important de la randomisation pour tirer des inférences valides à partir d’une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre conception de recherche.</p>
+<p>Le module sur <a href="inférence-causale.html">l’inférence causale</a> aborde le rôle important de la randomisation pour tirer des inférences valides à partir d’une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre conception de recherche.</p>
 <p>Nous introduisons quatre façons courantes de randomiser le traitement – simple, complète, par bloc, et en grappe (cluster) – et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés. Nous couvrons également plusieurs conceptions courantes, y compris les conceptions factorielles et les conceptions incitatives. Le module fournit des conseils sur l’implémentation, y compris les bonnes pratiques pour vérifier l’homogénéité et assurer la reproductibilité.</p>
 <div id="contenu-2" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Contenu</h2>
@@ -695,7 +695,7 @@ Une introduction des journées d’apprentissage du réseau EGAP</div></a>
 <li><p><strong>Incitative</strong> : randomiser l’incitation à prendre le traitement.</p></li>
 </ul></li>
 <li><p>Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d’homogénéité. On peut, par exemple, utiliser le test omnibus <span class="math inline">\(d^2\)</span> de <code>xBalance</code> dans le package <code>RItools</code> (car c’est une inférence de randomisation) ou on peut approximer ce résultat avec un test <span class="math inline">\(F\)</span>.</p></li>
-<li><p>La randomisation a <strong>des limites</strong>. Nous en discutons ici et nous vous orientons vers le module sur <a href="threats-to-internal-validity-of-randomized-experiments.html">les menaces</a> pour en savoir plus.</p></li>
+<li><p>La randomisation a <strong>des limites</strong>. Nous en discutons ici et nous vous orientons vers le module sur <a href="menaces-affectant-la-validité-interne-des-expériences-aléatoires.html">les menaces</a> pour en savoir plus.</p></li>
 </ul>
 </div>
 <div id="slides-2" class="section level2" number="4.2">

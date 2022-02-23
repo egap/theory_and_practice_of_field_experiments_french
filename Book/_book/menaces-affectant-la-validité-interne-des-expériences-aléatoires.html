@@ -566,15 +566,15 @@ div.csl-indent {
 <li class="chapter" data-level="5.3.2" data-path="tests-dhypothèses.html"><a href="tests-dhypothèses.html#livres-chapitres-et-articles-2"><i class="fa fa-check"></i><b>5.3.2</b> Livres, chapitres et articles</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Estimandes et estimateurs</a>
+<li class="chapter" data-level="6" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html"><i class="fa fa-check"></i><b>6</b> Paramètres et estimateurs</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
-<li class="chapter" data-level="6.2" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
-<li class="chapter" data-level="6.3" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
+<li class="chapter" data-level="6.1" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#contenu-4"><i class="fa fa-check"></i><b>6.1</b> Contenu</a></li>
+<li class="chapter" data-level="6.2" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#slides-4"><i class="fa fa-check"></i><b>6.2</b> Slides</a></li>
+<li class="chapter" data-level="6.3" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#ressources-4"><i class="fa fa-check"></i><b>6.3</b> Ressources</a>
 <ul>
-<li class="chapter" data-level="6.3.1" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
-<li class="chapter" data-level="6.3.2" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
-<li class="chapter" data-level="6.3.3" data-path="estimandes-et-estimateurs.html"><a href="estimandes-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
+<li class="chapter" data-level="6.3.1" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#guide-des-méthodes-egap-4"><i class="fa fa-check"></i><b>6.3.1</b> Guide des méthodes EGAP</a></li>
+<li class="chapter" data-level="6.3.2" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#livres-chapitres-et-articles-3"><i class="fa fa-check"></i><b>6.3.2</b> Livres, chapitres et articles</a></li>
+<li class="chapter" data-level="6.3.3" data-path="paramètres-et-estimateurs.html"><a href="paramètres-et-estimateurs.html#outils-2"><i class="fa fa-check"></i><b>6.3.3</b> Outils</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="puissance-statistique-et-diagnostics-de-conception.html"><a href="puissance-statistique-et-diagnostics-de-conception.html"><i class="fa fa-check"></i><b>7</b> Puissance statistique et diagnostics de conception</a>
@@ -680,8 +680,8 @@ Certaines unités peuvent être exclues des résultats et cette absence peut êt
 <div id="contenu-7" class="section level2 tabset" number="9.1">
 <h2><span class="header-section-number">9.1</span> Contenu</h2>
 <ul>
-<li><p>Passez en revue les trois hypothèses de base discutées dans le module sur <a href="causal-inference.html">l’inférence causale</a>.</p></li>
-<li><p>Nous avons dit “analysez en randomisant” dans le module sur les <a href="estimands-and-estimators.html">estimandes et estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
+<li><p>Passez en revue les trois hypothèses de base discutées dans le module sur <a href="inférence-causale.html">l’inférence causale</a>.</p></li>
+<li><p>Nous avons dit “analysez en randomisant” dans le module sur les <a href="paramètres-et-estimateurs.html">paramètres et estimateurs</a>. N’oubliez pas que vous avez randomisé <strong>l’assignation</strong> du traitement. Vous n’avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.</p></li>
 <li><p><strong>Les données manquantes dans les résultats (i.e. l’attrition)</strong> sont particulièrement problématiques si le pattern des données absentes est causé par le traitement lui-même. C’est un problème très courant.</p>
 <ul>
 <li><p>Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.</p></li>
@@ -692,7 +692,7 @@ Certaines unités peuvent être exclues des résultats et cette absence peut êt
 <li><p>La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.</p></li>
 <li><p>L’effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l’effet moyen pour les unités qui prennent le traitement lorsqu’elles sont assignées au traitement. Si l’hypothèse de monotonie et la restriction d’exclusion sont remplies, il est possible d’estimer l’effet moyen local du traitement en cas de non-conformité.</p></li>
 </ul></li>
-<li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’<a href="causalinference.html">inférence causale</a>.</p>
+<li><p><strong>Les “effets de débordement” ou les interférences entre unités</strong> constituent une violation de l’une des hypothèses fondamentales de l’<a href="inférence-causale.html">inférence causale</a>.</p>
 <ul>
 <li>Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.</li>
 </ul></li>
