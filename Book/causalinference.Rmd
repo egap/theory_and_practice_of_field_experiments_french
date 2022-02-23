@@ -20,7 +20,7 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
  - La randomisation apporte une validité interne élevée, mais elle ne peut pas assurer la **validité externe**.
 
- - Votre question causale est liée à votre [conception de recherche](the-research-design-process.html).
+ - Votre question causale est liée à votre [conception de recherche](processus-de-conception-de-recherche.html).
 
 ## Slides
 

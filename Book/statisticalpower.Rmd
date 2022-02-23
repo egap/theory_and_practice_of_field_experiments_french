@@ -25,7 +25,7 @@ Dans ce module, nous introduisons la puissance statistique, les approches de bas
 
  - Pour les **conceptions par grappe** il faut tenir compte de la corrélation intra-grappe (la variance intra-grappe par rapport à la variance globale).
  
- - La puissance statistique est étroitement liée à [la conception de l'étude](the-research-design-process.html), aux [tests d'hypothèses](hypothesis-testing.html) et à [l'estimation](estimands-and-estimators.html).
+ - La puissance statistique est étroitement liée à [la conception de l'étude](processus-de-conception-de-recherche.html), aux [tests d'hypothèses](tests-dhypothèses.html) et à [l'estimation](paramètres-et-estimateurs.html).
 
 ## Slides
 Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la puissance statistique. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.

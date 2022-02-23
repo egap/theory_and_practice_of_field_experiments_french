@@ -1,6 +1,6 @@
 # Randomisation {.tabset}
 
-Le module sur [l'inférence causale](causal-inference.html) aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre conception de recherche.
+Le module sur [l'inférence causale](inférence-causale.html) aborde le rôle important de la randomisation pour tirer des inférences valides à partir d'une comparaison des groupes traités et non traités. Dans ce module, nous passons de la théorie aux cas concrets pour votre conception de recherche.
 
 Nous introduisons quatre façons courantes de randomiser le traitement -- simple, complète, par bloc, et en grappe (cluster) -- et nous expliquons quand ces différents types de randomisation sont disponibles et appropriés.  Nous couvrons également plusieurs conceptions courantes, y compris les conceptions factorielles et les conceptions incitatives.  Le module fournit des conseils sur l'implémentation, y compris les bonnes pratiques pour vérifier l'homogénéité et assurer la reproductibilité.
 
@@ -31,7 +31,7 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
 - Comment vérifier si votre randomisation a produit des groupes homogènes sur les caractéristiques observables ? En règle générale, nous effectuons des tests de randomisation, également appelés tests d'homogénéité. On peut, par exemple, utiliser le test omnibus $d^2$ de `xBalance` dans le package `RItools` (car c'est une inférence de randomisation) ou on peut approximer ce résultat avec un test $F$.
 
-- La randomisation a **des limites**.  Nous en discutons ici et nous vous orientons vers le module sur [les menaces](threats-to-internal-validity-of-randomized-experiments.html) pour en savoir plus.
+- La randomisation a **des limites**.  Nous en discutons ici et nous vous orientons vers le module sur [les menaces](menaces-affectant-la-validité-interne-des-expériences-aléatoires.html) pour en savoir plus.
 
 ## Slides
 

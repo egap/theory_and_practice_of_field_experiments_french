@@ -1,6 +1,6 @@
 # Mise en pratique {.tabset}
 
-Une fois que vous avez rempli le [formulaire de conception de recherche](research-design.html) et reçu un financement, ou peut-être même terminé votre projet, vous serez confronté à une série d'autres défis.
+Une fois que vous avez rempli le [formulaire de conception de recherche](processus-de-conception-de-recherche.html) et reçu un financement, ou peut-être même terminé votre projet, vous serez confronté à une série d'autres défis.
 
 Ce module répertorie quelques-uns de ces défis et y associe des liens et des références utiles, notamment à propos de workflow, de plans de pré-analyse.
 

@@ -10,7 +10,7 @@ Dans ce module, nous introduisons plusieurs types d'paramètres. Le choix du par
 - Un **effet causal**, $\tau_i$, est une comparaison des résultats potentiels non observés pour chaque unité $i$.  Par exemple, cela peut être une différence ou un ratio entre résultats potentiels non observés.
 
 - Pour en savoir plus sur $\tau_{i}$, on peut traiter $\tau_{i}$ comme un **paramètre** ou une quantité cible à estimer (voir ce module)
-ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le module des tests d'hypothèses](hypothesis-testing.html)).
+ou comme une quantité cible sur laquelle émettre une hypothèse ([voir le module des tests d'hypothèses](tests-dhypothèses.html)).
 
 - Beaucoup de gens se concentrent sur **l'effet moyen du traitement (Average Treatment Effect / ATE)**, $\bar{\tau}=\sum_{i=1}^n
    \tau_{i}$, en partie parce qu'il permet **d'estimer** facilement.
