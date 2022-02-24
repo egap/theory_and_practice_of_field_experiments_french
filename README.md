@@ -59,12 +59,6 @@ The book will automatically be built and deployed online for each push to the re
 #### To build by hand
 
 Before using github actions we used the `_build.sh`  bash shell script for building locally OR we used the "Build Book" function in RStudio. Either way allows you to look at `_book/index.html` or the pdf or epub versions of the book on your own computer.
-
-TODO
-install.packages("readr")
-install.packages("here")
-install.packages("mime")
-
   
 ## License
 
