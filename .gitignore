@@ -5,7 +5,7 @@
 .DS_Store
 .*swp
 *.log
-
+Book/_book
 book-output
 Book/EGAP-learningdays-guide.Rmd
 **lib
@@ -24,4 +24,3 @@ Book/EGAP-learningdays-guide.Rmd
 *.nav
 *cache*
 Book/renv/*
-.idea/*
