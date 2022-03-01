@@ -1,46 +1,46 @@
-# Mise en pratique {.tabset}
+# Putting It All Into Practice {.tabset}
 
-Une fois que vous avez rempli le [formulaire de conception de recherche](processus-de-conception-de-recherche.html) et reçu un financement, ou peut-être même terminé votre projet, vous serez confronté à une série d'autres défis.
+Once you have filled out the [Research Design Form](research-design.html) and received funding, or perhaps even completed your project, you will confront a series of other challenges. 
 
-Ce module répertorie quelques-uns de ces défis et y associe des liens et des références utiles, notamment à propos de workflow, de plans de pré-analyse.
+This module currently lists a few of those challenges with associated links and references that might prove useful, including: workflow, Pre-Analysis Plans, 
 
-## Contenu
+## Core Content
 
 ### Workflow
 
-Comment vous souviendrez-vous de ce que vous avez fait un an, deux ou dix ans ? Comment vous assurerez-vous que les tableaux, graphiques et résultats que vous utilisez pour guider les décisions stratégiques ne sont pas le résultat d'une erreur de copier-coller  ? Ou que votre code n'impliquait pas une variable erronée par inadvertance, aboutissant à la conclusion opposée à celle que vous venez de livrer au ministre de la Santé  ? Bien qu'aucune approche ne puisse empêcher toutes les erreurs, certaines approches de base pour organiser le travail peuvent vous aider. Ces approches permettent de transformer d'un essai rapide pour la fin d'un trimestre (jamais revu sérieusement par la suite) à un travail de collaboration de plusieurs décennies (ou siècles) avec d'autres universitaires et décideurs politiques à travers le temps et l'espace.
+How will you remember what you did a year, or two, or ten, after you did it? How will you ensure that the tables and graphs and results that you use to guide policy decisions are not the result of copy and paste errors? Or that your code did not involve an inadvertantly reverse-coded variable, yielding the opposite conclusion than you have just told the Minister of Health? Although no approach can prevent all errors, some basic approaches to organizing work can help you. These involve, at their root, a move from someone doing quick essays to turn in at the end of a term (essays never to be subsequently serious revisited) to someone participating in a decades-(or centuries-)long collaboration with other scholars and policy makers across time and space.
 
-  - [Sur l'utilisation de 'Dark Logic' pour anticiper l'échec et le planifier](https://jech.bmj.com/content/jech/69/1/95.full.pdf).
+  - [On using 'Dark Logic' to anticipate failure and plan for it](https://jech.bmj.com/content/jech/69/1/95.full.pdf).
 
-  - [L'approche pre-mortem au management de projet](https://en.wikipedia.org/wiki/Pre-mortem) pour laquelle l'équipe imagine qu'un projet a échoué avant de lancer.
+  - The [pre-mortem approach to project management](https://en.wikipedia.org/wiki/Pre-mortem) approach to project management in which the team imagines that a project has failed before launching the project.
 
-### Faire face aux contraintes du monde réel
+### Dealing with real world constraints
 
- - Travailler avec des partenaires : humilité et respect et écoute
- - Budgets et limites physiques sur la taille de l'échantillon expérimental (limites sur le contrôle de la randomisation)
-    - Exemple : des conceptions de randomisation par grappe avec un petit nombre de grappes
+ - Working with partners: humility and respect and listening
+ - Budgets and physical limits on the size of the experimental pool (limits on control of the randomization)
+    - Example: Cluster-randomized designs with small number of clusters
 
-### Plans de pré-analyse
+### Pre-analysis plans
 
-### Comment présenter un tableau ou un graphique des résultats
+### How to present results table or graph.
 
  - Tufte on Ink to Information Ratio.
  - @gerber_field_2012, Chapter 13
 
-### Validité externe, généralisation, mise à l'échelle
+### External validity, Generalization, Scaling
 
-## Ressources
+## Resources:
 
-### Guide des méthodes EGAP
+### EGAP Methods Guide
 
-  - Guide des méthodes EGAP [10 choses à savoir sur la gestion de projet](https://egap.org/resource/10-things-to-know-about-project-workflow/) (which builds on @bowers2016future).
-  - Guide des méthodes EGAP [10 choses à savoir sur les plans de pré-analyse](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+  - EGAP Methods Guide [10 Things to Know About Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/) (which builds on @bowers2016future).
+ - EGAP Methods Guide [10 Things to Know About Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
-### Livres, chapitres et articles
+### Books, Chapters, and Articles
 
-  - @cartwright2012evidence met en garde contre l'utilisation simpliste des résultats d'ECR pour orienter les politiques publiques.
+  - @cartwright2012evidence warn about simplistic use of RCT results to guide public policy.
 
-  - See also @bowerstesta2019epp et surtout leur discussion sur @giacomini2009theory en ce qui concerne l'importance de la théorie pour relier la conception de recherche et les politiques publiques.
+  - See also @bowerstesta2019epp and especially their discussion of @giacomini2009theory in regards the importance of theory in connecting research design and public policy.
 
-### Notes d'orientation des politiques publiques EGAP
+### EGAP Policy Briefs
 

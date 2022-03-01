@@ -10,9 +10,9 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Journées d'apprentissage du réseau EGAP</a></li>
+        <li><a href="./"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>EGAP Learning Days</a></li>
       after: |
-        <li><a href="http://egap.org" target="blank"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Publié par EGAP</a></li>
+        <li><a href="http://egap.org" target="blank"><img src="Images/egap-logo.png" alt="EGAP Logo" width=100>Published by EGAP</a></li>
       sharing:
         facebook: yes
         github: yes
@@ -22,7 +22,7 @@ bookdown::gitbook:
         instapaper: yes
         vk: no
         all: ['facebook', 'github', 'twitter', 'linkedin', 'weibo', 'instapaper']
-    edit: https://github.com/egap/theory_and_practice_of_field_experiments_french/edit/main/Book/%s
+    edit: https://github.com/egap/theory_and_practice_of_field_experiments_spanish/edit/main/Book/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

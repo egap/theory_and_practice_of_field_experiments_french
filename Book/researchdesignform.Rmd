@@ -1,105 +1,106 @@
-# Processus de conception de recherche
+# The Research Design Process
 
-Ce livre vise à vous aider à comprendre et à concevoir des expériences de terrain aléatoires.  Avant d'entrer dans le détail de la conception de recherche, nous avons besoin d'une bonne question de recherche - une question qui fera progresser les connaissances ou aidera à prendre une décision politique, ou les deux. Il n'y a pas de recette simple pour trouver ou développer une bonne question scientifique ou politique, mais nos théories sont importantes pour articuler les bonnes questions qui sous-tendent une recherche percutante. Après avoir formulé notre question, nous développons la meilleure conception possible dans les limites de nos moyens, en utilisant notre connaissance de l'inférence causale et des statistiques présentées dans les modules qui suivent.
+This book aims to help you understand and design randomized field experiments.  But before we dive into the details of research design, we need a good research question -- a question that will advance knowledge or help make a policy decision or both.  There is no simple recipe for finding or developing a good scientific or policy question, but our theories are important for articulating good questions that underlie impactful research.  After formulating our question, we develop the best design possible within our resource constraints, using our knowledge of causal inference and statistics from the modules that follow.  
 
-Ce module présente le [formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une liste de contrôle pour vous guider à travers les nombreuses étapes du processus de recherche. Les journées d'apprentissage sont organisées autour du formulaire de conception de recherche. Nous vous incitons à utiliser le logiciel [DeclareDesign](https://declaredesign.org) pour explorer les implications des différents choix que nous pourrions faire pour nos conceptions de recherche. Enfin, ce module aborde les plans de pré-analyse et de pré-enregistrement. Lorsque nous planifions nos analyses et rendons ces plans publics, nous améliorons nos chances de convaincre les autres avec nos résultats.
+This module introduces the [EGAP Research Design
+Form](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), a checklist to guide you through the many stages of the research process.  The Learning Days workshops are organized around the Research Design Form.  We also point you towards the [DeclareDesign](http://declaredesign.org) software package to explore the implications of different choices we could make for our research designs.  Finally, this module discusses pre-analysis plans and pre-registration.  When plan our analyses and make these plans public, we improve our chances of persuading others with our results.
 
-## Contenu
+## Core Content
 
-- Une **bonne question de recherche** fait progresser la science et/ou est une question dont la réponse éclairera une décision politique.
+- A **good research question** advances science and/or is a question the answer to which will inform a policy decision.
 
-- Certaines **conceptions de recherche** sont meilleures pour répondre à certaines questions. Nous voulons choisir la conception qui répond le mieux à nos questions clés compte tenu des contraintes et de nos moyens.
+- Certain **research designs** are better able to address certain questions. We want to choose the design that best answers our key questions within our constraints.
 
-- Les questions que nous posons découlent --- souvent implicitement --- de nos valeurs et de notre compréhension du fonctionnement du monde. Ces **théories** rendent nos questions pertinentes. Et les expériences que nous réalisons nous renseignent sur la théorie. Ainsi, nous espérons que les preuves et les données issues de ces conceptions de recherche amélioreront notre compréhension.
+- The questions we ask arise --- often implicitly --- from our values and from our understanding about how the world works. These **theories** make our questions relevant. And the experiments that we execute teach us about the theory.  That is, we hope that the evidence and data arising from these research designs improve our understanding.
 
-- Composants de base d'une conception de recherche
+- Core components of a research design
 
-- Présentation des composants de base de [formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html).
+- Introduce core components of the [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). 
 
-- Introduction du package [DeclareDesign](https://declaredesign.org) pour la conception de recherche.
+- Introduce a research design software package, [DeclareDesign](http://declaredesign.org).
 
-- L'évolution des sciences sociales s'oriente vers **la revue des conceptions, au lieu de la revue des résultats**.
+- The move in social science towards the **review of designs, rather than outcomes**.
 
-- **Le pré-enregistrement** -- ce que c'est, pourquoi et comment nous devons le faire.
+- **Pre-registration** -- what it is, and why and how we should do it.
 
 
 ## Slides
 
-Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la conception de recherche. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
+Below are slides with the core content that we cover in our lecture on research design. You can directly use these slides or make your own local copy and edit.
 
-- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.Rmd)
+- [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.Rmd)
 
-- [Version PDF](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.pdf)
+- [PDF Version](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.pdf)
 
-- [Version HTML](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.html)
+- [HTML Version](https://egap.github.io/learningdays-resources/Slides/researchdesignform-slides.html)
 
-Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP:
+You can also see the slides used in previous EGAP Learning Days:
 
- - [Présentation de DeclareDesign aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
+ - [The DeclareDesign presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-montevideo.pdf)
 
- - [Présentation de DeclareDesign aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
+ - [The DeclareDesign presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-malawi.pdf)
 
- - [Présentation de DeclareDesign  aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
+ - [The DeclareDesign presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/declare_design-santiago.pdf)
 
-Vous pouvez également voir les slides des discussions de conception lors des précédentes journées d'apprentissage du réseau EGAP, où les présentateurs se concentrent sur les problématiques relatives à la conception de recherche, plutôt qu'aux résultats:
+You can also see slides for Design Talks in previous EGAP Learning Days, where presenters focus on issues that come up in designing the research, rather than the results:
 
- - [Discussion de conception aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Benin, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
+ - [Design Talk from EGAP Learning Days at the African School of Economics, Benin, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-benin.pdf)
 
- - [Discussion de conception 1 aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-montevideo.pdf)
+ - [Design Talk 1 from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-montevideo.pdf)
 
- - [Discussion de conception 2 aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-montevideo.pdf)
+ - [Design Talk 2 from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-montevideo.pdf)
 
- - [Discussion de conception 3 aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-montevideo.pdf)
+ - [Design Talk 3 from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-montevideo.pdf)
 
- - [Discussion de conception 1 aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-santiago.pdf)
+ - [Design Talk 1 from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_1-santiago.pdf)
 
- - [Discussion de conception 2 aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-santiago.pdf)
+ - [Design Talk 2 from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_2-santiago.pdf)
 
- - [Discussion de conception 3 aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
+ - [Design Talk 3 from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/research_design_3-santiago.pdf)
 
- - [Discussion de conception aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
+ - [Design Talk from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/research_design-guatemala.pdf)
 
-## Formulaire de conception et pré-enregistrement
+## Design Form and Pre-registration
 
-- [Formulaire de conception de recherche EGAP](https://egap.github.io/learningdays-resources/Exercises/design-form.html). Une liste de contrôle que nous avons créée pour les journées d'apprentissage pour vous guider à travers les étapes du processus de recherche.
-     - [Version Docx](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
+- [EGAP Research Design Form](https://egap.github.io/learningdays-resources/Exercises/design-form.html). A checklist we created for the Learning Days to guide you through the stages of the research process.
+     - [Docx Version](https://egap.github.io/learningdays-resources/Exercises/design-form.docx)
 
-     - [Version PDF](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
+     - [PDF Version](https://egap.github.io/learningdays-resources/Exercises/design-form.pdf)
 
-     - [Version HTML](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
+     - [HTML Version](https://egap.github.io/learningdays-resources/Exercises/design-form.html)
 
-- Liens vers les répertoires pour pré-enregistrement/plans de pré-analyse :
+- Links to repositories for pre-registration/pre-analysis plans:
 
-    - Le registre EGAP, hébergé par OSF (https://egap.org/registry/)
+    - EGAP registry, hosted by OSF (https://egap.org/registry/)
 
-    - Le registre AEA RCT (https://www.socialscienceregistry.org/)
+    - AEA RCT registry (https://www.socialscienceregistry.org/)
 
     - OSF (https://osf.io/registries)
 
-- Exemples d'autres pré-enregistrements/plans de pré-analyse :
+- Examples of other pre-registrations/pre-analysis plans:
 
-    - SMS au Mozambique du [gouvernement fédéral américain](https://oes.gsa.gov/projects/sms-mozambique/)
+    - SMS Messages in Mozambique from the [US Federal Government](https://oes.gsa.gov/projects/sms-mozambique/)
 
-    - Caméras portatives pour les policiers du [Lab @ DC](https://osf.io/472zh)
+    - Police Body-Cameras from the [Lab @ DC](https://osf.io/472zh)
 
-## Ressources
+## Resources
 
-### Guide des méthodes EGAP
+### EGAP Methods Guides
 
-- Guide des méthodes EGAP [10 choses à savoir sur les plans de pré-analyse](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+- EGAP Methods Guide [10 Things to Know about Pre-Analysis Plans](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- EGAP Methods Guide [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
 
-### Livres, chapitres et articles
+### Books, Chapters, and Articles
 
-- [Pré-enregistrement comme outil pour renforcer l'évaluation fédérale](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf). Le livre blanc de l'Office of Evaluation Sciences du gouvernement américain. Vous pouvez également voir leurs exemples de plans de pré-analyse pour [toutes leurs expériences de terrain](https://oes.gsa.gov/work/).
+- [Preregistration as a Tool for Strengthening Federal Evaluation](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf).  A white paper from the US Government's Office of Evaluation Sciences.  You can also see examples of their pre-analysis plans on all of [their field experiment pages](https://oes.gsa.gov/work/).
 
-- [@christensen_transparent_2019]. Le livre résume les nouvelles approches de la recherche en sciences sociales sur la transparence et la reproductibilité.
+- [@christensen_transparent_2019]. The book summarizes new approaches in social science research on transparency and reproducibility.
 
-- [@gerber_field_2012].  Le chapitre 12 comprend quelques exemples de designs de recherche expérimentale.
+- [@gerber_field_2012].  Chapter 12 includes some examples of experimental research designs.
 
-### Outils
+### Tools
 
-- [DeclareDesign](https://declaredesign.org/), un ensemble complet d'outils logiciels passionnants pour décrire, évaluer et mener des recherches empiriques.
+- [DeclareDesign](https://declaredesign.org/), an exciting and comprehensive set of software tools for describing, assessing, and conducting empirical research.
 

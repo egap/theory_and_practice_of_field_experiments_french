@@ -1,46 +1,48 @@
-# Mesure {.tabset}
+# Measurement {.tabset}
 
-Pour estimer des effets et tester des hypothèses, nous utilisons souvent un résultat mesuré à l'aide de données quantitatives provenant d'enquêtes, de jeux comportementaux ou d'archives administratives. Pour les questions causales, nous utilisons généralement des données de résultats immédiats et finaux et de mécanismes de base. Nous utilisons des données de base pour identifier les sous-groupes pertinents, ajuster nos estimations ou randomiser notre traitement par bloc. Les mesures doivent être valides et fiables. Sachez que les données peuvent être bruitées (erreur aléatoire) et/ou biaisées (erreur systématique).
+To estimate effects and test hypotheses, we often use an outcome of interest measured with quantitative data from surveys, behavioral games, or administrative records. For causal questions, we typically use data on immediate and final outcomes and core mechanisms.  We use baseline data to identify relevant subgroups, adjust our estimates, or help block-randomize our treatment.  Measurements should be valid and reliable.  Be aware that data can be noisy (random error) and/or biased (systematic error).  
 
-Ce module traite *que mesurer* et *comment mesurer*. Il montre à quel point une bonne mesure est liée à la [conception de recherche](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd) et à la [puissance statistique](puissance-statistique-et-diagnostics-de-conception.html).
+This module discusses *what to measure* and *how to measure*.  It shows how good measurement is closely linked to your [research design](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd) and [statistical power](statistical-power-and-design-diagnosands.html). 
 
-## Contenu
+## Core Content
 
- - Lorsque nous représentons un attribut d'une unité par un nombre, une lettre, un mot ou un symbole d'une manière systématique (par exemple, dans une case d'un simple dataset), nous **mesurons**.
+ - When we represent some attribute of a unit by some number, letter, word, or symbol in some systematic way (perhaps in a cell in a simple dataset), we are **measuring**.
 
- - Une mesure **valide** d'un concept ou d'un phénomène d'intérêt doit clairement représenter cette entité sous-jacente et souvent abstraite.
+ - A **valid** measure of a concept or phenomenon of interest should clearly
+   represent that underlying and often abstract entity. 
 
- - Une mesure **fiable** d'un concept donnerait la même valeur pour l'unité de mesure (par exemple, une personne ou un village) si les conditions ne changent pas.
+ - A **reliable** measure of a concept would provide the same score for the
+   unit of measurement (for example, a person or a village) if conditions were not changed.
+   
+ - We can assess our theories of measurement using multiple approaches to measuring outcomes, covariates, or differences between units implied by different accounts of causal mechanisms. 
 
- - Nous pouvons évaluer nos théories de mesure en utilisant plusieurs approches pour mesurer les résultats, les covariables ou les différences entre unités en fonction des différents rendus des mécanismes causaux.
+ - Invalid measurement can make it hard for your [research design](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd) to effectively distinguish between alternative explanations for the relationship between treatment and outcome.
 
- - Pour votre [conception de recherche](https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd), une mesure invalide peut rendre difficile la distinction efficace des explications alternatives de la relation entre le traitement et les résultats.
-
- - Une mesure non fiable peut diminuer [la puissance statistique](puissance-statistique-et-diagnostics-de-conception.html).
+ - Unreliable measurement can diminish [statistical power](statistical-power-and-design-diagnosands.html). 
  
- - Une mesure difficile peut nécessiter une étude pilote centrée sur la mesure elle-même.
+ - Difficult measurement may call for a pilot study focused on measurement itself. 
 
 ## Slides
 
-Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la mesure. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
+Below are slides with the core content that we cover in our lecture on measurement. You can directly use these slides or make your own local copy and edit.
 
- - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/measurement-slides.Rmd)
+ - [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/measurement-slides.Rmd)
 
- - [Version PDF](https://egap.github.io/learningdays-resources/Slides/measurement-slides.pdf)
+ - [PDF Version](https://egap.github.io/learningdays-resources/Slides/measurement-slides.pdf)
 
- - [Version HTML](https://egap.github.io/learningdays-resources/Slides/measurement-slides.html)
+ - [HTML Version](https://egap.github.io/learningdays-resources/Slides/measurement-slides.html)
 
-## Ressources
+## Resources
 
-### Guide des méthodes EGAP
+### EGAP Methods Guides
 
-- Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- EGAP Methods Guide [10 Things to Know about Measurement in Experiments](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur la conception de sondage](https://egap.org/resource/10-things-to-know-about-survey-design/)
+- EGAP Methods Guide [10 Things to Know about Survey Design](https://egap.org/resource/10-things-to-know-about-survey-design/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur l'implémentation de sondage](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
+- EGAP Methods Guide [10 Things to Know about Survey Implementation](https://egap.org/resource/10-things-to-know-about-survey-implementation/)
 
-### Livres, chapitres et articles
+### Books, Chapters, and Articles
 
  - [@adcocoll:2001]
 
@@ -50,20 +52,20 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
  - [@vicente_is_2014]
 
-### Notes d'orientation des politiques publiques EGAP
+### EGAP Policy Briefs
 
-*Grâce à des données d'enquête à plusieurs échelles*
+*Using survey data at multiple levels*
 
- - [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up fonctionne-t-elle ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+ - [EGAP Policy Brief 58: Does Bottom-Up Accountability Work?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)  
 
-*Grâce aux sms*
+*Using text messages*
 
- - [Note d'orientation des politiques publiques EGAP 27 : Technologies de l'information et de la communication et politiciens en Uganda](https://egap.org/resource/brief-27-ict-and-politicians-in-uganda/)
+ - [EGAP Policy Brief 27: ICT and Politicians in Uganda ](https://egap.org/resource/brief-27-ict-and-politicians-in-uganda/)  
 
- - [Note d'orientation des politiques publiques EGAP 56 : Signaler la corruption au Nigéria](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)
+ - [EGAP Policy Brief 56: Reporting Corruption in Nigeria](https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/)  
 
-*Grâce aux données administratives*
+*Using administrative data*
 
- - [Note d'orientation des politiques publiques EGAP 16 : Effets de débordement des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
+ - [EGAP Policy Brief 16: Spillover Effects of Observers in Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)  
 
- - [Note d'orientation des politiques publiques EGAP 67 : Administration électorale au Kenya](https://egap.org/resource/electoral-administration-in-kenya/)
+ - [EGAP Policy Brief 67: Electoral Administration in Kenya](https://egap.org/resource/electoral-administration-in-kenya/)   

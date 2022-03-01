@@ -1,8 +1,8 @@
-# Préliminaires statistiques {.tabset}
+# Statistical Preliminaries {.tabset}
 
-## Contenu
+## Core content
 
-- Distribution d'échantillonnage
+- Sampling Distribution
 - Variance
-- Écart type
-- Erreur type
+- Standard Deviation
+- Standard Error

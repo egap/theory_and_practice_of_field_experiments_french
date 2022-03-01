@@ -1,44 +1,46 @@
 # Other Topics {.tabset}
 
-Ici, nous fournissons des liens vers des ressources pour aider les gens à en apprendre davantage sur des sujets qui ne peuvent pas être traités en profondeur pendant l'atelier mais qui sont importants pour la conception expérimentale.
+Here we provide links to resources to help people learn about topics that cannot be covered in-depth during the workshop but are important for experimental design.
 
-## Contenu
+## Core content
  
 - Workflow
-  - Les gens ont une mémoire limitée, nous avons besoin de règles et d'outils pour nous aider à nous souvenir et à partager
-  - La reproductibilité repose sur du code clair, efficace et archivé
+  - People have limited memories, we need rules and tools to help us remember and share
+  - Reproducibility relies on efficient and clear coding and archiving
 
-- Validition externe
-  - Une grande partie de ce livre traite de la validité interne.
-  - Cela ne vous aide pas à extrapoler immédiatement à d'autres populations.
-  - Quels sont les compromis ? Comment extrapoler ?
+- External validity
+  - A lot of this book deals with internal validity. 
+  - This does not immediately help you extrapolate to other populations. 
+  - What are the trade-offs? How can I extrapolate?
 
-- Inférence aléatoire et procédures en ri2
-  - L'inférence aléatoire est une méthode pour le calcul des p-valeurs pour les tests d'hypothèses
-  - ir2 est un package R qui vous permet d'exécuter des simulations pour le calcul des p-valeurs de l'inférence aléatoire pour les différents paramètres
+- Randomization Inference and procedures in ri2
+  - Randomization inference is a method for calculating p-values for hypothesis tests
+  - ir2 is an R package that allows you to run the simulation for calculating RI p-values for various estimands
 
-- Lecture des résultats
-  - Comment comprendre et interpréter la sortie de régression ?
+- Reading results
+  - How to understand and interpret regression output? 
   
-- Intégration une recherche qualitative
+- Integrating qualitative research 
 
-- Conceptions évolutives
-  - La plupart des conceptions sont statiques : c'est-à-dire que les mêmes procédures d'assignation des traitements et de mesure des résultats sont appliquées tout au long de l'expérience.
-  - Les conceptions évolutives ajustent l'assignation du traitement et du contrôle sur la base d'une analyse intermédiaire du résultat de l'expérience.
+- Adaptive designs
+  - Most designs are static: ie the same procedures for allocating treatments and measuring outcomes are applied throughout the trial. 
+  - Adaptive designs adjust the allocation treatment and control assignment based on interim analysis of the trial’s result.
 
-- Meta-analyse
+- Meta analysis
 
 ## Slides
 
-## Ressources
+## Resources
 
-### Guide des méthodes EGAP
+### EGAP Methods Guides
 
-- [10 choses à savoir sur la gestion de projet](https://egap.org/resource/10-things-to-know-about-project-workflow/)
-- [10 choses à savoir sur l'inférence aléatoire](https://egap.org/resource/10-things-to-know-about-randomization-inference/)
-- [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
+- [10 Things to Know About Project Workflow](https://egap.org/resource/10-things-to-know-about-project-workflow/)
+- [10 Things to Know About Randomization Inference](https://egap.org/resource/10-things-to-know-about-randomization-inference/)
+- [10 Things to Know About Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
-### Livres, chapitres et articles
+### Books, Chapters, and Articles
 
- - [Comment améliorer votre relation avec votre futur moi] (https://github.com/jwbowers/workflow)
- - [Berkeley Initiative pour la transparence en sciences sociales] (https://www.bitss.org/)
+ - [How to improve your relationship with your future self] (https://github.com/jwbowers/workflow)
+ - [Berkeley Initiative for Transparency in the Social Sciences] (https://www.bitss.org/)
+ 
+
