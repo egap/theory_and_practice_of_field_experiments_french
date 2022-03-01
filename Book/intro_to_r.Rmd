@@ -1,225 +1,229 @@
-# Introduction to R and RStudio {.tabset}
+# Introduction à R et RStudio {.tabset}
 
-Throughout the book we include R code for estimation, simulation, and creating examples. We used RStudio to create the slides. To personalize them for your own purpose, we assume you will use R Markdown. Below, we include guides to setting up R and RStudio on your machine, as well as some basic commands that are frequently used.
+Tout au long du livre, nous incluons du code R pour l'estimation, la simulation et la création d'exemples. Nous avons utilisé RStudio pour créer les slides. Pour les personnaliser à vos propres fins, nous supposons que vous utiliserez R Markdown. Ci-dessous, voici les guides pour configurer R et RStudio sur votre ordinateur, ainsi que quelques commandes de base fréquemment utilisées.
 
-## R and RStudio
+## R et RStudio
 
-R is a free software environment most commonly used for statistical analysis and computation. Because Learning Days participants arrive with different statistical backgrounds and preferred statistical software, we use R to ensure that everyone is on the same page.  We advocate the use of R more generally for its flexibility, wealth of applications, and comprehensive support mostly through online fora. 
+R est un environnement logiciel libre utilisé couramment pour l'analyse statistique et le calcul. Étant donné que les participants aux journées d'apprentissage arrivent avec un bagage statistique et des outils différents, nous utilisons R pour nous assurer que tout le monde se comprend. Nous recommendons l'utilisation de R de manière générale pour sa flexibilité, sa richesse et son support complet, principalement via des forums en ligne.
 
-RStudio is a free, open source integrated development environment with a user interface that makes R much more user-friendly. R Markdown, a feature of RStudio, enables the easy output of code, results, and text in a .pdf, .html, or .doc format. 
+RStudio est un environnement de développement intégré gratuit et open source avec une interface utilisateur qui rend R beaucoup plus convivial. R Markdown est une fonctionnalité de RStudio qui permet de présenter facilement du code, des résultats et du texte au format .pdf, .html ou .doc.
 
-## Downloading R and RStudio
+## Télécharger R et RStudio
 
-### Downloading R
+### Télécharger R
 
-R can be freely downloaded from CRAN at the link corresponding to your operating system:
+R est téléchargeable gratuitement sur CRAN. Cliquer sur le lien correspondant à votre système d'exploitation :
 
-- For **Windows**: [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
-- For **Mac OS X**: [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/).   
-    - Select `R-4.0.4.pkg` for OS X 10.13 and higher.
-    - Select `R-3.6.3.nnpkg` for OS X 10.11-10.12.
-    - Select `R-3.3.3.nnpkg` for OS X 10.19-10.10.
-    - Select `R-3.2.1-snowleopard.pkg` for OS X 10.6-10.8.
+- Pour **Windows** : [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
+- Pour **Mac OS X** : [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/).
+    - Sélectionner `R-4.0.4.pkg` pour OS X 10.13 et plus.
+    - Sélectionner `R-3.6.3.nnpkg` pour OS X 10.11-10.12.
+    - Sélectionner `R-3.3.3.nnpkg` pour OS X 10.19-10.10.
+    - Sélectionner `R-3.2.1-snowleopard.pkg` pour OS X 10.6-10.8.
 
-### Downloading RStudio
+### Télécharger RStudio
 
-RStudio can be freely downloaded from the RStudio website, [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/). In the table, click the blue `Download` button at the top of the left column, "RStudio Desktop Open Source License" as depicted below in Figure B.1. Once you select this button, the page will jump to a list of download options as depicted in Figure B.2.
-
-- For **Windows**, select `Windows 10/8/7`.
-- For **Mac OS X**, select `Mac OS X 10.13+`.
+RStudio peut être téléchargé gratuitement sur le site Web de RStudio, [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/). Dans le tableau, cliquez sur le bouton bleu "Download" en haut de la colonne de gauche, "Licence Open Source RStudio Desktop", comme illustré ci-dessous dans la figure B.1. Après avoir cliqué, vous verrez une liste d'options de téléchargement, comme illustré à la Figure B.2.
 
 
-```{r rstudiopng, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Select Download in the "RStudio Desktop Open Source License" column.'}
+- Pour **Windows**, sélectionner `Windows 10/8/7`.
+- Pour **Mac OS X**, sélectionner `Mac OS X 10.13+`.
+
+
+```{r rstudiopng, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Sélectionner "Download" dans la colonne "RStudio Desktop Open Source License".'}
 knitr::include_graphics(here("Images","new_rstudio.png"))
 ```
 
-```{r rstudiodownload, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Select the Windows 10/8/7 link for Windows or the Mac OS X 10.13+ link for Mac.'}
+```{r rstudiodownload, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Sélectionner le lien "Windows 10/8/7" pour Windows ou "Mac OS X 10.13+" pour Mac.'}
 knitr::include_graphics("Images/rstudio_download.png")
 ```
 
-## RStudio Interface
+## L'interface RStudio
 
-When you open RStudio for the first time, there should be three panels visible, as depicted in Figure B.3 below.
+Lorsque vous ouvrez RStudio pour la première fois, trois fenêtres doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.
 
-- Console (left panel)
-- Accounting (upper right panel): includes Environment and History tabs
-- Miscellaneous (lower right panel)
+- Console (à gauche)
+- Accounting (en haut à droite) : cela inclue les onglets Environment et History
+- Miscellaneous (en bas à droite)
 
-```{r rstudiointro, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='When you open RStudio, there are three panels visible: the Console (left), Accounting (upper right), and Miscellaneous (lower right).'}
+```{r rstudiointro, echo=FALSE, out.width='80%', fig.show='hold', fig.cap='Lorsque vous ouvrez RStudio, il y a trois fenêtres visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite).'}
 knitr::include_graphics("Images/rstudio_intro.png")
 ```
 
-### Console
+### La console
 
-You can execute all operations in the console. For example if you enter `4 + 4` and hit the Enter/Return key, the Console will return `[1] 8`. 
+Vous pouvez exécuter toutes les opérations dans la console. Par exemple, si vous saisissez `4 + 4` et appuyez sur la touche Enter, la console renvoie `[1] 8`.
 
-To make sure everyone is prepared to use R at Learning Days, we ask participants to run one line of code in the Console to download several R packages. Packages are fragments of reproducible code that allow for more efficient analysis in R. To run these lines, copy the following code into the Console and hit your  `Return`/`Enter` key.  You must be connected to the internet to download packages.
+Pour s'assurer que tout le monde est prêt à utiliser R lors des journées d'apprentissage, nous demandons aux participants d'exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche `Enter`. Vous devez être connecté à internet pour télécharger des packages.
 
 ```{r, eval = F}
 install.packages(c("ggplot2", "dplyr", "AER", "arm", "MASS", "sandwich", 
                    "lmtest", "estimatr","coin","randomizr", "DeclareDesign"))
 ```
 
-If successfully downloaded, your Console will resemble Figure B.4, except that the urls will differ depending on your location. 
-```{r console2, echo=FALSE, out.width='40%', fig.show='hold',fig.cap='An image of the Console after executing the three lines of code listed above.'}
+Si le téléchargement est réussi, votre console ressemblera à la figure B.4, sauf que les URL seront différentes en fonction de votre emplacement.
+
+```{r console2, echo=FALSE, out.width='40%', fig.show='hold',fig.cap='La console après avoir exécuté les trois lignes de code répertoriées ci-dessus.'}
 knitr::include_graphics("Images/console2a.png")
 ```
 
-### Editor 
+### L'éditeur
 
-In order to write and save reproducible code, we will open a fourth panel, the Editor, by clicking on the icon with a white page with a plus sign on the upper-left corner of the RStudio interface and selecting `R Script`, as depicted in Figure B.5.
+Afin d'écrire et sauvegarder du code reproductible, nous allons ouvrir une quatrième fenêtre, l'éditeur, en cliquant sur l'icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l'interface RStudio et en sélectionnant `R Script`, comme illustré à la figure B.5.
 
-```{r newscript,  echo=FALSE, out.width='60%', fig.show='hold',fig.cap='Create a new R script and open the editor panel by selecting `R Script` from the dropdown menu.'}
+```{r newscript,  echo=FALSE, out.width='60%', fig.show='hold',fig.cap='Créez un nouveau script R et ouvrez la fenêtre `éditeur` en sélectionnant `R Script` dans le menu déroulant.'}
 knitr::include_graphics("Images/new_script.png")
 ```
 
-Once the R script is opened, there should be four panels within the RStudio interface, now with the addition of the Editor panel. We can execute simple arithmetic by entering a formula in the editor and pressing `Control + Enter` (Windows) or `Command + Enter` (Mac). The formula and the "answer" will appear in the Console, as depicted in Figure B.6, with red boxes added for emphasis.
+Une fois le script R ouvert, il devrait y avoir quatre fenêtres dans l'interface RStudio, maintenant avec l'ajout de la fenêtre Éditeur. Nous pouvons exécuter une arithmétique simple en entrant une formule dans l'éditeur et en appuyant sur `Ctrl + Entrée` (Windows) ou `Commande + Entrée` (Mac). La formule et la "réponse" apparaîtront dans la console, comme illustré à la Figure B.6.
 
-
-```{r firstaddition,  echo=FALSE, out.width='60%', fig.show='hold', fig.cap='An arithmetic expression is entered in the editor and evaluated in the console. The red boxes are added for emphasis.'}
+```{r firstaddition,  echo=FALSE, out.width='60%', fig.show='hold', fig.cap='Une expression arithmétique est saisie dans l\'éditeur et évaluée dans la console. Les cases rouges sont ajoutées pour une visibilité accrue.'}
 knitr::include_graphics("Images/first_addition.png")
 ```
 
-R can be used for any arithmetic operation including, but not limited to, addition (`+`), subtraction (`-`), scalar multiplication (`*`), division (`/`), and exponentiation (`^`). 
+R peut être utilisé pour toute opération arithmétique, y compris, mais sans s'y limiter, l'addition (`+`), la soustraction (`-`), la multiplication scalaire (`*`), la division (`/`) et l'exponentielle (`^` ).
 
-### Accounting 
+### Accounting
 
-Beyond basic functions, we can also store values, data, and functions in the global environment. To assign a value to a variable, use the `<-` operator. All stored values, functions, and data will appear in the Environment tab in the Accounting panel. In Figure B.7, we define the variable `t` to take the value $3 \times \frac{6}{14}$, and can see that it is stored under Values. 
+Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l'environnement global. Pour affecter une valeur à une variable, utilisez l'opérateur `<-`. Toutes les valeurs, fonctions et données stockées apparaîtront dans l'onglet Environment de la fenêtre Accounting. Dans la Figure B.7, nous affectons la valeur $3 \times \frac{6}{14}$ à la variable `t`, et pouvons voir qu'elle est stockée sous Values.
 
-We also load a dataset. Here, "ChickWeight" is a dataset built into R; most datasets will be loaded from the web or other files on your computer through an alternate method. We can see that ChickWeight contains 578 observations of 4 variables and is stored in the Environment. By clicking on the name ChickWeight a tab will enter with the dataset in your Editor window.
+Nous chargeons également un jeu de données. Ici, "ChickWeight" est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d'autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l'onglet Environment. En cliquant sur le nom ChickWeight, un onglet s'ouvrira avec le dataset dans la fenêtre de votre éditeur.
 
-```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='The value 3 * (6/14) is assigned to the variable t (red) and the dataset ChickWeight is added to the global environment (blue). The boxes are added for emphasis.'}
+```{r savedata, echo=FALSE, out.width='60%', fig.show='hold', fig.cap='La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l\'environnement global (en bleu).'}
 knitr::include_graphics("Images/save_data.png")
 ```
 
-The Learning Days workshops use many tools in R to analyze and view data. For now, we can learn some basic tools to examine the data. The function `head()` allows us to see the first six rows of the dataset. `summary()` summarizes each of the columns of the dataset and `dim()` provides the dimensions of the dataset with first the number of rows and then columns. 
+Les ateliers des journées d'apprentissage utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l'instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction `head()` nous permet de voir les six premières lignes des données. `summary()` résume chacune des colonnes du dataset et `dim()` fournit les dimensions du dataset avec d'abord le nombre de lignes puis de colonnes.
 
 ```{r, warning = F, message = F}
-head(ChickWeight) # First 6 observations in dataset
-summary(ChickWeight) # Summary of all variables
-dim(ChickWeight) # Dimensions of the dataset in the order rows, columns
+head(ChickWeight) # Les 6 premières observations du dataset
+summary(ChickWeight) # Résumé de toutes les variables
+dim(ChickWeight) # Dimensions du dataset dans l'ordre "ligne" puis "colonne"
 ```
 
-Unlike other statistical software, R allows users to store multiple datasets, possibly of different dimensions, simultaneously.  This feature makes R quite flexible for analysis using multiple methods.
+Contrairement à d'autres logiciels statistiques, R permet aux utilisateurs de stocker simultanément plusieurs ensembles de données, éventuellement de dimensions différentes. Cette fonctionnalité rend R assez flexible pour l'analyse à l'aide de plusieurs méthodes.
 
-### Miscellaneous 
+### Divers
 
-R provides a suite of tools, ranging from built-in plot functions to packages to graph data, models, estimates, etc. The final Miscellaneous panel allows for the quick viewing of graphs in RStudio. Figure B.8 shows a plot in this panel.  Leaning Days will discuss how to plot data; for now, don't worry about the graphing the code in the Editor. 
+R fournit une suite d'outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de représenter les données.
 
-```{r graph, out.width='60%',  echo=FALSE, fig.show='hold', fig.cap='An example plot of the `ChickWeight` data made in R.'}
+```{r graph, out.width='60%',  echo=FALSE, fig.show='hold', fig.cap='Un exemple de courbe avec le dataset `ChickWeight` en R.'}
 knitr::include_graphics("Images/graph.png")
 ```
 
-## Learning to Use R
+## Apprendre à utiliser R
 
-### Online Resources
+### Ressources en ligne
 
-There are many helpful online resources to help you start learning R. We recommend two sources:
+Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer avec R. Nous vous recommandons deux sources :
 
-- Code School, which runs entirely through your browser [https://www.codeschool.com/courses/try-r](https://www.codeschool.com/courses/try-r). 
-- Coursera, via an online R Programming course organized by Johns Hopkins University: 
-    i. Go to [https://www.coursera.org](https://www.coursera.org)
-    ii. Create an account (this is free!)
-    iii. Sign up for R Programming at Johns Hopkins University (instructor: Roger Peng) under the "Courses" tab
-    iv. Read the materials and watch the videos from the first week. The videos from the first week are about 2.5 hours long total.  
+- Code School, qui fonctionne entièrement sur votre navigateur [https://www.codeschool.com/courses/try-r](https://www.codeschool.com/courses/try-r).
+- Coursera, via un cours de programmation R en ligne organisé par l'Université Johns Hopkins :
+    i. Allez sur [https://www.coursera.org](https://www.coursera.org)
+    ii. Créez un compte (c'est gratuit !)
+    iii. Inscrivez-vous pour "R Programming at Johns Hopkins University" (instructeur : Roger Peng) sous la rubrique "Cours"
+    iv. Lisez les documents et regardez les vidéos de la première semaine. Les vidéos de la première semaine durent environ 2 heures 30 au total.
     
-### Basic Practice
+### Exercise de base
 
-Here we provide some fragments of code to familiarize you with some basic practices in R. We recommend that you practice by typing the code fragments into your Editor and then evaluating them.
+Voici quelques fragments de code pour vous familiariser avec certaines pratiques de base de R. Nous vous recommandons de vous entraîner en tapant les fragments de code dans votre éditeur, puis en les évaluant.
 
-#### Setting up an R Session
+#### Configuration d'une session R
 
-In general, we read other files such as data or functions into R and output results like graphs or tables into files not contained within an R session. To do this, we must give R an "address" at which it can locate such files. It may be most efficient to do this by setting a working directory, a file path at which relevant files are stored. We can identify the current working directory using `getwd()` and set a new one using `setwd()`. Note that the syntax of these filepaths varies by operating system.
+En général, nous lisons d'autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une "adresse" où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, i.e. un chemin d'accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant `getwd()` et le définir en utilisant `setwd()`. Notez que la syntaxe de ces chemins de fichiers varie selon le système d'exploitation.
 
 ```{r, eval=F, echo=TRUE}
 getwd()
 ```
 
 ```{r, eval = F}
-setwd("~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/")   
+setwd("~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/")
 ```
 
-You may need to install packages beyond those listed above to execute certain functions. To install packages we use `install.packages("")`, filling in the package name between the "" marks, as follows. You need only install packages once.
+Vous devrez peut-être installer des packages autres que ceux répertoriés ci-dessus pour exécuter certaines fonctions. Pour installer les packages, nous utilisons `install.packages("")`, en remplissant le nom du package entre les marques "", comme suit. Vous n'avez besoin d'installer les packages qu'une seule fois.
 
 ```{r,eval=FALSE, echo=TRUE}
 install.packages("randomizr")  
 ```
 
-Once a package is installed, it can be loaded and accessed using `library()` where the package name is inserted between the parentheses (no "" marks).
+Une fois qu'un package est installé, il peut être chargé et accessible en utilisant `library()` où le nom du package est inséré entre parenthèses (sans guillemets).
 
 ```{r, eval= F, echo=TRUE}
 library(randomizr)
 ```
 
-To clear R's memory of the stored data, functions, or values that appear in the accounting tab, use `rm(list = ls())`. It may be useful to set a random number seed to ensure that replication is possible in a different R session, particularly when we work with simulation-based methods.
+Pour effacer de la mémoire de R, les données, fonctions ou valeurs stockées qui apparaissent dans l'onglet de comptabilité, utilisez `rm(list = ls())`. Il peut être utile de définir un nombre aléatoire pour garantir que la réplication est possible dans une session R différente, en particulier lorsque nous travaillons avec des méthodes basées sur la simulation.
 
 ```{r echo=TRUE}
 rm(list = ls())                                   
-set.seed(2018)  # Optional: Set a seed to make output replicable
+set.seed(2018)  # pour la reproductibilité
 ```
 
-#### R Basics
+#### Les basiques
 
-We now explore some basic commands. In order to assign a scalar (single element) to a variable, we use the `<-` command as discussed previously: 
+Nous allons maintenant explorer quelques commandes de base. Afin d'affecter un scalaire (i.e. un élément unique) à une variable, nous utilisons la commande `<-` comme discuté précédemment :
 
 ```{r echo=TRUE}
-# "<-"  is the assignment command; it is used to define things. eg:
+# "<-"  est la commande d'affectation ; ça sert à définir les choses. eg :
 (a <- 5)     
 ```
 
-We may also want to assign a vector of elements to a variable. Here we use the same `<-` command, but focus on how to create the vector.
+Nous pouvons également vouloir affecter un vecteur d'éléments à une variable. Ici, nous utilisons la même commande `<-`, mais nous nous concentrons sur la façon de créer le vecteur.
 
 ```{r echo=TRUE}
-(b <- 1:10)              # ":"  is used to define a string of integers
+# ":"  est utilisé pour définir une chaîne d'entiers
+(b <- 1:10)
 
-(v <- c(1, 3, 2, 4, pi))   # use c() to make a vector with anything in it
+# utilisez c() pour faire un vecteur avec n'importe quoi dedans
+(v <- c(1, 3, 2, 4, pi))
 ```
 
-We can then refer to elements of a vector by denoting their position in a vector inside hard brackets `[]`.
+On peut alors se référer aux éléments d'un vecteur en désignant leur position à l'intérieur de parenthèses `[]`.
 
 ```{r echo=TRUE}
-# Extract elements of a vector:
-b[1]                   # Returns position 1
-b[5:4]                 # Returns positions 5 and 4, in that order
-b[-1]                  # Returns all but the first number  
+# Extrait les éléments d'un vecteur :
+b[1]                   # Retourne la position 1
+b[5:4]                 # Retourne les positions 5 et 4, dans cet ordre
+b[-1]                  # Retourne tout sauf le premier élément
 
-# Returns all numbers indicated as "TRUE"
+# Retourne tous les nombres indiqués comme "TRUE"
 b[c(TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE)]  
                                                                           
-# Assign new values to particular elements of a vector
+# Attribue une nouvelle valeur à l'élément particulier d'un vecteur
 b[5] <- 0
 ```
 
-There are a set of built-in functions that can be applied to vectors like `b`.
+Il existe un ensemble de fonctions pré-existantes qui peuvent être appliquées à des vecteurs comme `b`.
 
 ```{r echo=TRUE}
-sum(b)      # Sum of all elements
-mean(b)     # Mean of all elements
-max(b)      # Maximum of all elements
-min(b)      # Minimum of all elements
-sd(b)       # Standard deviation of all elements
-var(b)      # Variance of all elements
+sum(b)      # Somme de tous les éléments
+mean(b)     # Moyenne de tous les éléments
+max(b)      # Maximum de tous les éléments
+min(b)      # Minimum de tous les éléments
+sd(b)       # Écart type de tous les éléments
+var(b)      # Variance de tous les éléments
 ```
 
-We can also apply arithmetic transformations to all elements of a vector:
+On peut aussi appliquer des transformations arithmétiques à tous les éléments d'un vecteur :
 
 ```{r echo=TRUE}
-b^2               # Square the variable
-b^.5              # Square root of the variable
-log(b)            # Log of variable
-exp(b)            # e to the b
+b^2               # Carré de la variable
+b^.5              # Racine carré de la variable
+log(b)            # Log de la variable
+exp(b)            # Exponentielle de la variable
 ```
 
-Finally, we can evaluate logical statements (i.e. ``is condition X true?'') on all elements of a vector:
+Enfin, nous pouvons évaluer les affirmations logiques (c'est-à-dire "la condition X est-elle vraie ?") sur tous les éléments d'un vecteur :
 
 ```{r echo=TRUE}
-b == 2                     # Is equal to
-b < 5                      # Less than
-b >= 5                     # Greater than or equal to 
-b <= 5 | b / 4 == 2        # | means OR
-b>2 & b<9                  # & means AND
-is.na(b)                   # Indicates if data is missing
-which(b<5)       # Gives indices of values meeting logical requirement
+b == 2                     # égal à
+b < 5                      # plus petit que
+b >= 5                     # plus grand ou égal à
+b <= 5 | b / 4 == 2        # | signifie OU
+b>2 & b<9                  # & signifie ET
+is.na(b)                   # Indique si la donnée est manquante
+# Donne les indices des éléments dont la valeur répond à la condition
+which(b<5)
 ```
 
-The basic logic of these commands applies to data structures much more complex than scalars and vectors. Understanding of these basic features will help facilitate your understanding of more advanced topics during Learning Days.
+La logique de base de ces commandes s'applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des journées d'apprentissage.

@@ -1,93 +1,93 @@
-# Causal Inference {.tabset}
+# Inférence causale {.tabset}
 
-Much of social science is about causality.  We might ask questions like whether [voter registration increases political participation](https://egap.org/resource/electoral-administration-in-kenya/), whether [bottom-up accountability can improve health outcomes](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/), or whether [personal narratives of immigrants help reduce prejudicial attitudes towards them](https://egap.org/resource/brief-70-how-personal-narratives-reduce-negative-attitudes-towards-immigrants-in-kenya/).
+Une grande partie des sciences sociales porte sur la causalité. On peut se demander si [l'inscription des électeurs augmente la participation politique](https://egap.org/resource/electoral-administration-in-kenya/), si [la responsabilisation bottom-up peut améliorer les perspectives en matière de santé](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/), ou si [les récits personnels des migrants aident à réduire les attitudes préjudiciables à leur égard](https://egap.org/resource/brief-70-how-personal-narratives-reduce-negative-attitudes-towards-immigrants-in-kenya/).
 
-Over the past decade, social science has become much more serious about how causal claims are made, building on a long history of work on causality dating back to the classic writings of [Fisher and Rubin](#causalinference-classics). We make greater use of experiments, and randomization has become the gold standard for addressing causal questions. 
+Au cours de la dernière décennie, les sciences sociales sont devenues beaucoup plus strictes quant à la formulation des assertions causales, en s'appuyant sur une longue histoire de travaux sur la causalité remontant aux classiques de [Fisher et Rubin](#causalinference-classics). On recourt davantage aux expériences ; la randomisation est devenue la norme de référence pour répondre aux questions causales.
 
-In this module, we introduce the counterfactual approach to causal inference and how statements with causal claims can be interpreted. We introduce the potential outcome framework and how random assignment helps us make claims about what would have happened in the absence of the policy, action or program we study. We discuss the three core assumptions for causal inference: random assignment of subjects to treatment, non-interference, and excludability. 
+Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence causale et comment des affirmations basées sur des assertions causales peuvent être interprétées. Nous présentons le modèle des résultats potentiels et la manière dont l'assignation aléatoire nous aide à faire des assertions sur ce qui se serait passé en l'absence de la politique publique, de l'action ou du programme que nous étudions. Nous discutons des trois hypothèses de base pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
 
-## Core Content
+## Contenu
 
- - What do we mean when we say **"cause"**? And why does it matter to be clear about the meaning of causal claims?
+ - Qu'entendons-nous par **"cause"** ? Et pourquoi est-il important d'être clair sur le sens des assertions causales ?
 
- - An introduction to **potential outcomes** as a way to think about alternative states of the world.
+ - Une introduction aux **résultats potentiels** comme une façon de penser aux états contrefactuels du monde.
 
- - **Randomization** helps us learn about counterfactual causal claims in a particularly useful way.
+ - La **randomisation** nous aide à comprendre les assertions causales contrefactuelles d'une manière particulièrement utile.
 
- - The three key **core assumptions** for causal inference: random assignment of subjects to treatment, non-interference, and excludability.
+ - Les trois principales **hypothèses de base** pour l'inférence causale : l'assignation aléatoire des sujets au traitement, la non-interférence et l'exclusion.
 
- - Comparison of randomized studies with observational studies.
+ - Comparaison des études aléatoires avec les études d'observation.
 
- - Randomization brings high internal validity, but it can't promise **external validity**.
+ - La randomisation apporte une validité interne élevée, mais elle ne peut pas assurer la **validité externe**.
 
- - Your causal question is closely linked so your [research design](the-research-design-process.html).
+ - Votre question causale est liée à votre [conception de recherche](processus-de-conception-de-recherche.html).
 
 ## Slides
 
-Below are slides with the core content that we cover in our lecture on causality. You can directly use these slides or make your own local copy and edit.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la causalité. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
-- [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.Rmd)
 
-- [PDF Version](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.pdf)
 
-- [HTML Version](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.html)
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 
- - [The causal inference presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-benin.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-benin.pdf)
 
- - [The causal inference presentation from EGAP Learning Days at Universidad de Los Andes, Bogotá, April 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-bogota.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'Université des Andes, Bogotá, avril 2019](https://egap.github.io/learningdays-resources/Slides/Examples/causality-bogota.pdf)
 
- - [The causal inference presentation from EGAP Learning Days at Universidad Católica del Uruguay, Montevideo, March 2018](https://egap.github.io/learningdays-resources/Slides/Examples/causality-montevideo.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'Université catholique d'Uruguay, Montevideo, mars 2018](https://egap.github.io/learningdays-resources/Slides/Examples/causality-montevideo.pdf)
 
- - [The causal inference presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-guatemala.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-guatemala.pdf)
 
- - [The introduction to experiments presentation from EGAP Learning Days in Guatemala City, Guatemala, August 2017](https://egap.github.io/learningdays-resources/Slides/Examples/intro_experiments-guatemala.pdf)
+ - [Présentation à l'introduction sur les expériences aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/intro_experiments-guatemala.pdf)
 
- - [The causal inference presentation from EGAP Learning Days in Salima, Malawi, February 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-malawi.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à Salima, Malawi, février 2017](https://egap.github.io/learningdays-resources/Slides/Examples/causality-malawi.pdf)
 
- - [The causal inference presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
+ - [Présentation de l'inférence causale aux journées d'apprentissage du réseau EGAP à l'Université Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/causality-santiago.pdf)
 
-## Resources
+## Ressources
 
-### EGAP Methods Guides
+### Guide des méthodes EGAP
 
-- EGAP Methods Guide [10 Things You Need to Know about Causal Inference](https://egap.org/resource/10-things-to-know-about-causal-inference/)
+- Guide des méthodes EGAP [10 choses à savoir sur l'inférence causale](https://egap.org/resource/10-things-to-know-about-causal-inference/)
 
-- EGAP Methods Guide [10 Strategies for Figuring Out If X Caused Y](https://egap.org/resource/10-strategies-figuring-out-if-x-caused-y/)
+- Guide des méthodes EGAP [10 stratégies pour déterminer si X a causé Y](https://egap.org/resource/10-strategies-figuring-out-if-x-caused-y/)
 
-- EGAP Methods Guide [10 Things You Need to Know about Mechanisms](https://egap.org/resource/10-things-mechanisms/)
+- Guide des méthodes EGAP [10 choses à savoir sur les mécanismes](https://egap.org/resource/10-things-mechanisms/)
 
-- EGAP Methods Guide [10 Things to Know About External Validity](https://egap.org/resource/10-things-to-know-about-external-validity/)
+- Guide des méthodes EGAP [10 choses à savoir sur la validité externe](https://egap.org/resource/10-things-to-know-about-external-validity/)
 
-### Books, Chapters, and Articles {#causalinference-cites}
+### Livres, chapitres et articles {#causalinference-cites}
 
-#### Classics {#causalinference-classics}
+#### Classiques {#causalinference-classics}
 
-- [@fisher_design_1935]. Fisher introduces the idea of randomization and hypothesis testing as a way to learn about causal inference.
+- [@fisher_design_1935]. Fisher introduit l'idée de la randomisation et des tests d'hypothèses pour étudier l'inférence causale.
 
-- [@rubin:1974]. Rubin introduces the idea of potential outcomes and links counterfactual conceptualizations of causality to statistical inference.
+- [@rubin:1974]. Rubin introduit l'idée de résultats potentiels et relie la conceptualisation contrefactuelle de la causalité à l'inférence statistique.
 
-#### Contemporary Overviews
+#### Revue actuelle
 
 - [@brady2008causation].
 
-- [@gerber_field_2012, Chapter 1]. This book is a great resource for many topics in experimental design.
+- [@gerber_field_2012, Chapitre 1]. Ce livre est une excellente ressource pour de nombreux sujets de la conception expérimentale.
 
-- [@morgan_counterfactuals_2007, Chapter 1].  This book includes nice examples of thinking through making causal claims from observational data.
+- [@morgan_counterfactuals_2007, Chapitre 1]. Ce livre comprend de bons examples de raisonnement pour faire des assertions causales à partir de données d'observation.
 
-- [@glennerster_running_2013].  This is a great introduction to running field experiments and discusses many examples.
+- [@glennerster_running_2013]. Ceci est une excellente introduction pour mener des expériences de terrain, illustrée par nombreux exemples.
 
-### EGAP Policy Briefs
+### Notes d'orientation des politiques publiques EGAP
 
-Some examples of causal questions:
+Quelques exemples de questions causales :
 
-- [EGAP Policy Brief 38: Are radio voter education campaigns effective in discouraging voters from voting for parties/candidates that engage in vote-buying?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
+- [Note d'orientation des politiques publiques EGAP 38 : Les campagnes d'éducation des électeurs à la radio sont-elles efficaces pour décourager les électeurs de voter pour des partis ou candidats qui s'engagent dans l'achat de voix ?](https://egap.org/resource/brief-38-diminishing-the-effectiveness-of-vote-buying-through-voter-education/)
 
-- [EGAP Policy Brief 51: Can free and anonymous information communication technology strengthen local accountability and improve the delivery of public services?](https://egap.org/resource/does-information-technology-improve-public-service-delivery-lessons-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 51 : Les technologies de l'information et de communication gratuites et anonymes peuvent-elles renforcer la responsabilité locale et améliorer les prestations de services publics ?](https://egap.org/resource/does-information-technology-improve-public-service-delivery-lessons-from-uganda/)
 
-- [EGAP Policy Brief 58: Can bottom-up accountability generate improvements in health outcomes?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
+- [Note d'orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up peut-elle améliorer les perspectives en matière de santé ?](https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/)
 
-- [EGAP Policy Brief 69: Does bottom-up, citizen-based monitoring improve public service delivery?](https://egap.org/resource/brief-69-bottom-up-accountability-and-public-service-provision-in-brazil/)
+- [Note d'orientation des politiques publiques EGAP 69 : Une surveillance citoyenne bottom-up améliore-t-elle les prestations de services publics ?](https://egap.org/resource/brief-69-bottom-up-accountability-and-public-service-provision-in-brazil/)
 
 

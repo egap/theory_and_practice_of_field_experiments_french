@@ -1,73 +1,73 @@
-# Threats to the Internal Validity of Randomized Experiments {.tabset}
+# Menaces affectant la validité interne des expériences aléatoires {.tabset}
 
-Randomized experiments can run into issues that undermine their ability to demonstrate causal effects -- that is, threaten the internal validity of randomized experiments.  Some units might be missing outcome data and that missingness may be due to the treatment.  They may not take the treatment status assigned to them or be subject to spillover effects from a treated neighbor. 
+Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets causaux, c'est-à-dire menacer leur validité interne.
+Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était assigné ou elles ont subi des effets de débordement d'un voisin traité.
 
-In this module, we cover some common threats and some best practices to avoid or work around them.
+Dans ce module, nous abordons certaines menaces courantes et les bonnes pratiques pour les éviter ou les contourner.
 
-## Core Content {.tabset}
+## Contenu {.tabset}
 
- - Review the three core assumptions discussed in the [causal inference ](causal-inference.html) module.
+ - Passez en revue les trois hypothèses de base discutées dans le module sur [l'inférence causale](inférence-causale.html).
 
- - We have said "Analyze as you randomize" in the module on [estimands and estimators](estimands-and-estimators.html). Remember that you randomized treatment **assignment**, not whether the treatment is received or whether a unit participates in data collection.  
+ - Nous avons dit "analysez en randomisant" dans le module sur les [paramètres et estimateurs](paramètres-et-estimateurs.html). N'oubliez pas que vous avez randomisé **l'assignation** du traitement. Vous n'avez pas randomisé si le traitement est reçu, ni si une unité participe à la collecte de données.
 
- - **Missing data on the outcome (attrition)** is especially a problem if the patterns of missingness are caused by the treatment itself. This is a very common problem.
+ - **Les données manquantes dans les résultats (i.e. l'attrition)** sont particulièrement problématiques si le pattern des données absentes est causé par le traitement lui-même. C'est un problème très courant.
 
-     - Do not drop observations that are missing outcome data from your analysis.
+     - Ne supprimez pas les observations de votre analyse pour lesquelles il manque des données.
 
-     - You may be able to **bound** estimates of treatment effects.
+     - Vous pourriez **borner** les estimations des effets du traitement.
 
- - **Non-compliance**. The effect of treatment assignment is not the same as the effect of receiving the treatment.  Sometimes units will not comply with their assigned treatment status.
- 
-     - One-sided compliance occurs when some units assigned to treatment fail to take the treatment, but all units assigned to control do not take the treatment.
- 
-     - The local average treatment effect (LATE, also known as the complier average causal effect, CACE) is the average effect for the units that take the treatment when assigned, but not otherwise. If the monotonicity assumption and the exclusion restriction hold, we may be able to estimate LATE when we have non-compliance.
+ - **Non-conformité**. L'effet de l'assignation du traitement n'est pas le même que l'effet du traitement reçu. Parfois, les unités ne se conformeront pas au choix de traitement qui leur a été assigné.
 
- - **"Spillover effects" or interference between units** is a violation of one of the core assumptions for causal inference ([causal inference](causalinference.html)).
+     - La conformité unilatérale signifie que certaines unités assignées au traitement ne prennent pas le traitement, et toutes les unités assignées au contrôle ne prennent pas le traitement.
      
-      - However, this may not be a problem if you are interested in spillover effects and/or have designed your research to account for it.
- 
- - **Hawthorne effects** are when subjects behave differently because they are being observed.  
- 
-- **Non-excludability**. Treating treatment and control units differently, such as with different data collection processes or extra attention to the treated units, can confuse interpretation of experimental results.
+     - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées au traitement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplies, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
 
-     - If Hawthorne effects are present for treated units but not control units, then we have a violation of the excludability assumption.  
-     
+ - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'[inférence causale](inférence-causale.html).
+
+      - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.
+
+ - **L'effet Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
+
+- **La non-exclusion**. Traiter différemment les unités des groupes de traitement et de contrôle, par exemple avec des processus de collecte de données différents ou une attention particulière pour les unités traitées, peut perturber l'interprétation des résultats expérimentaux.
+
+     - Si l'effet Hawthorne est présent pour le groupe de traitement mais pas pour le groupe de contrôle, il y a une violation de l'hypothèse d'exclusion.
 
 
 
 ## Slides
 
-Below are slides with the core content that we cover in our lecture on threats to the internal validity of randomized experiments. You can directly use these slides or make your local copy and edit.
+Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur les menaces à la validité interne des expériences aléatoires. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
- - [R Markdown Source](https://egap.github.io/learningdays-resources/Slides/threats-slides.Rmd)
+ - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/threats-slides.Rmd)
 
- - [PDF version](https://egap.github.io/learningdays-resources/Slides/threats-slides.pdf)
+ - [Version PDF](https://egap.github.io/learningdays-resources/Slides/threats-slides.pdf)
 
- - [HTML version](https://egap.github.io/learningdays-resources/Slides/threats-slides.html)
+ - [Version HTML](https://egap.github.io/learningdays-resources/Slides/threats-slides.html)
 
-You can also see the slides used in previous EGAP Learning Days:
+Vous pouvez également voir les slides utilisées lors des précédentes journées d'apprentissage du réseau EGAP :
 
-- [The threats presentation from EGAP Learning Days at the African School of Economics, Abomey-Calavi, June 2019 (first section reviews randomization designs)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
+- [Présentation des menaces aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les différentes conceptions de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [The attrition and missing data presentation from EGAP Learning Days at Universidad Diego Portales in Santiago, Chile, May 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
+- [Présentation sur l'attrition et les données manquantes aux journées d'apprentissage du réseau EGAP à l'Universidad Diego Portales à Santiago, Chili, mai 2016](https://egap.github.io/learningdays-resources/Slides/Examples/threats-santiago.pdf)
 
-## Resources
+## Ressources
 
-### EGAP Methods Guide
+### Guide des méthodes EGAP
 
-- EGAP Methods Guide [10 Things to Know about Missing Data](https://egap.org/resource/10-things-to-know-about-missing-data/)
+- Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
 
-- EGAP Methods Guide [10 Types of Treatment Effect You Should Know About](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
+- Guide des méthodes EGAP [Les 10 types d'effets de traitement à connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
 
-- EGAP Methods Guide [10 Things to Know about the Local Average Treatment Effect](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+- Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
-### Books, Chapters, and Articles
+### Livres, chapitres et articles
 
-- [Standard operating procedures for Don Green’s lab at Columbia University](https://github.com/acoppock/Green-Lab-SOP). A comprehensive set of procedures and rules of thumb for conducting experimental studies.
-- [@gerber_field_2012]. Chapters 5--8 address non-compliance, attrition, and interference.
+- [Procédures opérationnelles standard pour le laboratoire de Don Green à l'Université de Columbia](https://github.com/acoppock/Green-Lab-SOP). Un ensemble complet de procédures et de règles de base pour mener des études expérimentales.
+- [@gerber_field_2012]. Chapitres 5 à 8 traitent de non-conformité, d'attrition et d'interférence.
 
-### EGAP Policy Briefs
+### Note d'orientation des politiques publiques EGAP
 
-- [EGAP Policy Brief 11: Election Observers and Fraud in Ghana ](https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/)
+- [Note d'orientation EGAP 11 : Observateurs électoraux et fraude au Ghana ](https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/)
 
-- [EGAP Policy Brief 16: Spillover Effects of Observers in Ghana ](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
+- [Note d'orientation EGAP 16 : Effets de débordement des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
