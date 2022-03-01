@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>La théorie et la pratique des expériences de terrain : Une introduction des journées d’apprentissage du réseau EGAP | theory_and_practice_of_field_experiments_french.utf8</title>
+  <title>B Introduction à R et RStudio | theory_and_practice_of_field_experiments_french.utf8</title>
   <meta name="description" content="Les journées d’apprentissage du réseau EGAP, inférence causale, expériences aléatoires, expériences de terrain, conception expérimentale, conception de recherche" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="La théorie et la pratique des expériences de terrain : Une introduction des journées d’apprentissage du réseau EGAP | theory_and_practice_of_field_experiments_french.utf8" />
+  <meta property="og:title" content="B Introduction à R et RStudio | theory_and_practice_of_field_experiments_french.utf8" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="egap/theory_and_practice_of_field_experiments" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="La théorie et la pratique des expériences de terrain : Une introduction des journées d’apprentissage du réseau EGAP | theory_and_practice_of_field_experiments_french.utf8" />
+  <meta name="twitter:title" content="B Introduction à R et RStudio | theory_and_practice_of_field_experiments_french.utf8" />
   
   <meta name="twitter:description" content="Les journées d’apprentissage du réseau EGAP, inférence causale, expériences aléatoires, expériences de terrain, conception expérimentale, conception de recherche" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="processus-de-conception-de-recherche.html"/>
+<link rel="prev" href="glossaire-des-termes.html"/>
+<link rel="next" href="références.html"/>
 <script src="book_assets/jquery/jquery.min.js"></script>
 <link href="book_assets/gitbook/css/style.css" rel="stylesheet" />
 <link href="book_assets/gitbook/css/plugin-table.css" rel="stylesheet" />
@@ -619,55 +619,249 @@ Une introduction des journées d’apprentissage du réseau EGAP</div></a>
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title"><div class="line-block">La théorie et la pratique des expériences de terrain :<br />
-Une introduction des journées d’apprentissage du réseau EGAP</div></h1>
-<p class="author"><em>Jake Bowers,<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Maarten Voors,<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> et Nahomi Ichino<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. <br/>Traduit par Alyssa Heinze<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></em></p>
-<p class="date"><em>01-03-2022</em></p>
+<div id="introduction-à-r-et-rstudio" class="section level1 tabset">
+<h1><span class="header-section-number">B</span> Introduction à R et RStudio</h1>
+<p>Tout au long du livre, nous incluons du code R pour l’estimation, la simulation et la création d’exemples. Nous avons utilisé RStudio pour créer les slides. Pour les personnaliser à vos propres fins, nous supposons que vous utiliserez R Markdown. Ci-dessous, voici les guides pour configurer R et RStudio sur votre ordinateur, ainsi que quelques commandes de base fréquemment utilisées.</p>
+<div id="r-et-rstudio" class="section level2">
+<h2><span class="header-section-number">B.1</span> R et RStudio</h2>
+<p>R est un environnement logiciel libre utilisé couramment pour l’analyse statistique et le calcul. Étant donné que les participants aux journées d’apprentissage arrivent avec un bagage statistique et des outils différents, nous utilisons R pour nous assurer que tout le monde se comprend. Nous recommendons l’utilisation de R de manière générale pour sa flexibilité, sa richesse et son support complet, principalement via des forums en ligne.</p>
+<p>RStudio est un environnement de développement intégré gratuit et open source avec une interface utilisateur qui rend R beaucoup plus convivial. R Markdown est une fonctionnalité de RStudio qui permet de présenter facilement du code, des résultats et du texte au format .pdf, .html ou .doc.</p>
 </div>
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">Module 1</span> Introduction</h1>
-<p>Durant la dernière décennie, <a href="https://egap.org/">Evidence in Governance and Politics (EGAP)</a> a organisé une série d’ateliers, <a href="https://egap.org/learning-days/">les journées d’apprentissage</a>, dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les chargés de recherche – chercheurs et praticiens – en Afrique et Amérique Latine. En partageant entre participants, méthodes pratiques et méthodes statistiques pour mener des expériences de terrain aléatoires, les journées d’apprentissage visent à créer et entretenir des réseaux de chercheurs dans le monde et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.</p>
-<p>Les journées d’apprentissage sont une combinaison d’ateliers de conception, de présentations de travaux de recherche, d’utilisation de logiciel statistique et de conférences thématiques par un petit groupe d’instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les ateliers abordent les méthodes de conception et d’analyse pour des expériences de terrain aléatoires plutôt que des expériences aléatoires en laboratoire ou des études non-aléatoires.</p>
-<p><strong>Ce livre</strong> rassemble les matériaux développés pour les journées d’apprentissage. La version actuelle du livre est écrite principalement pour <strong>des instructeurs et des organisateurs</strong> d’ateliers et de cours similaires à l’intention de chargés de recherche — professeurs, chercheurs postdoctorals, doctorants, évaluateurs d’ONG et d’agences gouvernementales, etc. — qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des journées d’apprentissage précédentes.</p>
-<p>Ce livre est une revue complète des méthodes d’inférence causale pour les chercheurs qui développent une conception de recherche expérimentale. Ce livre est organisé en <strong>modules</strong> et comprend des sujets tels que l’inférence causale, la randomisation, les tests d’hypothèses, les paramètres, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l’éthique de l’expérimentation. Les modules apparaissent dans l’ordre jugé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à vos besoins en tant qu’instructeur. En annexe, il y a des matériaux préparatoires comprenant un <a href="glossaire-des-termes.html">glossaire des termes</a> et une <a href="introduction-à-r-et-rstudio.html">introduction à R et RStudio</a>.</p>
-<p>Ce livre comprend des <strong>slides</strong> sur le contenu principal, le <a href="researchdesignform.html">formulaire de conception de recherche de EGAP</a> et des <strong>références</strong> d’exemples de recherche et des slides utilisées pendant les journées d’apprentissage précédentes. Ces matériaux renforcent le travail de EGAP sur la méthodologie, résumé dans les <a href="https://egap.org/methods-guides/">guides de méthodes de EGAP</a>. Comparé aux journées d’apprentissage précédentes, nous avons ajouté plus de matériaux sur les tests d’hypothèses, l’estimation et la puissance statistique. De nouveaux modules sur le processus de conception de recherche, la mesure et les considérations éthiques sont désormais disponibles. Les slides et les modules présentés ici contiennent trop d’informations pour être couverts en une seule semaine, la durée habituelle d’un atelier. Cependant, nous avons décidé de conserver toutes les informations, afin d’aider les instructeurs à adapter leurs cours à leurs publics réspectifs.</p>
-<div id="comment-utiliser-le-livre" class="section level2">
-<h2><span class="header-section-number">1.1</span> Comment utiliser le livre</h2>
-<p>Pour profiter au maximum de ce livre, veuillez installer <a href="https://cran.r-project.org/">R</a> et <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> sur votre ordinateur. En fait, les slides supposent que vous utilisiez R Markdown pour les adapter à vos besoins.</p>
-<p>Pour commencer avec R, voir le module <a href="introduction-à-r-et-rstudio.html">Introduction à R et RStudio</a>.</p>
-<p>Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc.) soit en utilisant le bouton de téléchargement (Download) sur la première page de <a href="https://github.com/egap/theory_and_practice_of_field_experiments_french" class="uri">https://github.com/egap/theory_and_practice_of_field_experiments_french</a>, soit directement sur github en “forkant” ce repertoire.</p>
-<p>Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.</p>
+<div id="télécharger-r-et-rstudio" class="section level2">
+<h2><span class="header-section-number">B.2</span> Télécharger R et RStudio</h2>
+<div id="télécharger-r" class="section level3">
+<h3><span class="header-section-number">B.2.1</span> Télécharger R</h3>
+<p>R est téléchargeable gratuitement sur CRAN. Cliquer sur le lien correspondant à votre système d’exploitation :</p>
+<ul>
+<li>Pour <strong>Windows</strong> : <a href="https://cran.r-project.org/bin/windows/base/">https://cran.r-project.org/bin/windows/base/</a></li>
+<li>Pour <strong>Mac OS X</strong> : <a href="https://cran.r-project.org/bin/macosx/">https://cran.r-project.org/bin/macosx/</a>.
+<ul>
+<li>Sélectionner <code>R-4.0.4.pkg</code> pour OS X 10.13 et plus.</li>
+<li>Sélectionner <code>R-3.6.3.nnpkg</code> pour OS X 10.11-10.12.</li>
+<li>Sélectionner <code>R-3.3.3.nnpkg</code> pour OS X 10.19-10.10.</li>
+<li>Sélectionner <code>R-3.2.1-snowleopard.pkg</code> pour OS X 10.6-10.8.</li>
+</ul></li>
+</ul>
 </div>
-<div id="nous-apprécions-vos-retours" class="section level2">
-<h2><span class="header-section-number">1.2</span> Nous apprécions vos retours !</h2>
-<p>Si vous avez des questions, des retours, ou si vous avez organisé votre propre événement, contactez-nous !
-Il suffit de créer une issue sur <a href="https://github.com/egap/theory_and_practice_of_field_experiments_french/issues">Github</a> ou faire des commentaires en utilisant hypothes.is dans votre navigateur et de nous le faire savoir par e-mail, <a href="mailto:admin@egap.org" class="email">admin@egap.org</a>. Nous parcourons régulièrement vos commentaires.</p>
+<div id="télécharger-rstudio" class="section level3">
+<h3><span class="header-section-number">B.2.2</span> Télécharger RStudio</h3>
+<p>RStudio peut être téléchargé gratuitement sur le site Web de RStudio, <a href="https://www.rstudio.com/products/rstudio/download/">https://www.rstudio.com/products/rstudio/download/</a>. Dans le tableau, cliquez sur le bouton bleu “Download” en haut de la colonne de gauche, “Licence Open Source RStudio Desktop”, comme illustré ci-dessous dans la figure B.1. Après avoir cliqué, vous verrez une liste d’options de téléchargement, comme illustré à la Figure B.2.</p>
+<ul>
+<li>Pour <strong>Windows</strong>, sélectionner <code>Windows 10/8/7</code>.</li>
+<li>Pour <strong>Mac OS X</strong>, sélectionner <code>Mac OS X 10.13+</code>.</li>
+</ul>
+<div class="figure"><span id="fig:rstudiopng"></span>
+<img src="Images/new_rstudio.png" alt="Sélectionner &quot;Download&quot; dans la colonne &quot;RStudio Desktop Open Source License&quot;." width="80%" />
+<p class="caption">
+Figure B.1: Sélectionner “Download” dans la colonne “RStudio Desktop Open Source License”.
+</p>
 </div>
-<div id="remerciements" class="section level2">
-<h2><span class="header-section-number">1.3</span> Remerciements</h2>
-<p>Les matériaux dans ce livre ont été développés au cours des dernières journées d’apprentissage par divers instructeurs.
-Ceux-ci incluent (par ordre alphabétique) Jake Bowers, Jasper Cooper, Ana De la O, Lindsay Dolan, Natalia Garbiras Díaz, Macartan Humphreys, Nahomi Ichino, Salif Jaiteh, Gareth Nellis, Dan Nielson, Rafael Piñeiro, Fernando Rosenblatt, Tara Slough, Peter van der Windt et Maarten Voors. Nous remercions Natalia Garbiras Díaz, Macartan Humphreys, Anghella Brigeth Rosero Rodriguez, et Tara Slough en particulier pour leurs commentaires sur une première version du livre.</p>
-<p>Chez EGAP, Matt Lisiecki, Ingrid Lee, Goldie Negelev, Max Mendez-Back et d’autres ont apporté un soutien formidable. Les journées d’apprentissage ont été généreusement financées par la Fondation Hewlett et soutenues par des institutions du monde entier, notamment l’African School of Economics (Bénin), l’Université de Diego Portales (Chili), l’Université de los Andes (Colombie), le Ghana Center for Democratic Development (Ghana) , Mercy Corps (Guatemala), Invest in Knowledge (Malawi), NYU Abu Dhabi (EAU), et l’Université catholique de l’Uruguay (Uruguay).</p>
+<div class="figure"><span id="fig:rstudiodownload"></span>
+<img src="Images/rstudio_download.png" alt="Sélectionner le lien &quot;Windows 10/8/7&quot; pour Windows ou &quot;Mac OS X 10.13+&quot; pour Mac." width="80%" />
+<p class="caption">
+Figure B.2: Sélectionner le lien “Windows 10/8/7” pour Windows ou “Mac OS X 10.13+” pour Mac.
+</p>
+</div>
+</div>
+</div>
+<div id="linterface-rstudio" class="section level2">
+<h2><span class="header-section-number">B.3</span> L’interface RStudio</h2>
+<p>Lorsque vous ouvrez RStudio pour la première fois, trois fenêtres doivent être visibles, comme illustré dans la Figure B.3 ci-dessous.</p>
+<ul>
+<li>Console (à gauche)</li>
+<li>Accounting (en haut à droite) : cela inclue les onglets Environment et History</li>
+<li>Miscellaneous (en bas à droite)</li>
+</ul>
+<div class="figure"><span id="fig:rstudiointro"></span>
+<img src="Images/rstudio_intro.png" alt="Lorsque vous ouvrez RStudio, il y a trois fenêtres visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite)." width="80%" />
+<p class="caption">
+Figure B.3: Lorsque vous ouvrez RStudio, il y a trois fenêtres visibles : la Console (à gauche), Accounting (en haut à droite), et Miscellaneous (en bas à droite).
+</p>
+</div>
+<div id="la-console" class="section level3">
+<h3><span class="header-section-number">B.3.1</span> La console</h3>
+<p>Vous pouvez exécuter toutes les opérations dans la console. Par exemple, si vous saisissez <code>4 + 4</code> et appuyez sur la touche Enter, la console renvoie <code>[1] 8</code>.</p>
+<p>Pour s’assurer que tout le monde est prêt à utiliser R lors des journées d’apprentissage, nous demandons aux participants d’exécuter une ligne de code dans la console pour télécharger plusieurs packages R. Les packages sont des fragments de code reproducibles qui permettent une analyse plus efficace dans R. Pour exécuter ce bout de code, copiez-le dans la console et appuyez sur votre touche <code>Enter</code>. Vous devez être connecté à internet pour télécharger des packages.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;AER&quot;</span>, <span class="st">&quot;arm&quot;</span>, <span class="st">&quot;MASS&quot;</span>, <span class="st">&quot;sandwich&quot;</span>, </a>
+<a class="sourceLine" id="cb1-2" title="2">                   <span class="st">&quot;lmtest&quot;</span>, <span class="st">&quot;estimatr&quot;</span>,<span class="st">&quot;coin&quot;</span>,<span class="st">&quot;randomizr&quot;</span>, <span class="st">&quot;DeclareDesign&quot;</span>))</a></code></pre></div>
+<p>Si le téléchargement est réussi, votre console ressemblera à la figure B.4, sauf que les URL seront différentes en fonction de votre emplacement.</p>
+<div class="figure"><span id="fig:console2"></span>
+<img src="Images/console2a.png" alt="La console après avoir exécuté les trois lignes de code répertoriées ci-dessus." width="40%" />
+<p class="caption">
+Figure B.4: La console après avoir exécuté les trois lignes de code répertoriées ci-dessus.
+</p>
+</div>
+</div>
+<div id="léditeur" class="section level3">
+<h3><span class="header-section-number">B.3.2</span> L’éditeur</h3>
+<p>Afin d’écrire et sauvegarder du code reproductible, nous allons ouvrir une quatrième fenêtre, l’éditeur, en cliquant sur l’icône avec une page blanche et un signe plus, dans le coin supérieur gauche de l’interface RStudio et en sélectionnant <code>R Script</code>, comme illustré à la figure B.5.</p>
+<div class="figure"><span id="fig:newscript"></span>
+<img src="Images/new_script.png" alt="Créez un nouveau script R et ouvrez la fenêtre `éditeur` en sélectionnant `R Script` dans le menu déroulant." width="60%" />
+<p class="caption">
+Figure B.5: Créez un nouveau script R et ouvrez la fenêtre <code>éditeur</code> en sélectionnant <code>R Script</code> dans le menu déroulant.
+</p>
+</div>
+<p>Une fois le script R ouvert, il devrait y avoir quatre fenêtres dans l’interface RStudio, maintenant avec l’ajout de la fenêtre Éditeur. Nous pouvons exécuter une arithmétique simple en entrant une formule dans l’éditeur et en appuyant sur <code>Ctrl + Entrée</code> (Windows) ou <code>Commande + Entrée</code> (Mac). La formule et la “réponse” apparaîtront dans la console, comme illustré à la Figure B.6.</p>
+<div class="figure"><span id="fig:firstaddition"></span>
+<img src="Images/first_addition.png" alt="Une expression arithmétique est saisie dans l'éditeur et évaluée dans la console. Les cases rouges sont ajoutées pour une visibilité accrue." width="60%" />
+<p class="caption">
+Figure B.6: Une expression arithmétique est saisie dans l’éditeur et évaluée dans la console. Les cases rouges sont ajoutées pour une visibilité accrue.
+</p>
+</div>
+<p>R peut être utilisé pour toute opération arithmétique, y compris, mais sans s’y limiter, l’addition (<code>+</code>), la soustraction (<code>-</code>), la multiplication scalaire (<code>*</code>), la division (<code>/</code>) et l’exponentielle (<code>^</code> ).</p>
+</div>
+<div id="accounting" class="section level3">
+<h3><span class="header-section-number">B.3.3</span> Accounting</h3>
+<p>Au-delà des fonctions de base, nous pouvons également stocker des valeurs, des données et des fonctions dans l’environnement global. Pour affecter une valeur à une variable, utilisez l’opérateur <code>&lt;-</code>. Toutes les valeurs, fonctions et données stockées apparaîtront dans l’onglet Environment de la fenêtre Accounting. Dans la Figure B.7, nous affectons la valeur <span class="math inline">\(3 \times \frac{6}{14}\)</span> à la variable <code>t</code>, et pouvons voir qu’elle est stockée sous Values.</p>
+<p>Nous chargeons également un jeu de données. Ici, “ChickWeight” est un dataset intégré à R ; la plupart des datasets seront chargés à partir du Web ou d’autres fichiers sur votre ordinateur via une autre méthode. Nous pouvons voir que ChickWeight contient 578 observations de 4 variables et est stocké dans l’onglet Environment. En cliquant sur le nom ChickWeight, un onglet s’ouvrira avec le dataset dans la fenêtre de votre éditeur.</p>
+<div class="figure"><span id="fig:savedata"></span>
+<img src="Images/save_data.png" alt="La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l'environnement global (en bleu)." width="60%" />
+<p class="caption">
+Figure B.7: La valeur 3 * (6/14) est affectée à la variable t (en rouge) et le dataset ChickWeight est ajouté à l’environnement global (en bleu).
+</p>
+</div>
+<p>Les ateliers des journées d’apprentissage utilisent de nombreux outils dans R pour analyser et visualiser les données. Pour l’instant, nous pouvons apprendre quelques outils de base pour examiner les données. La fonction <code>head()</code> nous permet de voir les six premières lignes des données. <code>summary()</code> résume chacune des colonnes du dataset et <code>dim()</code> fournit les dimensions du dataset avec d’abord le nombre de lignes puis de colonnes.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">head</span>(ChickWeight) <span class="co"># Les 6 premières observations du dataset</span></a></code></pre></div>
+<pre><code>  weight Time Chick Diet
+1     42    0     1    1
+2     51    2     1    1
+3     59    4     1    1
+4     64    6     1    1
+5     76    8     1    1
+6     93   10     1    1</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="kw">summary</span>(ChickWeight) <span class="co"># Résumé de toutes les variables</span></a></code></pre></div>
+<pre><code>     weight         Time          Chick     Diet   
+ Min.   : 35   Min.   : 0.0   13     : 12   1:220  
+ 1st Qu.: 63   1st Qu.: 4.0   9      : 12   2:120  
+ Median :103   Median :10.0   20     : 12   3:120  
+ Mean   :122   Mean   :10.7   10     : 12   4:118  
+ 3rd Qu.:164   3rd Qu.:16.0   17     : 12          
+ Max.   :373   Max.   :21.0   19     : 12          
+                              (Other):506          </code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"><span class="kw">dim</span>(ChickWeight) <span class="co"># Dimensions du dataset dans l&#39;ordre &quot;ligne&quot; puis &quot;colonne&quot;</span></a></code></pre></div>
+<pre><code>[1] 578   4</code></pre>
+<p>Contrairement à d’autres logiciels statistiques, R permet aux utilisateurs de stocker simultanément plusieurs ensembles de données, éventuellement de dimensions différentes. Cette fonctionnalité rend R assez flexible pour l’analyse à l’aide de plusieurs méthodes.</p>
+</div>
+<div id="divers" class="section level3">
+<h3><span class="header-section-number">B.3.4</span> Divers</h3>
+<p>R fournit une suite d’outils, allant des fonctions intégrées aux packages pour tracer graphiques, modèles, estimations, etc. La dernière fenêtre Divers permet une visualisation rapide des graphiques dans RStudio. La Figure B.8 montre une courbe dans cette fenêtre. Pendant les Leaning Days, on discutera de la manière de représenter les données.</p>
+<div class="figure"><span id="fig:graph"></span>
+<img src="Images/graph.png" alt="Un exemple de courbe avec le dataset `ChickWeight` en R." width="60%" />
+<p class="caption">
+Figure B.8: Un exemple de courbe avec le dataset <code>ChickWeight</code> en R.
+</p>
+</div>
+</div>
+</div>
+<div id="apprendre-à-utiliser-r" class="section level2">
+<h2><span class="header-section-number">B.4</span> Apprendre à utiliser R</h2>
+<div id="ressources-en-ligne" class="section level3">
+<h3><span class="header-section-number">B.4.1</span> Ressources en ligne</h3>
+<p>Il existe de nombreuses ressources en ligne utiles pour vous aider à commencer avec R. Nous vous recommandons deux sources :</p>
+<ul>
+<li>Code School, qui fonctionne entièrement sur votre navigateur <a href="https://www.codeschool.com/courses/try-r">https://www.codeschool.com/courses/try-r</a>.</li>
+<li>Coursera, via un cours de programmation R en ligne organisé par l’Université Johns Hopkins :
+<ol style="list-style-type: lower-roman">
+<li>Allez sur <a href="https://www.coursera.org">https://www.coursera.org</a></li>
+<li>Créez un compte (c’est gratuit !)</li>
+<li>Inscrivez-vous pour “R Programming at Johns Hopkins University” (instructeur : Roger Peng) sous la rubrique “Cours”</li>
+<li>Lisez les documents et regardez les vidéos de la première semaine. Les vidéos de la première semaine durent environ 2 heures 30 au total.</li>
+</ol></li>
+</ul>
+</div>
+<div id="exercise-de-base" class="section level3">
+<h3><span class="header-section-number">B.4.2</span> Exercise de base</h3>
+<p>Voici quelques fragments de code pour vous familiariser avec certaines pratiques de base de R. Nous vous recommandons de vous entraîner en tapant les fragments de code dans votre éditeur, puis en les évaluant.</p>
+<div id="configuration-dune-session-r" class="section level4">
+<h4><span class="header-section-number">B.4.2.1</span> Configuration d’une session R</h4>
+<p>En général, nous lisons d’autres fichiers tels que des données ou des fonctions dans R et publions des résultats tels que des graphiques ou des tableaux dans des fichiers en dehors de la session R. Pour ce faire, nous devons donner à R une “adresse” où il peut localiser de tels fichiers. Il peut être plus efficace de le faire en définissant un répertoire de travail, i.e. un chemin d’accès au répertoire dans lequel les fichiers pertinents sont stockés. Nous pouvons identifier le répertoire de travail actuel en utilisant <code>getwd()</code> et le définir en utilisant <code>setwd()</code>. Notez que la syntaxe de ces chemins de fichiers varie selon le système d’exploitation.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1"><span class="kw">getwd</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1"><span class="kw">setwd</span>(<span class="st">&quot;~TaraLyn/EGAP Learning Days Admin/Workshop 2018_2 (Uruguay)/&quot;</span>)</a></code></pre></div>
+<p>Vous devrez peut-être installer des packages autres que ceux répertoriés ci-dessus pour exécuter certaines fonctions. Pour installer les packages, nous utilisons <code>install.packages("")</code>, en remplissant le nom du package entre les marques "", comme suit. Vous n’avez besoin d’installer les packages qu’une seule fois.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1"><span class="kw">install.packages</span>(<span class="st">&quot;randomizr&quot;</span>)  </a></code></pre></div>
+<p>Une fois qu’un package est installé, il peut être chargé et accessible en utilisant <code>library()</code> où le nom du package est inséré entre parenthèses (sans guillemets).</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1"><span class="kw">library</span>(randomizr)</a></code></pre></div>
+<p>Pour effacer de la mémoire de R, les données, fonctions ou valeurs stockées qui apparaissent dans l’onglet de comptabilité, utilisez <code>rm(list = ls())</code>. Il peut être utile de définir un nombre aléatoire pour garantir que la réplication est possible dans une session R différente, en particulier lorsque nous travaillons avec des méthodes basées sur la simulation.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1"><span class="kw">rm</span>(<span class="dt">list =</span> <span class="kw">ls</span>())                                   </a>
+<a class="sourceLine" id="cb12-2" title="2"><span class="kw">set.seed</span>(<span class="dv">2018</span>)  <span class="co"># pour la reproductibilité</span></a></code></pre></div>
+</div>
+<div id="les-basiques" class="section level4">
+<h4><span class="header-section-number">B.4.2.2</span> Les basiques</h4>
+<p>Nous allons maintenant explorer quelques commandes de base. Afin d’affecter un scalaire (i.e. un élément unique) à une variable, nous utilisons la commande <code>&lt;-</code> comme discuté précédemment :</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1"><span class="co"># &quot;&lt;-&quot;  est la commande d&#39;affectation ; ça sert à définir les choses. eg :</span></a>
+<a class="sourceLine" id="cb13-2" title="2">(a &lt;-<span class="st"> </span><span class="dv">5</span>)     </a></code></pre></div>
+<pre><code>[1] 5</code></pre>
+<p>Nous pouvons également vouloir affecter un vecteur d’éléments à une variable. Ici, nous utilisons la même commande <code>&lt;-</code>, mais nous nous concentrons sur la façon de créer le vecteur.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1"><span class="co"># &quot;:&quot;  est utilisé pour définir une chaîne d&#39;entiers</span></a>
+<a class="sourceLine" id="cb15-2" title="2">(b &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</a></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="co"># utilisez c() pour faire un vecteur avec n&#39;importe quoi dedans</span></a>
+<a class="sourceLine" id="cb17-2" title="2">(v &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">4</span>, pi))</a></code></pre></div>
+<pre><code>[1] 1.000 3.000 2.000 4.000 3.142</code></pre>
+<p>On peut alors se référer aux éléments d’un vecteur en désignant leur position à l’intérieur de parenthèses <code>[]</code>.</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" title="1"><span class="co"># Extrait les éléments d&#39;un vecteur :</span></a>
+<a class="sourceLine" id="cb19-2" title="2">b[<span class="dv">1</span>]                   <span class="co"># Retourne la position 1</span></a></code></pre></div>
+<pre><code>[1] 1</code></pre>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb21-1" title="1">b[<span class="dv">5</span><span class="op">:</span><span class="dv">4</span>]                 <span class="co"># Retourne les positions 5 et 4, dans cet ordre</span></a></code></pre></div>
+<pre><code>[1] 5 4</code></pre>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb23-1" title="1">b[<span class="op">-</span><span class="dv">1</span>]                  <span class="co"># Retourne tout sauf le premier élément</span></a></code></pre></div>
+<pre><code>[1]  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb25-1" title="1"><span class="co"># Retourne tous les nombres indiqués comme &quot;TRUE&quot;</span></a>
+<a class="sourceLine" id="cb25-2" title="2">b[<span class="kw">c</span>(<span class="ot">TRUE</span>, <span class="ot">FALSE</span>, <span class="ot">TRUE</span>, <span class="ot">FALSE</span>, <span class="ot">FALSE</span>, <span class="ot">TRUE</span>, <span class="ot">TRUE</span>, <span class="ot">FALSE</span>, <span class="ot">FALSE</span>, <span class="ot">FALSE</span>)]  </a></code></pre></div>
+<pre><code>[1] 1 3 6 7</code></pre>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb27-1" title="1"><span class="co"># Attribue une nouvelle valeur à l&#39;élément particulier d&#39;un vecteur</span></a>
+<a class="sourceLine" id="cb27-2" title="2">b[<span class="dv">5</span>] &lt;-<span class="st"> </span><span class="dv">0</span></a></code></pre></div>
+<p>Il existe un ensemble de fonctions pré-existantes qui peuvent être appliquées à des vecteurs comme <code>b</code>.</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" title="1"><span class="kw">sum</span>(b)      <span class="co"># Somme de tous les éléments</span></a></code></pre></div>
+<pre><code>[1] 50</code></pre>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb30-1" title="1"><span class="kw">mean</span>(b)     <span class="co"># Moyenne de tous les éléments</span></a></code></pre></div>
+<pre><code>[1] 5</code></pre>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" title="1"><span class="kw">max</span>(b)      <span class="co"># Maximum de tous les éléments</span></a></code></pre></div>
+<pre><code>[1] 10</code></pre>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb34-1" title="1"><span class="kw">min</span>(b)      <span class="co"># Minimum de tous les éléments</span></a></code></pre></div>
+<pre><code>[1] 0</code></pre>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb36-1" title="1"><span class="kw">sd</span>(b)       <span class="co"># Écart type de tous les éléments</span></a></code></pre></div>
+<pre><code>[1] 3.496</code></pre>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb38-1" title="1"><span class="kw">var</span>(b)      <span class="co"># Variance de tous les éléments</span></a></code></pre></div>
+<pre><code>[1] 12.22</code></pre>
+<p>On peut aussi appliquer des transformations arithmétiques à tous les éléments d’un vecteur :</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb40-1" title="1">b<span class="op">^</span><span class="dv">2</span>               <span class="co"># Carré de la variable</span></a></code></pre></div>
+<pre><code> [1]   1   4   9  16   0  36  49  64  81 100</code></pre>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb42-1" title="1">b<span class="op">^</span>.<span class="dv">5</span>              <span class="co"># Racine carré de la variable</span></a></code></pre></div>
+<pre><code> [1] 1.000 1.414 1.732 2.000 0.000 2.449 2.646 2.828 3.000 3.162</code></pre>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb44-1" title="1"><span class="kw">log</span>(b)            <span class="co"># Log de la variable</span></a></code></pre></div>
+<pre><code> [1] 0.0000 0.6931 1.0986 1.3863   -Inf 1.7918 1.9459 2.0794 2.1972 2.3026</code></pre>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb46-1" title="1"><span class="kw">exp</span>(b)            <span class="co"># Exponentielle de la variable</span></a></code></pre></div>
+<pre><code> [1]     2.718     7.389    20.086    54.598     1.000   403.429  1096.633  2980.958  8103.084 22026.466</code></pre>
+<p>Enfin, nous pouvons évaluer les affirmations logiques (c’est-à-dire “la condition X est-elle vraie ?”) sur tous les éléments d’un vecteur :</p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb48-1" title="1">b <span class="op">==</span><span class="st"> </span><span class="dv">2</span>                     <span class="co"># égal à</span></a></code></pre></div>
+<pre><code> [1] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb50-1" title="1">b <span class="op">&lt;</span><span class="st"> </span><span class="dv">5</span>                      <span class="co"># plus petit que</span></a></code></pre></div>
+<pre><code> [1]  TRUE  TRUE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb52-1" title="1">b <span class="op">&gt;=</span><span class="st"> </span><span class="dv">5</span>                     <span class="co"># plus grand ou égal à</span></a></code></pre></div>
+<pre><code> [1] FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb54-1" title="1">b <span class="op">&lt;=</span><span class="st"> </span><span class="dv">5</span> <span class="op">|</span><span class="st"> </span>b <span class="op">/</span><span class="st"> </span><span class="dv">4</span> <span class="op">==</span><span class="st"> </span><span class="dv">2</span>        <span class="co"># | signifie OU</span></a></code></pre></div>
+<pre><code> [1]  TRUE  TRUE  TRUE  TRUE  TRUE FALSE FALSE  TRUE FALSE FALSE</code></pre>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb56-1" title="1">b<span class="op">&gt;</span><span class="dv">2</span> <span class="op">&amp;</span><span class="st"> </span>b<span class="op">&lt;</span><span class="dv">9</span>                  <span class="co"># &amp; signifie ET</span></a></code></pre></div>
+<pre><code> [1] FALSE FALSE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE FALSE FALSE</code></pre>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb58-1" title="1"><span class="kw">is.na</span>(b)                   <span class="co"># Indique si la donnée est manquante</span></a></code></pre></div>
+<pre><code> [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE</code></pre>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb60-1" title="1"><span class="co"># Donne les indices des éléments dont la valeur répond à la condition</span></a>
+<a class="sourceLine" id="cb60-2" title="2"><span class="kw">which</span>(b<span class="op">&lt;</span><span class="dv">5</span>)</a></code></pre></div>
+<pre><code>[1] 1 2 3 4 5</code></pre>
+<p>La logique de base de ces commandes s’applique à des structures de données beaucoup plus complexes que les scalaires et les vecteurs. La compréhension de ces fonctionnalités de base vous aidera à mieux comprendre les sujets abordés au cours des journées d’apprentissage.</p>
 
 </div>
 </div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p>L’ordre des noms d’auteurs est généré de manière aléatoire. <a href="https://jakebowers.org" class="uri">https://jakebowers.org</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><a href="https://sites.google.com/site/maartenvoors/" class="uri">https://sites.google.com/site/maartenvoors/</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p><a href="https://nahomi.github.io/" class="uri">https://nahomi.github.io/</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p><a href="https://alyssaheinze.github.io/" class="uri">https://alyssaheinze.github.io/</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
-</ol>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="processus-de-conception-de-recherche.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="glossaire-des-termes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="références.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>
@@ -698,7 +892,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/egap/theory_and_practice_of_field_experiments_french/edit/main/Book/index.Rmd",
+"link": "https://github.com/egap/theory_and_practice_of_field_experiments_french/edit/main/Book/intro_to_r.Rmd",
 "text": "Edit"
 },
 "history": {

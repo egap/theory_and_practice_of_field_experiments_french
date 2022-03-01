@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>La théorie et la pratique des expériences de terrain : Une introduction des journées d’apprentissage du réseau EGAP | theory_and_practice_of_field_experiments_french.utf8</title>
+  <title>Module 8 Mesure | theory_and_practice_of_field_experiments_french.utf8</title>
   <meta name="description" content="Les journées d’apprentissage du réseau EGAP, inférence causale, expériences aléatoires, expériences de terrain, conception expérimentale, conception de recherche" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="La théorie et la pratique des expériences de terrain : Une introduction des journées d’apprentissage du réseau EGAP | theory_and_practice_of_field_experiments_french.utf8" />
+  <meta property="og:title" content="Module 8 Mesure | theory_and_practice_of_field_experiments_french.utf8" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="egap/theory_and_practice_of_field_experiments" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="La théorie et la pratique des expériences de terrain : Une introduction des journées d’apprentissage du réseau EGAP | theory_and_practice_of_field_experiments_french.utf8" />
+  <meta name="twitter:title" content="Module 8 Mesure | theory_and_practice_of_field_experiments_french.utf8" />
   
   <meta name="twitter:description" content="Les journées d’apprentissage du réseau EGAP, inférence causale, expériences aléatoires, expériences de terrain, conception expérimentale, conception de recherche" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="processus-de-conception-de-recherche.html"/>
+<link rel="prev" href="puissance-statistique-et-diagnostics-de-conception.html"/>
+<link rel="next" href="menaces-affectant-la-validité-interne-des-expériences-aléatoires.html"/>
 <script src="book_assets/jquery/jquery.min.js"></script>
 <link href="book_assets/gitbook/css/style.css" rel="stylesheet" />
 <link href="book_assets/gitbook/css/plugin-table.css" rel="stylesheet" />
@@ -619,55 +619,77 @@ Une introduction des journées d’apprentissage du réseau EGAP</div></a>
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title"><div class="line-block">La théorie et la pratique des expériences de terrain :<br />
-Une introduction des journées d’apprentissage du réseau EGAP</div></h1>
-<p class="author"><em>Jake Bowers,<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Maarten Voors,<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> et Nahomi Ichino<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. <br/>Traduit par Alyssa Heinze<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></em></p>
-<p class="date"><em>01-03-2022</em></p>
+<div id="mesure" class="section level1 tabset">
+<h1><span class="header-section-number">Module 8</span> Mesure</h1>
+<p>Pour estimer des effets et tester des hypothèses, nous utilisons souvent un résultat mesuré à l’aide de données quantitatives provenant d’enquêtes, de jeux comportementaux ou d’archives administratives. Pour les questions causales, nous utilisons généralement des données de résultats immédiats et finaux et de mécanismes de base. Nous utilisons des données de base pour identifier les sous-groupes pertinents, ajuster nos estimations ou randomiser notre traitement par bloc. Les mesures doivent être valides et fiables. Sachez que les données peuvent être bruitées (erreur aléatoire) et/ou biaisées (erreur systématique).</p>
+<p>Ce module traite <em>que mesurer</em> et <em>comment mesurer</em>. Il montre à quel point une bonne mesure est liée à la <a href="https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd">conception de recherche</a> et à la <a href="puissance-statistique-et-diagnostics-de-conception.html">puissance statistique</a>.</p>
+<div id="contenu-6" class="section level2">
+<h2><span class="header-section-number">8.1</span> Contenu</h2>
+<ul>
+<li><p>Lorsque nous représentons un attribut d’une unité par un nombre, une lettre, un mot ou un symbole d’une manière systématique (par exemple, dans une case d’un simple dataset), nous <strong>mesurons</strong>.</p></li>
+<li><p>Une mesure <strong>valide</strong> d’un concept ou d’un phénomène d’intérêt doit clairement représenter cette entité sous-jacente et souvent abstraite.</p></li>
+<li><p>Une mesure <strong>fiable</strong> d’un concept donnerait la même valeur pour l’unité de mesure (par exemple, une personne ou un village) si les conditions ne changent pas.</p></li>
+<li><p>Nous pouvons évaluer nos théories de mesure en utilisant plusieurs approches pour mesurer les résultats, les covariables ou les différences entre unités en fonction des différents rendus des mécanismes causaux.</p></li>
+<li><p>Pour votre <a href="https://egap.github.io/learningdays-resources/Exercises/design-form.Rmd">conception de recherche</a>, une mesure invalide peut rendre difficile la distinction efficace des explications alternatives de la relation entre le traitement et les résultats.</p></li>
+<li><p>Une mesure non fiable peut diminuer <a href="puissance-statistique-et-diagnostics-de-conception.html">la puissance statistique</a>.</p></li>
+<li><p>Une mesure difficile peut nécessiter une étude pilote centrée sur la mesure elle-même.</p></li>
+</ul>
 </div>
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">Module 1</span> Introduction</h1>
-<p>Durant la dernière décennie, <a href="https://egap.org/">Evidence in Governance and Politics (EGAP)</a> a organisé une série d’ateliers, <a href="https://egap.org/learning-days/">les journées d’apprentissage</a>, dans le but de renforcer les compétences en recherche expérimentale en sciences sociales parmi les chargés de recherche – chercheurs et praticiens – en Afrique et Amérique Latine. En partageant entre participants, méthodes pratiques et méthodes statistiques pour mener des expériences de terrain aléatoires, les journées d’apprentissage visent à créer et entretenir des réseaux de chercheurs dans le monde et à faciliter des liens solides et productifs entre ces chercheurs et les membres de EGAP.</p>
-<p>Les journées d’apprentissage sont une combinaison d’ateliers de conception, de présentations de travaux de recherche, d’utilisation de logiciel statistique et de conférences thématiques par un petit groupe d’instructeurs, principalement des professeurs et des doctorants du réseau de EGAP. Les ateliers abordent les méthodes de conception et d’analyse pour des expériences de terrain aléatoires plutôt que des expériences aléatoires en laboratoire ou des études non-aléatoires.</p>
-<p><strong>Ce livre</strong> rassemble les matériaux développés pour les journées d’apprentissage. La version actuelle du livre est écrite principalement pour <strong>des instructeurs et des organisateurs</strong> d’ateliers et de cours similaires à l’intention de chargés de recherche — professeurs, chercheurs postdoctorals, doctorants, évaluateurs d’ONG et d’agences gouvernementales, etc. — qui réaliseront des études aléatoires de programmes liés aux institutions, à la gouvernance et au développement. Une grande partie des matériaux sera également utile comme rappel pour les participants des journées d’apprentissage précédentes.</p>
-<p>Ce livre est une revue complète des méthodes d’inférence causale pour les chercheurs qui développent une conception de recherche expérimentale. Ce livre est organisé en <strong>modules</strong> et comprend des sujets tels que l’inférence causale, la randomisation, les tests d’hypothèses, les paramètres, les estimateurs, la puissance statistique, la mesure, les menaces pour la validité interne et l’éthique de l’expérimentation. Les modules apparaissent dans l’ordre jugé le plus utile. Cependant, les modules sont liés et peuvent être réorganisés afin de correspondre à vos besoins en tant qu’instructeur. En annexe, il y a des matériaux préparatoires comprenant un <a href="glossaire-des-termes.html">glossaire des termes</a> et une <a href="introduction-à-r-et-rstudio.html">introduction à R et RStudio</a>.</p>
-<p>Ce livre comprend des <strong>slides</strong> sur le contenu principal, le <a href="researchdesignform.html">formulaire de conception de recherche de EGAP</a> et des <strong>références</strong> d’exemples de recherche et des slides utilisées pendant les journées d’apprentissage précédentes. Ces matériaux renforcent le travail de EGAP sur la méthodologie, résumé dans les <a href="https://egap.org/methods-guides/">guides de méthodes de EGAP</a>. Comparé aux journées d’apprentissage précédentes, nous avons ajouté plus de matériaux sur les tests d’hypothèses, l’estimation et la puissance statistique. De nouveaux modules sur le processus de conception de recherche, la mesure et les considérations éthiques sont désormais disponibles. Les slides et les modules présentés ici contiennent trop d’informations pour être couverts en une seule semaine, la durée habituelle d’un atelier. Cependant, nous avons décidé de conserver toutes les informations, afin d’aider les instructeurs à adapter leurs cours à leurs publics réspectifs.</p>
-<div id="comment-utiliser-le-livre" class="section level2">
-<h2><span class="header-section-number">1.1</span> Comment utiliser le livre</h2>
-<p>Pour profiter au maximum de ce livre, veuillez installer <a href="https://cran.r-project.org/">R</a> et <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> sur votre ordinateur. En fait, les slides supposent que vous utilisiez R Markdown pour les adapter à vos besoins.</p>
-<p>Pour commencer avec R, voir le module <a href="introduction-à-r-et-rstudio.html">Introduction à R et RStudio</a>.</p>
-<p>Vous pouvez copier ce livre ou des parties de celui-ci (des slides, etc.) soit en utilisant le bouton de téléchargement (Download) sur la première page de <a href="https://github.com/egap/theory_and_practice_of_field_experiments_french" class="uri">https://github.com/egap/theory_and_practice_of_field_experiments_french</a>, soit directement sur github en “forkant” ce repertoire.</p>
-<p>Tant que vous citiez EGAP, vous pouvez utiliser ces matériaux. Veuillez consulter la licence Creative Commons Attribution-ShareAlike 4.0 International pour les termes exacts.</p>
+<div id="slides-6" class="section level2">
+<h2><span class="header-section-number">8.2</span> Slides</h2>
+<p>Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la mesure. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.</p>
+<ul>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/measurement-slides.Rmd">Code source en R Markdown</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/measurement-slides.pdf">Version PDF</a></p></li>
+<li><p><a href="https://egap.github.io/learningdays-resources/Slides/measurement-slides.html">Version HTML</a></p></li>
+</ul>
 </div>
-<div id="nous-apprécions-vos-retours" class="section level2">
-<h2><span class="header-section-number">1.2</span> Nous apprécions vos retours !</h2>
-<p>Si vous avez des questions, des retours, ou si vous avez organisé votre propre événement, contactez-nous !
-Il suffit de créer une issue sur <a href="https://github.com/egap/theory_and_practice_of_field_experiments_french/issues">Github</a> ou faire des commentaires en utilisant hypothes.is dans votre navigateur et de nous le faire savoir par e-mail, <a href="mailto:admin@egap.org" class="email">admin@egap.org</a>. Nous parcourons régulièrement vos commentaires.</p>
+<div id="ressources-6" class="section level2">
+<h2><span class="header-section-number">8.3</span> Ressources</h2>
+<div id="guide-des-méthodes-egap-6" class="section level3">
+<h3><span class="header-section-number">8.3.1</span> Guide des méthodes EGAP</h3>
+<ul>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/">10 choses à savoir sur la mesure dans les expériences</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-survey-design/">10 choses à savoir sur la conception de sondage</a></p></li>
+<li><p>Guide des méthodes EGAP <a href="https://egap.org/resource/10-things-to-know-about-survey-implementation/">10 choses à savoir sur l’implémentation de sondage</a></p></li>
+</ul>
 </div>
-<div id="remerciements" class="section level2">
-<h2><span class="header-section-number">1.3</span> Remerciements</h2>
-<p>Les matériaux dans ce livre ont été développés au cours des dernières journées d’apprentissage par divers instructeurs.
-Ceux-ci incluent (par ordre alphabétique) Jake Bowers, Jasper Cooper, Ana De la O, Lindsay Dolan, Natalia Garbiras Díaz, Macartan Humphreys, Nahomi Ichino, Salif Jaiteh, Gareth Nellis, Dan Nielson, Rafael Piñeiro, Fernando Rosenblatt, Tara Slough, Peter van der Windt et Maarten Voors. Nous remercions Natalia Garbiras Díaz, Macartan Humphreys, Anghella Brigeth Rosero Rodriguez, et Tara Slough en particulier pour leurs commentaires sur une première version du livre.</p>
-<p>Chez EGAP, Matt Lisiecki, Ingrid Lee, Goldie Negelev, Max Mendez-Back et d’autres ont apporté un soutien formidable. Les journées d’apprentissage ont été généreusement financées par la Fondation Hewlett et soutenues par des institutions du monde entier, notamment l’African School of Economics (Bénin), l’Université de Diego Portales (Chili), l’Université de los Andes (Colombie), le Ghana Center for Democratic Development (Ghana) , Mercy Corps (Guatemala), Invest in Knowledge (Malawi), NYU Abu Dhabi (EAU), et l’Université catholique de l’Uruguay (Uruguay).</p>
+<div id="livres-chapitres-et-articles-4" class="section level3">
+<h3><span class="header-section-number">8.3.2</span> Livres, chapitres et articles</h3>
+<ul>
+<li><p><span class="citation">Robert Adcock and David Collier, “Measurement Validity: A Shared Standard for Qualitative and Measurement Validity: A Shared Standard for Qualitative and Quantitative Research.” <em>American Political Science Review</em> 95, no. 3 (<a href="références.html#ref-adcocoll:2001">2001</a>): 529–546.</span></p></li>
+<li><p><span class="citation">Alexandra Scacco and Shana S. Warren, “Can Social Contact Reduce Prejudice and Discrimination? Evidence from a Field Experiment in Nigeria,” <em>American Political Science Review</em> 112, no. 3 (<a href="références.html#ref-scacco_can_2018">2018</a>): 654–677.</span></p></li>
+<li><p><span class="citation">William R. Shadish et al., <em>Experimental and Quasi-Experimental Designs for Generalized Causal Inference/William R. Shedish, Thomas d. Cook, Donald T. Campbell.</em> (Boston: Houghton Mifflin, <a href="références.html#ref-shadish2002experimental">2002</a>).</span></p></li>
+<li><p><span class="citation">Pedro C. Vicente, “Is Vote Buying Effective? Evidence from a Field Experiment in West Africa,” <em>Economic Journal</em> 124, no. 574 (<a href="références.html#ref-vicente_is_2014">2014</a>): F356–87.</span></p></li>
+</ul>
+</div>
+<div id="notes-dorientation-des-politiques-publiques-egap-2" class="section level3">
+<h3><span class="header-section-number">8.3.3</span> Notes d’orientation des politiques publiques EGAP</h3>
+<p><em>Grâce à des données d’enquête à plusieurs échelles</em></p>
+<ul>
+<li><a href="https://egap.org/resource/does-bottom-up-accountability-work-evidence-from-uganda/">Note d’orientation des politiques publiques EGAP 58 : La responsabilisation bottom-up fonctionne-t-elle ?</a></li>
+</ul>
+<p><em>Grâce aux sms</em></p>
+<ul>
+<li><p><a href="https://egap.org/resource/brief-27-ict-and-politicians-in-uganda/">Note d’orientation des politiques publiques EGAP 27 : Technologies de l’information et de la communication et politiciens en Uganda</a></p></li>
+<li><p><a href="https://egap.org/resource/reporting-corruption-in-nigeria-testing-the-effects-of-norms-nudges/">Note d’orientation des politiques publiques EGAP 56 : Signaler la corruption au Nigéria</a></p></li>
+</ul>
+<p><em>Grâce aux données administratives</em></p>
+<ul>
+<li><p><a href="https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/">Note d’orientation des politiques publiques EGAP 16 : Effets de débordement des observateurs électoraux au Ghana</a></p></li>
+<li><p><a href="https://egap.org/resource/electoral-administration-in-kenya/">Note d’orientation des politiques publiques EGAP 67 : Administration électorale au Kenya</a></p></li>
+</ul>
 
 </div>
 </div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p>L’ordre des noms d’auteurs est généré de manière aléatoire. <a href="https://jakebowers.org" class="uri">https://jakebowers.org</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><a href="https://sites.google.com/site/maartenvoors/" class="uri">https://sites.google.com/site/maartenvoors/</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p><a href="https://nahomi.github.io/" class="uri">https://nahomi.github.io/</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p><a href="https://alyssaheinze.github.io/" class="uri">https://alyssaheinze.github.io/</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
-</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="processus-de-conception-de-recherche.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="puissance-statistique-et-diagnostics-de-conception.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="menaces-affectant-la-validité-interne-des-expériences-aléatoires.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="book_assets/gitbook/js/app.min.js"></script>
@@ -698,7 +720,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/egap/theory_and_practice_of_field_experiments_french/edit/main/Book/index.Rmd",
+"link": "https://github.com/egap/theory_and_practice_of_field_experiments_french/edit/main/Book/measurement.Rmd",
 "text": "Edit"
 },
 "history": {
