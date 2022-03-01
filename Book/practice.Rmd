@@ -33,7 +33,7 @@ Comment vous souviendrez-vous de ce que vous avez fait un an, deux ou dix ans ? 
 
 ### Guide des méthodes EGAP
 
-  - Guide des méthodes EGAP [10 choses à savoir sur la gestion de project](https://egap.org/resource/10-things-to-know-about-project-workflow/) (which builds on @bowers2016future).
+  - Guide des méthodes EGAP [10 choses à savoir sur la gestion de projet](https://egap.org/resource/10-things-to-know-about-project-workflow/) (which builds on @bowers2016future).
   - Guide des méthodes EGAP [10 choses à savoir sur les plans de pré-analyse](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
 
 ### Livres, chapitres et articles
