@@ -2,7 +2,10 @@
 title: |
   | La théorie et la pratique des expériences de terrain : 
   | Une introduction des journées d'apprentissage du réseau EGAP
-author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]. <br/>Traduit par Alyssa Heinze^[https://alyssaheinze.github.io/]
+author: Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/]
+  | Traduit par Alyssa Heinze^[https://alyssaheinze.github.io/]
+  | ([Original in English](https://egap.github.io/theory_and_practice_of_field_experiments/))
+  | ([Traducción en español](https://egap.github.io/theory_and_practice_of_field_experiments_spanish/)) por Lily Medina^[https://lilymedina.github.io/]
 date: '`r format(Sys.Date(), "%d-%m-%Y")`'
 site: bookdown::bookdown_site
 knit: "bookdown::render_book"
@@ -10,7 +13,7 @@ documentclass: book
 bibliography: learningdays-book.bib
 link-citations: yes
 colorlinks: yes
-github-repo: egap/theory_and_practice_of_field_experiments
+github-repo: egap/theory_and_practice_of_field_experiments_french
 description: "Les journées d'apprentissage du réseau EGAP, inférence causale, expériences aléatoires, expériences de terrain, conception expérimentale, conception de recherche"
 fontsize: 12pt
 geometry: margin=1in
