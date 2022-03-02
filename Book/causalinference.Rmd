@@ -26,11 +26,11 @@ Dans ce module, nous introduisons l'approche contrefactuelle de l'inférence cau
 
 Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la causalité. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
-- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides_fr/causalinference-slides.Rmd)
 
-- [Version PDF](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides_fr/causalinference-slides.pdf)
 
-- [Version HTML](https://egap.github.io/learningdays-resources/Slides/causalinference-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides_fr/causalinference-slides.html)
 
 Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du réseau EGAP :
 

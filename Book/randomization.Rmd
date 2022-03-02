@@ -37,11 +37,11 @@ Nous introduisons quatre façons courantes de randomiser le traitement -- simple
 
 Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la randomisation. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
-- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/randomization-slides.Rmd)
+- [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides_fr/randomization-slides.Rmd)
 
-- [Version PDF](https://egap.github.io/learningdays-resources/Slides/randomization-slides.pdf)
+- [Version PDF](https://egap.github.io/learningdays-resources/Slides_fr/randomization-slides.pdf)
 
-- [Version HTML](https://egap.github.io/learningdays-resources/Slides/randomization-slides.html)
+- [Version HTML](https://egap.github.io/learningdays-resources/Slides_fr/randomization-slides.html)
 
 Les fichiers liés montrent comment [faire une randomisation reproducible en R](https://egap.github.io/learningdays-resources/Exercises/randomization-exercises.Rmd).
 Vous pouvez également voir plus d'exemples de randomisation en R ici : [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/).

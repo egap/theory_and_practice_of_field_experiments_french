@@ -24,11 +24,11 @@ Ce module traite *que mesurer* et *comment mesurer*. Il montre à quel point une
 
 Vous trouverez ci-dessous des slides avec le contenu de base de notre conférence sur la mesure. Vous pouvez les utiliser directement ou les copier localement avant de les éditer.
 
- - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides/measurement-slides.Rmd)
+ - [Code source en R Markdown](https://egap.github.io/learningdays-resources/Slides_fr/measurement-slides.Rmd)
 
- - [Version PDF](https://egap.github.io/learningdays-resources/Slides/measurement-slides.pdf)
+ - [Version PDF](https://egap.github.io/learningdays-resources/Slides_fr/measurement-slides.pdf)
 
- - [Version HTML](https://egap.github.io/learningdays-resources/Slides/measurement-slides.html)
+ - [Version HTML](https://egap.github.io/learningdays-resources/Slides_fr/measurement-slides.html)
 
 ## Ressources
 
