@@ -3,9 +3,10 @@ title: |
   | La théorie et la pratique des expériences de terrain : 
   | Une introduction des journées d'apprentissage du réseau EGAP
 author: |
-  | Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/] ([Original in English](https://egap.github.io/theory_and_practice_of_field_experiments/))
+  | Jake Bowers,^[L'ordre des noms d'auteurs est généré de manière aléatoire. https://jakebowers.org] Maarten Voors,^[https://sites.google.com/site/maartenvoors/] et Nahomi Ichino^[https://nahomi.github.io/] 
   | Traduit par Alyssa Heinze^[https://alyssaheinze.github.io/]
-  | [Traducción en español](https://egap.github.io/theory_and_practice_of_field_experiments_spanish/) por Lily Medina^[https://lilymedina.github.io/]
+  | ([Original in English](https://egap.github.io/theory_and_practice_of_field_experiments/))
+  | ([Traducción en español](https://egap.github.io/theory_and_practice_of_field_experiments_spanish/))
 date: '`r format(Sys.Date(), "%d-%m-%Y")`'
 site: bookdown::bookdown_site
 knit: "bookdown::render_book"
