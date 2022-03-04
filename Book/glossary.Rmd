@@ -145,7 +145,7 @@ Voir le module sur les [menaces](menaces-affectant-la-validité-interne-des-exp�
 
 - **Effet Hawthorne** lorsqu'un sujet réagit différemment quand il est observé.
 
-- **Effet de débordement** lorsqu'un sujet répond au statut de traitement d'un autre sujet.
+- **Effet de contamination** lorsqu'un sujet répond au statut de traitement d'un autre sujet.
    Exemple : ma santé dépend du statut de vaccination de mon voisin, ainsi que de mon statut.
 
 - **Attrition** Lorsque les résultats pour certains sujets ne sont pas mesurés.
