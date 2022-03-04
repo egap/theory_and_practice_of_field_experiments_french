@@ -2,7 +2,7 @@
 
 Les expériences aléatoires génèrent de bonnes suppositions sur le résultat moyen sous traitement et le résultat moyen sous contrôle. Cela nous permet d'avoir des estimateurs sans biais de l'effet moyen du traitement.  Nous pouvons également utiliser la randomisation pour décrire comment les estimations générées par un estimateur peuvent varier d'une expérience à l'autre en utilisant l'erreur type et les intervalles de confiance.
 
-Dans ce module, nous introduisons plusieurs types d'paramètres. Le choix du paramètre est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour ce paramètre dans le cadre de la conception de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un paramètre et comment caractériser sa variabilité.
+Dans ce module, nous introduisons plusieurs types de paramètres. Le choix du paramètre est une décision scientifique et politique -- sur quelle quantité aimerions-nous en savoir plus ?  De plus, nous voulons sélectionner un estimateur approprié pour ce paramètre dans le cadre de la conception de recherche. Nous discutons de la façon dont les estimateurs sont appliqués aux données pour générer un paramètre et comment caractériser sa variabilité.
 
 
 ## Contenu

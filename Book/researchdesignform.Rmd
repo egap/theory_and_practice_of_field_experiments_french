@@ -78,7 +78,7 @@ Vous pouvez également voir les slides des discussions de conception lors des pr
 
 - Exemples d'autres pré-enregistrements/plans de pré-analyse :
 
-    - SMS au Mozambique du [gouvernement fédéral américain](https://oes.gsa.gov/projects/sms-mozambique/)
+    - SMS au Mozambique par le [gouvernement fédéral américain](https://oes.gsa.gov/projects/sms-mozambique/)
 
     - Caméras portatives pour les policiers du [Lab @ DC](https://osf.io/472zh)
 
@@ -97,7 +97,7 @@ Vous pouvez également voir les slides des discussions de conception lors des pr
 
 - [@christensen_transparent_2019]. Le livre résume les nouvelles approches de la recherche en sciences sociales sur la transparence et la reproductibilité.
 
-- [@gerber_field_2012].  Le chapitre 12 comprend quelques exemples de designs de recherche expérimentale.
+- [@gerber_field_2012].  Le chapitre 12 comprend quelques exemples de conceptions de recherche expérimentale.
 
 ### Outils
 

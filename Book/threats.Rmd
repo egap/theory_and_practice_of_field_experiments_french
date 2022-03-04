@@ -25,7 +25,7 @@ Dans ce module, nous abordons certaines menaces courantes et les bonnes pratique
 
  - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'[inférence causale](inférence-causale.html).
 
-      - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.
+     - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.
 
  - **L'effet Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
 
