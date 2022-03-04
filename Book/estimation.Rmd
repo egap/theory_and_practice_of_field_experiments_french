@@ -56,7 +56,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
 - [Présentation des problèmes de conception aux journées d'apprentissage du réseau EGAP à l'African School of Economics, Abomey-Calavi, juin 2019 (la première section passe en revue les conceptions de randomisation)](https://egap.github.io/learningdays-resources/Slides/Examples/threats-benin.pdf)
 
-- [Présentation des effets de débordement et de l'attrition aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
+- [Présentation des effets de contamination et de l'attrition aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/spillovers_attrition-guatemala.pdf)
 
 - [Présentation des menaces aux journées d'apprentissage du réseau EGAP à Guatemala City, Guatemala, août 2017](https://egap.github.io/learningdays-resources/Slides/Examples/threats-guatemala.pdf)
 
@@ -77,7 +77,7 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
  - Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur les effets de débordement](https://egap.org/resource/10-things-to-know-about-spillovers/)
+ - Guide des méthodes EGAP [10 choses à savoir sur les effets de contamination](https://egap.org/resource/10-things-to-know-about-spillovers/)
 
 ### Livres, chapitres et articles
 

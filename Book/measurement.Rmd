@@ -64,6 +64,6 @@ Vous trouverez ci-dessous des slides avec le contenu de base de notre conférenc
 
 *Grâce aux données administratives*
 
- - [Note d'orientation des politiques publiques EGAP 16 : Effets de débordement des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
+ - [Note d'orientation des politiques publiques EGAP 16 : Effets de contamination des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
 
  - [Note d'orientation des politiques publiques EGAP 67 : Administration électorale au Kenya](https://egap.org/resource/electoral-administration-in-kenya/)

@@ -1,7 +1,7 @@
 # Menaces affectant la validité interne des expériences aléatoires {.tabset}
 
 Les expériences randomisées peuvent se heurter à des problèmes qui compromettent leur capacité à démontrer les effets causaux, c'est-à-dire menacer leur validité interne.
-Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était assigné ou elles ont subi des effets de débordement d'un voisin traité.
+Certaines unités peuvent être exclues des résultats et cette absence peut être due au traitement : soit les unités n'ont pas reçu le traitement qui leur était assigné ou elles ont subi des effets de contamination d'un voisin traité.
 
 Dans ce module, nous abordons certaines menaces courantes et les bonnes pratiques pour les éviter ou les contourner.
 
@@ -23,9 +23,9 @@ Dans ce module, nous abordons certaines menaces courantes et les bonnes pratique
      
      - L'effet moyen local du traitement (local average treamtent effect, LATE), aussi connu sous le nom d’effet causal moyen pour ceux qui se conforment au traitement (complier average causal effect, CACE), est l'effet moyen pour les unités qui prennent le traitement lorsqu'elles sont assignées au traitement. Si l'hypothèse de monotonie et la restriction d'exclusion sont remplies, il est possible d'estimer l'effet moyen local du traitement en cas de non-conformité.
 
- - **Les "effets de débordement" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'[inférence causale](inférence-causale.html).
+ - **Les "effets de contamination" ou les interférences entre unités** constituent une violation de l'une des hypothèses fondamentales de l'[inférence causale](inférence-causale.html).
 
-     - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de débordement et/ou si vous avez conçu votre recherche en le prenant tenant en compte.
+     - Cependant, cela peut ne pas être un problème si vous êtes intéressé par les effets de contamination et/ou si vous avez conçu votre recherche en le prenant tenant en compte.
 
  - **L'effet Hawthorne** se produit lorsque les sujets se comportent différemment parce qu'ils sont observés.
 
@@ -70,4 +70,4 @@ Vous pouvez également voir les slides utilisées lors des précédentes journé
 
 - [Note d'orientation EGAP 11 : Observateurs électoraux et fraude au Ghana ](https://egap.org/resource/brief-11-election-observers-and-fraud-in-ghana/)
 
-- [Note d'orientation EGAP 16 : Effets de débordement des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
+- [Note d'orientation EGAP 16 : Effets de contamination des observateurs électoraux au Ghana](https://egap.org/resource/brief-16-spillover-effects-of-observers-in-ghana/)
