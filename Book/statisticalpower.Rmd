@@ -55,11 +55,11 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 ### Guide des méthodes EGAP
 
- - Guide des méthodes EGAP [10 choses à savoir sur la puissance statistique](https://egap.org/resource/10-things-you-need-know-about-statistical-power/)
+ - Guide des méthodes EGAP [10 choses à savoir sur la puissance statistique](https://egap.org/fr/resource/10-choses-a-savoir-sur-la-puissance-statistique/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement des covariables](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement des covariables](https://egap.org/fr/resource/10-choses-a-savoir-sur-lajustement-des-covariables/)
  
- - Guide des méthodes EGAP [10 choses que vos résulats nuls peuvent signifier](https://egap.org/resource/10-things-your-null-result-might-mean/)
+ - Guide des méthodes EGAP [10 choses que vos résulats nuls peuvent signifier](https://egap.org/resource/10-things-your-null-result-might-mean/) (en anglais)
 
 ### Notes d'orientation des politiques publiques EGAP et plans de pré-analyse
 
