@@ -65,9 +65,9 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 ### Guide des méthodes EGAP
 
-  - Guide des méthodes EGAP [10 choses à savoir sur les tests d'hypothèses](https://egap.org/resource/10-things-to-know-about-hypothesis-testing/)
+  - Guide des méthodes EGAP [10 choses à savoir sur les tests d'hypothèses](https://egap.org/fr/resource/10-choses-a-savoir-sur-les-tests-dhypotheses/)
 
-  - Guide des méthodes EGAP [10 choses à savoir sur les comparaisons multiples](https://egap.org/resource/10-things-to-know-about-multiple-comparisons/)
+  - Guide des méthodes EGAP [10 choses à savoir sur les comparaisons multiples](https://egap.org/resource/10-things-to-know-about-multiple-comparisons/) (en anglais)
 
 ### Livres, chapitres et articles
 
