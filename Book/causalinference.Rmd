@@ -52,13 +52,13 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 choses à savoir sur l'inférence causale](https://egap.org/resource/10-things-to-know-about-causal-inference/)
+- Guide des méthodes EGAP [10 choses à savoir sur l'inférence causale](https://egap.org/fr/resource/10-choses-a-savoir-sur-linference-causale/)
 
-- Guide des méthodes EGAP [10 stratégies pour déterminer si X a causé Y](https://egap.org/resource/10-strategies-figuring-out-if-x-caused-y/)
+- Guide des méthodes EGAP [10 stratégies pour déterminer si X a causé Y](https://egap.org/fr/resource/10-strategies-pour-determiner-si-x-cause-y/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur les mécanismes](https://egap.org/resource/10-things-mechanisms/)
+- Guide des méthodes EGAP [10 choses à savoir sur les mécanismes](https://egap.org/fr/resource/10-choses-sur-les-mecanismes/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur la validité externe](https://egap.org/resource/10-things-to-know-about-external-validity/)
+- Guide des méthodes EGAP [10 choses à savoir sur la validité externe](https://egap.org/fr/resource/10-choses-a-savoir-sur-la-validite-externe/)
 
 ### Livres, chapitres et articles {#causalinference-cites}
 
