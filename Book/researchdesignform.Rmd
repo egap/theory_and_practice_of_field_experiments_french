@@ -86,9 +86,9 @@ Vous pouvez également voir les slides des discussions de conception lors des pr
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 choses à savoir sur les plans de pré-analyse](https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/)
+- Guide des méthodes EGAP [10 choses à savoir sur les plans de pré-analyse](https://egap.org/fr/resource/10-choses-a-savoir-sur-les-plans-de-pre-analyse/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/resource/10-things-to-know-about-measurement-in-experiments/)
+- Guide des méthodes EGAP [10 choses à savoir sur la mesure dans les expériences](https://egap.org/fr/resource/10-choses-a-savoir-sur-la-mesure-dans-les-experiences/)
 
 
 ### Livres, chapitres et articles
