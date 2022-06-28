@@ -69,15 +69,15 @@ Vous pouvez également voir les problèmes d'estimation de l'effet de la dose ac
 
 ### Guide des méthodes EGAP
 
- - Guide des méthodes EGAP [Les 10 types d'effets de traitement à connaître](https://egap.org/resource/10-types-of-treatment-effect-you-should-know-about/)
+ - Guide des méthodes EGAP [Les 10 types d'effets de traitement à connaître](https://egap.org/fr/resource/10-types-deffets-de-traitement-a-connaitre/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariable](https://egap.org/resource/10-things-to-know-about-covariate-adjustment/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'ajustement de covariable](https://egap.org/fr/resource/10-choses-a-savoir-sur-lajustement-des-covariables/)
 
- - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/)
+ - Guide des méthodes EGAP [10 choses à savoir sur les données manquantes](https://egap.org/resource/10-things-to-know-about-missing-data/) (en anglais)
 
- - Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/)
+ - Guide des méthodes EGAP [10 choses à savoir sur l'effet moyen local du traitement](https://egap.org/resource/10-things-to-know-about-the-local-average-treatment-effect/) (en anglais)
 
- - Guide des méthodes EGAP [10 choses à savoir sur les effets de contamination](https://egap.org/resource/10-things-to-know-about-spillovers/)
+ - Guide des méthodes EGAP [10 choses à savoir sur les effets de contamination](https://egap.org/resource/10-things-to-know-about-spillovers/) (en anglais)
 
 ### Livres, chapitres et articles
 
