@@ -65,9 +65,9 @@ Vous pouvez aussi lire les slides des précédentes journées d'apprentissage du
 
 ### Guide des méthodes EGAP
 
-- Guide des méthodes EGAP [10 choses à savoir sur la randomisation](https://egap.org/resource/10-things-to-know-about-randomization/)
+- Guide des méthodes EGAP [10 choses à savoir sur la randomisation](https://egap.org/fr/resource/10-choses-a-savoir-sur-la-randomisation/)
 
-- Guide des méthodes EGAP [10 choses à savoir sur la randomisation par grappe (cluster)](https://egap.org/resource/10-things-to-know-about-cluster-randomization/)
+- Guide des méthodes EGAP [10 choses à savoir sur la randomisation par grappe (cluster)](https://egap.org/fr/resource/10-choses-a-savoir-sur-la-randomisation-par-grappe/)
 
 ### Livres, chapitres et articles
 
